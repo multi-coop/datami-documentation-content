@@ -25,7 +25,7 @@ routes:
         component: ButtonsComponent
         options:
           columns-size: full
-          buttons-size: one-third
+          buttons-size: half
           buttons:
             - link: /tutorial-overview
               icon-left: arrow-right-bold
