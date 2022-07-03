@@ -80,4 +80,4 @@ Files will be locally served on :
 
 If you want to propose somme enhancements to our content please make pull requests against the `main` branch. We will review that with great pleasure :)
 
-You can also add issues directly in the reop, or add notes or issues from our [github "project" page](https://github.com/orgs/multi-coop/projects/3).
+You can also add issues directly in the reop, or add notes or issues from our [gitlab "board" page](https://gitlab.com/multi-coop/gitribute-documentation-content/-/boards).

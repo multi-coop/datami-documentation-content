@@ -6,67 +6,47 @@ routes:
     url: /
     options:
       hero: true
-    sections: 
+    sections:
       - name: logo
-        component: LogoAnimated
+        component: TextComponent
         options:
-          columns-size: two-thirds
-          no-translation: true
+          columns-size: half
         files:
-          fr: ./texts/landing/landing-head-fr.md
-          en: ./texts/landing/landing-head-fr.md
-      - name: head
+          fr: ./texts/landing/logo-gitribute.md
+          en: ./texts/landing/logo-gitribute.md
+      - name: catchphrase
         component: TextComponent
         options:
           columns-size: full
         files:
-          fr: ./texts/landing/catchphrase-fr.md
+          fr: ./texts/landing/catchphrase-en.md
           en: ./texts/landing/catchphrase-en.md
-      - name: btn-to-offer-products
+      - name: btn-to-documentation
         component: ButtonsComponent
         options:
           columns-size: full
-          buttons-size: full
-          buttons: 
-            - link: /offer
+          buttons-size: one-third
+          buttons:
+            - link: /tutorial-overview
+              icon-left: arrow-right-bold
+              rounded: true
+              label: 
+                fr: Tutorials
+                en: Tutorials
+            - link: /docs-gitfile
               icon-left: arrow-right-bold
               rounded: true
               label: 
                 fr: Documentation
                 en: Documentation
-  
-  # WHO ARE WE
-  - name: what
-    url: /what-gitribute-does
-    options:
-      hero: true
-    sections: 
-      - name: head
-        component: TextComponent
-        options:
-          columns-size: full
-        files:
-          fr: ./texts/why-gitribute/what-fr.md
-          en: ./texts/why-gitribute/what-en.md
-      # - name: btn-to-team
-      #   component: ButtonsComponent
-      #   options:
-      #     columns-size: full
-      #     buttons-size: half
-      #     buttons: 
-      #       - link: /team
-      #         icon-left: arrow-right-bold
-      #         rounded: true
-      #         label: 
-      #           fr: Découvrez l'équipe
-      #           en: Discover the team
-      #       - link: /references
-      #         icon-left: arrow-right-bold
-      #         rounded: true
-      #         label: 
-      #           fr: Nos références
-      #           en: Our references
+            - link: /source-code
+              icon-left: gitlab
+              rounded: true
+              label: 
+                fr: Code source
+                en: Source code
 
+  # WHAT IS GITRIBUTE
   - name: why
     url: /why-gitribute
     options: [ menu ]
@@ -76,82 +56,375 @@ routes:
         options:
           columns-size: two-thirds
         files:
-          fr: ./texts/why-gitribute/origin-fr.md
-          en: ./texts/why-gitribute/origin-en.md
+          fr: ./texts/why-gitribute/why-gitribute-en.md
+          en: ./texts/why-gitribute/why-gitribute-en.md
+  - name: main-features
+    url: /main-features
+    sections: 
       - name: head
         component: TextComponent
         options:
           columns-size: two-thirds
         files:
-          fr: ./texts/why-gitribute/roadmap-fr.md
+          fr: ./texts/why-gitribute/main-features-en.md
+          en: ./texts/why-gitribute/main-features-en.md
+  - name: roadmap
+    url: /roadmap
+    options: [ menu ]
+    sections: 
+      - name: head
+        component: TextComponent
+        options:
+          columns-size: two-thirds
+        files:
+          fr: ./texts/why-gitribute/roadmap-en.md
           en: ./texts/why-gitribute/roadmap-en.md
-
-  - name: team 
-    url: /team
+  - name: architecture
+    url: /architecture
+    options: [ menu ]
     sections: 
       - name: head
         component: TextComponent
         options:
           columns-size: two-thirds
         files:
-          fr: ./texts/team/team-head-fr.md
-      - name: data
-        component: DataGrid
-        files:
-          fr: ./texts/team/team-data.md
-      - name: btn-to-jobs
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: full
-          custom-classes: mt-6
-          buttons: 
-            - link: /jobs
-              icon-left: arrow-right-bold
-              rounded: true
-              label: 
-                fr: Nos offres d'emploi
-                en: Our job offers
-
-  # OFFER
-  - name: documentation
-    url: /documentation
+          fr: ./texts/why-gitribute/architecture-en.md
+          en: ./texts/why-gitribute/architecture-en.md
+  - name: stack
+    url: /stack
     sections: 
-      - name: offer-head
+      - name: docs-stack
         component: TextComponent
         options:
-          columns-size: two-thirds
+          columns-size: three-quarters
           # columns-divider: h1
         files:
-          fr: ./texts/offer/offer-head-fr.md
-      - name: btn-to-products
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: half
-          buttons: 
-            - link: /products
-              icon-left: arrow-right-bold
-              rounded: true
-              label: 
-                fr: Nos produits open source
-                en: Our open source products
-            - link: /references
-              icon-left: arrow-right-bold
-              rounded: true
-              label: 
-                fr: Nos références
-                en: Our references
+          fr: ./texts/why-gitribute/stack-en.md
+          en: ./texts/why-gitribute/stack-en.md
 
-  - name: offer-temp
-    url: /offer-temp
+  # - name: team 
+  #   url: /team
+  #   sections: 
+  #     - name: head
+  #       component: TextComponent
+  #       options:
+  #         columns-size: two-thirds
+  #       files:
+  #         fr: ./texts/team/team-head-fr.md
+  #         en: ./texts/team/team-head-fr.md
+  #     - name: data
+  #       component: DataGrid
+  #       files:
+  #         fr: ./texts/team/team-data.md
+  #         en: ./texts/team/team-data.md
+
+  # TUTORIAL
+  - name: tutorial-overview
+    url: /tutorial-overview
     sections: 
-      - name: offer-temp
+      - name: tutorial-overview
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
+          # columns-divider: h1
         files:
-          fr: ./texts/offer/offer-temp-fr.md
+          fr: ./texts/tutorial/tutorial-overview-en.md
+          en: ./texts/tutorial/tutorial-overview-en.md
+  - name: tutorial-actions
+    url: /tutorial-actions
+    sections: 
+      - name: actions
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/tutorial/tutorial-actions-en.md
+          en: ./texts/tutorial/tutorial-actions-en.md
+  - name: tutorial-edition
+    url: /tutorial-edition
+    sections: 
+      - name: edition
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/tutorial/tutorial-edition-en.md
+          en: ./texts/tutorial/tutorial-edition-en.md
+  - name: tutorial-contribution
+    url: /tutorial-contribution
+    sections: 
+      - name: contribution
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/tutorial/tutorial-contribution-en.md
+          en: ./texts/tutorial/tutorial-contribution-en.md
+
+  # DOCUMENTATION
+  - name: docs-installation
+    url: /docs-installation
+    sections: 
+      - name: installation
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-installation-en.md
+          en: ./texts/documentation/docs-installation-en.md
+      # - name: btn-to-products
+      #   component: ButtonsComponent
+      #   options:
+      #     columns-size: two-thirds
+      #     buttons-size: half
+      #     buttons: 
+      #       - link: /products
+      #         icon-left: arrow-right-bold
+      #         rounded: true
+      #         label: 
+      #           fr: Nos produits open source
+      #           en: Our open source products
+      #       - link: /references
+      #         icon-left: arrow-right-bold
+      #         rounded: true
+      #         label: 
+      #           fr: Nos références
+      #           en: Our references
+  - name: docs-quickstart
+    url: /docs-quickstart
+    sections: 
+      - name: setup
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-setup-en.md
+          en: ./texts/documentation/docs-setup-en.md
+  - name: docs-integration
+    url: /docs-integration
+    sections: 
+      - name: integration
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-integration-en.md
+          en: ./texts/documentation/docs-integration-en.md
+  - name: docs-gitfile
+    url: /docs-gitfile
+    sections: 
+      - name: docs-gitfile
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-gitfile-en.md
+          en: ./texts/documentation/docs-gitfile-en.md
+      - name: docs-param-title
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-title.md
+          en: ./texts/documentation/docs-params/param-title.md
+      - name: docs-param-gitfile
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-gitfile.md
+          en: ./texts/documentation/docs-params/param-gitfile.md
+      - name: docs-param-usertoken
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-usertoken.md
+          en: ./texts/documentation/docs-params/param-usertoken.md
+      - name: docs-param-usertoken-notes-git
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-usertoken-notes-git.md
+          en: ./texts/documentation/docs-params/param-usertoken-notes-git.md
+      - name: docs-param-locale
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-locale.md
+          en: ./texts/documentation/docs-params/param-locale.md
+      - name: docs-param-debug
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-debug.md
+          en: ./texts/documentation/docs-params/param-debug.md
+      - name: docs-option-global
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-options/option-global.md
+          en: ./texts/documentation/docs-options/option-global.md
+      - name: docs-option-gitfile-md
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-options/option-gitfile-md.md
+          en: ./texts/documentation/docs-options/option-gitfile-md.md
+      - name: docs-option-gitfile-json
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-options/option-gitfile-json.md
+          en: ./texts/documentation/docs-options/option-gitfile-json.md
+      - name: docs-option-gitfile-csv
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-options/option-gitfile-csv.md
+          en: ./texts/documentation/docs-options/option-gitfile-csv.md
+  - name: docs-explowiki
+    url: /docs-explowiki
+    sections: 
+      - name: docs-explowiki
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-explowiki-en.md
+          en: ./texts/documentation/docs-explowiki-en.md
+      - name: docs-param-title
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-title.md
+          en: ./texts/documentation/docs-params/param-title.md
+      - name: docs-param-wikilist
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-wikilist.md
+          en: ./texts/documentation/docs-params/param-wikilist.md
+      - name: docs-param-wikipages
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-wikipages.md
+          en: ./texts/documentation/docs-params/param-wikipages.md
+      - name: docs-param-usertoken
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-usertoken.md
+          en: ./texts/documentation/docs-params/param-usertoken.md
+      - name: docs-param-usertoken-notes-mediawiki
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-usertoken-notes-mediawiki.md
+          en: ./texts/documentation/docs-params/param-usertoken-notes-mediawiki.md
+      - name: docs-param-locale
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-locale.md
+          en: ./texts/documentation/docs-params/param-locale.md
+      - name: docs-param-debug
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-debug.md
+          en: ./texts/documentation/docs-params/param-debug.md
+      - name: docs-option-global
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-options/option-global.md
+          en: ./texts/documentation/docs-options/option-global.md
+  - name: docs-multi-files
+    url: /docs-multi-files
+    sections: 
+      - name: docs-multi-files
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-multi-files-en.md
+          en: ./texts/documentation/docs-multi-files-en.md
+      - name: docs-param-title
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-title.md
+          en: ./texts/documentation/docs-params/param-title.md
+      - name: docs-param-locale
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-locale.md
+          en: ./texts/documentation/docs-params/param-locale.md
+      - name: docs-param-debug
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-params/param-debug.md
+          en: ./texts/documentation/docs-params/param-debug.md
+      - name: docs-option-global
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-options/option-global.md
+          en: ./texts/documentation/docs-options/option-global.md
 
   - name: products
     url: /products
@@ -162,10 +435,12 @@ routes:
           columns-size: two-thirds
         files:
           fr: ./texts/references/products-head-fr.md
+          en: ./texts/references/products-head-fr.md
       - name: products-data
         component: DataGrid
         files:
           fr: ./texts/references/products-data.md
+          en: ./texts/references/products-data.md
       - name: btn-to-offer
         component: ButtonsComponent
         options:
@@ -211,13 +486,15 @@ routes:
           columns-size: two-thirds
         files:
           fr: ./texts/references/references-head-fr.md
+          en: ./texts/references/references-head-fr.md
       - name: refs-data
         component: DataGrid
         files:
           fr: ./texts/references/references-data.md
+          en: ./texts/references/references-data.md
 
-  - name: infos
-    url: /infos
+  - name: contact
+    url: /contact
     options:
       hero: true
     sections: 
@@ -227,19 +504,20 @@ routes:
           columns-size: full
           columns-divider: h1
         files:
-          fr: ./texts/contact/infos-head-fr.md
-      - name: btn-to-jobs
-        component: ButtonsComponent
-        options:
-          columns-size: full
-          buttons-size: full
-          buttons: 
-            - link: /contribute
-              icon-left: arrow-right-bold
-              rounded: true
-              label: 
-                fr: Contribuer
-                en: Contribute
+          fr: ./texts/contact/contact-head-fr.md
+          en: ./texts/contact/contact-head-en.md
+      # - name: btn-to-jobs
+      #   component: ButtonsComponent
+      #   options:
+      #     columns-size: full
+      #     buttons-size: full
+      #     buttons: 
+      #       - link: /contribute
+      #         icon-left: arrow-right-bold
+      #         rounded: true
+      #         label: 
+      #           fr: Contribuer
+      #           en: Contribute
 
   - name: contribute
     url: /contribute
@@ -251,6 +529,7 @@ routes:
           columns-divider: h1
         files:
           fr: ./texts/contact/contribute-head-fr.md
+          en: ./texts/contact/contribute-head-fr.md
 
   - name: legal
     url: /legal
@@ -263,6 +542,7 @@ routes:
         component: TextComponent
         files:
           fr: ./texts/contact/legal-mentions-fr.md
+          en: ./texts/contact/legal-mentions-fr.md
 
   # JOBS
   - name: join 
@@ -274,6 +554,7 @@ routes:
           columns-size: two-thirds
         files:
           fr: ./texts/jobs/join-head-fr.md
+          en: ./texts/jobs/join-head-fr.md
       - name: btn-to-jobs
         component: ButtonsComponent
         options:
@@ -317,10 +598,12 @@ routes:
           columns-size: two-thirds
         files:
           fr: ./texts/jobs/jobs-head-fr.md
+          en: ./texts/jobs/jobs-head-fr.md
       - name: data
         component: DataGrid
         files:
           fr: ./texts/jobs/jobs-data.md
+          en: ./texts/jobs/jobs-data.md
 
 
   - name: blog
@@ -332,10 +615,12 @@ routes:
           columns-size: two-thirds
         files:
           fr: ./texts/blog/blog-head-fr.md
+          en: ./texts/blog/blog-head-fr.md
       - name: data
         component: DataGrid
         files:
           fr: ./texts/blog/blog-data.md
+          en: ./texts/blog/blog-data.md
 
   - name: network
     url: /network
@@ -346,10 +631,12 @@ routes:
           columns-size: two-thirds
         files:
           fr: ./texts/network/network-head-fr.md
+          en: ./texts/network/network-head-fr.md
       - name: data
         component: DataGrid
         files:
           fr: ./texts/network/network-data.md
+          en: ./texts/network/network-data.md
 
   - name: ressources
     url: /ressources
@@ -360,10 +647,12 @@ routes:
           columns-size: two-thirds
         files:
           fr: ./texts/ressources/ressources-head-fr.md
+          en: ./texts/ressources/ressources-head-fr.md
       - name: data
         component: DataGrid
         files:
           fr: ./texts/ressources/ressources-data.md
+          en: ./texts/ressources/ressources-data.md
 
   - name: shares-simulator
     url: /shares-simulator

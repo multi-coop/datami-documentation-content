@@ -5,15 +5,11 @@ columns:
       fr: Informations générales
       en: Infos
     links: 
-      - url: /cooperative
-        label:
-          fr: Coopérative
-          en: Cooperative
-      # - url: /manifesto
+      # - url: /cooperative
       #   label:
-      #     fr: Manifeste
-      #     en: Manifesto
-      - url: /infos
+      #     fr: Coopérative
+      #     en: Cooperative
+      - url: /contact
         label:
           fr: Contact
           en: Contact
@@ -21,10 +17,10 @@ columns:
         label:
           fr: Mentions légales
           en: Legal mentions
-      - url: /contribute
-        label:
-          fr: Contribuer
-          en: Contribute
+      # - url: /contribute
+      #   label:
+      #     fr: Contribuer
+      #     en: Contribute
   - name: socials
     options: [ in-line ]
     label:
@@ -59,17 +55,21 @@ columns:
   - name: who
     label:
       fr: Multi
-      en: Infos
+      en: About multi
     links: 
-      - url: /team
+      - url: https://www.multi.coop
         label:
-          fr: Equipe
-          en: Team
-      - url: /offer
-        label:
-          fr: Prestations
-          en: Offer
-      - url: /references
+          fr: Site web
+          en: Official website
+      # - url: https://www.multi.coop/offer
+      #   label:
+      #     fr: Prestations
+      #     en: Offer
+      # - url: https://www.multi.coop/team
+      #   label:
+      #     fr: Equipe
+      #     en: Team
+      - url: https://www.multi.coop/references
         label:
           fr: Références
           en: References

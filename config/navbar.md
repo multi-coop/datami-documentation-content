@@ -15,87 +15,153 @@ buttons-left:
       fr: Pourquoi Gitribute ?
       en: Why Gitribute
     submenu: 
-      - name: What Gitribute does
-        link: /what-gitribute-does
-        component: simpleLink
-        label: 
-          fr: Principales fonctionnalités
-          en: Main features
       - name: why-gitribute
         link: /why-gitribute
         component: simpleLink
         label: 
           fr: Pourquoi Gitribute ?
           en: Why Gitribute
-      - name: references
-        link: /references
+      - name: features
+        link: /main-features
         component: simpleLink
         label: 
-          fr: Nos références
-          en: Our references
-      - name: team
-        link: /team
+          fr: Principales fonctionnalités
+          en: Main features
+      - name: roadmap
+        link: /roadmap
         component: simpleLink
         label: 
-          fr: Equipe
-          en: Team
-
-  - name: documentation 
-    component: dropdownLink
-    options: [ arrowless, hoverable ]
-    label: 
-      fr: Documentation
-      en: Documentation
-    submenu:
-      - name: lookup
-        link: /documentation
+          fr: Feuille de route
+          en: Roadmap
+      # - name: references
+      #   link: /references
+      #   component: simpleLink
+      #   label: 
+      #     fr: Ils utilisent Gitribute 
+      #     en: They use Gitribute
+      # - name: team
+      #   link: /team
+      #   component: simpleLink
+      #   label: 
+      #     fr: Equipe
+      #     en: Team
+      - name: architecture
+        link: /architecture
         component: simpleLink
         label: 
-          fr: Vue générale
-          en: Global lookup
+          fr: Architecture
+          en: Architecture
       - name: stack
-        link: /documentation
+        link: /stack
         component: simpleLink
         label: 
           fr: Stack
           en: Stack
-      - name: gitfile
-        link: /documentation
+
+  - name: tutorials
+    # link: /who-are-we
+    component: dropdownLink
+    options: [ arrowless, hoverable ]
+    label: 
+      fr: Tutoriels
+      en: Tutorials
+    submenu: 
+      - name: tutorial-overview
+        link: /tutorial-overview
         component: simpleLink
         label: 
-          fr: Widget - gitfile
-          en: Widget - gitfile
+          fr: Overview
+          en: Overview
+      - name: tutorial-actions
+        link: /tutorial-actions
+        component: simpleLink
+        label: 
+          fr: Actions
+          en: Actions
+      - name: tutorial-edition
+        link: /tutorial-edition
+        component: simpleLink
+        label: 
+          fr: Edition
+          en: Edition
+      - name: tutorial-contribution
+        link: /tutorial-contribution
+        component: simpleLink
+        label: 
+          fr: Contribution
+          en: Contribution
+
+  - name: installation 
+    component: dropdownLink
+    options: [ arrowless, hoverable ]
+    label: 
+      fr: Installation
+      en: Installation
+    submenu:
+      - name: lookup
+        link: /docs-installation
+        component: simpleLink
+        label: 
+          fr: Installation strategies
+          en: Installation strategies
+      - name: quickstart
+        link: /docs-quickstart
+        component: simpleLink
+        label: 
+          fr: Installation rapide
+          en: Quickstart
+      - name: integration
+        link: /docs-integration
+        component: simpleLink
+        label: 
+          fr: Instégration
+          en: Integration
+
+  - name: widgets 
+    component: dropdownLink
+    options: [ arrowless, hoverable ]
+    label: 
+      fr: Widgets
+      en: Widgets
+    submenu:
+      - name: gitribute-file
+        link: /docs-gitfile
+        component: simpleLink
+        label: 
+          fr: gitribute-file
+          en: gitribute-file
       - name: explowiki
-        link: /documentation
+        link: /docs-explowiki
         component: simpleLink
         label: 
-          fr: Widget - explowiki
-          en: Widget - explowiki
+          fr: gitribute-explowiki
+          en: gitribute-explowiki
       - name: multi-files
-        link: /documentation
+        link: /docs-multi-files
         component: simpleLink
         label: 
-          fr: Widget - multi-files
-          en: Widget - multi-files
+          fr: gitribute-multi-files
+          en: gitribute-multi-files
   
+
+buttons-right: 
+
   - name: contact 
-    link: /infos
+    link: /contact
     component: simpleLink
     options: [ arrowless, hoverable ]
     label: 
       fr: Contactez-nous
       en: Contact us
 
-buttons-right: 
+  # - name: blog
+  #   link: /blog
+  #   component: simpleLink
+  #   label: 
+  #     fr: Blog
+  #     en: Blog
 
-  - name: blog
-    link: /blog
-    component: simpleLink
-    label: 
-      fr: Blog
-      en: Blog
-
-  - name: examples
+  - name: gallery
     disabled: false
     # link: /we-like
     component: dropdownLink

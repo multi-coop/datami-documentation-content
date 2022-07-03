@@ -1,7 +1,10 @@
 ---
 app_name : Domuentation Gitribute
 app_default_locale: en
-app_locales: [ fr, en ]
+app_locales: [
+  # fr,
+  en
+]
 app_md_flavor: github
 app_icon: ./images/logo_GITRIBUTE.png
 app_favicon: ./images/logos/favicon_multi.ico
@@ -18,7 +21,7 @@ legal: ./config/legal.md
 
 colors:
   loading_color: #6fdcbf
-  primary: #bc85ff
+  primary: #FFFFFF
   accent: #572a99
   secondary: #6fdcbf
   info: #53657D
