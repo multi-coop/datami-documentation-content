@@ -124,6 +124,12 @@ buttons-left:
       fr: Widgets
       en: Widgets
     submenu:
+      - name: docs-widgets-overview
+        link: /docs-widgets-overview
+        component: simpleLink
+        label: 
+          fr: Overview
+          en: Overview
       - name: gitribute-file
         link: /docs-gitfile
         component: simpleLink

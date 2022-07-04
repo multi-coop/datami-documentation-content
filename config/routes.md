@@ -224,6 +224,19 @@ routes:
         files:
           fr: ./texts/documentation/docs-integration-en.md
           en: ./texts/documentation/docs-integration-en.md
+  - name: docs-widgets-overview
+    url: /docs-widgets-overview
+    options:
+      summury: true
+    sections: 
+      - name: docs-widgets-overview
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          # columns-divider: h1
+        files:
+          fr: ./texts/documentation/docs-widgets-overview-en.md
+          en: ./texts/documentation/docs-widgets-overview-en.md
   - name: docs-gitfile
     url: /docs-gitfile
     options:
