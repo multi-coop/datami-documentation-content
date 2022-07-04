@@ -2,7 +2,7 @@
 routes: 
 
   # LANDING
-  - name: home 
+  - name: home
     url: /
     options:
       hero: true
@@ -132,6 +132,8 @@ routes:
           en: ./texts/tutorial/tutorial-overview-en.md
   - name: tutorial-actions
     url: /tutorial-actions
+    options:
+      summury: true
     sections: 
       - name: actions
         component: TextComponent
@@ -143,6 +145,8 @@ routes:
           en: ./texts/tutorial/tutorial-actions-en.md
   - name: tutorial-edition
     url: /tutorial-edition
+    options:
+      summury: true
     sections: 
       - name: edition
         component: TextComponent
@@ -154,6 +158,8 @@ routes:
           en: ./texts/tutorial/tutorial-edition-en.md
   - name: tutorial-contribution
     url: /tutorial-contribution
+    options:
+      summury: true
     sections: 
       - name: contribution
         component: TextComponent
@@ -167,6 +173,8 @@ routes:
   # DOCUMENTATION
   - name: docs-installation
     url: /docs-installation
+    options:
+      summury: true
     sections: 
       - name: installation
         component: TextComponent
@@ -218,6 +226,8 @@ routes:
           en: ./texts/documentation/docs-integration-en.md
   - name: docs-gitfile
     url: /docs-gitfile
+    options:
+      summury: true
     sections: 
       - name: docs-gitfile
         component: TextComponent
@@ -309,6 +319,8 @@ routes:
           en: ./texts/documentation/docs-options/option-gitfile-csv.md
   - name: docs-explowiki
     url: /docs-explowiki
+    options:
+      summury: true
     sections: 
       - name: docs-explowiki
         component: TextComponent
@@ -384,6 +396,8 @@ routes:
           en: ./texts/documentation/docs-options/option-global.md
   - name: docs-multi-files
     url: /docs-multi-files
+    options:
+      summury: true
     sections: 
       - name: docs-multi-files
         component: TextComponent
