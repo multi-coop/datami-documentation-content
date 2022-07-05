@@ -69,6 +69,12 @@ To run the server on `http://localhost:8800`:
 python server.py
 ```
 
+or
+
+```sh
+sh run_server.sh
+```
+
 Files will be locally served on :
 
 - `http://localhost:8800/content/<path:folder_path>/<string:filename>`

@@ -133,7 +133,7 @@ routes:
   - name: tutorial-actions
     url: /tutorial-actions
     options:
-      summury: true
+      summary: true
     sections: 
       - name: actions
         component: TextComponent
@@ -146,7 +146,7 @@ routes:
   - name: tutorial-edition
     url: /tutorial-edition
     options:
-      summury: true
+      summary: true
     sections: 
       - name: edition
         component: TextComponent
@@ -159,7 +159,7 @@ routes:
   - name: tutorial-contribution
     url: /tutorial-contribution
     options:
-      summury: true
+      summary: true
     sections: 
       - name: contribution
         component: TextComponent
@@ -174,7 +174,7 @@ routes:
   - name: docs-installation
     url: /docs-installation
     options:
-      summury: true
+      summary: true
     sections: 
       - name: installation
         component: TextComponent
@@ -227,7 +227,7 @@ routes:
   - name: docs-widgets-overview
     url: /docs-widgets-overview
     options:
-      summury: true
+      summary: true
     sections: 
       - name: docs-widgets-overview
         component: TextComponent
@@ -240,7 +240,7 @@ routes:
   - name: docs-gitfile
     url: /docs-gitfile
     options:
-      summury: true
+      summary: true
     sections: 
       - name: docs-gitfile
         component: TextComponent
@@ -333,7 +333,7 @@ routes:
   - name: docs-explowiki
     url: /docs-explowiki
     options:
-      summury: true
+      summary: true
     sections: 
       - name: docs-explowiki
         component: TextComponent
@@ -410,7 +410,7 @@ routes:
   - name: docs-multi-files
     url: /docs-multi-files
     options:
-      summury: true
+      summary: true
     sections: 
       - name: docs-multi-files
         component: TextComponent

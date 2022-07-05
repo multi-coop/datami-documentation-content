@@ -1,5 +1,5 @@
 ---
-app_name : Domuentation Gitribute
+app_name : Documentation Gitribute
 app_default_locale: en
 app_locales: [
   # fr,
