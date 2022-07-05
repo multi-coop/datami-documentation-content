@@ -1,12 +1,4 @@
 
-# Installation strategies
-
----
-
-## Adapt Gitribute for your website
-
-## Reuse some widgets
-
 ## Install your instance
 
 **We are developping Gitribute so the cost to share and contribute to open datasets approaches zero.**

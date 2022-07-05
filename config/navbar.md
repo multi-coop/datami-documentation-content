@@ -98,24 +98,24 @@ buttons-left:
       fr: Installation
       en: Installation
     submenu:
-      - name: lookup
-        link: /docs-installation
-        component: simpleLink
-        label: 
-          fr: Installation strategies
-          en: Installation strategies
       - name: quickstart
-        link: /docs-quickstart
+        link: /quickstart
         component: simpleLink
         label: 
           fr: Installation rapide
           en: Quickstart
       - name: integration
-        link: /docs-integration
+        link: /integration
         component: simpleLink
         label: 
-          fr: Instégration
+          fr: Intégration
           en: Integration
+      - name: lookup
+        link: /install
+        component: simpleLink
+        label: 
+          fr: Installation strategies
+          en: Installation strategies
 
   - name: widgets 
     component: dropdownLink

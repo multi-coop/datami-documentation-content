@@ -49,7 +49,8 @@ routes:
   # WHAT IS GITRIBUTE
   - name: why
     url: /why-gitribute
-    options: [ menu ]
+    options:
+      hero: true
     sections: 
       - name: head
         component: TextComponent
@@ -60,14 +61,45 @@ routes:
           en: ./texts/why-gitribute/why-gitribute-en.md
   - name: main-features
     url: /main-features
+    options:
+      summary: true
     sections: 
-      - name: head
+      - name: main-features
         component: TextComponent
         options:
-          columns-size: two-thirds
+          columns-size: full
+          name:
+            en: Introduction
         files:
           fr: ./texts/why-gitribute/main-features-en.md
           en: ./texts/why-gitribute/main-features-en.md
+      - name: main-features-edit
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: Contribute to datasets
+        files:
+          fr: ./texts/why-gitribute/main-features-edit-en.md
+          en: ./texts/why-gitribute/main-features-edit-en.md
+      - name: main-features-share
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: Share your datasets
+        files:
+          fr: ./texts/why-gitribute/main-features-share-en.md
+          en: ./texts/why-gitribute/main-features-share-en.md
+      - name: main-features-adapt
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: Adapt the widgets to your needs
+        files:
+          fr: ./texts/why-gitribute/main-features-adapt-en.md
+          en: ./texts/why-gitribute/main-features-adapt-en.md
   - name: roadmap
     url: /roadmap
     options: [ menu ]
@@ -135,14 +167,51 @@ routes:
     options:
       summary: true
     sections: 
-      - name: actions
+      - name: tutorial-actions
         component: TextComponent
         options:
-          columns-size: three-quarters
-          # columns-divider: h1
+          columns-size: full
+          name:
+            en: Introduction
         files:
           fr: ./texts/tutorial/tutorial-actions-en.md
           en: ./texts/tutorial/tutorial-actions-en.md
+      - name: tutorial-actions-file-infos
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: File's informations
+        files:
+          fr: ./texts/tutorial/tutorial-actions-file-infos-en.md
+          en: ./texts/tutorial/tutorial-actions-file-infos-en.md
+      - name: tutorial-actions-copy-widget
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: Copy the widget html block
+        files:
+          fr: ./texts/tutorial/tutorial-actions-copy-widget-en.md
+          en: ./texts/tutorial/tutorial-actions-copy-widget-en.md
+      - name: tutorial-actions-user-options
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: User's options
+        files:
+          fr: ./texts/tutorial/tutorial-actions-user-options-en.md
+          en: ./texts/tutorial/tutorial-actions-user-options-en.md
+      - name: tutorial-actions-edit-modes
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: Change edit mode
+        files:
+          fr: ./texts/tutorial/tutorial-actions-edit-modes-en.md
+          en: ./texts/tutorial/tutorial-actions-edit-modes-en.md
   - name: tutorial-edition
     url: /tutorial-edition
     options:
@@ -152,10 +221,38 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: Introduction
         files:
           fr: ./texts/tutorial/tutorial-edition-en.md
           en: ./texts/tutorial/tutorial-edition-en.md
+      - name: edition-csv
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Edit a CSV file
+        files:
+          fr: ./texts/tutorial/tutorial-edition-edit-csv-en.md
+          en: ./texts/tutorial/tutorial-edition-edit-csv-en.md
+      - name: edition-json
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Edit a JSON file
+        files:
+          fr: ./texts/tutorial/tutorial-edition-edit-json-en.md
+          en: ./texts/tutorial/tutorial-edition-edit-json-en.md
+      - name: edition-md
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Edit a markdown file
+        files:
+          fr: ./texts/tutorial/tutorial-edition-edit-md-en.md
+          en: ./texts/tutorial/tutorial-edition-edit-md-en.md
   - name: tutorial-contribution
     url: /tutorial-contribution
     options:
@@ -165,14 +262,33 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: Introdution
         files:
           fr: ./texts/tutorial/tutorial-contribution-en.md
           en: ./texts/tutorial/tutorial-contribution-en.md
+      - name: contribution-what
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: What is a contribution ?
+        files:
+          fr: ./texts/tutorial/tutorial-contribution-what-en.md
+          en: ./texts/tutorial/tutorial-contribution-what-en.md
+      - name: contribution-send
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Send your contribution
+        files:
+          fr: ./texts/tutorial/tutorial-contribution-send-en.md
+          en: ./texts/tutorial/tutorial-contribution-send-en.md
 
   # DOCUMENTATION
-  - name: docs-installation
-    url: /docs-installation
+  - name: install
+    url: /install
     options:
       summary: true
     sections: 
@@ -180,30 +296,40 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+           en: Introduction
         files:
-          fr: ./texts/documentation/docs-installation-en.md
-          en: ./texts/documentation/docs-installation-en.md
-      # - name: btn-to-products
-      #   component: ButtonsComponent
-      #   options:
-      #     columns-size: two-thirds
-      #     buttons-size: half
-      #     buttons: 
-      #       - link: /products
-      #         icon-left: arrow-right-bold
-      #         rounded: true
-      #         label: 
-      #           fr: Nos produits open source
-      #           en: Our open source products
-      #       - link: /references
-      #         icon-left: arrow-right-bold
-      #         rounded: true
-      #         label: 
-      #           fr: Nos références
-      #           en: Our references
-  - name: docs-quickstart
-    url: /docs-quickstart
+          fr: ./texts/installation/installation-en.md
+          en: ./texts/installation/installation-en.md
+      - name: installation-reuse
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+           en: Reuse some widgets
+        files:
+          fr: ./texts/installation/installation-reuse-en.md
+          en: ./texts/installation/installation-reuse-en.md
+      - name: installation-adapt
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+           en: Adapt Gitribute for your website
+        files:
+          fr: ./texts/installation/installation-adapt-en.md
+          en: ./texts/installation/installation-adapt-en.md
+      - name: installation-instance
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+           en: Install your instance
+        files:
+          fr: ./texts/installation/installation-instance-en.md
+          en: ./texts/installation/installation-instance-en.md
+  - name: quickstart
+    url: /quickstart
     sections: 
       - name: setup
         component: TextComponent
@@ -211,10 +337,12 @@ routes:
           columns-size: three-quarters
           # columns-divider: h1
         files:
-          fr: ./texts/documentation/docs-setup-en.md
-          en: ./texts/documentation/docs-setup-en.md
-  - name: docs-integration
-    url: /docs-integration
+          fr: ./texts/installation/setup-en.md
+          en: ./texts/installation/setup-en.md
+  - name: integration
+    url: /integration
+    options:
+      hero: true
     sections: 
       - name: integration
         component: TextComponent
@@ -222,8 +350,10 @@ routes:
           columns-size: three-quarters
           # columns-divider: h1
         files:
-          fr: ./texts/documentation/docs-integration-en.md
-          en: ./texts/documentation/docs-integration-en.md
+          fr: ./texts/installation/integration-en.md
+          en: ./texts/installation/integration-en.md
+
+  # WIDGETS
   - name: docs-widgets-overview
     url: /docs-widgets-overview
     options:
@@ -233,10 +363,38 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: Introduction
         files:
           fr: ./texts/documentation/docs-widgets-overview-en.md
           en: ./texts/documentation/docs-widgets-overview-en.md
+      - name: docs-widgets-overview-gitfile
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Gitfile
+        files:
+          fr: ./texts/documentation/docs-widgets-overview-gitfile-en.md
+          en: ./texts/documentation/docs-widgets-overview-gitfile-en.md
+      - name: docs-widgets-overview-multifiles
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Multi-files
+        files:
+          fr: ./texts/documentation/docs-widgets-overview-multifiles-en.md
+          en: ./texts/documentation/docs-widgets-overview-multifiles-en.md
+      - name: docs-widgets-overview
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Explowiki
+        files:
+          fr: ./texts/documentation/docs-widgets-overview-explowiki-en.md
+          en: ./texts/documentation/docs-widgets-overview-explowiki-en.md
   - name: docs-gitfile
     url: /docs-gitfile
     options:
@@ -246,7 +404,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: Presentation
         files:
           fr: ./texts/documentation/docs-gitfile-en.md
           en: ./texts/documentation/docs-gitfile-en.md
@@ -254,7 +413,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "title" parameter
         files:
           fr: ./texts/documentation/docs-params/param-title.md
           en: ./texts/documentation/docs-params/param-title.md
@@ -262,7 +422,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "gitfile" parameter
         files:
           fr: ./texts/documentation/docs-params/param-gitfile.md
           en: ./texts/documentation/docs-params/param-gitfile.md
@@ -270,7 +431,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "usertoken" parameter
         files:
           fr: ./texts/documentation/docs-params/param-usertoken.md
           en: ./texts/documentation/docs-params/param-usertoken.md
@@ -278,7 +440,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: Notes about the "usertoken" parameter
         files:
           fr: ./texts/documentation/docs-params/param-usertoken-notes-git.md
           en: ./texts/documentation/docs-params/param-usertoken-notes-git.md
@@ -286,7 +449,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "locale" parameter
         files:
           fr: ./texts/documentation/docs-params/param-locale.md
           en: ./texts/documentation/docs-params/param-locale.md
@@ -294,7 +458,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "debug" parameter
         files:
           fr: ./texts/documentation/docs-params/param-debug.md
           en: ./texts/documentation/docs-params/param-debug.md
@@ -302,34 +467,38 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "options" parameter
         files:
           fr: ./texts/documentation/docs-options/option-global.md
           en: ./texts/documentation/docs-options/option-global.md
-      - name: docs-option-gitfile-md
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          # columns-divider: h1
-        files:
-          fr: ./texts/documentation/docs-options/option-gitfile-md.md
-          en: ./texts/documentation/docs-options/option-gitfile-md.md
-      - name: docs-option-gitfile-json
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          # columns-divider: h1
-        files:
-          fr: ./texts/documentation/docs-options/option-gitfile-json.md
-          en: ./texts/documentation/docs-options/option-gitfile-json.md
       - name: docs-option-gitfile-csv
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "options" for csv files
         files:
           fr: ./texts/documentation/docs-options/option-gitfile-csv.md
           en: ./texts/documentation/docs-options/option-gitfile-csv.md
+      - name: docs-option-gitfile-json
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: The "options" for json files
+        files:
+          fr: ./texts/documentation/docs-options/option-gitfile-json.md
+          en: ./texts/documentation/docs-options/option-gitfile-json.md
+      - name: docs-option-gitfile-md
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: The "options" for md files
+        files:
+          fr: ./texts/documentation/docs-options/option-gitfile-md.md
+          en: ./texts/documentation/docs-options/option-gitfile-md.md
   - name: docs-explowiki
     url: /docs-explowiki
     options:
@@ -339,7 +508,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: Presentation
         files:
           fr: ./texts/documentation/docs-explowiki-en.md
           en: ./texts/documentation/docs-explowiki-en.md
@@ -347,7 +517,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "title" parameter
         files:
           fr: ./texts/documentation/docs-params/param-title.md
           en: ./texts/documentation/docs-params/param-title.md
@@ -355,7 +526,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "wikilist" parameter
         files:
           fr: ./texts/documentation/docs-params/param-wikilist.md
           en: ./texts/documentation/docs-params/param-wikilist.md
@@ -363,7 +535,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "wikipages" parameter
         files:
           fr: ./texts/documentation/docs-params/param-wikipages.md
           en: ./texts/documentation/docs-params/param-wikipages.md
@@ -371,7 +544,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "usertoken" parameter
         files:
           fr: ./texts/documentation/docs-params/param-usertoken.md
           en: ./texts/documentation/docs-params/param-usertoken.md
@@ -379,7 +553,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: Notes about the "usertoken" parameter
         files:
           fr: ./texts/documentation/docs-params/param-usertoken-notes-mediawiki.md
           en: ./texts/documentation/docs-params/param-usertoken-notes-mediawiki.md
@@ -387,7 +562,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "locale" parameter
         files:
           fr: ./texts/documentation/docs-params/param-locale.md
           en: ./texts/documentation/docs-params/param-locale.md
@@ -395,7 +571,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "debug" parameter
         files:
           fr: ./texts/documentation/docs-params/param-debug.md
           en: ./texts/documentation/docs-params/param-debug.md
@@ -403,7 +580,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "options" parameter
         files:
           fr: ./texts/documentation/docs-options/option-global.md
           en: ./texts/documentation/docs-options/option-global.md
@@ -416,7 +594,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: Presentation
         files:
           fr: ./texts/documentation/docs-multi-files-en.md
           en: ./texts/documentation/docs-multi-files-en.md
@@ -424,15 +603,26 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "title" parameter
         files:
           fr: ./texts/documentation/docs-params/param-title.md
           en: ./texts/documentation/docs-params/param-title.md
+      - name: docs-param-gitfiles
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: The "gitfiles" parameter
+        files:
+          fr: ./texts/documentation/docs-params/param-gitfiles.md
+          en: ./texts/documentation/docs-params/param-gitfiles.md
       - name: docs-param-locale
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "locale" parameter
         files:
           fr: ./texts/documentation/docs-params/param-locale.md
           en: ./texts/documentation/docs-params/param-locale.md
@@ -440,7 +630,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "debug" parameter
         files:
           fr: ./texts/documentation/docs-params/param-debug.md
           en: ./texts/documentation/docs-params/param-debug.md
@@ -448,7 +639,8 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+            en: The "options" parameter
         files:
           fr: ./texts/documentation/docs-options/option-global.md
           en: ./texts/documentation/docs-options/option-global.md

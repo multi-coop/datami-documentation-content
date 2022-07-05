@@ -4,7 +4,7 @@
 ```yaml
 wikipages:
   - description : list of  mediawiki pages' URL
-  - type: array of urls
+  - type: [ string ]
   - required: false
   - note: |
     if you know the adress of a mediawiki ressources, 
