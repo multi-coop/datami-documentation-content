@@ -1,5 +1,5 @@
 
-##### Parameters for `csv` and `tsv` files
+##### Keys for the `options` parameter for `csv` and `tsv` files
 
 ```yaml
 "options":

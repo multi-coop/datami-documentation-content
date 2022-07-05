@@ -580,7 +580,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-            en: The "options" for csv files
+            en: The "options" keys for table files
         files:
           fr: ./texts/documentation/docs-options/option-gitfile-csv.md
           en: ./texts/documentation/docs-options/option-gitfile-csv.md
@@ -590,7 +590,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-            en: The "options" for json files
+            en: The "options" keys for json files
         files:
           fr: ./texts/documentation/docs-options/option-gitfile-json.md
           en: ./texts/documentation/docs-options/option-gitfile-json.md
@@ -600,7 +600,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-            en: The "options" for md files
+            en: The "options" keys for md files
         files:
           fr: ./texts/documentation/docs-options/option-gitfile-md.md
           en: ./texts/documentation/docs-options/option-gitfile-md.md
@@ -691,6 +691,16 @@ routes:
         files:
           fr: ./texts/documentation/docs-options/option-global.md
           en: ./texts/documentation/docs-options/option-global.md
+      - name: docs-option-explowiki-table
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: The "options" keys for wiki data
+        files:
+          fr: ./texts/documentation/docs-options/option-explowiki-table.md
+          en: ./texts/documentation/docs-options/option-explowiki-table.md
   - name: docs-multi-files
     url: /docs-multi-files
     options:
@@ -750,6 +760,16 @@ routes:
         files:
           fr: ./texts/documentation/docs-options/option-global.md
           en: ./texts/documentation/docs-options/option-global.md
+      - name: docs-option-multifiles
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: The "options" keys for multi-files
+        files:
+          fr: ./texts/documentation/docs-options/option-multifiles.md
+          en: ./texts/documentation/docs-options/option-multifiles.md
 
   - name: products
     url: /products

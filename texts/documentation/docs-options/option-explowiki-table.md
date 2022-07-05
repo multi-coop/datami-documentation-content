@@ -1,5 +1,5 @@
 
-##### `options` parameter - default values
+##### Keys for the `options` parameter for `mediawiki` data
 
 ```yaml
 "options":
@@ -97,8 +97,8 @@
       notes: The possible positions in cards are for now te following :
         - "title"
         - "subtitle"
+        - "content"
         - "resume"
         - "description"
-        - "content"
         - "image" (needs an url to an image)
 ```

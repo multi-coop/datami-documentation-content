@@ -1,5 +1,5 @@
 
-##### Parameters for `md` files
+##### Keys for the `options` parameter for `md` files
 
 ```yaml
 "options":

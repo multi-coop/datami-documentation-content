@@ -1,5 +1,5 @@
 
-##### Parameters for `json` and `geojson` files
+##### Keys for the `options` parameter for `json` and `geojson` files
 
 ```yaml
 "options":
