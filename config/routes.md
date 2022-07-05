@@ -440,6 +440,7 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
+          depth: 1
           name:
             en: Notes about the "usertoken" parameter
         files:
@@ -476,6 +477,7 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
+          depth: 1
           name:
             en: The "options" for csv files
         files:
@@ -485,6 +487,7 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
+          depth: 1
           name:
             en: The "options" for json files
         files:
@@ -494,6 +497,7 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
+          depth: 1
           name:
             en: The "options" for md files
         files:
@@ -553,6 +557,7 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
+          depth: 1
           name:
             en: Notes about the "usertoken" parameter
         files:
