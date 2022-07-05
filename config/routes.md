@@ -373,7 +373,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            en: Gitfile
+            en: The "file" widget
         files:
           fr: ./texts/documentation/docs-widgets-overview-gitfile-en.md
           en: ./texts/documentation/docs-widgets-overview-gitfile-en.md
@@ -382,7 +382,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            en: Multi-files
+            en: The "multi-files" widget
         files:
           fr: ./texts/documentation/docs-widgets-overview-multifiles-en.md
           en: ./texts/documentation/docs-widgets-overview-multifiles-en.md
@@ -391,7 +391,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            en: Explowiki
+            en: The "explowiki" widget
         files:
           fr: ./texts/documentation/docs-widgets-overview-explowiki-en.md
           en: ./texts/documentation/docs-widgets-overview-explowiki-en.md
