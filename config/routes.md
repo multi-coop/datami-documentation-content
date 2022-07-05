@@ -878,35 +878,72 @@ routes:
           fr: ./texts/ressources/ressources-data.md
           en: ./texts/ressources/ressources-data.md
 
-  - name: shares-simulator
-    url: /shares-simulator
+  - name: gitribute-cooptech
+    url: /gitribute-cooptech
     sections: 
       - name: simulator
         component: WidgetComponent
         options:
           columns-size: two-thirds
           js: 
-            - href: https://multi-site-simulator-test.netlify.app/js/app.js
+            - href: https://gitribute.multi.coop/js/app.js
           css: 
-            - href: https://multi-site-simulator-test.netlify.app/css/app.css
+            - href: https://gitribute.multi.coop/css/app.css
           html: |
-            <multi-shares-simulator 
-              locale="fr"
-              cooperative="multi"
-              partvalue="25"
-              minbenefs="0"
-              benefs="100000"
-              repart='{
-                "reserves":40,
-                "participation":50,
-                "dividendes":10
+            <multi-gitribute-file
+              title="Liste des coopératives de la tech en France - csv ( semicolon separator)"
+              gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/cooptech/Annuaire-SCOP-SCIC-tech-France.csv"
+              options='{
+                "height": "500px",
+                "separator":",",
+                "lockcolumns": true,
+                "tagseparator":",",
+                "customfilters" : {
+                  "activate": true,
+                  "filterfields": [
+                  "type",
+                    "Statut juridique"
+                    ]
+                },
+                "schema": {
+                  "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-schema.json"
+                },
+                "fields-custom-properties": {
+                  "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-fields-custom-props.json"
+                },
+                "customsorting" : {
+                  "activate": true,
+                  "sortfields": [
+                    { "name": "Nom" }
+                  ]
+                },
+                "pagination":{
+                  "itemsPerPage": 20
+                },
+                "cardsview": { "activate": true, "default": false },
+                "cardsdetail": true,
+                "cardssettings": {
+                  "mini": {
+                    "Nom": {"position": "title"},
+                    "Présentation": {"position": "description"},
+                    "Site internet": {"position": "description"},
+                    "Statut juridique": {"position": "tags"},
+                    "Domaine(s)": {"position": "tags"}
+                  },
+                  "detail": {
+                    "Nom": {"position": "title"},
+                    "Site internet": {"position": "description"},
+                    "Présentation": {"position": "description"},
+                    "Numéro SIREN": {"position": "description"},
+                    "Adresse": {"position": "description"},
+                    "Statut juridique": {"position": "tags"},
+                    "Domaine(s)": {"position": "tags"},
+                    "Fiche URSCOP": {"position": "links"}
+                  }
+                }
               }'
-              team='[
-                { "name":"Johan Richer", "parts":100, "workTime":100, "yearTime": 12 },
-                { "name":"Julien Paris", "parts":100, "workTime":100, "yearTime": 12 },
-                { "name":"Thomas Brosset", "parts":40, "workTime":40, "yearTime": 12 },
-                { "name":"Pierre Camilleri", "parts":100, "workTime":60, "yearTime": 12 },
-                { "name":"Quentin Loridant", "parts": 100, "workTime":80, "yearTime": 12 }
-              ]'
+              usertoken=""
+              locale="fr"
+              debug="false"
             />
 --- 

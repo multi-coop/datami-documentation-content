@@ -189,31 +189,31 @@ buttons-right:
       #     fr: Ressources
       #     en: Ressources
       - name: odf-data
-        link: /shares-simulator
+        link: /gitribute-cooptech
         component: simpleLink
         label: 
           fr: Open Data France - Données de l'Observatoire
           en: Open Data France - Observatory's datasets
       - name: odf-ressources
-        link: /shares-simulator
+        link: /gitribute-cooptech
         component: simpleLink
         label: 
           fr: Open Data France - Ressources
           en: Open Data France - Ressources
       - name: fabmob-projects
-        link: /shares-simulator
+        link: /gitribute-cooptech
         component: simpleLink
         label: 
           fr: Fabmob - Projets du wiki
           en: Fabmob - Projects from wikimedia
       - name: ademe-projects
-        link: /shares-simulator
+        link: /gitribute-cooptech
         component: simpleLink
         label: 
           fr: ADEME - Projets du wiki
           en: ADEME - Projects from wikimedia
       - name: cooptech-registry
-        link: /shares-simulator
+        link: /gitribute-cooptech
         component: simpleLink
         label: 
           fr: CoopTech - Annuaire descoopératives
