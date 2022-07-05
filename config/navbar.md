@@ -21,6 +21,12 @@ buttons-left:
         label: 
           fr: Pourquoi Gitribute ?
           en: Why Gitribute
+      - name: how-it-works
+        link: /how-it-works
+        component: simpleLink
+        label: 
+          fr: Comment ça marche ?
+          en: How does it work ?
       - name: features
         link: /main-features
         component: simpleLink

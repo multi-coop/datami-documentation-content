@@ -126,7 +126,7 @@ routes:
           en: ./texts/landing/landing-outro-en.md
 
   # WHAT IS GITRIBUTE
-  - name: why
+  - name: why-gitribute
     url: /why-gitribute
     options:
       hero: true
@@ -138,6 +138,18 @@ routes:
         files:
           fr: ./texts/why-gitribute/why-gitribute-en.md
           en: ./texts/why-gitribute/why-gitribute-en.md
+  - name: how-it-works
+    url: /how-it-works
+    options:
+      hero: true
+    sections: 
+      - name: head
+        component: TextComponent
+        options:
+          columns-size: two-thirds
+        files:
+          fr: ./texts/why-gitribute/how-it-works-en.md
+          en: ./texts/why-gitribute/how-it-works-en.md
   - name: main-features
     url: /main-features
     options:
@@ -232,12 +244,13 @@ routes:
   # TUTORIAL
   - name: tutorial-overview
     url: /tutorial-overview
+    options:
+      hero: true
     sections: 
       - name: tutorial-overview
         component: TextComponent
         options:
-          columns-size: three-quarters
-          # columns-divider: h1
+          columns-size: three-fourths
         files:
           fr: ./texts/tutorial/tutorial-overview-en.md
           en: ./texts/tutorial/tutorial-overview-en.md
@@ -287,7 +300,7 @@ routes:
         options:
           columns-size: full
           name:
-            en: Change edit mode
+            en: Change view and edit modes
         files:
           fr: ./texts/tutorial/tutorial-actions-edit-modes-en.md
           en: ./texts/tutorial/tutorial-actions-edit-modes-en.md
@@ -525,6 +538,15 @@ routes:
         files:
           fr: ./texts/documentation/docs-params/param-usertoken-notes-git.md
           en: ./texts/documentation/docs-params/param-usertoken-notes-git.md
+      - name: docs-param-onlypreview
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: The "onlypreview" parameter
+        files:
+          fr: ./texts/documentation/docs-params/param-onlypreview.md
+          en: ./texts/documentation/docs-params/param-onlypreview.md
       - name: docs-param-locale
         component: TextComponent
         options:
