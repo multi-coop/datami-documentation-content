@@ -13,7 +13,7 @@
       },
       "cardsview": false,
     }
-  - fields: 
+  - fields:
     - "separator": 
       description: character separating the columns in your csv source
       type: string
@@ -22,6 +22,18 @@
       description: allows to edit columns' label
       default: false
       type: boolean
+    - "custom-filters":
+      description: object containing the settings to display selected filters
+      type: object
+      required: false
+    - "schema":
+      description: file or object describing the schema needed for this dataset
+      type: object
+      required: false
+    - "fields-custom-properties":
+      description: file or object describing the custom field properpties needed for this dataset
+      type: object
+      required: false
     - "tagseparator": 
       description: character separating a column's values into tags
       type: string

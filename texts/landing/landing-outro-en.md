@@ -19,20 +19,20 @@
   <hr>
 
   <div class="columns my-6">
-    <div class="column is-size-3">
-      <span class="">💸</span><br>
+    <div class="column is-size-5">
+      <span class="is-size-4">💸</span><br>
       <b>100% free</b>
     </div>
-    <div class="column is-size-3">
-      <span class="">💻</span><br>
+    <div class="column is-size-5">
+      <span class="is-size-4">💻</span><br>
       <b>100% open source</b>
     </div>
-    <div class="column is-size-3">
-      <span class="">♻️</span><br>
+    <div class="column is-size-5">
+      <span class="is-size-4">♻️</span><br>
       <b>100% easy to reuse</b>
     </div>
-    <div class="column is-size-3">
-      <span class="">♾️</span><br>
+    <div class="column is-size-5">
+      <span class="is-size-4">♾️</span><br>
       <b>adaptable to your data</b>
     </div>
   </div>

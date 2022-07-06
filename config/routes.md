@@ -510,6 +510,15 @@ routes:
         files:
           fr: ./texts/documentation/docs-params/param-title.md
           en: ./texts/documentation/docs-params/param-title.md
+      - name: docs-param-height
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: The "height" parameter
+        files:
+          fr: ./texts/documentation/docs-params/param-height.md
+          en: ./texts/documentation/docs-params/param-height.md
       - name: docs-param-gitfile
         component: TextComponent
         options:
@@ -627,6 +636,15 @@ routes:
         files:
           fr: ./texts/documentation/docs-params/param-title.md
           en: ./texts/documentation/docs-params/param-title.md
+      - name: docs-param-height
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: The "height" parameter
+        files:
+          fr: ./texts/documentation/docs-params/param-height.md
+          en: ./texts/documentation/docs-params/param-height.md
       - name: docs-param-wikilist
         component: TextComponent
         options:
@@ -724,6 +742,15 @@ routes:
         files:
           fr: ./texts/documentation/docs-params/param-title.md
           en: ./texts/documentation/docs-params/param-title.md
+      - name: docs-param-height
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: The "height" parameter
+        files:
+          fr: ./texts/documentation/docs-params/param-height.md
+          en: ./texts/documentation/docs-params/param-height.md
       - name: docs-param-gitfiles
         component: TextComponent
         options:
