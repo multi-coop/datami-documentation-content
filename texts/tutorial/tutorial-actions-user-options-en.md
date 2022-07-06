@@ -8,3 +8,5 @@ The user options are the following :
 - Change user token
 - Branches
 - Change locale
+
+---

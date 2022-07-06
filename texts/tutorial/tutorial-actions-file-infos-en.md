@@ -1,2 +1,13 @@
 
 ## File's information
+
+By clicking this button you will open a drawer containing some basic metadata related to the source file : 
+
+- file name
+- file type
+- type of the provider : github, gitlab, mediawiki...
+- link to the source file, name of the main branch...
+- links to related files if any : schema, custom properties...
+- ...
+
+---

@@ -1,11 +1,19 @@
 
-## Edit and view modes
+## Change "view" et "edit" modes
 
-### Edit modes
+Gitribute is primarly designed to edit data. So you can switch views between : 
 
-- **Preview** mode
-- **Edit** mode
-- **Diff** mode
+- A `preview` mode
+- An `edit` mode
+- And also a `diff` mode, so you could see the difference between the original data and what you edited.
+
+For tables files (`csv`, `tsv`) and table datasets (`mediawiki`) we felt the need to display the data also in another ways...
+
+### Edit views / modes
+
+#### "Preview" mode
+#### "Edit" mode
+#### "Diff" mode
 
 ### Specific actions
 

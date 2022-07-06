@@ -420,8 +420,8 @@ routes:
         files:
           fr: ./texts/installation/installation-instance-en.md
           en: ./texts/installation/installation-instance-en.md
-  - name: quickstart
-    url: /quickstart
+  - name: quickstart-developpers
+    url: /quickstart-developpers
     sections: 
       - name: setup
         component: TextComponent

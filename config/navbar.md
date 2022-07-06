@@ -78,6 +78,12 @@ buttons-left:
         label: 
           fr: Overview
           en: Overview
+      - name: tutorial-contribution
+        link: /tutorial-contribution
+        component: simpleLink
+        label: 
+          fr: Contribution
+          en: Contribution
       - name: tutorial-actions
         link: /tutorial-actions
         component: simpleLink
@@ -90,12 +96,6 @@ buttons-left:
         label: 
           fr: Edition
           en: Edition
-      - name: tutorial-contribution
-        link: /tutorial-contribution
-        component: simpleLink
-        label: 
-          fr: Contribution
-          en: Contribution
 
   - name: installation 
     component: dropdownLink
@@ -104,24 +104,24 @@ buttons-left:
       fr: Installation
       en: Installation
     submenu:
-      - name: quickstart
-        link: /quickstart
-        component: simpleLink
-        label: 
-          fr: Installation rapide
-          en: Quickstart
-      - name: integration
-        link: /integration
-        component: simpleLink
-        label: 
-          fr: Intégration
-          en: Integration
       - name: lookup
         link: /install
         component: simpleLink
         label: 
           fr: Installation strategies
           en: Installation strategies
+      - name: integration
+        link: /integration
+        component: simpleLink
+        label: 
+          fr: Intégration
+          en: Integration
+      - name: quickstart-developpers
+        link: /quickstart-developpers
+        component: simpleLink
+        label: 
+          fr: Développeurs.euses
+          en: Quickstart for developpers
 
   - name: widgets 
     component: dropdownLink
