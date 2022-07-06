@@ -4,7 +4,8 @@
 ```yaml
 "options":
   - description : JSON object containing the options for multifiles
-  - required: false
+  - type: object
+  - required: true
   - default: {
       "display": "horizontal"
     }

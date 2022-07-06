@@ -4,7 +4,8 @@
 ```yaml
 "options":
   - description : JSON object containing the options allowing your csv to be parsed correctly
-  - required: false
+  - type: object
+  - required: true
   - default: {
       "separator": ";",
       "tagseparator": "-",

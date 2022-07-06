@@ -4,6 +4,7 @@
 ```yaml
 "options":
   - description : JSON object containing the options allowing your mediawiki ressources to be parsed correctly
+  - type: object
   - required: true
   - default: {
       "wikisettings": {
