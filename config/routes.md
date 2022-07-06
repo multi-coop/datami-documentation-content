@@ -501,6 +501,24 @@ routes:
         files:
           fr: ./texts/documentation/docs-gitfile-en.md
           en: ./texts/documentation/docs-gitfile-en.md
+      - name: docs-gitfile-structure
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Structure
+        files:
+          fr: ./texts/documentation/docs-gitfile-structure-en.md
+          en: ./texts/documentation/docs-gitfile-structure-en.md
+      - name: docs-params
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Parameters
+        files:
+          fr: ./texts/documentation/docs-params/params-en.md
+          en: ./texts/documentation/docs-params/params-en.md
       - name: docs-param-title
         component: TextComponent
         options:
@@ -627,6 +645,24 @@ routes:
         files:
           fr: ./texts/documentation/docs-explowiki-en.md
           en: ./texts/documentation/docs-explowiki-en.md
+      - name: docs-explowiki-structure
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Structure
+        files:
+          fr: ./texts/documentation/docs-explowiki-structure-en.md
+          en: ./texts/documentation/docs-explowiki-structure-en.md
+      - name: docs-params
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Parameters
+        files:
+          fr: ./texts/documentation/docs-params/params-en.md
+          en: ./texts/documentation/docs-params/params-en.md
       - name: docs-param-title
         component: TextComponent
         options:
@@ -733,6 +769,24 @@ routes:
         files:
           fr: ./texts/documentation/docs-multi-files-en.md
           en: ./texts/documentation/docs-multi-files-en.md
+      - name: docs-multi-files-structure
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Structure
+        files:
+          fr: ./texts/documentation/docs-multi-files-structure-en.md
+          en: ./texts/documentation/docs-multi-files-structure-en.md
+      - name: docs-params
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Parameters
+        files:
+          fr: ./texts/documentation/docs-params/params-en.md
+          en: ./texts/documentation/docs-params/params-en.md
       - name: docs-param-title
         component: TextComponent
         options:
