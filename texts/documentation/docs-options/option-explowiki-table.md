@@ -3,11 +3,8 @@
 
 ```yaml
 "options":
-
   - description : JSON object containing the options allowing your mediawiki ressources to be parsed correctly
-
   - required: true
-
   - default: {
       "wikisettings": {
         "category": "projet",

@@ -3,11 +3,8 @@
 
 ```yaml
 "options":
-
   - description : JSON object containing the options allowing your json to be parsed correctly
-
   - required: false
-
   - default: {
       "defaultDepth": 3,
     }

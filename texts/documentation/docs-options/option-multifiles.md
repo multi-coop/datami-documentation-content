@@ -3,11 +3,8 @@
 
 ```yaml
 "options":
-
   - description : JSON object containing the options for multifiles
-
   - required: false
-
   - default: {
       "display": "horizontal"
     }
