@@ -18,22 +18,24 @@
 
   <hr>
 
-  <p class="is-size-3 my-5">
-    <span class="">💸</span><br>
-    <b>100% free</b>
-  </p>
-  <p class="is-size-3 my-5">
-    <span class="">💻</span><br>
-    <b>100% open source</b>
-  </p>
-  <p class="is-size-3 my-5">
-    <span class="">♻️</span><br>
-    <b>100% easy to reuse</b>
-  </p>
-  <p class="is-size-3 my-5">
-    <span class="">♾️</span><br>
-    <b>adaptable to your data</b>
-  </p>
+  <div class="columns my-6">
+    <div class="column is-size-3">
+      <span class="">💸</span><br>
+      <b>100% free</b>
+    </div>
+    <div class="column is-size-3">
+      <span class="">💻</span><br>
+      <b>100% open source</b>
+    </div>
+    <div class="column is-size-3">
+      <span class="">♻️</span><br>
+      <b>100% easy to reuse</b>
+    </div>
+    <div class="column is-size-3">
+      <span class="">♾️</span><br>
+      <b>adaptable to your data</b>
+    </div>
+  </div>
 
   <hr class="my-6">
 
