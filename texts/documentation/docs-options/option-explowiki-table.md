@@ -3,8 +3,11 @@
 
 ```yaml
 "options":
+
   - description : JSON object containing the options allowing your mediawiki ressources to be parsed correctly
+
   - required: true
+
   - default: {
       "wikisettings": {
         "category": "projet",
@@ -40,7 +43,9 @@
         }
       }
     }
+
   - fields:
+
     - "wikisettings"
       description: settings to retrieve and parse mediawiki ressources
       type: object
@@ -56,6 +61,7 @@
       - "tagfields"
           description: list of fields you want to parse as tags
           type: [ string ]
+
     - "pagination": 
       description: pagination settings
       type: object
@@ -67,6 +73,7 @@
         notes: 
         - must be > 1 and within allowed values, or a default value will be used (the closest value from allowed values array)
         - values : [3, 5, 10, 15, 20, 25, 50, 100]
+
     - "cardsview":
       description: allows cards view on a table data
       type: boolean || object
@@ -74,10 +81,12 @@
       notes: |
         You can pass an object instead of a boolean value if you need to display the cards view by default, with :
         { "activate": true, "default": true }
+
     - "cardsdetail":
       description: allows cards detailled view on a table data
       type: boolean
       default: false
+
     - "cardssettings":
       description: |
         Mandatory settings to display table data, field by field, in a card view. 

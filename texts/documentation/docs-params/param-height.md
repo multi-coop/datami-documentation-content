@@ -2,7 +2,7 @@
 ##### `height` parameter
 
 ```yaml
-"height": 
+height: 
   - description: height of the widget container in pixels
   - required: false
   - default: '500px'
