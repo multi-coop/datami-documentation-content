@@ -1086,7 +1086,7 @@ routes:
       - name: simulator
         component: WidgetComponent
         options:
-          columns-size: two-thirds
+          columns-size: full
           js: 
             - href: https://gitribute.multi.coop/js/app.js
           css: 
@@ -1201,7 +1201,7 @@ routes:
       - name: simulator
         component: WidgetComponent
         options:
-          columns-size: two-thirds
+          columns-size: full
           js: 
             - href: https://gitribute.multi.coop/js/app.js
           css: 
@@ -1269,7 +1269,7 @@ routes:
       - name: simulator
         component: WidgetComponent
         options:
-          columns-size: two-thirds
+          columns-size: full
           js: 
             - href: https://gitribute.multi.coop/js/app.js
           css: 
@@ -1338,7 +1338,7 @@ routes:
       - name: simulator
         component: WidgetComponent
         options:
-          columns-size: two-thirds
+          columns-size: full
           js: 
             - href: https://gitribute.multi.coop/js/app.js
           css: 
