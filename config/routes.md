@@ -1208,8 +1208,8 @@ routes:
             - href: https://gitribute.multi.coop/css/app.css
           html: |
             <multi-gitribute-file
-                gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-liste des ressources.csv"
-                options='{
+              gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-liste des ressources.csv"
+              options='{
                 "height": "500px",
                 "separator": ",",
                 "lockcolumns": true,
