@@ -194,35 +194,29 @@ buttons-right:
       #   label: 
       #     fr: Ressources
       #     en: Ressources
-      - name: odf-data
-        link: /gitribute-cooptech
+      - name: gitribute-odf-observatoire
+        link: /gitribute-odf-observatoire
         component: simpleLink
         label: 
           fr: Open Data France - Données de l'Observatoire
           en: Open Data France - Observatory's datasets
-      - name: odf-ressources
-        link: /gitribute-cooptech
+      - name: gitribute-odf-ressources
+        link: /gitribute-odf-ressources
         component: simpleLink
         label: 
           fr: Open Data France - Ressources
           en: Open Data France - Ressources
-      - name: fabmob-projects
-        link: /gitribute-cooptech
+      - name: gitribute-explowiki-fabmob
+        link: /gitribute-explowiki-fabmob
         component: simpleLink
         label: 
           fr: Fabmob - Projets du wiki
           en: Fabmob - Projects from wikimedia
-      - name: ademe-projects
-        link: /gitribute-cooptech
-        component: simpleLink
-        label: 
-          fr: ADEME - Projets du wiki
-          en: ADEME - Projects from wikimedia
       - name: cooptech-registry
         link: /gitribute-cooptech
         component: simpleLink
         label: 
-          fr: CoopTech - Annuaire descoopératives
+          fr: CoopTech - Annuaire des coopératives
           en: CoopTech - Cooperatives registry
 
   - name: switch-locale

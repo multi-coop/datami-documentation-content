@@ -1080,6 +1080,189 @@ routes:
           fr: ./texts/ressources/ressources-data.md
           en: ./texts/ressources/ressources-data.md
 
+  - name: gitribute-odf-observatoire
+    url: /gitribute-odf-observatoire
+    sections: 
+      - name: simulator
+        component: WidgetComponent
+        options:
+          columns-size: two-thirds
+          js: 
+            - href: https://gitribute.multi.coop/js/app.js
+          css: 
+            - href: https://gitribute.multi.coop/css/app.css
+          html: |
+            <multi-gitribute-multi-files 
+              title="test multi-files observatoire" 
+              debug="false"
+              locale="fr" 
+              options='{
+                "display": "horizontal"
+              }' gitfiles='[
+              {
+                "title": "Données de l&#39;observatoire",
+                "activate": true,
+                "gitfile": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-Observatoire-apiviz_data-export_solidata-220425b-simplified.csv",
+                "default-tab": true,
+                "options": {
+                  "height": "500px",
+                  "separator": ";",
+                  "lockcolumns": true,
+                  "customfilters": {
+                    "activate": true, 
+                    "filterfields" : [ 
+                      "type",
+                      "platform_clean",
+                      "depcode"
+                    ]
+                  },
+                  "schema": {
+                    "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/odf/ODF-Observatoire-apiviz_data-schema.json"
+                  },
+                  "fields-custom-properties": {
+                    "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/odf/ODF-Observatoire-apiviz_data-fields-custom-props.json"
+                  },
+                  "cardsview": { 
+                    "activate": true,
+                    "default" : false
+                  },
+                  "cardsdetail": true,
+                  "cardssettings": {
+                    "mini": {
+                      "nom": { "position": "title" },
+                      "siren" : { "position": "resume" },
+                      "tags" : { "position": "tags" } 
+                    },
+                    "detail": {
+                      "nom": { "position": "title" },
+                      "orga": { "position": "resume" },
+                      "siren": { "position": "description" },
+                      "adress": { "position": "description" },
+                      "dep_label": { "position": "tags" },
+                      "tags" : { "position": "tags" }
+                    }
+                  }
+                },
+                "usertoken": ""
+              },
+              {
+                "title": "Thématiques",
+                "activate": true,
+                "gitfile": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-Observatoire-thematiques.csv",
+                "options": {
+                  "height": "500px",
+                  "separator": ",",
+                  "lockcolumns": true,
+                  "customfilters": {
+                    "activate": true, 
+                    "filterfields" : [ 
+                      "Tags",
+                      "Organisations_Noms"
+                    ]
+                  },
+                  "schema": {
+                    "fields": [
+                      {
+                        "name": "Organisations copy",
+                        "type": "boolean"
+                      }
+                    ]
+                  },
+                  "fields-custom-properties": {
+                    "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/odf/ODF-thematiques-fields-custom-props.json"
+                  }
+                },
+                "onlypreview": true,
+                "usertoken": ""
+              },
+              {
+                "title": "Schéma des données de l&#39;observatoire",
+                "activate": true,
+                "default-tab": false,
+                "gitfile": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/odf/ODF-Observatoire-apiviz_data-schema.json",
+                "options": {
+                  "defaultDepth": 2,
+                  "allowKeyEdit": true
+                },  
+                "onlypreview": false,
+                "usertoken": ""
+              },
+              {
+                "title": "Présentation de l&#39;Observatoire de l&#39;Open data",
+                "activate": true,
+                "gitfile": "https://github.com/multi-coop/gitribute-content-test/blob/main/texts/markdown/odf/ODF-observatoire-intro.md",
+                "options": ""
+              }
+            ]'></multi-gitribute-multi-files>
+
+  - name: gitribute-odf-ressources
+    url: /gitribute-odf-ressources
+    sections: 
+      - name: simulator
+        component: WidgetComponent
+        options:
+          columns-size: two-thirds
+          js: 
+            - href: https://gitribute.multi.coop/js/app.js
+          css: 
+            - href: https://gitribute.multi.coop/css/app.css
+          html: |
+            <multi-gitribute-file
+                gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-liste des ressources.csv"
+                options='{
+                "height": "500px",
+                "separator": ",",
+                "lockcolumns": true,
+                "tagseparator": ",",
+                "customfilters": {
+                  "activate": true,
+                  "filterfields": [
+                    "Type",
+                    "Enjeux politiques",
+                    "Enjeux Opérationnels",
+                    "Phase"
+                  ]
+                },
+                "schema": {
+                  "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/odf/ODF-ressources-schema.json"
+                },
+                "fields-custom-properties": {
+                  "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/odf/ODF-ressources-fields-custom-props.json"
+                },
+                "customsorting" : {
+                  "activate": true,
+                  "sortfields": [
+                    "Objet",
+                    "Nom de la ressource"
+                  ]
+                },
+                "pagination":{
+                  "itemsPerPage": 20
+                },
+                "cardsview": { "activate": true, "default": false },
+                "cardsdetail": true,
+                "cardssettings": {
+                  "mini": {
+                    "Nom de la ressource": {"position": "title"},
+                    "Objet": {"position": "resume"},
+                    "Enjeux politiques": {"position": "tags"},
+                    "Phases": {"position": "tags"}
+                  },
+                  "detail": {
+                    "Nom de la ressource": {"position": "title"},
+                    "Objet": {"position": "resume"},
+                    "Enjeux politiques": {"position": "tags"},
+                    "Phases": {"position": "tags"},
+                    "Lien vers la ressources": {"position": "links"}
+                  }
+                }
+              }' 
+              title="ODF - Ressources (export airtable)"
+              usertoken=""
+              locale="fr"
+              debug="false">
+            </multi-gitribute-file>
+
   - name: gitribute-cooptech
     url: /gitribute-cooptech
     sections: 
@@ -1148,4 +1331,139 @@ routes:
               locale="fr"
               debug="false"
             />
+
+  - name: gitribute-explowiki-fabmob
+    url: /gitribute-explowiki-fabmob
+    sections: 
+      - name: simulator
+        component: WidgetComponent
+        options:
+          columns-size: two-thirds
+          js: 
+            - href: https://gitribute.multi.coop/js/app.js
+          css: 
+            - href: https://gitribute.multi.coop/css/app.css
+          html: |
+            <multi-gitribute-explowiki
+              wikilist="https://wiki.lafabriquedesmobilites.fr/wiki/Sp%C3%A9cial:WfExplore?title=Sp%C3%A9cial%3AWfExplore&page=1&wf-expl-Category-Projet=on&wf-expl-Page_creator-fulltext=&wf-expl-Tags="
+              wikipages='[
+                  "https://wiki.lafabriquedesmobilites.fr/wiki/Accra_Mobile",
+                  "https://wiki.lafabriquedesmobilites.fr/wiki/Agremob_Self_Data_Territorial_La_Rochelle",
+                  "https://wiki.lafabriquedesmobilites.fr/wiki/Autonomous_Kart_for_Student"
+                ]' options='{
+                  "height": "700px",
+                  "schema": {
+                    "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/fabmob/fabmob-projets-schema.json"
+                  },
+                  "fields-custom-properties": {
+                    "fields": [
+                      { 
+                        "name": "pageUrl",
+                        "subtype": "link",
+                        "locked": true
+                      },
+                      { 
+                        "name": "imageUrl",
+                        "subtype": "link"
+                      },
+                      { 
+                        "name": "url",
+                        "subtype": "link"
+                      },
+                      {
+                        "name": "Tags",
+                        "subtype": "tags",
+                        "tagSeparator": ","
+                      },
+                      {
+                        "name": "Theme",
+                        "subtype": "tags",
+                        "tagSeparator": ","
+                      },
+                      {
+                        "name": "location",
+                        "subtype": "tags",
+                        "tagSeparator": ","
+                      },
+                      {
+                        "name": "from",
+                        "subtype": "tags",
+                        "tagSeparator": ","
+                      },
+                      {
+                        "name": "challenge",
+                        "subtype": "tags",
+                        "tagSeparator": ","
+                      }
+                    ]
+                  },
+                  "wikisettings": {
+                    "category": "projet",
+                    "fields": [
+                      "url",
+                      "description",
+                      "shortDescription",
+                      "Main_Picture",
+                      "Coordonnées géo",
+                      "needs",
+                      "referent",
+                      "communauté d&#39;intérêt",
+                      "Titre",
+                      "Tags",
+                      "etape",
+                      "Theme",
+                      "location",
+                      "from",
+                      "challenge"
+                    ],
+                    "tagfields": [
+                      "Tags",
+                      "Theme",
+                      "location",
+                      "from",
+                      "challenge"
+                    ]
+                },
+                "customsorting" : {
+                  "activate": true,
+                  "sortfields": [
+                    "title"
+                  ]
+                },
+                "customfilters" : {
+                  "activate": true,
+                  "filterfields": [
+                    "Tags",
+                    "Theme"
+                  ]
+                },
+                "pagination": {
+                  "itemsPerPage":12
+                },
+                "cardsview": {
+                  "activate": true,
+                  "default": true
+                },
+                "cardssettings": {
+                  "mini": {
+                    "title": {"position": "title"},
+                    "imageUrl": {"position": "image"},
+                    "shortDescription": {"position": "resume"},
+                    "Tags": {"position": "tags"},
+                    "Theme": {"position": "tags"},
+                    "challenge": {"position": "tags"}
+                  },
+                  "detail": {
+                    "title": {"position": "title"},
+                    "imageUrl": {"position": "image"},
+                    "shortDescription": {"position": "resume"},
+                    "description": {"position": "description"},
+                    "Tags": {"position": "tags"},
+                    "Theme": {"position": "tags"},
+                    "challenge": {"position": "tags"},
+                    "communauté d&#39;intérêt": {"position": "tags"},
+                    "url": {"position": "links"}
+                  }
+                }
+              }' title="gitribute for explowiki - fabmob :)" locale="fr"></multi-gitribute-explowiki>
 --- 
