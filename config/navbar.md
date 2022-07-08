@@ -21,24 +21,18 @@ buttons-left:
         label: 
           fr: Pourquoi Gitribute ?
           en: Why Gitribute
-      - name: how-it-works
-        link: /how-it-works
-        component: simpleLink
-        label: 
-          fr: Comment ça marche ?
-          en: How does it work ?
       - name: features
         link: /main-features
         component: simpleLink
         label: 
           fr: Principales fonctionnalités
           en: Main features
-      - name: roadmap
-        link: /roadmap
+      - name: how-it-works
+        link: /how-it-works
         component: simpleLink
         label: 
-          fr: Feuille de route
-          en: Roadmap
+          fr: Comment ça marche ?
+          en: How does it work ?
       # - name: references
       #   link: /references
       #   component: simpleLink
@@ -63,6 +57,12 @@ buttons-left:
         label: 
           fr: Stack
           en: Stack
+      - name: roadmap
+        link: /roadmap
+        component: simpleLink
+        label: 
+          fr: Feuille de route
+          en: Roadmap
 
   - name: tutorials
     # link: /who-are-we
