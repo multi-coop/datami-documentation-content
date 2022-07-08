@@ -45,13 +45,13 @@ routes:
               label: 
                 fr: Code source
                 en: Source code
-      - name: intro-widget
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/landing/landing-widget.html
-          en: ./texts/landing/landing-widget.html
+      # - name: intro-widget
+      #   component: TextComponent
+      #   options:
+      #     columns-size: two-thirds
+      #   files:
+      #     fr: ./texts/landing/landing-widget.html
+      #     en: ./texts/landing/landing-widget.html
       - name: intro
         component: TextComponent
         options:
