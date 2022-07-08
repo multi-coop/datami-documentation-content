@@ -1,6 +1,6 @@
 ---
 background-color: white
-logo-left: ./images/logo_GITRIBUTE.png
+logo-left: https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/logo_GITRIBUTE_title_big.png
 fixed-top: true
 
 buttons-left-centered: true

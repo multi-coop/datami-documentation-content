@@ -1,7 +1,6 @@
 
 ## The widget `<multi-gitribute-file>`
 
-
 This widget allows to preview and edit a file stored on Gitlab or Github.
 
 ---
