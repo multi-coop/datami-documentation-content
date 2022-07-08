@@ -46,7 +46,7 @@ routes:
                 fr: Code source
                 en: Source code
       # - name: intro-widget
-      #   component: TextComponent
+      #   component: HtmlComponent
       #   options:
       #     columns-size: two-thirds
       #   files:
@@ -211,15 +211,116 @@ routes:
           en: ./texts/why-gitribute/roadmap-en.md
   - name: architecture
     url: /architecture
-    options: [ menu ]
+    options:
+      summary: true
     sections: 
-      - name: head
+      - name: architecture
         component: TextComponent
         options:
-          columns-size: two-thirds
+          columns-size: three-quarters
+          name:
+            en: Main ideas
         files:
           fr: ./texts/why-gitribute/architecture-en.md
           en: ./texts/why-gitribute/architecture-en.md
+      - name: architecture-git-providers
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Git providers as database
+        files:
+          fr: ./texts/why-gitribute/architecture-git-providers-en.md
+          en: ./texts/why-gitribute/architecture-git-providers-en.md
+      - name: architecture-basic-interoperability
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Data agnostic
+        files:
+          fr: ./texts/why-gitribute/architecture-basic-interoperability-en.md
+          en: ./texts/why-gitribute/architecture-basic-interoperability-en.md
+      - name: architecture-git-data-agnostic
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Data agnostic
+        files:
+          fr: ./texts/why-gitribute/architecture-data-agnostic-en.md
+          en: ./texts/why-gitribute/architecture-data-agnostic-en.md
+      - name: architecture-widgets-collection
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: A widgets collection...
+        files:
+          fr: ./texts/why-gitribute/architecture-widgets-collection-en.md
+          en: ./texts/why-gitribute/architecture-widgets-collection-en.md
+      - name: architecture-for-noobs
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: ...For noobs
+        files:
+          fr: ./texts/why-gitribute/architecture-for-noobs-en.md
+          en: ./texts/why-gitribute/architecture-for-noobs-en.md
+      - name: architecture-schemas-intro
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Schemas & wireframes
+        files:
+          fr: ./texts/why-gitribute/architecture-schemas-intro-en.md
+          en: ./texts/why-gitribute/architecture-schemas-intro-en.md
+      - name: architecture-schemas-wireframes
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Components wireframes
+        files:
+          fr: ./texts/why-gitribute/architecture-schemas-wireframes-en.md
+          en: ./texts/why-gitribute/architecture-schemas-wireframes-en.md
+      - name: architecture-schemas-csv
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Widget for `csv` preview and edition
+        files:
+          fr: ./texts/why-gitribute/architecture-schemas-csv-en.md
+          en: ./texts/why-gitribute/architecture-schemas-csv-en.md
+      - name: architecture-schemas-md
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Widget for `md` preview and edition
+        files:
+          fr: ./texts/why-gitribute/architecture-schemas-md-en.md
+          en: ./texts/why-gitribute/architecture-schemas-md-en.md
+      - name: architecture-schemas-save-dialog
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Dialog before saving changes
+        files:
+          fr: ./texts/why-gitribute/architecture-schemas-save-dialog-en.md
+          en: ./texts/why-gitribute/architecture-schemas-save-dialog-en.md
   - name: stack
     url: /stack
     sections: 
@@ -362,7 +463,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            en: Introdution
+            en: Introduction
         files:
           fr: ./texts/tutorial/tutorial-contribution-en.md
           en: ./texts/tutorial/tutorial-contribution-en.md
@@ -474,8 +575,8 @@ routes:
           name:
             en: The "file" widget
         files:
-          fr: ./texts/documentation/docs-widgets-overview-gitfile-en.md
-          en: ./texts/documentation/docs-widgets-overview-gitfile-en.md
+          fr: ./texts/documentation/docs-gitfile-en.md
+          en: ./texts/documentation/docs-gitfile-en.md
       - name: docs-widgets-overview-multifiles
         component: TextComponent
         options:
@@ -483,8 +584,8 @@ routes:
           name:
             en: The "multi-files" widget
         files:
-          fr: ./texts/documentation/docs-widgets-overview-multifiles-en.md
-          en: ./texts/documentation/docs-widgets-overview-multifiles-en.md
+          fr: ./texts/documentation/docs-multi-files-en.md
+          en: ./texts/documentation/docs-multi-files-en.md
       - name: docs-widgets-overview
         component: TextComponent
         options:
@@ -492,8 +593,8 @@ routes:
           name:
             en: The "explowiki" widget
         files:
-          fr: ./texts/documentation/docs-widgets-overview-explowiki-en.md
-          en: ./texts/documentation/docs-widgets-overview-explowiki-en.md
+          fr: ./texts/documentation/docs-explowiki-en.md
+          en: ./texts/documentation/docs-explowiki-en.md
   - name: docs-gitfile
     url: /docs-gitfile
     options:

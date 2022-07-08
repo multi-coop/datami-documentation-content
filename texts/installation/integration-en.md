@@ -3,25 +3,14 @@
 
 ### Dependencies
 
-Gitribute's widgets need three files in order to work correctly :
+Gitribute's widgets need several files and the widget's block in order to work correctly :
 
 - `app.js` : the Gitribute application itself
 - `app.css` : Gitribute's styles
 - `materialdesignicons-webfont.woff2`: : Gitribute's icons
+- and finally the widget's `html` block (`<multi-gitribute-file>`, `<multi-gitribute-multi-files>`, ...)
 
-### Imports
-
-Add those files to your html head, like this if the widget code is deployed on `https://gitribute.multi.coop`:
-
-```html
-<!-- IMPORT THE WIDGETS APP FILE -->
-<script src="https://gitribute.multi.coop/js/app.js" type="text/javascript"></script>
-
-<!-- IMPORT THE WIDGETS CSS FILES -->
-<link type="text/css" href="https://gitribute.multi.coop/js/app.css" rel="stylesheet">
-<link type="text/css" href="https://gitribute.multi.coop/fonts/materialdesignicons-webfont.woff2" rel="stylesheet">
-
-```
+The `css` and `font` files are imported automatically, you just have to add the script and the widget's block to integrate a widget to your page.
 
 ### Integration examples
 
@@ -29,25 +18,20 @@ Widgets can then be called directly into the page as custom html elements.
 
 For instance to integrate a widget displaying a `csv` file you will have to copy-paste this block to your html :
 
-
 ```html
-<!-- IMPORT THE WIDGETS APP FILE -->
-<script src="https://gitribute.multi.coop/js/app.js" type="text/javascript"></script>
-
-<!-- IMPORT THE WIDGETS CSS FILES -->
-<link type="text/css" href="https://gitribute.multi.coop/js/app.css" rel="stylesheet">
-<link type="text/css" href="https://gitribute.multi.coop/fonts/materialdesignicons-webfont.woff2" rel="stylesheet">
+<!-- GITRIBUTE - contribute with GIT ...but without minding it-->
+<!-- An open source widget coded with 🤍  by the tech cooperative multi : https://multi.coop -->
 
 <!-- GITRIBUTE WIDGET -->
 <multi-gitribute-file
   title="gitribute for gitlab file - csv (comma separator)" 
   gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/test-table-comma.csv" 
   options='{
-    "separator":","
-    "pagination":{
-      "itemsPerPage":5
+    "separator": ","
+    "pagination": {
+      "itemsPerPage": 5
     },
-    "cardsview": { "activate": true, "default": true },
+    "cardsview": {"activate": true, "default": true},
     "cardsdetail": true,
     "cardssettings": {
       "mini": {
@@ -66,8 +50,15 @@ For instance to integrate a widget displaying a `csv` file you will have to copy
   locale="en"
   debug="false"
 ></multi-gitribute-file>
+
+<!-- GITRIBUTE WIDGET'S APP.JS SCRIPT -->
+<script src="https://gitribute.multi.coop/js/app.js" type="text/javascript" defer></script>
 ```
 
-### Don't panic!
+### Don't panic !
 
-Gitribute includes a button to copy-paste an existing widget in one click, so you won't have to write your whole widget from scratch.
+Gitribute includes **a button to copy an existing widget in one click**, so you won't have to write your whole widget from scratch.
+
+Once clicked, **you just have to paste it in a web page** of you choice !
+
+More details about the widgets action buttons in the ["Tutorials" section](/tutorial-actions).

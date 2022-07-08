@@ -1,38 +1,32 @@
 
-GITRIBUTE WIDGET BLOCK
+test import
 
+<div>
+
+<!-- GITRIBUTE - contribute with GIT ...but without minding it-->
+<!-- An open source widget coded with 🤍  by the tech cooperative multi : https://multi.coop -->
+
+<!-- GITRIBUTE WIDGET'S HTML BLOCK-->
 <multi-gitribute-file
-  title="Liste des coopératives de la tech en France - csv ( semicolon separator)"
-  gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/cooptech/Annuaire-SCOP-SCIC-tech-France.csv"
+  title="Données de l&quot;observatoire"
+  gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-Observatoire-apiviz_data-export_solidata-220425b-simplified.csv"
   options='{
   "height": "500px",
-  "separator": ",",
+  "separator": ";",
   "lockcolumns": true,
-  "tagseparator": ",",
   "customfilters": {
     "activate": true,
     "filterfields": [
       "type",
-      "Statut juridique"
-    ],
-    "tagsSeparator": ","
-  },
-  "schema": {
-    "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-schema.json"
-  },
-  "fields-custom-properties": {
-    "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-fields-custom-props.json"
-  },
-  "customsorting": {
-    "activate": true,
-    "sortfields": [
-      {
-        "name": "Nom"
-      }
+      "platform_clean",
+      "depcode"
     ]
   },
-  "pagination": {
-    "itemsPerPage": 20
+  "schema": {
+    "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/odf/ODF-Observatoire-apiviz_data-schema.json"
+  },
+  "fields-custom-properties": {
+    "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/odf/ODF-Observatoire-apiviz_data-fields-custom-props.json"
   },
   "cardsview": {
     "activate": true,
@@ -41,46 +35,34 @@ GITRIBUTE WIDGET BLOCK
   "cardsdetail": true,
   "cardssettings": {
     "mini": {
-      "Nom": {
+      "nom": {
         "position": "title"
       },
-      "Présentation": {
-        "position": "description"
+      "siren": {
+        "position": "resume"
       },
-      "Site internet": {
-        "position": "description"
-      },
-      "Statut juridique": {
-        "position": "tags"
-      },
-      "Domaine(s)": {
+      "tags": {
         "position": "tags"
       }
     },
     "detail": {
-      "Nom": {
+      "nom": {
         "position": "title"
       },
-      "Site internet": {
+      "orga": {
+        "position": "resume"
+      },
+      "siren": {
         "position": "description"
       },
-      "Présentation": {
+      "adress": {
         "position": "description"
       },
-      "Numéro SIREN": {
-        "position": "description"
-      },
-      "Adresse": {
-        "position": "description"
-      },
-      "Statut juridique": {
+      "dep_label": {
         "position": "tags"
       },
-      "Domaine(s)": {
+      "tags": {
         "position": "tags"
-      },
-      "Fiche URSCOP": {
-        "position": "links"
       }
     }
   }
@@ -88,4 +70,13 @@ GITRIBUTE WIDGET BLOCK
   onlypreview="false"
   locale="fr"
 />
-<!-- An open source widget coded with 🤍  by the tech cooperative multi.coop -->
+
+
+<!-- GITRIBUTE WIDGET BLOCK -->
+<script src="https://gitribute.multi.coop/js/app.js" type="text/javascript" defer></script>
+
+
+
+
+</div>
+
