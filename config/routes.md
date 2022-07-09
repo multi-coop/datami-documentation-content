@@ -137,11 +137,12 @@ routes:
     url: /why-gitribute
     options:
       hero: true
+      contrib: true
     sections: 
       - name: head
         component: TextComponent
         options:
-          columns-size: two-thirds
+          columns-size: three-quarters
         files:
           fr: ./texts/why-gitribute/why-gitribute-en.md
           en: ./texts/why-gitribute/why-gitribute-en.md
@@ -149,11 +150,12 @@ routes:
     url: /how-it-works
     options:
       hero: true
+      contrib: true
     sections: 
       - name: head
         component: TextComponent
         options:
-          columns-size: two-thirds
+          columns-size: three-quarters
         files:
           fr: ./texts/why-gitribute/how-it-works-en.md
           en: ./texts/why-gitribute/how-it-works-en.md
@@ -165,7 +167,7 @@ routes:
       - name: main-features
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
           name:
             en: Introduction
         files:
@@ -174,7 +176,8 @@ routes:
       - name: main-features-edit
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
+          contrib: true
           name:
             en: Contribute to datasets
         files:
@@ -183,7 +186,8 @@ routes:
       - name: main-features-share
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
+          contrib: true
           name:
             en: Share your datasets
         files:
@@ -192,7 +196,8 @@ routes:
       - name: main-features-adapt
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
+          contrib: true
           name:
             en: Adapt the widgets to your needs
         files:
@@ -200,7 +205,8 @@ routes:
           en: ./texts/why-gitribute/main-features-adapt-en.md
   - name: roadmap
     url: /roadmap
-    options: [ menu ]
+    options:
+      contrib: true
     sections: 
       - name: head
         component: TextComponent
@@ -213,6 +219,7 @@ routes:
     url: /architecture
     options:
       summary: true
+      contrib: true
     sections: 
       - name: architecture
         component: TextComponent
@@ -323,12 +330,13 @@ routes:
           en: ./texts/why-gitribute/architecture-schemas-save-dialog-en.md
   - name: stack
     url: /stack
+    options:
+      contrib: true
     sections: 
       - name: docs-stack
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
         files:
           fr: ./texts/why-gitribute/stack-en.md
           en: ./texts/why-gitribute/stack-en.md
@@ -354,6 +362,7 @@ routes:
     url: /tutorial-overview
     options:
       hero: true
+      contrib: true
     sections: 
       - name: tutorial-overview
         component: TextComponent
@@ -366,6 +375,7 @@ routes:
     url: /tutorial-actions
     options:
       summary: true
+      contrib: true
     sections: 
       - name: tutorial-actions
         component: TextComponent
@@ -416,6 +426,7 @@ routes:
     url: /tutorial-edition
     options:
       summary: true
+      contrib: true
     sections: 
       - name: edition
         component: TextComponent
@@ -457,6 +468,7 @@ routes:
     url: /tutorial-contribution
     options:
       summary: true
+      contrib: true
     sections: 
       - name: contribution
         component: TextComponent
@@ -491,6 +503,7 @@ routes:
     url: /install
     options:
       summary: true
+      contrib: true
     sections: 
       - name: installation
         component: TextComponent
@@ -530,12 +543,13 @@ routes:
           en: ./texts/installation/installation-instance-en.md
   - name: quickstart-developpers
     url: /quickstart-developpers
+    options:
+      contrib: true
     sections: 
       - name: setup
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
         files:
           fr: ./texts/installation/setup-en.md
           en: ./texts/installation/setup-en.md
@@ -543,6 +557,7 @@ routes:
     url: /integration
     options:
       hero: true
+      contrib: true
     sections: 
       - name: integration
         component: TextComponent
@@ -558,6 +573,7 @@ routes:
     url: /docs-widgets-overview
     options:
       summary: true
+      contrib: true
     sections: 
       - name: docs-widgets-overview
         component: TextComponent
@@ -599,6 +615,7 @@ routes:
     url: /docs-gitfile
     options:
       summary: true
+      contrib: true
     sections: 
       - name: docs-gitfile
         component: TextComponent
@@ -743,6 +760,7 @@ routes:
     url: /docs-explowiki
     options:
       summary: true
+      contrib: true
     sections: 
       - name: docs-explowiki
         component: TextComponent
@@ -867,6 +885,7 @@ routes:
     url: /docs-multi-files
     options:
       summary: true
+      contrib: true
     sections: 
       - name: docs-multi-files
         component: TextComponent
@@ -960,6 +979,59 @@ routes:
           fr: ./texts/documentation/docs-options/option-multifiles.md
           en: ./texts/documentation/docs-options/option-multifiles.md
 
+  # STANDARD ROUTES
+  - name: contact
+    url: /contact
+    options:
+      hero: true
+    sections: 
+      - name: head
+        component: TextComponent
+        options:
+          columns-size: full
+          columns-divider: h1
+        files:
+          fr: ./texts/contact/contact-head-fr.md
+          en: ./texts/contact/contact-head-en.md
+      # - name: btn-to-jobs
+      #   component: ButtonsComponent
+      #   options:
+      #     columns-size: full
+      #     buttons-size: full
+      #     buttons: 
+      #       - link: /contribute
+      #         icon-left: arrow-right-bold
+      #         rounded: true
+      #         label: 
+      #           fr: Contribuer
+      #           en: Contribute
+
+  - name: contribute
+    url: /contribute
+    sections: 
+      - name: head
+        component: TextComponent
+        options:
+          columns-size: two-thirds
+          columns-divider: h1
+        files:
+          fr: ./texts/contact/contribute-head-fr.md
+          en: ./texts/contact/contribute-head-fr.md
+
+  - name: legal
+    url: /legal
+    sections: 
+      # - name: data
+      #   component: TextDataComponent
+      #   files:
+      #     fr: ./texts/contact/legal-data.md
+      - name: legal-text
+        component: TextComponent
+        files:
+          fr: ./texts/contact/legal-mentions-fr.md
+          en: ./texts/contact/legal-mentions-fr.md
+
+  # LEGACY 
   - name: products
     url: /products
     sections: 
@@ -1027,58 +1099,6 @@ routes:
           fr: ./texts/references/references-data.md
           en: ./texts/references/references-data.md
 
-  - name: contact
-    url: /contact
-    options:
-      hero: true
-    sections: 
-      - name: head
-        component: TextComponent
-        options:
-          columns-size: full
-          columns-divider: h1
-        files:
-          fr: ./texts/contact/contact-head-fr.md
-          en: ./texts/contact/contact-head-en.md
-      # - name: btn-to-jobs
-      #   component: ButtonsComponent
-      #   options:
-      #     columns-size: full
-      #     buttons-size: full
-      #     buttons: 
-      #       - link: /contribute
-      #         icon-left: arrow-right-bold
-      #         rounded: true
-      #         label: 
-      #           fr: Contribuer
-      #           en: Contribute
-
-  - name: contribute
-    url: /contribute
-    sections: 
-      - name: head
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-          columns-divider: h1
-        files:
-          fr: ./texts/contact/contribute-head-fr.md
-          en: ./texts/contact/contribute-head-fr.md
-
-  - name: legal
-    url: /legal
-    sections: 
-      # - name: data
-      #   component: TextDataComponent
-      #   files:
-      #     fr: ./texts/contact/legal-data.md
-      - name: legal-text
-        component: TextComponent
-        files:
-          fr: ./texts/contact/legal-mentions-fr.md
-          en: ./texts/contact/legal-mentions-fr.md
-
-  # JOBS
   - name: join 
     url: /join
     sections: 
@@ -1139,7 +1159,6 @@ routes:
           fr: ./texts/jobs/jobs-data.md
           en: ./texts/jobs/jobs-data.md
 
-
   - name: blog
     url: /blog
     sections: 
@@ -1188,6 +1207,7 @@ routes:
           fr: ./texts/ressources/ressources-data.md
           en: ./texts/ressources/ressources-data.md
 
+  # GALLERY
   - name: gitribute-odf-observatoire
     url: /gitribute-odf-observatoire
     sections: 
