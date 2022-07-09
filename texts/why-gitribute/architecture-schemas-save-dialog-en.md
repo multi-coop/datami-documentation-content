@@ -11,4 +11,4 @@ The challenge was to find an "user path" and a design to express this idea **sim
 - "Simply" by avoiding any dispensable information, straight to the point ;
 - "Honestly" by letting the user learn step by step what those weird terms (tooltips), keeping technical information in the background (in another tab, but accessible), etc...
 
-![GITRIBUTE-WIREFRAME-DIALOG_SAVE](http://localhost:8800/statics/images/schemas/Multi-gitribute-wireframe-commit_dialog-01.png)
+![GITRIBUTE-WIREFRAME-DIALOG_SAVE-01](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-commit_dialog-01.png)

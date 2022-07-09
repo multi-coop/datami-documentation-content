@@ -24,6 +24,6 @@ Change view type to cards view if you feel aventurous.
 
 Once - and only once - those design principles put in place, we wanted to add extra but useful features to help anybody consolidate the dataset. The main and more original one being the **consolidation button** for every row, agnosticaly helping to get complementary data from external APIs ("api-entreprises", "BAN api", ...).
 
-![GITRIBUTE-WIREFRAME-EDIT-CSV](http://localhost:8800/statics/images/schemas/Multi-gitribute-wireframe-edit-csv-02.png)
+![GITRIBUTE-WIREFRAME-EDIT-CSV-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-csv-02.png)
 
 ---

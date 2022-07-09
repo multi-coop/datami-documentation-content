@@ -11,6 +11,6 @@ Finally some _complex components can be resued_ by others such as the `EditCell`
 
 We are proud (and a bit ashamed too) to apply the `#passionSchema` hashtag to our brainstorming process...
 
-![SCHEMA-GITRIBUTE](http://localhost:8800/statics/images/schemas/Multi-gitribute-schema-02.png)
+![SCHEMA-GITRIBUTE-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-schema-02.png)
 
 ---
