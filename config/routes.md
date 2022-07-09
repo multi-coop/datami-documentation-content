@@ -136,29 +136,97 @@ routes:
   - name: why-gitribute
     url: /why-gitribute
     options:
-      hero: true
+      summary: true
       contrib: true
     sections: 
-      - name: head
+      - name: why-intro
         component: TextComponent
         options:
           columns-size: three-quarters
+          name:
+            en: Introduction
         files:
           fr: ./texts/why-gitribute/why-gitribute-en.md
           en: ./texts/why-gitribute/why-gitribute-en.md
+      - name: why-intro-easy
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Make open contribution easier 
+        files:
+          fr: ./texts/why-gitribute/why-gitribute-easy-en.md
+          en: ./texts/why-gitribute/why-gitribute-easy-en.md
+      - name: why-open
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Help organizations opening data
+        files:
+          fr: ./texts/why-gitribute/why-gitribute-open-en.md
+          en: ./texts/why-gitribute/why-gitribute-open-en.md
+      - name: why-costs
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Reduce the cost of open data
+        files:
+          fr: ./texts/why-gitribute/why-gitribute-costs-en.md
+          en: ./texts/why-gitribute/why-gitribute-costs-en.md
+      - name: why-quality
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Make quality open data
+        files:
+          fr: ./texts/why-gitribute/why-gitribute-quality-en.md
+          en: ./texts/why-gitribute/why-gitribute-quality-en.md
   - name: how-it-works
     url: /how-it-works
     options:
       hero: true
+      summary: true
       contrib: true
     sections: 
-      - name: head
+      - name: how
         component: TextComponent
         options:
           columns-size: three-quarters
+          name:
+            en: Introduction
         files:
           fr: ./texts/why-gitribute/how-it-works-en.md
           en: ./texts/why-gitribute/how-it-works-en.md
+      - name: how-widgets-collection
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: A widgets collection
+        files:
+          fr: ./texts/why-gitribute/how-it-works-widgets-collection-en.md
+          en: ./texts/why-gitribute/how-it-works-widgets-collection-en.md
+      - name: how-git-providers
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Git providers
+        files:
+          fr: ./texts/why-gitribute/how-it-works-git-providers-en.md
+          en: ./texts/why-gitribute/how-it-works-git-providers-en.md
+      - name: how-no-account
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Contribute anonymously
+        files:
+          fr: ./texts/why-gitribute/how-it-works-no-account-en.md
+          en: ./texts/why-gitribute/how-it-works-no-account-en.md
   - name: main-features
     url: /main-features
     options:
