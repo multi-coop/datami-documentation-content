@@ -6,7 +6,10 @@
   </p>
 
   <p class="is-italic">
-    ... but without having to use Github or Gitlab
+    ... but without minding it
   </p>
 
 </div>
+
+<!-- GITRIBUTE - contribute with GIT ...but without minding it-->
+<!--  ... but without having to use Github or Gitlab  -->
