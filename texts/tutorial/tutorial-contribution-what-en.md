@@ -17,8 +17,10 @@ Building a cooperative environment - digital or not - means opening what you thi
 
 With Gitribute we wanted to **apply this logic and this ethic to any data or dataset** we can think of.
 
-Above all we wanted to **allow non-technicians internet users to get a grasp on this practice** (did we mention your grandpa or grandma before ?).
+Above all we wanted to **allow non-technicians internet users to get a grasp on this practice** _(did we mention your grandpa or grandma before ?)_.
 
 The contributive internet we dream of is not similar to those endless lists of comments above a video on YouTube, nor to those endless threads on Twitter, where you feel people comment reactively. 
 
 **We don't think just reacting to other people's thoughts helps build knowledge.**
+
+Contribution is a question of **good habits**, **adequate tooling**, **manners**, and **shared values**.
