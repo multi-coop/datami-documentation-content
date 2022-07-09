@@ -11,6 +11,6 @@ And that alone is ringing the agony of knowledge and democracy.
 
 Yes it's a bit much said that way but still, but we're definitly not big fans of the "collaborative-washing" at work since the begining of Web 2.0.
 
-We believe "contribution" is what makes the big **difference** between **"speaking to each other"** and "**building something together"**.
+In short we believe "contribution" is what makes the big **difference** between **"speaking to each other"** and "**building something together"**.
 
-Luckily some initiatives were quite aware of this difference early on and cleared the way. Some still exist and are leading by the example, the brighter light in the web fog being **[Wikipedia](https://www.wikipedia.org/)**. The very illustration of how a review and moderation processes can lead to building an infinite and universal source of knowledge.
+Luckily some initiatives were quite aware of this difference early on and cleared the path. Some still exist and are leading by the example, the brighter light in this contemporary web fog being **[Wikipedia](https://www.wikipedia.org/)**. The very illustration of how a review and moderation processes can lead to building an infinite and universal source of knowledge.
