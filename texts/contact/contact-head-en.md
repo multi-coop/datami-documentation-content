@@ -30,7 +30,7 @@
       For more infos about Gitribute <br>
       contact us at
     </p>
-    <p class="has-text-centered is-size-4">
+    <p class="has-text-centered is-size-4 mt-6">
       📥 &nbsp;
       <a href="mailto:contact@multi.coop">
         <b>contact@multi.coop</b>
@@ -48,7 +48,7 @@
         <b>multi</b>
       </a>
     </p>
-    <p class="has-text-centered is-size-4">
+    <p class="has-text-centered is-size-4 mt-6">
       🌐 &nbsp;
       <a href="https://multi.coop" target="_blank">
         <b>multi.coop</b>

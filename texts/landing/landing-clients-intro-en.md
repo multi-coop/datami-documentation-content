@@ -2,6 +2,6 @@
 <br>
 <br>
 
-<h4 class="has-text-centered my-6">
-  They use Gitribute
-</h4>
+<h3 class="has-text-centered mt-6 mb-0">
+  They use | support Gitribute
+</h3>

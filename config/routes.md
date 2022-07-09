@@ -141,7 +141,7 @@ routes:
       - name: clients
         component: TextComponent
         options:
-          columns-size: two-thirds
+          columns-size: full
         files:
           fr: ./texts/landing/landing-clients.md
           en: ./texts/landing/landing-clients.md
