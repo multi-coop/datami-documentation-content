@@ -31,7 +31,10 @@ For instance to integrate a widget displaying a `csv` file you will have to copy
     "pagination": {
       "itemsPerPage": 5
     },
-    "cardsview": {"activate": true, "default": true},
+    "cardsview": {
+      "activate": true,
+      "default": true
+    },
     "cardsdetail": true,
     "cardssettings": {
       "mini": {
