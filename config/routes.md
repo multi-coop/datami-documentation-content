@@ -244,7 +244,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-            en: Data agnostic
+            en: Basic interoperability
         files:
           fr: ./texts/why-gitribute/architecture-basic-interoperability-en.md
           en: ./texts/why-gitribute/architecture-basic-interoperability-en.md
