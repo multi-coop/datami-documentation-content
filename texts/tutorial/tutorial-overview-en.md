@@ -17,9 +17,27 @@ Some features are available globaly :
 - **Switch between edit view modes**
 - **Use the `save` button (send a contribution)**
 
+More details about those features [here](/tutorial-actions)
+
+## Edition features
+
 Other features are quite useful but more specific to table files (like `csv`), for instance :
 
 - **Switch between table and cards view**
 - **Show external ressources**
 - **Filter a table**
 - **Make a text search across the table**
+
+More details about the edition features [here](/tutorial-edition)
+
+## Contribution features
+
+Finally some fetaures are correlated to the core purpose of Gitribute : "Contribute with Git".
+
+Making a open contribution to a document, including the possibility for the document's owner to reject or to modify it comes with some little perks and a bit of vocabulary.
+
+- **What is branch ?**
+- **What is a "pull request" or a "merge request" ?**
+- **How do I know my contribution was accepted ?**
+
+More details about the contribution process [here](/tutorial-contribution)
