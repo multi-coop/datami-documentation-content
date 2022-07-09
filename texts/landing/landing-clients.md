@@ -1,4 +1,4 @@
-<div class="columns is-multiline is-8 is-vcentered is-centered mt-0">
+<div class="columns is-multiline is-8 is-vcentered is-centered mt-0 mb-6">
   <div class="column is-3 has-text-centered">
     <a class=""
       href="https://www.opendatafrance.net/"

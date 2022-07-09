@@ -28,13 +28,13 @@ routes:
           buttons-size: one-third
           buttons:
             - link: /tutorial-overview
-              icon-left: arrow-right-bold
+              icon-left: hand-wave
               rounded: true
               label: 
                 fr: Tutorials
                 en: Tutorials
-            - link: /docs-gitfile
-              icon-left: arrow-right-bold
+            - link: /docs-widgets-overview
+              icon-left: book-open-variant
               rounded: true
               label: 
                 fr: Documentation
@@ -166,7 +166,26 @@ routes:
         files:
           fr: ./texts/landing/landing-clients.md
           en: ./texts/landing/landing-clients.md
-
+      - name: more-4
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/landing/more.md
+          en: ./texts/landing/more.md
+      - name: btn-to-documentation
+        component: ButtonsComponent
+        options:
+          columns-size: three-quarters
+          buttons-size: one-third
+          buttons:
+            - link: /why-gitribute
+              icon-left: arrow-right-bold
+              rounded: true
+              label: 
+                fr: Pourquoi Gitribute ?
+                en: Why Gitribute ?
+  
   # WHAT IS GITRIBUTE
   - name: why-gitribute
     url: /why-gitribute
@@ -219,6 +238,18 @@ routes:
         files:
           fr: ./texts/why-gitribute/why-gitribute-quality-en.md
           en: ./texts/why-gitribute/why-gitribute-quality-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: how-it-works
     url: /how-it-works
     options:
@@ -262,6 +293,18 @@ routes:
         files:
           fr: ./texts/why-gitribute/how-it-works-no-account-en.md
           en: ./texts/why-gitribute/how-it-works-no-account-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: main-features
     url: /main-features
     options:
@@ -304,6 +347,18 @@ routes:
         files:
           fr: ./texts/why-gitribute/main-features-adapt-en.md
           en: ./texts/why-gitribute/main-features-adapt-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: roadmap
     url: /roadmap
     options:
@@ -316,6 +371,30 @@ routes:
         files:
           fr: ./texts/why-gitribute/roadmap-en.md
           en: ./texts/why-gitribute/roadmap-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /stack
+              icon-left: xml
+              rounded: true
+              label: 
+                fr: Stack
+                en: Stack
+            - link: https://gitlab.com/multi-coop/gitribute
+              icon-left: gitlab
+              rounded: true
+              label: 
+                fr: Code source
+                en: Source code
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: architecture
     url: /architecture
     options:
@@ -429,6 +508,30 @@ routes:
         files:
           fr: ./texts/why-gitribute/architecture-schemas-save-dialog-en.md
           en: ./texts/why-gitribute/architecture-schemas-save-dialog-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /stack
+              icon-left: xml
+              rounded: true
+              label: 
+                fr: Stack
+                en: Stack
+            - link: https://gitlab.com/multi-coop/gitribute
+              icon-left: gitlab
+              rounded: true
+              label: 
+                fr: Code source
+                en: Source code
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: stack
     url: /stack
     options:
@@ -441,7 +544,31 @@ routes:
         files:
           fr: ./texts/why-gitribute/stack-en.md
           en: ./texts/why-gitribute/stack-en.md
-
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /roadmap
+              icon-left: map-search-outline
+              rounded: true
+              label: 
+                fr: Roadmap
+                en: Roadmap
+            - link: https://gitlab.com/multi-coop/gitribute
+              icon-left: gitlab
+              rounded: true
+              label: 
+                fr: Code source
+                en: Source code
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
+  
   # TUTORIAL
   - name: tutorial-overview
     url: /tutorial-overview
@@ -456,6 +583,18 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-overview-en.md
           en: ./texts/tutorial/tutorial-overview-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: tutorial-actions
     url: /tutorial-actions
     options:
@@ -507,6 +646,18 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-actions-edit-modes-en.md
           en: ./texts/tutorial/tutorial-actions-edit-modes-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: tutorial-edition
     url: /tutorial-edition
     options:
@@ -549,6 +700,18 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-edition-edit-md-en.md
           en: ./texts/tutorial/tutorial-edition-edit-md-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: tutorial-contribution
     url: /tutorial-contribution
     options:
@@ -582,6 +745,18 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-contribution-send-en.md
           en: ./texts/tutorial/tutorial-contribution-send-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
 
   # DOCUMENTATION
   - name: install
@@ -626,6 +801,24 @@ routes:
         files:
           fr: ./texts/installation/installation-instance-en.md
           en: ./texts/installation/installation-instance-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: https://gitlab.com/multi-coop/gitribute
+              icon-left: gitlab
+              rounded: true
+              label: 
+                fr: Code source
+                en: Source code
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: quickstart-developpers
     url: /quickstart-developpers
     options:
@@ -638,6 +831,24 @@ routes:
         files:
           fr: ./texts/installation/setup-en.md
           en: ./texts/installation/setup-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: https://gitlab.com/multi-coop/gitribute
+              icon-left: gitlab
+              rounded: true
+              label: 
+                fr: Code source
+                en: Source code
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: integration
     url: /integration
     options:
@@ -652,6 +863,18 @@ routes:
         files:
           fr: ./texts/installation/integration-en.md
           en: ./texts/installation/integration-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
 
   # WIDGETS
   - name: docs-widgets-overview
@@ -696,6 +919,18 @@ routes:
         files:
           fr: ./texts/documentation/docs-explowiki-en.md
           en: ./texts/documentation/docs-explowiki-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: docs-gitfile
     url: /docs-gitfile
     options:
@@ -841,6 +1076,18 @@ routes:
         files:
           fr: ./texts/documentation/docs-options/option-gitfile-md.md
           en: ./texts/documentation/docs-options/option-gitfile-md.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: docs-explowiki
     url: /docs-explowiki
     options:
@@ -966,6 +1213,18 @@ routes:
         files:
           fr: ./texts/documentation/docs-options/option-explowiki-table.md
           en: ./texts/documentation/docs-options/option-explowiki-table.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: docs-multi-files
     url: /docs-multi-files
     options:
@@ -1063,6 +1322,18 @@ routes:
         files:
           fr: ./texts/documentation/docs-options/option-multifiles.md
           en: ./texts/documentation/docs-options/option-multifiles.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
 
   # STANDARD ROUTES
   - name: contact
@@ -1103,6 +1374,18 @@ routes:
         files:
           fr: ./texts/contact/legal-mentions-fr.md
           en: ./texts/contact/legal-mentions-fr.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
 
   # GALLERY
   - name: gitribute-odf-observatoire
@@ -1219,6 +1502,18 @@ routes:
                 "options": ""
               }
             ]'></multi-gitribute-multi-files>
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: gitribute-odf-ressources
     url: /gitribute-odf-ressources
     sections: 
@@ -1286,6 +1581,18 @@ routes:
               locale="fr"
               debug="false">
             </multi-gitribute-file>
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: gitribute-cooptech
     url: /gitribute-cooptech
     sections: 
@@ -1354,6 +1661,18 @@ routes:
               locale="fr"
               debug="false"
             />
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: gitribute-explowiki-fabmob
     url: /gitribute-explowiki-fabmob
     sections: 
@@ -1488,4 +1807,16 @@ routes:
                   }
                 }
               }' title="gitribute for explowiki - fabmob :)" locale="fr"></multi-gitribute-explowiki>
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
 --- 
