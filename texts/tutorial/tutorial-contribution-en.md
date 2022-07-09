@@ -9,12 +9,14 @@ That said we think many modern web platforms confuses "contributing" with "letti
 
 And that alone is ringing the agony of knowledge and democracy.
 
-Yes it's a bit much said that way but still, but we're definitly not big fans of the "collaborative-washing" at work since the begining of Web 2.0.
+Yes, big words, it's a bit much said that way but still... we're definitly not big fans of this trend of "collaborative-washing" at work since the begining of Web 2.0.
 
 In short we believe "contribution" is what makes the big **difference** between **"speaking to each other"** and "**building something together"**.
 
 Luckily some initiatives were quite aware of this difference early on and cleared the path. Some still exist and are leading by the example, the brighter light in this contemporary web fog being **[Wikipedia](https://www.wikipedia.org/)**. Wikipedia embodies the very illustration of how a review and moderation processes can lead to building an infinite and universal source of knowledge.
 
-We are absolutly not redoing Wikipedia with Gitribute, nevertheless it's an strong inspiration for the Gitribute project.
+We are **absolutly NOT aiming to reinvent Wikipedia** with Gitribute, nevertheless it's an strong inspiration for the Gitribute project.
 
-The only thing where we try to add an originality is we want an **absolutly decentralized** control over the data source.
+The only thing where we try to add an originality is we want an **absolutly decentralized** control over the data source. 
+
+As oposed to centralized servers storing collaborative work worldwide, we'd prefer a "locally-sourced" data commons **a bit everywhere**, but the **most interoperable as possible**.
