@@ -1,9 +1,21 @@
 
-## Roadmap
+# Roadmap
 
-**Work in progress... be patient guys (or help us by contributing) :)**
+Ours roadmaps is visible [here on the source code repository](https://gitlab.com/multi-coop/gitribute/-/boards/4084563).
 
-This project is currently under early development...
+This project is currently under early developments...
+
+---
+
+## Proof of concept (april-july 2022)
+
+The first step of the project is to prove our hypothesis are technically working :
+
+- To know how to use github and gitlab APIs similarly ;
+- To be able to setup working widgets ;
+- ... in a techno we understand in the team ;
+- Do all those early developments with **real** users and clients ;
+- [Do it agile or do not, there is no try](https://www.youtube.com/watch?v=BQ4yd2W50No)...
 
 The **roadmap** for a first proof of concept (POC) is the following :
 
@@ -36,6 +48,14 @@ The **roadmap** for a first proof of concept (POC) is the following :
     - [x] `PUT` after edition on client's side, acting as a commit to the file's git repo on a separate branch ;
     - [x] create a merge request (commit and request by default done the "ghost user") ;
 - [x] Deploy on Netlify for test purposes => [test deploy here](https://multi-gitribute-test.netlify.app/)
-- [ ] A good documentation for each web component (at least in this readme for now)
+- [ ] A good documentation for each web component (at least in this readme for now) **<--- We are here, we just have one checkbox left !!**
 
 ... and just for a POC, that would be greaaaaat ...
+
+**Work in progress... be patient guys (or help us by contributing) :)**
+
+---
+
+## Minimum Viable Product (september 2022)
+
+...suspense...

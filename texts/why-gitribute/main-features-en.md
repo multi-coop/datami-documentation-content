@@ -4,4 +4,4 @@ tags: what
 
 ## Main features
 
-Gitribute is constituted by a serie of widgets, each allowing to interact with ressources stored on Gitlab, Github, or Mediawiki.
+Gitribute is constituted by a serie of widgets, each allowing to interact with ressources stored on [Gitlab](https://gitlab.com/), [Github](https://github.com/), or [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki).

@@ -7,7 +7,7 @@ We didn't want to centralize a service and/or your data. After all _you_ sweat t
 
 But if you want to **valorize** and **refine your data** the best chance to do so is to **let people reuse and contribute to YOUR data**.
 
-Sharing. This is the way...
+Sharing. [This is the way](https://www.youtube.com/watch?v=uelA7KRLINA&ab_channel=Gabriel)...
 
 "Sharing" means letting people reuse YOUR data where THEY want.
 
@@ -16,4 +16,4 @@ Widgets are a solution to allow this without the risk to lose entirely the hand 
 - The data source stays in _your_ repository ;
 - But _anybody_ can make a proposal...
 
-Let's dare say that **"_Manners_ maketh commoner"**
+Let's dare say that **"[Manners maketh commoner](https://www.youtube.com/watch?v=hUtNQAdhIR4&ab_channel=RodStickler)...** _you know what that means ?_"
