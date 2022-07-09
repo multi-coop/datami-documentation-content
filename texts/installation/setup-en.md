@@ -35,6 +35,7 @@ VUE_APP_GITRIBUTE_DOCUMENTATION=gitribute-docs.multi.coop
   - default value : `gitribute.multi.coop`
 - `VUE_APP_GITRIBUTE_DOCUMENTATION` : the domain for Gitribute documentation
   - default value : `gitribute-docs.multi.coop`
+
 ---
 
 ### Compiles and hot-reloads for development
