@@ -365,7 +365,7 @@ routes:
       - name: tutorial-overview
         component: TextComponent
         options:
-          columns-size: three-fourths
+          columns-size: three-quarters
         files:
           fr: ./texts/tutorial/tutorial-overview-en.md
           en: ./texts/tutorial/tutorial-overview-en.md
