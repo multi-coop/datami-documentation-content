@@ -26,7 +26,10 @@
       "pagination": {
         "itemsPerPage": 5
       },
-      "cardsview": { "activate": true, "default": true },
+      "cardsview": {
+        "activate": true,
+        "default": true
+      },
       "cardssettings": {
         "mini": {
           "title": {"position": "title"},

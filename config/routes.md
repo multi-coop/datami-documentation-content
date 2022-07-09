@@ -105,7 +105,10 @@ routes:
                 "pagination":{
                   "itemsPerPage": 20
                 },
-                "cardsview": { "activate": true, "default": false },
+                "cardsview": {
+                  "activate": true,
+                  "default": false
+                },
                 "cardsdetail": true,
                 "cardssettings": {
                   "mini": {
@@ -1558,7 +1561,10 @@ routes:
                 "pagination":{
                   "itemsPerPage": 20
                 },
-                "cardsview": { "activate": true, "default": false },
+                "cardsview": {
+                  "activate": true,
+                  "default": false
+                },
                 "cardsdetail": true,
                 "cardssettings": {
                   "mini": {
@@ -1635,7 +1641,10 @@ routes:
                 "pagination":{
                   "itemsPerPage": 20
                 },
-                "cardsview": { "activate": true, "default": false },
+                "cardsview": {
+                  "activate": true,
+                  "default": false
+                },
                 "cardsdetail": true,
                 "cardssettings": {
                   "mini": {

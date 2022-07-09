@@ -58,7 +58,10 @@ The widget takes several parameters, following this structure :
         "pagination": {
           "itemsPerPage":12
         },
-        "cardsview": { "activate": true, "default": true },
+        "cardsview": {
+          "activate": true,
+          "default": true
+        },
         "cardssettings": {
           "mini": {
             "title": {"position": "title"},
