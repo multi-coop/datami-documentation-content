@@ -2,7 +2,7 @@
 
 Would you guess which difference between Wikipedia and Twitter we like to emphasize the most ?
 
-**Someone moderates what you wrote before including it to the text**
+**Someone can moderate what you wrote before making it public**
 
 Contributing is a team-playing game, you can't contribute alone, it makes no sense.
 
