@@ -19,15 +19,16 @@ legal: ./config/legal.md
 #   images: ./images
 #   data: ./data
 
+custom_colors: true
 colors:
-  loading_color: #6fdcbf
-  primary: #FFFFFF
-  accent: #572a99
-  secondary: #6fdcbf
-  info: #53657D
-  warning: #ff9947
-  error: #D1335B
-  success: #03BD5B
+  primary: '#000000'
+  # loading_color: '#6fdcbf'
+  # accent: '#572a99'
+  # secondary: '#6fdcbf'
+  # info: '#53657D'
+  # warning: '#ff9947'
+  # error: '#D1335B'
+  # success: '#03BD5B'
 
 ---
 
