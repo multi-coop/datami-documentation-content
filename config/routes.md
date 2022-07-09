@@ -163,6 +163,7 @@ routes:
     url: /main-features
     options:
       summary: true
+      contrib: true
     sections: 
       - name: main-features
         component: TextComponent
@@ -177,7 +178,6 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          contrib: true
           name:
             en: Contribute to datasets
         files:
@@ -187,7 +187,6 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          contrib: true
           name:
             en: Share your datasets
         files:
@@ -197,7 +196,6 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
-          contrib: true
           name:
             en: Adapt the widgets to your needs
         files:
