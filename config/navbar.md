@@ -158,6 +158,14 @@ buttons-left:
 
 buttons-right: 
 
+  - name: repo 
+    link: https://gitlab.com/multi-coop/gitribute
+    icon: gitlab
+    component: extLink
+    options: [ arrowless ]
+    label: 
+      fr: Code source de Gitribute
+      en: Gitribute source code
   - name: contact 
     link: /contact
     component: simpleLink
