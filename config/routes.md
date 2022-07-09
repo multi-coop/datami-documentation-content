@@ -4,13 +4,13 @@ routes:
   # LANDING
   - name: home
     url: /
-    options:
-      hero: true
+    # options:
+    #   hero: true
     sections:
       - name: logo
         component: TextComponent
         options:
-          columns-size: half
+          columns-size: '5'
         files:
           fr: ./texts/landing/logo-gitribute.md
           en: ./texts/landing/logo-gitribute.md
@@ -24,8 +24,8 @@ routes:
       - name: btn-to-documentation
         component: ButtonsComponent
         options:
-          columns-size: two-thirds
-          buttons-size: half
+          columns-size: three-quarters
+          buttons-size: one-third
           buttons:
             - link: /tutorial-overview
               icon-left: arrow-right-bold
@@ -39,12 +39,19 @@ routes:
               label: 
                 fr: Documentation
                 en: Documentation
-            - link: /source-code
+            - link: https://gitlab.com/multi-coop/gitribute
               icon-left: gitlab
               rounded: true
               label: 
                 fr: Code source
                 en: Source code
+      - name: more
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/landing/more.md
+          en: ./texts/landing/more.md
       # - name: intro-widget
       #   component: HtmlComponent
       #   options:
@@ -124,6 +131,13 @@ routes:
               locale="fr"
               debug="false"
             />
+      - name: more-2
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/landing/more.md
+          en: ./texts/landing/more.md
       - name: outro
         component: TextComponent
         options:
@@ -131,6 +145,13 @@ routes:
         files:
           fr: ./texts/landing/landing-outro-en.md
           en: ./texts/landing/landing-outro-en.md
+      - name: more-3
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/landing/more.md
+          en: ./texts/landing/more.md
       - name: clients-intro
         component: TextComponent
         options:
@@ -1052,7 +1073,7 @@ routes:
       - name: contact
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
           # columns-divider: h1
         files:
           fr: ./texts/contact/contact-head-fr.md
