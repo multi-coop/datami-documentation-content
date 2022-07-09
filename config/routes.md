@@ -131,6 +131,20 @@ routes:
         files:
           fr: ./texts/landing/landing-outro-en.md
           en: ./texts/landing/landing-outro-en.md
+      - name: clients-intro
+        component: TextComponent
+        options:
+          columns-size: two-thirds
+        files:
+          fr: ./texts/landing/landing-clients-intro-en.md
+          en: ./texts/landing/landing-clients-intro-en.md
+      - name: clients
+        component: TextComponent
+        options:
+          columns-size: two-thirds
+        files:
+          fr: ./texts/landing/landing-clients.md
+          en: ./texts/landing/landing-clients.md
 
   # WHAT IS GITRIBUTE
   - name: why-gitribute
@@ -406,22 +420,6 @@ routes:
         files:
           fr: ./texts/why-gitribute/stack-en.md
           en: ./texts/why-gitribute/stack-en.md
-
-  # - name: team 
-  #   url: /team
-  #   sections: 
-  #     - name: head
-  #       component: TextComponent
-  #       options:
-  #         columns-size: two-thirds
-  #       files:
-  #         fr: ./texts/team/team-head-fr.md
-  #         en: ./texts/team/team-head-fr.md
-  #     - name: data
-  #       component: DataGrid
-  #       files:
-  #         fr: ./texts/team/team-data.md
-  #         en: ./texts/team/team-data.md
 
   # TUTORIAL
   - name: tutorial-overview
@@ -1051,26 +1049,14 @@ routes:
     options:
       hero: true
     sections: 
-      - name: head
+      - name: contact
         component: TextComponent
         options:
           columns-size: full
-          columns-divider: h1
+          # columns-divider: h1
         files:
           fr: ./texts/contact/contact-head-fr.md
           en: ./texts/contact/contact-head-en.md
-      # - name: btn-to-jobs
-      #   component: ButtonsComponent
-      #   options:
-      #     columns-size: full
-      #     buttons-size: full
-      #     buttons: 
-      #       - link: /contribute
-      #         icon-left: arrow-right-bold
-      #         rounded: true
-      #         label: 
-      #           fr: Contribuer
-      #           en: Contribute
 
   - name: contribute
     url: /contribute
@@ -1096,182 +1082,6 @@ routes:
         files:
           fr: ./texts/contact/legal-mentions-fr.md
           en: ./texts/contact/legal-mentions-fr.md
-
-  # LEGACY 
-  - name: products
-    url: /products
-    sections: 
-      - name: products-head
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/references/products-head-fr.md
-          en: ./texts/references/products-head-fr.md
-      - name: products-data
-        component: DataGrid
-        files:
-          fr: ./texts/references/products-data.md
-          en: ./texts/references/products-data.md
-      - name: btn-to-offer
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: full
-          buttons: 
-            - link: /offer
-              icon-left: arrow-right-bold
-              rounded: true
-              label: 
-                fr: Notre offre de service
-                en: Our services
-
-  - name: references
-    url: /references
-    sections: 
-      - name: btn-to-offer-products
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: half
-          custom-classes: mb-6
-          buttons: 
-            - link: /offer
-              icon-left: arrow-right-bold
-              rounded: true
-              outlined: false
-              color: light
-              label: 
-                fr: Notre offre de service
-                en: Our services
-            - link: /products
-              icon-left: arrow-right-bold
-              rounded: true
-              outlined: false
-              color: light
-              label: 
-                fr: Nos produits open source
-                en: Our open source products
-      - name: refs-head
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/references/references-head-fr.md
-          en: ./texts/references/references-head-fr.md
-      - name: refs-data
-        component: DataGrid
-        files:
-          fr: ./texts/references/references-data.md
-          en: ./texts/references/references-data.md
-
-  - name: join 
-    url: /join
-    sections: 
-      - name: head
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/jobs/join-head-fr.md
-          en: ./texts/jobs/join-head-fr.md
-      - name: btn-to-jobs
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: full
-          buttons: 
-            - link: /team
-              icon-left: arrow-right-bold
-              rounded: true
-              outlined: true
-              label: 
-                fr: Découvrez l'équipe
-                en: Discover the team
-            - link: /jobs
-              icon-left: arrow-right-bold
-              rounded: true
-              label: 
-                fr: Nos offres d'emploi
-                en: Our job offers
-
-  - name: jobs 
-    url: /jobs
-    sections: 
-      - name: btn-to-join
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: two-thirds
-          custom-classes: mb-5
-          buttons: 
-            - link: /join
-              icon-left: arrow-right-bold
-              rounded: true
-              outlined: true
-              label: 
-                fr: Pourquoi rejoindre multi ?
-                en: Why joining multi ?
-      - name: head
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/jobs/jobs-head-fr.md
-          en: ./texts/jobs/jobs-head-fr.md
-      - name: data
-        component: DataGrid
-        files:
-          fr: ./texts/jobs/jobs-data.md
-          en: ./texts/jobs/jobs-data.md
-
-  - name: blog
-    url: /blog
-    sections: 
-      - name: head
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/blog/blog-head-fr.md
-          en: ./texts/blog/blog-head-fr.md
-      - name: data
-        component: DataGrid
-        files:
-          fr: ./texts/blog/blog-data.md
-          en: ./texts/blog/blog-data.md
-
-  - name: network
-    url: /network
-    sections: 
-      - name: head
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/network/network-head-fr.md
-          en: ./texts/network/network-head-fr.md
-      - name: data
-        component: DataGrid
-        files:
-          fr: ./texts/network/network-data.md
-          en: ./texts/network/network-data.md
-
-  - name: ressources
-    url: /ressources
-    sections: 
-      - name: head
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/ressources/ressources-head-fr.md
-          en: ./texts/ressources/ressources-head-fr.md
-      - name: data
-        component: DataGrid
-        files:
-          fr: ./texts/ressources/ressources-data.md
-          en: ./texts/ressources/ressources-data.md
 
   # GALLERY
   - name: gitribute-odf-observatoire
@@ -1388,7 +1198,6 @@ routes:
                 "options": ""
               }
             ]'></multi-gitribute-multi-files>
-
   - name: gitribute-odf-ressources
     url: /gitribute-odf-ressources
     sections: 
@@ -1456,7 +1265,6 @@ routes:
               locale="fr"
               debug="false">
             </multi-gitribute-file>
-
   - name: gitribute-cooptech
     url: /gitribute-cooptech
     sections: 
@@ -1525,7 +1333,6 @@ routes:
               locale="fr"
               debug="false"
             />
-
   - name: gitribute-explowiki-fabmob
     url: /gitribute-explowiki-fabmob
     sections: 

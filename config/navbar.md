@@ -8,7 +8,6 @@ buttons-left-centered: true
 buttons-left: 
 
   - name: who-are-we 
-    # link: /who-are-we
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
@@ -33,18 +32,6 @@ buttons-left:
         label: 
           fr: Comment ça marche ?
           en: How does it work ?
-      # - name: references
-      #   link: /references
-      #   component: simpleLink
-      #   label: 
-      #     fr: Ils utilisent Gitribute 
-      #     en: They use Gitribute
-      # - name: team
-      #   link: /team
-      #   component: simpleLink
-      #   label: 
-      #     fr: Equipe
-      #     en: Team
       - name: architecture
         link: /architecture
         component: simpleLink
@@ -65,7 +52,6 @@ buttons-left:
           en: Roadmap
 
   - name: tutorials
-    # link: /who-are-we
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
@@ -174,34 +160,14 @@ buttons-right:
       fr: Contactez-nous
       en: Contact us
 
-  # - name: blog
-  #   link: /blog
-  #   component: simpleLink
-  #   label: 
-  #     fr: Blog
-  #     en: Blog
-
   - name: gallery
     disabled: false
-    # link: /we-like
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
       fr: Galerie
       en: Gallery
     submenu:
-      # - name: network
-      #   link: /network
-      #   component: simpleLink
-      #   label: 
-      #     fr: Notre réseau
-      #     en: Our network
-      # - name: ressources
-      #   link: /ressources
-      #   component: simpleLink
-      #   label: 
-      #     fr: Ressources
-      #     en: Ressources
       - name: gitribute-odf-observatoire
         link: /gitribute-odf-observatoire
         component: simpleLink

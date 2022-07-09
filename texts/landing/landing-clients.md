@@ -1,0 +1,33 @@
+<div class="columns is-multiline is-6 is-vcentered is-centered">
+  <div class="column is-3 has-text-centered">
+    <a class=""
+      href="https://www.opendatafrance.net/"
+      target="_blank">
+      <img
+        src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-contents/main/images/clients/odf-logo.svg"
+        alt="OPEN DATA FRANCE"
+      />
+    </a>
+  </div>
+  <div class="column is-3 has-text-centered">
+    <a class=""
+      href="https://agence-cohesion-territoires.gouv.fr/"
+      target="_blank">
+      <img
+        src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-contents/main/images/clients/anct-logo.png"
+        alt="ANCT"
+      />
+    </a>
+  </div>
+  <div class="column is-3 has-text-centered">
+    <a class=""
+      href="https://lafabriquedesmobilites.fr/"
+      target="_blank">
+      <img
+        src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-contents/main/images/clients/fabmob-logo.png"
+        alt="FABMOB"
+      />
+    </a>
+  </div>
+</div>
+ 
