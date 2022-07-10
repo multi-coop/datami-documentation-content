@@ -2,7 +2,7 @@
 
 <div>
   <img
-    alt="TUTORIAL-INTRO"
+    alt="TUTORIAL-INTRO-ACTIONS"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-actions.png"
     />
 </div>

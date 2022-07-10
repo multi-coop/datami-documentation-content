@@ -718,15 +718,6 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-actions-file-infos-en.md
           en: ./texts/tutorial/tutorial-actions-file-infos-en.md
-      - name: tutorial-actions-copy-widget
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            en: Copy the widget html block
-        files:
-          fr: ./texts/tutorial/tutorial-actions-copy-widget-en.md
-          en: ./texts/tutorial/tutorial-actions-copy-widget-en.md
       - name: tutorial-actions-user-options
         component: TextComponent
         options:
@@ -736,6 +727,15 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-actions-user-options-en.md
           en: ./texts/tutorial/tutorial-actions-user-options-en.md
+      - name: tutorial-actions-copy-widget
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Focus on the "copy widget" button
+        files:
+          fr: ./texts/tutorial/tutorial-actions-copy-widget-en.md
+          en: ./texts/tutorial/tutorial-actions-copy-widget-en.md
       - name: tutorial-actions-edit-modes
         component: TextComponent
         options:

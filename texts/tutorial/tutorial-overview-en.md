@@ -18,7 +18,7 @@ In the illustration and tutorials below you will discover the different buttons 
 
 <div>
   <img
-    alt="TUTORIAL-INTRO"
+    alt="TUTORIAL-INTRO-ALL_ACTIONS"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-01.png"
     />
 </div>
