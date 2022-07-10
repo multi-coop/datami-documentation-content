@@ -7,6 +7,8 @@
     />
 </div>
 
+<br> 
+
 Gitribute's `gitfile` widget can also edit `json` files (and it goes without saying also `geojson`).
 
 You will have the exact same "edit-views" available for `json` files than for `md` or `csv` : `preview` / `edit` / `diff`.
