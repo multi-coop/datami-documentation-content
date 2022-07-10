@@ -1,5 +1,5 @@
 
-**Notes**
+#### Notes about the `usertoken` parameter
 
 The `usertoken` parameter is one of the most important features of this project. You will need a private token to push to a repository and make all the operations we want to automatize for an open contribution :
 

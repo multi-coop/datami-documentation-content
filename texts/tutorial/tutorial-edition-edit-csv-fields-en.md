@@ -50,4 +50,6 @@ If the schema or the properties are described in external files you can check th
     />
 </div>
 
-More about how to apply a schema and properties to a table dataset with Gitribute `gitfile` widget in the [Widgets > `gitfile` section](/docs-gitfile)
+<br>
+
+> More about how to apply a schema and properties to a table dataset with Gitribute `gitfile` widget in the [Widgets > `gitfile`](/docs-gitfile) section

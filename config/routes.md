@@ -787,15 +787,54 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-actions-user-options-locale-en.md
           en: ./texts/tutorial/tutorial-actions-user-options-locale-en.md
+      - name: tutorial-actions-change-modes
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: The view modes
+        files:
+          fr: ./texts/tutorial/tutorial-actions-change-modes-en.md
+          en: ./texts/tutorial/tutorial-actions-change-modes-en.md
       - name: tutorial-actions-edit-modes
         component: TextComponent
         options:
           columns-size: three-quarters
           name:
-            en: Change "edit-view" modes
+            en: Switch the "edit-view" modes
         files:
           fr: ./texts/tutorial/tutorial-actions-edit-modes-en.md
           en: ./texts/tutorial/tutorial-actions-edit-modes-en.md
+      - name: tutorial-actions-edit-modes-preview
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: The "Preview" mode
+        files:
+          fr: ./texts/tutorial/tutorial-actions-edit-modes-preview-en.md
+          en: ./texts/tutorial/tutorial-actions-edit-modes-preview-en.md
+      - name: tutorial-actions-edit-modes-edit
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: The "Edit" mode
+        files:
+          fr: ./texts/tutorial/tutorial-actions-edit-modes-edit-en.md
+          en: ./texts/tutorial/tutorial-actions-edit-modes-edit-en.md
+      - name: tutorial-actions-edit-modes-diff
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: The "Diff" mode
+        files:
+          fr: ./texts/tutorial/tutorial-actions-edit-modes-diff-en.md
+          en: ./texts/tutorial/tutorial-actions-edit-modes-diff-en.md
       - name: tutorial-actions-cards_view
         component: TextComponent
         options:
@@ -882,6 +921,16 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-edition-edit-csv-fields-en.md
           en: ./texts/tutorial/tutorial-edition-edit-csv-fields-en.md
+      - name: edition-csv-rows
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Common rows operations
+        files:
+          fr: ./texts/tutorial/tutorial-edition-edit-csv-rows-en.md
+          en: ./texts/tutorial/tutorial-edition-edit-csv-rows-en.md
       - name: edition-csv-consolidation_field
         component: TextComponent
         options:

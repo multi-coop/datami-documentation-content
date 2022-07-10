@@ -1,4 +1,4 @@
-### Search fulltext
+### Full text search
 
 <div style="border: thin solid lightgrey;">
   <img
