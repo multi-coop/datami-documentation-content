@@ -410,7 +410,7 @@ routes:
       summary: true
       contrib: true
       name:
-        en: Architecture & schémas
+        en: Architecture & schemas
     sections: 
       - name: architecture
         component: TextComponent
