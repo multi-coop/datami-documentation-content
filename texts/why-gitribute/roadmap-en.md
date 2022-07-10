@@ -17,6 +17,8 @@ The first step of the project is to prove our hypothesis are technically working
 - Do all those early developments with **real** users and clients ;
 - [Do it agile or do not, there is no try](https://www.youtube.com/watch?v=BQ4yd2W50No)...
 
+### Our to-do list for a nice POC
+
 The **roadmap** for a first proof of concept (POC) is the following :
 
 - [x] Skeleton for `vue-custom-element` / `vuejs` : vuex (shared store between all web components), dependencies, linting, ... ;
@@ -46,8 +48,9 @@ The **roadmap** for a first proof of concept (POC) is the following :
   - [x]  Add a `Save` button + dialog + actions :
     - [x] `POST` create a separate branch on the file's repo ;
     - [x] `PUT` after edition on client's side, acting as a commit to the file's git repo on a separate branch ;
-    - [x] create a merge request (commit and request by default done the "ghost user") ;
-- [x] Deploy on Netlify for test purposes => [test deploy here](https://multi-gitribute-test.netlify.app/)
+    - [x] create a merge request (commit and request by default done the "ghost user") ; 
+- [x] Deploy on Netlify for tests and production purposes => [deploy here](https://gitribute.multi.coop/)
+  - [![Netlify Status](https://api.netlify.com/api/v1/badges/1cd66edf-3b08-43db-bd21-6490377bb24a/deploy-status)](https://app.netlify.com/sites/multi-gitribute/deploys)
 - [ ] A good documentation for each web component (at least in this readme for now) **<--- We are here, we just have one checkbox left !!**
 
 ... and just for a POC, that would be greaaaaat ...
