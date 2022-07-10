@@ -243,6 +243,26 @@ routes:
         files:
           fr: ./texts/why-gitribute/why-gitribute-quality-en.md
           en: ./texts/why-gitribute/why-gitribute-quality-en.md
+      - name: why-quality-schemas
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Data & schemas
+        files:
+          fr: ./texts/why-gitribute/why-gitribute-quality-schemas-en.md
+          en: ./texts/why-gitribute/why-gitribute-quality-schemas-en.md
+      - name: why-quality-consolidation
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Data consolidation
+        files:
+          fr: ./texts/why-gitribute/why-gitribute-quality-consolidation-en.md
+          en: ./texts/why-gitribute/why-gitribute-quality-consolidation-en.md
       - name: Contact
         component: ButtonsComponent
         options:
