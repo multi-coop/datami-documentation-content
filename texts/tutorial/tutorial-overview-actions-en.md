@@ -14,5 +14,8 @@ Some action features are available globaly :
 - **Manipulate the user options**
 - **Switch between edit view modes**
 
+Other features are quite useful but more specific to table files (like `csv`), for instance :
+
+- **Switch between "table" and "cards" view**
 
 More details about those features **[in this section](/tutorial-actions)**

@@ -16,7 +16,6 @@ There are basic choices available in "edit" mode, we will refer to those choices
 
 Other features are quite useful but more specific to table files (like `csv`), for instance :
 
-- **Switch between "table" and "cards" view**
 - **Show the external ressources**
 - **Make a text search across the table**
 - **Filter a table**
