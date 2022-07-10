@@ -61,6 +61,7 @@ items:
   - file: ./texts/benchmark/solutions/koumoul.md
   # propriteary
   - file: ./texts/benchmark/solutions/airtable.md
+  - file: ./texts/benchmark/solutions/kantree.md
   - file: ./texts/benchmark/solutions/notion.md
   - file: ./texts/benchmark/solutions/coda.md
   - file: ./texts/benchmark/solutions/googlesheet.md
