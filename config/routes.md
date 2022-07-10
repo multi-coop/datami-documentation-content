@@ -66,6 +66,13 @@ routes:
         files:
           fr: ./texts/landing/landing-intro-en.md
           en: ./texts/landing/landing-intro-en.md
+      - name: more-1
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/landing/more.md
+          en: ./texts/landing/more.md
       - name: simulator
         component: WidgetComponent
         options:
