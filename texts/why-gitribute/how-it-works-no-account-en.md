@@ -1,5 +1,5 @@
 
-## No account to contribute
+## Contribute anonymously (if you're shy)
 
 Gitribute uses the [tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) system provided by Github or Gitlab to "commit" and contribute to some data stored on one of those git providers.
 

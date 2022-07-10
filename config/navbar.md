@@ -53,7 +53,7 @@ buttons-left:
           en: Benchmark
 
   - name: tutorials
-    icon: hand-wave
+    icon: school
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 

@@ -28,7 +28,7 @@ routes:
           buttons-size: one-third
           buttons:
             - link: /tutorial-overview
-              icon-left: hand-wave
+              icon-left: school
               rounded: true
               label: 
                 fr: Tutorials
