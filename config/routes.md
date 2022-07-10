@@ -21,7 +21,7 @@ routes:
         files:
           fr: ./texts/landing/catchphrase-en.md
           en: ./texts/landing/catchphrase-en.md
-      - name: btn-to-documentation
+      - name: btns
         component: ButtonsComponent
         options:
           columns-size: three-quarters
@@ -37,8 +37,8 @@ routes:
               icon-left: book-open-variant
               rounded: true
               label: 
-                fr: Documentation
-                en: Documentation
+                fr: Doc des widgets
+                en: Widgets' docs
             - link: https://gitlab.com/multi-coop/gitribute
               icon-left: gitlab
               rounded: true
