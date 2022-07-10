@@ -7,7 +7,7 @@ buttons-left-centered: true
 
 buttons-left: 
 
-  - name: who-are-we 
+  - name: the-gitribute-prject
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
@@ -38,18 +38,18 @@ buttons-left:
         label: 
           fr: Architecture
           en: Architecture
-      - name: stack
-        link: /stack
-        component: simpleLink
-        label: 
-          fr: Stack
-          en: Stack
       - name: roadmap
         link: /roadmap
         component: simpleLink
         label: 
           fr: Feuille de route
           en: Roadmap
+      - name: benchmark
+        link: /benchmark
+        component: simpleLink
+        label: 
+          fr: Benchmark
+          en: Benchmark
 
   - name: tutorials
     component: dropdownLink
@@ -108,6 +108,12 @@ buttons-left:
         label: 
           fr: Développeurs.euses
           en: Quickstart for developpers
+      - name: stack
+        link: /stack
+        component: simpleLink
+        label: 
+          fr: Stack
+          en: Stack
 
   - name: widgets 
     component: dropdownLink

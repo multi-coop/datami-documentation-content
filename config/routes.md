@@ -572,6 +572,48 @@ routes:
                 fr: Nous contacter
                 en: Contact us
   
+  # BENCHMARK
+  - name: benchmark
+    url: /benchmark
+    options:
+      contrib: true
+      summary: true
+    sections: 
+      - name: benchmark-head
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: Benchmark
+        files:
+          en: ./texts/benchmark/benchmark-head-en.md
+      - name: benchmark-comparisons
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: Comparisons
+        files:
+          en: ./texts/benchmark/benchmark-comparisons-en.md
+      - name: benchmark-solutions
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: Solutions
+        files:
+          en: ./texts/benchmark/benchmark-solutions-en.md
+      - name: benchmark-data
+        component: DataGrid
+        options:
+          columns-size: full
+          depth: 1
+          name:
+            en: Grid list
+        files:
+          en: ./texts/benchmark/benchmark-data.md
+
+
   # TUTORIAL
   - name: tutorial-overview
     url: /tutorial-overview
