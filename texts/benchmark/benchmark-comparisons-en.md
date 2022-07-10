@@ -13,7 +13,8 @@
 | [Baserow     ](https://baserow.io/)                     | forms, collaborative, SAS | Cloud | ... | UX/UI |
 | [FramaCalc   ](https://framacalc.org/abc/fr/)           | collaborative, SAS | Cloud | ... | ... |
 | [Libre Office](https://www.libreoffice.org/)            | ... | Cloud | ... | ... |
-| [Koumoul     ](https://koumoul.com/)                    | ... |  Cloud | ... | ... |
+| [Koumoul     ](https://koumoul.com/)                    | ... | Cloud | ... | ... |
+| [Mediawiki   ](https://www.mediawiki.org/wiki/MediaWiki)| ... | Clood | ... | not adapted for table data |
 
 ### Proprietary "no code" solutions
 

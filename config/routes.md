@@ -595,6 +595,18 @@ routes:
             en: Comparisons
         files:
           en: ./texts/benchmark/benchmark-comparisons-en.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
       - name: benchmark-solutions
         component: TextComponent
         options:
@@ -612,18 +624,6 @@ routes:
             en: Grid list
         files:
           en: ./texts/benchmark/benchmark-data.md
-      - name: Contact
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: half
-          buttons:
-            - link: /contact
-              icon-left: email
-              rounded: true
-              label: 
-                fr: Nous contacter
-                en: Contact us
 
   # TUTORIAL
   - name: tutorial-overview

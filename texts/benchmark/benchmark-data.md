@@ -59,6 +59,7 @@ items:
   - file: ./texts/benchmark/solutions/framacalc.md
   - file: ./texts/benchmark/solutions/libreoffice.md
   - file: ./texts/benchmark/solutions/koumoul.md
+  - file: ./texts/benchmark/solutions/mediawiki.md
   # propriteary
   - file: ./texts/benchmark/solutions/airtable.md
   - file: ./texts/benchmark/solutions/kantree.md
