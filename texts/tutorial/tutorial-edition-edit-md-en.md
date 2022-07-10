@@ -10,7 +10,7 @@
 
 <br> 
 
-An `md` (or markdown) file is finally the most simple type of document you can edit with Gitribute.
+An `md` (or markdown) file is the most simple type of document you can edit with Gitribute.
 
 **You edit in the left side of the widget, and you see the result on the right side.**
 

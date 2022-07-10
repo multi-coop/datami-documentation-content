@@ -940,6 +940,15 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-edition-en.md
           en: ./texts/tutorial/tutorial-edition-en.md
+      - name: edition-md
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Edit a markdown file
+        files:
+          fr: ./texts/tutorial/tutorial-edition-edit-md-en.md
+          en: ./texts/tutorial/tutorial-edition-edit-md-en.md
       - name: edition-csv
         component: TextComponent
         options:
@@ -988,15 +997,6 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-edition-edit-json-en.md
           en: ./texts/tutorial/tutorial-edition-edit-json-en.md
-      - name: edition-md
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            en: Edit a markdown file
-        files:
-          fr: ./texts/tutorial/tutorial-edition-edit-md-en.md
-          en: ./texts/tutorial/tutorial-edition-edit-md-en.md
       - name: Contact
         component: ButtonsComponent
         options:
