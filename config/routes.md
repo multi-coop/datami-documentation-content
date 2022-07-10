@@ -1492,6 +1492,16 @@ routes:
         files:
           fr: ./texts/documentation/docs-options/option-explowiki-table.md
           en: ./texts/documentation/docs-options/option-explowiki-table.md
+      - name: docs-option-explowiki-custom_props
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Custom properties file for wiki data
+        files:
+          fr: ./texts/documentation/docs-custom-props/props-custom_props.md
+          en: ./texts/documentation/docs-custom-props/props-custom_props.md
       - name: Contact
         component: ButtonsComponent
         options:
