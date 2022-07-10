@@ -176,14 +176,14 @@ routes:
         files:
           fr: ./texts/landing/more.md
           en: ./texts/landing/more.md
-      - name: btn-to-documentation
+      - name: btn-to-why
         component: ButtonsComponent
         options:
           columns-size: three-quarters
           buttons-size: one-third
           buttons:
             - link: /why-gitribute
-              icon-left: arrow-right-bold
+              icon-left: help-circle
               rounded: true
               label: 
                 fr: Pourquoi Gitribute ?
@@ -195,6 +195,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: Why Gitribute ?
     sections: 
       - name: why-intro
         component: TextComponent
@@ -259,6 +261,8 @@ routes:
       hero: true
       summary: true
       contrib: true
+      name:
+        en: How it works
     sections: 
       - name: how
         component: TextComponent
@@ -313,6 +317,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: Main features
     sections: 
       - name: main-features
         component: TextComponent
@@ -403,6 +409,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: Architecture & schémas
     sections: 
       - name: architecture
         component: TextComponent
@@ -578,6 +586,8 @@ routes:
     options:
       contrib: true
       summary: true
+      name:
+        en: Benchmark
     sections: 
       - name: benchmark-head
         component: TextComponent
@@ -631,6 +641,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: Tutorials overview
     sections: 
       - name: tutorial-overview
         component: TextComponent
@@ -685,6 +697,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: Actions features
     sections: 
       - name: tutorial-actions
         component: TextComponent
@@ -748,6 +762,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: Edition features
     sections: 
       - name: edition
         component: TextComponent
@@ -802,6 +818,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: Contribution features
     sections: 
       - name: contribution
         component: TextComponent
@@ -849,6 +867,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: Installation strategies
     sections: 
       - name: installation
         component: TextComponent
@@ -967,6 +987,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: Widgets overview
     sections: 
       - name: docs-widgets-overview
         component: TextComponent
@@ -982,7 +1004,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            en: The "file" widget
+            en: The "gitfile" widget
         files:
           fr: ./texts/documentation/docs-gitfile-en.md
           en: ./texts/documentation/docs-gitfile-en.md
@@ -1021,6 +1043,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: The "gitfile" widget
     sections: 
       - name: docs-gitfile
         component: TextComponent
@@ -1178,6 +1202,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: The "explowiki" widget
     sections: 
       - name: docs-explowiki
         component: TextComponent
@@ -1315,6 +1341,8 @@ routes:
     options:
       summary: true
       contrib: true
+      name:
+        en: The "multi-files" widget
     sections: 
       - name: docs-multi-files
         component: TextComponent

@@ -8,6 +8,7 @@ buttons-left-centered: true
 buttons-left: 
 
   - name: the-gitribute-prject
+    icon: help-circle
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
@@ -36,8 +37,8 @@ buttons-left:
         link: /architecture
         component: simpleLink
         label: 
-          fr: Architecture
-          en: Architecture
+          fr: Architecture & schemas
+          en: Architecture & schemas
       - name: roadmap
         link: /roadmap
         component: simpleLink
@@ -52,6 +53,7 @@ buttons-left:
           en: Benchmark
 
   - name: tutorials
+    icon: hand-wave
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
@@ -84,6 +86,7 @@ buttons-left:
           en: Contribution
 
   - name: installation 
+    icon: code-greater-than
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
@@ -116,6 +119,7 @@ buttons-left:
           en: Stack & licence
 
   - name: widgets 
+    icon: book-open-variant
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
