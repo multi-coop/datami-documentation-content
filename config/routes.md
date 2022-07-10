@@ -727,15 +727,66 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-actions-user-options-en.md
           en: ./texts/tutorial/tutorial-actions-user-options-en.md
-      - name: tutorial-actions-copy-widget
+      - name: tutorial-actions-user-options-reload
         component: TextComponent
         options:
           columns-size: three-quarters
+          depth: 1
           name:
-            en: Focus on the "copy widget" button
+            en: Reload the source file
         files:
-          fr: ./texts/tutorial/tutorial-actions-copy-widget-en.md
-          en: ./texts/tutorial/tutorial-actions-copy-widget-en.md
+          fr: ./texts/tutorial/tutorial-actions-user-options-reload-en.md
+          en: ./texts/tutorial/tutorial-actions-user-options-reload-en.md
+      - name: tutorial-actions-user-options-download
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Download the file
+        files:
+          fr: ./texts/tutorial/tutorial-actions-user-options-download-en.md
+          en: ./texts/tutorial/tutorial-actions-user-options-download-en.md
+      - name: tutorial-actions-user-options-usertoken
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Change your user token
+        files:
+          fr: ./texts/tutorial/tutorial-actions-user-options-usertoken-en.md
+          en: ./texts/tutorial/tutorial-actions-user-options-usertoken-en.md
+      - name: tutorial-actions-user-options-branches
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Check your branches
+        files:
+          fr: ./texts/tutorial/tutorial-actions-user-options-branches-en.md
+          en: ./texts/tutorial/tutorial-actions-user-options-branches-en.md
+      - name: tutorial-actions-user-options-copy
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Copy the widget
+        files:
+          fr: ./texts/tutorial/tutorial-actions-user-options-copy-en.md
+          en: ./texts/tutorial/tutorial-actions-user-options-copy-en.md
+      - name: tutorial-actions-user-options-locale
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Change the language
+        files:
+          fr: ./texts/tutorial/tutorial-actions-user-options-locale-en.md
+          en: ./texts/tutorial/tutorial-actions-user-options-locale-en.md
       - name: tutorial-actions-edit-modes
         component: TextComponent
         options:
@@ -763,6 +814,26 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-actions-search_filters-en.md
           en: ./texts/tutorial/tutorial-actions-search_filters-en.md
+      - name: tutorial-actions-search
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Fulltext search
+        files:
+          fr: ./texts/tutorial/tutorial-actions-search-en.md
+          en: ./texts/tutorial/tutorial-actions-search-en.md
+      - name: tutorial-actions-filters
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Filters
+        files:
+          fr: ./texts/tutorial/tutorial-actions-filters-en.md
+          en: ./texts/tutorial/tutorial-actions-filters-en.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -801,6 +872,26 @@ routes:
         files:
           fr: ./texts/tutorial/tutorial-edition-edit-csv-en.md
           en: ./texts/tutorial/tutorial-edition-edit-csv-en.md
+      - name: edition-csv-fields
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Table fields
+        files:
+          fr: ./texts/tutorial/tutorial-edition-edit-csv-fields-en.md
+          en: ./texts/tutorial/tutorial-edition-edit-csv-fields-en.md
+      - name: edition-csv-consolidation_field
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Consolidation field
+        files:
+          fr: ./texts/tutorial/tutorial-edition-edit-csv-consolidation_field-en.md
+          en: ./texts/tutorial/tutorial-edition-edit-csv-consolidation_field-en.md
       - name: edition-json
         component: TextComponent
         options:
@@ -1183,6 +1274,16 @@ routes:
         files:
           fr: ./texts/documentation/docs-options/option-gitfile-csv.md
           en: ./texts/documentation/docs-options/option-gitfile-csv.md
+      - name: docs-option-gitfile-custom_props
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Custom properties file for table files
+        files:
+          fr: ./texts/documentation/docs-custom-props/props-custom_props.md
+          en: ./texts/documentation/docs-custom-props/props-custom_props.md
       - name: docs-option-gitfile-json
         component: TextComponent
         options:

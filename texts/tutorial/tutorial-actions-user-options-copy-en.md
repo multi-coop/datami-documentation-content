@@ -1,5 +1,4 @@
-
-## Focus on the "copy widget" button
+### Copy the widget
 
 <div>
   <img
@@ -20,5 +19,3 @@ Once you've clicked this button a dialog appears :
 </div>
 
 You can now paste the block in any html page you want to include the widget.
-
----
