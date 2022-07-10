@@ -11,6 +11,16 @@ The fields are listed horizontally in the first row, as they are written in the 
     />
 </div>
 
+If configured as such in the widget's options a field could be locked to prohibit any modification.
+
+<div style="border: thin solid lightgrey;">
+  <img
+    alt="TUTORIAL-EDITION-CSV-FIELD-LOCKED"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edit-csv/edit-csv-field-locked.png"
+    />
+</div>
+
+
 <br>
 
 #### Table fields, table schema, and table properties
@@ -21,7 +31,7 @@ You can have a look of a field's properties just by hovering it.
 
 <div style="border: thin solid lightgrey;">
   <img
-    alt="TUTORIAL-EDITION-CSV-FIELDS"
+    alt="TUTORIAL-EDITION-CSV-FIELD-TOOLTIP"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edit-csv/edit-csv-field.png"
     />
 </div>

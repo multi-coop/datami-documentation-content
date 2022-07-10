@@ -22,4 +22,7 @@ To learn more about the markdown syntax please[ check this ressource](https://ww
 
 Editing an `md` file in Gitribute let you use the markdown syntax as you would usually do, so please write it as you want it and [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG).
 
-> **Note** : The documentation you are currently reading is entirely written in markdown.
+> **Note** :
+>
+> The documentation you are currently reading is entirely written in markdown. 
+> _[Étonnant, non ?](https://www.youtube.com/watch?v=NzxejXTumLQ&ab_channel=jeanaimarster)_
