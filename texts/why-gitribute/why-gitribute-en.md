@@ -1,6 +1,30 @@
 
 # Why Gitribute ?
 
+Let's sum up the starting point of the Gitribute project by this (not so much) imaginary conversation.
+
+> _Any developper, sglightly ironic_ :
+> &nbsp; — Why the hell are you starting a project aiming to help people contributing to datasets as simple as a csv ?
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I'd be you, I'd stick to custom uses and do serious projects...
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Speaking of serious things I'm currently working on...blah blah...
+>
+> _Another developper, as smart as the previous_ :
+> &nbsp; — You gonna _reinvent the wheel_... 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; huhuhu
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _( ...engineers )_
+>
+> _An open data activist_ :
+> &nbsp; — You know I'm already using [this](/benchmark) or [that](/benchmark) solution. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can't say I'm extatic but it does (some) of the job...
+>
+> _Your grandpa, your grandma, your neighbour... perhaps yourself_ :
+> &nbsp; — Y'all seem to speak about important stuff and all...
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **But what the hell is a 'csv' ?**
+
+<p class="has-text-centered">
+  * * *
+</p>
+
 The Gitribute projects inherits from a lot a brainstorming about **what is open data**, and **what is open data for**.
 
 Nowadays _open data_ is everywhere, and sometimes you don't even notice it. Wikipedia pages are crawled by startups, Open Street Maps data are reused by state or private entities, public data are re-published for public use...
