@@ -28,7 +28,7 @@ The full text search allows you to filter your table to display only the rows co
 
 ### Search filters
 
-<div>
+<div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-ACTIONS-FILTERS"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/actions-search_filters-01.png"
@@ -46,7 +46,7 @@ The search filters are usually dropdown menus where you can select one option, c
 
 You can have more than one filter.
 
-<div>
+<div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-ACTIONS-FILTERS_MORE"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/actions-search_filters-02.png"
@@ -55,7 +55,7 @@ You can have more than one filter.
 
 If you use a filter a filter tag corresponding to your choice appears below. If you want to deactivate this filter just click on the tag's `x` icon.
 
-<div>
+<div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-ACTIONS-FILTERS_MORE"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/actions-search_filters-03.png"
