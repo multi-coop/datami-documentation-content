@@ -8,9 +8,20 @@
     />
 </div>
 
-The user options are the following :
+This block regroups many standard actions an user could expect from a service aiming to display and edit a file stored on a Git provider (Github or Gitlab).
 
-### Reload file
+The "user options" buttons are the following :
+
+- **Reload** the file ;
+- **Download** the file ;
+- **Change your user token** ;
+- **Check the user's commit branch(es)** ;
+- **Copy the widget** ;
+- **Change the language** ;
+
+Let's see those more precisely.
+
+### Reload the file
 
 <div>
   <img
@@ -19,51 +30,61 @@ The user options are the following :
     />
 </div>
 
-### Download file
+As the file displayed in the widget is stored elsewhere (on a Github or Gitlab repository, or in a wiki), it could be useful to refresh the source data to check if any changes occured while you were editing it.
+
+### Download the file
 
 <div>
   <img
-    alt="TUTORIAL-ACTIONS-RELOAD"
+    alt="TUTORIAL-ACTIONS-DOWNLOAD"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-05.png"
     />
 </div>
 
-### Change user token
+You can download the file on your computer or device just by clicking this button.
+
+### Change your user token
 
 <div>
   <img
-    alt="TUTORIAL-ACTIONS-RELOAD"
+    alt="TUTORIAL-ACTIONS-USER_TOKEN"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-06.png"
+    />
+</div>
+
+By default Gitribute uses a "ghost user" token (like the account `multi-contributor` on Github), so you could contribute to a file without having to create an account.
+
+The token is essential so you could "save" the changes you have made on the widget. This token is mandatory to make `POST` and `PUT` request to your Git provider's API.
+
+But if you are familiar with Github or Gitlab (and if you already have an account on those) you can add change the token to put your own.
+
+### Check your commit branches
+
+<div>
+  <img
+    alt="TUTORIAL-ACTIONS-BRANCHES"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-07.png"
     />
 </div>
 
 A "branch" selection dialog appears once you have saved your document. It means your contribution proposal has been sent to the owner for the source file, but is not "merged" yet onto the source file. 
 
-### Branches
-
-<div>
-  <img
-    alt="TUTORIAL-ACTIONS-RELOAD"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-07.png"
-    />
-</div>
-
 ### Copy the widget
 
 <div>
   <img
-    alt="TUTORIAL-ACTIONS-RELOAD"
+    alt="TUTORIAL-ACTIONS-COPY_WIDGET"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-08.png"
     />
 </div>
 
-More on this action in the next paragraph...
+More on this action in the next section...
 
 ### Change the language
 
 <div>
   <img
-    alt="TUTORIAL-ACTIONS-RELOAD"
+    alt="TUTORIAL-ACTIONS-CHANGE_LOCALE"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-09.png"
     />
 </div>
