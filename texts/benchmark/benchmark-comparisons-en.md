@@ -1,28 +1,13 @@
 ## Comparisons
 
-🚧  &nbsp; `Work in progress...`
+The solutions we listed below are the ones we could think of, as close as possible to answer to the **sum of constraints** (all at once) of an "open data for all":
 
-### Open source "no code" solutions
-
-| Solution                                                    | Main features | Database | Pros | Cons |
-| ---                                                         | ---           | ---      | ---  | ---  |
-| **[Gitribute   ](gittribute-docs.multi.coop)**              | widget, SPA | Git providers | ... | ... |
-| **[Data Patch  ](https://gitlab.com/multi-coop/datapatch)** | collaborative, SAS | Cloud, PostGreSQL | ... | ... |
-| **[Gîs         ](https://gxis.codeursenliberte.fr/)**       | map, collaborative, SAS | Cloud | ... | ... |
-| **[NoCodb      ](https://www.nocodb.com/)**                 | forms, collaborative, SAS | Cloud, PostGreSQL | ... | UX/UI |
-| **[Baserow     ](https://baserow.io/)**                     | forms, collaborative, SAS | Cloud | ... | UX/UI |
-| **[FramaCalc   ](https://framacalc.org/abc/fr/)**           | collaborative, SAS | Cloud | ... | ... |
-| **[Libre Office](https://www.libreoffice.org/)**            | ... | Cloud | ... | ... |
-| **[Koumoul     ](https://koumoul.com/)**                    | ... | Cloud | ... | ... |
-| **[Mediawiki   ](https://www.mediawiki.org/wiki/MediaWiki)**| ... | Clood | ... | not adapted for table data |
-
-### Proprietary "no code" solutions
-
-| Solution                                             | Main features | Database | Pros | Cons |
-| ---                                                  | ---           | ---      | ---  | --- |
-| **[Airtable    ](airtable.com)**                     | forms, collaborative, SAS | Cloud | UX/UI | mandatory account |
-| **[Kantree     ](https://kantree.io/)**              | forms, collaborative, SAS | Cloud | ... | mandatory account, UX/UI |
-| **[Notion      ](notion.so)**                        | forms, collaborative, SAS | Cloud | UX/UI | mandatory account |
-| **[Coda        ](https://coda.io/)**                 | forms, collaborative, SAS | Cloud | ... | mandatory account |
-| **[GoogleSheet ](https://google.com/sheets/about/)** | collaborative, dataviz, SAS | Cloud | UX/UI | mandatory account |
-| **[Excel       ](https://office.live.com/)**         | desktop | Cloud | ... | ... |
+- Free, or at least very cheap ;
+- Good UX ;
+- Good UI ;
+- Data agnostic ;
+- Integrable in third parties wesites ;
+- Simple to deploy ;
+- Simple to maintain ;
+- Replicable ;
+- Open source (but let not keep proprietary solutions under the radar)

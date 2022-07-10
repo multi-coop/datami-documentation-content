@@ -605,18 +605,24 @@ routes:
             en: Comparisons
         files:
           en: ./texts/benchmark/benchmark-comparisons-en.md
-      - name: Contact
-        component: ButtonsComponent
+      - name: benchmark-comparisons-open
+        component: TextComponent
         options:
-          columns-size: two-thirds
-          buttons-size: half
-          buttons:
-            - link: /contact
-              icon-left: email
-              rounded: true
-              label: 
-                fr: Nous contacter
-                en: Contact us
+          columns-size: full
+          depth: 1
+          name:
+            en: Open source solutions
+        files:
+          en: ./texts/benchmark/benchmark-comparisons-open-en.md
+      - name: benchmark-comparisons-proprietary
+        component: TextComponent
+        options:
+          columns-size: full
+          depth: 1
+          name:
+            en: Proprietary solutions
+        files:
+          en: ./texts/benchmark/benchmark-comparisons-proprietary-en.md
       - name: benchmark-solutions
         component: TextComponent
         options:
@@ -634,6 +640,18 @@ routes:
             en: Grid list
         files:
           en: ./texts/benchmark/benchmark-data.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
 
   # TUTORIAL
   - name: tutorial-overview
