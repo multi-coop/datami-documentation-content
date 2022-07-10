@@ -741,10 +741,28 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            en: Change view and edit modes
+            en: Change "edit-view" modes
         files:
           fr: ./texts/tutorial/tutorial-actions-edit-modes-en.md
           en: ./texts/tutorial/tutorial-actions-edit-modes-en.md
+      - name: tutorial-actions-cards_view
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Cards view
+        files:
+          fr: ./texts/tutorial/tutorial-actions-cards_view-en.md
+          en: ./texts/tutorial/tutorial-actions-cards_view-en.md
+      - name: tutorial-actions-search_filters
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Search and filter
+        files:
+          fr: ./texts/tutorial/tutorial-actions-search_filters-en.md
+          en: ./texts/tutorial/tutorial-actions-search_filters-en.md
       - name: Contact
         component: ButtonsComponent
         options:
