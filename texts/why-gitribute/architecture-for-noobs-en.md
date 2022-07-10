@@ -8,5 +8,3 @@ But in a digital world **interfaces** are the key to make possible the expressio
 The last and perhaps more important principle we follow is the **major importance of design**, UX and UI.
 
 We won't emphasize this enough : **a good design is a design you don't have to ask about**... Now let's do our best.
-
----

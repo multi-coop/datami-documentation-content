@@ -31,9 +31,10 @@ When you click on one of the consolidation services listed, a request is sent to
     />
 </div>
 
+<br>
+
 This drawer contains the "old" and "new" values : "old" being the value inside your row, new being the value returned by the API.
 
 To overwrite the "old" value by the "new" one, just select the field(s) you want to overwrite and click on "Validate the changes".
 
-> 
 > More about how to add consolidation properties to a table dataset, with the Gitribute `gitfile` widget, in the [Widgets > `gitfile` section](/docs-gitfile)
