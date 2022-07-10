@@ -11,6 +11,8 @@ The fields are listed horizontally in the first row, as they are written in the 
     />
 </div>
 
+<br>
+
 If configured as such in the widget's options a field could be locked to prohibit any modification.
 
 <div style="border: thin solid lightgrey;">
