@@ -58,6 +58,13 @@ The token is essential so you could "save" the changes you have made on the widg
 
 But if you are familiar with Github or Gitlab (and if you already have an account on those) you can add change the token to put your own.
 
+<div style="border: thin solid lightgrey;">
+  <img
+    alt="TUTORIAL-ACTIONS-USER_TOKEN-DIALOG"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/actions-token.png"
+    />
+</div>
+
 ### Check your commit branches
 
 <div>
@@ -68,6 +75,13 @@ But if you are familiar with Github or Gitlab (and if you already have an accoun
 </div>
 
 A "branch" selection dialog appears once you have saved your document. It means your contribution proposal has been sent to the owner for the source file, but is not "merged" yet onto the source file. 
+
+<div style="border: thin solid lightgrey;">
+  <img
+    alt="TUTORIAL-ACTIONS-BRANCHES-DIALOG"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/contribution-branches.png"
+    />
+</div>
 
 ### Copy the widget
 
@@ -91,12 +105,21 @@ More on this action in the next section...
 
 As you can imagine this button can change the language used in the widget.
 
-> _Note_ :
+<div>
+  <img
+    alt="TUTORIAL-ACTIONS-CHANGE_LOCALE-DIALOG"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/actions-language.png"
+    />
+</div>
+
+> &nbsp;
+> **_Note_** :
 >  
-> Changing the language can change all texts from Gitribute itself, but can't change the data contained from the document itself.
+> Changing the language can translate all texts from a Gitribute's widget itself, but can't change the data contained from the document itself.
 >
 > For instance if the mardown file displayed in the widget is written in swahili, its stays swahili. 
+> &nbsp;
 
-For now only french and english are available in Gitribute, but we would be glad if you propose to translate it to other languages.
+For now only french and english are available in Gitribute, but we would be glad if you propose to help us translate Gitribute to other languages (anyone speaking German, or Turkish, or Spanish, or Italian, or Arabic, or any other language... ?).
 
 ---

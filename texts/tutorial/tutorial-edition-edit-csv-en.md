@@ -10,4 +10,6 @@
     />
 </div>
 
-A `csv` file.
+When you edit a `csv` file with Gitribute the cells you need to edit depends on the same time on the column's input type and the column's options.
+
+To be a bit more accurate we will use the terme `field` instead of `column` in this section.
