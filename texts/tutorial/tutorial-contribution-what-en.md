@@ -21,8 +21,8 @@ With Gitribute we wanted to **apply this logic and this ethic to any data or dat
 
 Above all we wanted to **allow non-technicians internet users to get a grasp on this practice** _(did we mention your grandpa or grandma before ?)_.
 
-The contributive internet we dream of is not similar to those endless lists of comments above a video on YouTube, nor to those endless threads on Twitter, where you feel people comment reactively. 
+The contributive internet we dream of is not similar to those endless lists of comments below a video on YouTube, nor to those endless threads on Twitter, where you feel people comment reactively.
 
-**We don't think just reacting to other people's thoughts helps build knowledge.**
+**We don't think reacting to other people's thoughts helps build knowledge.** Reaction can be a trigger, but it is far from enough to build anything.
 
-Contribution is a question of **good habits**, **adequate tooling**, **manners**, and **shared values**.
+Contribution is a matter of **good habits**, **adequate tooling**, **_manners_**, and **shared values**.
