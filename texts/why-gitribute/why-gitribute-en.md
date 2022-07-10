@@ -1,7 +1,7 @@
 
 # Why Gitribute ?
 
-Let's sum up the starting point of the Gitribute project by this bits of (not so much) imaginary conversations.
+Let's sum up the starting point of the Gitribute project by those bits of (not so much) imaginary conversations.
 
 > _Any developper, sglightly ironic_ :
 >
