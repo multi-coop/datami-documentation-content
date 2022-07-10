@@ -22,7 +22,6 @@ If configured as such in the widget's options a field could be locked to prohibi
     />
 </div>
 
-
 <br>
 
 #### Table fields, table schema, and table properties
@@ -37,6 +36,8 @@ You can have a look of a field's properties just by hovering it.
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edit-csv/edit-csv-field.png"
     />
 </div>
+
+<br>
 
 Those properties can either be "hard-coded" in the widget's html block, or they can be stored externally in third-party files.
 

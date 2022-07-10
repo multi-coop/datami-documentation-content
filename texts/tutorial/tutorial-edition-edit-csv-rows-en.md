@@ -7,6 +7,8 @@
     />
 </div>
 
+<br>
+
 With Gitribute you can perform many common operation while in "Edit" mode :
 
 - Modify a cell's content / value ;

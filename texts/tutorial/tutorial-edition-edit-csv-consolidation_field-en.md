@@ -20,6 +20,8 @@ For each row this consolidation field will display a consolidation button. By cl
     />
 </div>
 
+<br>
+
 Each API could be configured independantly.
 
 When you click on one of the consolidation services listed, a request is sent to the API and if the external API returns any result you will see a drawer appearing below your row.
