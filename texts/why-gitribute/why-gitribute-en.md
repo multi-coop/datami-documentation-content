@@ -1,25 +1,29 @@
 
 # Why Gitribute ?
 
-Let's sum up the starting point of the Gitribute project by this (not so much) imaginary conversation.
+Let's sum up the starting point of the Gitribute project by this bits of (not so much) imaginary conversations.
 
 > _Any developper, sglightly ironic_ :
+>
 > &nbsp; — Why the hell are you starting a project aiming to help people contributing to datasets as simple as a csv ?
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I'd be you, I'd stick to custom uses and do serious projects...
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Speaking of serious things I'm currently working on...blah blah...
->
+> &nbsp; — I'd be you, I'd stick to custom developments and do real serious projects...
+> &nbsp; — Speaking of serious things I'm currently working on...blah blah...
+
 > _Another developper, as smart as the previous_ :
-> &nbsp; — You gonna _reinvent the wheel_... 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; huhuhu
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _( ...engineers )_
 >
+> &nbsp; — You gonna _reinvent the wheel_...
+> &nbsp; — huhuhu
+<!-- > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _( ...engineers )_ -->
+
 > _An open data activist_ :
-> &nbsp; — You know I'm already using [this](/benchmark) or [that](/benchmark) solution. 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can't say I'm extatic but it does (some) of the job...
 >
-> _Your grandpa, your grandma, your neighbour... perhaps yourself_ :
+> &nbsp; — You know I'm already using [this](/benchmark) or [that](/benchmark) solution. Do you know Airtable / Notion / GoogleSheet ?
+> &nbsp; — Can't say I'm extatic but it does (some of) the job...
+
+> _Your grandpa', your grandma', your neighbour... perhaps yourself_ :
+>
 > &nbsp; — Y'all seem to speak about important stuff and all...
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **But what the hell is a 'csv' ?**
+> &nbsp; — **... But what the hell is a 'csv' ?**
 
 <p class="has-text-centered">
   * * *
@@ -33,7 +37,9 @@ Data helps governments in piloting their politics, startups to target customers 
 
 The question remains : usually **who can produce** this data ? Developpers, institutions, banks, startups, some NGOs, few media... Big structures, specialized engineers, big fellows.
 
-Where is your grandpa or your grandmap in this picture ? your local non profit association ? They quite certainly know stuff about their land, the country they live in, interesting initiative in their neighbourhood.
+Where is your grandpa or your grandma' in this picture ? Your neighbour ? Your local non profit association ? Yourself ?
+
+They quite certainly know a lot of stuff conerning their land, the country they live in, or even concerning interesting initiatives in their town. They are as legitimate and concerned by _open data_ than engineers, states, or corporations. But usually they are far less or well equiped to produce some open data themselves.
 
 In this the race to produce the data framing our world, we plead for a **better balance between "big and visible" producers and the "less visible" ones** : local or regional non profit organizations, small regional public services, unformal collectives...
 

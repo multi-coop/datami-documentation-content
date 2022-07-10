@@ -7,7 +7,7 @@ Digital world is full of standards, tools, frameworks, languages, uses, etc... M
 
 _A little though for the minidisc, the blueray, and many other standards who died fiercly... And a less tender though for Apple and their habit to change plugs shape every ten minutes..._
 
-But tech is... you know... kinda very technical, at least for "normal" people. Try to explain the pros and cons of semantic web to your grandpa or grandma, I dare you. 
+But tech is... you know... kinda very technical, at least for "normal" people. Try to explain the pros and cons of semantic web to your grandpa' or grandma', I dare you. 
 
 So instead of "extensive interoperability" we prefer to imagine the **"best interability for noobs"**, as the combination of :
 
