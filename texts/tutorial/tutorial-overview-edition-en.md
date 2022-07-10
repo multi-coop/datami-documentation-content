@@ -1,11 +1,24 @@
 
 ## Edition features
 
+<div>
+  <img
+    alt="TUTORIAL-INTRO"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-edition.png"
+    />
+</div>
+
+There are basic choices available in "edit" mode, we will refer to those choices as "Edit view modes" :
+
+- **"Preview mode"** : preview of the document as you edit it ;
+- **"Edit mode"** : view where you can edit the source document ;
+- **"Diff mode"** : preview of the differences between the source document and your own modifications ;
+
 Other features are quite useful but more specific to table files (like `csv`), for instance :
 
-- **Switch between table and cards view**
-- **Show external ressources**
-- **Filter a table**
+- **Switch between "table" and "cards" view**
+- **Show the external ressources**
 - **Make a text search across the table**
+- **Filter a table**
 
 More details about the edition features **[in this section](/tutorial-edition)**
