@@ -37,7 +37,7 @@ Data helps governments in piloting their politics, startups to target customers 
 
 The question remains : usually **who can produce** this data ? Developpers, institutions, banks, startups, some NGOs, few media... Big structures, specialized engineers, big fellows.
 
-Where is your grandpa or your grandma' in this picture ? Your neighbour ? Your local non profit association ? Yourself ?
+Where is your grandpa' or your grandma' in this picture ? Your neighbour ? Your local non profit association ? Yourself ?
 
 They quite certainly know a lot of stuff conerning their land, the country they live in, or even concerning interesting initiatives in their town. They are as legitimate and concerned by _open data_ than engineers, states, or corporations. But usually they are far less or well equiped to produce some open data themselves.
 
