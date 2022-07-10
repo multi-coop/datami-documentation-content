@@ -64,12 +64,6 @@ buttons-left:
         label: 
           fr: Overview
           en: Overview
-      - name: tutorial-contribution
-        link: /tutorial-contribution
-        component: simpleLink
-        label: 
-          fr: Contribution
-          en: Contribution
       - name: tutorial-actions
         link: /tutorial-actions
         component: simpleLink
@@ -82,6 +76,12 @@ buttons-left:
         label: 
           fr: Edition
           en: Edition
+      - name: tutorial-contribution
+        link: /tutorial-contribution
+        component: simpleLink
+        label: 
+          fr: Contribution
+          en: Contribution
 
   - name: installation 
     component: dropdownLink

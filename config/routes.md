@@ -629,16 +629,45 @@ routes:
   - name: tutorial-overview
     url: /tutorial-overview
     options:
-      hero: true
+      summary: true
       contrib: true
     sections: 
       - name: tutorial-overview
         component: TextComponent
         options:
           columns-size: three-quarters
+          name:
+            en: Introduction
         files:
           fr: ./texts/tutorial/tutorial-overview-en.md
           en: ./texts/tutorial/tutorial-overview-en.md
+      - name: tutorial-overview-actions
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Main actions
+        files:
+          fr: ./texts/tutorial/tutorial-overview-actions-en.md
+          en: ./texts/tutorial/tutorial-overview-actions-en.md
+      - name: tutorial-overview-edition
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Edition
+        files:
+          fr: ./texts/tutorial/tutorial-overview-edition-en.md
+          en: ./texts/tutorial/tutorial-overview-edition-en.md
+      - name: tutorial-overview-contribution
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Contribution
+        files:
+          fr: ./texts/tutorial/tutorial-overview-contribution-en.md
+          en: ./texts/tutorial/tutorial-overview-contribution-en.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -660,7 +689,7 @@ routes:
       - name: tutorial-actions
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
           name:
             en: Introduction
         files:
@@ -669,7 +698,7 @@ routes:
       - name: tutorial-actions-file-infos
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
           name:
             en: File's informations
         files:
@@ -678,7 +707,7 @@ routes:
       - name: tutorial-actions-copy-widget
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
           name:
             en: Copy the widget html block
         files:
@@ -687,7 +716,7 @@ routes:
       - name: tutorial-actions-user-options
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
           name:
             en: User's options
         files:
@@ -696,7 +725,7 @@ routes:
       - name: tutorial-actions-edit-modes
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
           name:
             en: Change view and edit modes
         files:
