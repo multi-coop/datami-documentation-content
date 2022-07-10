@@ -8,9 +8,9 @@
     />
 </div>
 
-An `md` (or markdown) file is finally the most simple type of document you can edit. 
+An `md` (or markdown) file is finally the most simple type of document you can edit with Gitribute.
 
-You edit in the left side of the widget, and you see the result on the right side.
+**You edit in the left side of the widget, and you see the result on the right side.**
 
 Markdown is a very elegant [markup language created by Aaron Swartz](https://en.wikipedia.org/wiki/Markdown) and is quite a standard nowadays when it comes to work collaboratively on text. Markdown language includes only the necessary syntax to make it readable either by human and machines : bold/italic text, separators, text size, ... It's a very simple syntax to learn and very useful.
 
