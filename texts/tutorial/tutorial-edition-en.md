@@ -1,5 +1,5 @@
 
-# Tutorial - edition
+# Tutorial / Edition
 
 <div>
   <img

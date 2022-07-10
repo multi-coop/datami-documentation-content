@@ -1,5 +1,5 @@
 
-# Tutorial - actions available globaly
+# Tutorial / Actions
 
 <div>
   <img

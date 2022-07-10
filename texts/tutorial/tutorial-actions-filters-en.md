@@ -25,6 +25,8 @@ You can have more than one filter.
     />
 </div>
 
+<br>
+
 If you use a filter a filter tag corresponding to your choice appears below. If you want to deactivate this filter just click on the tag's `x` icon.
 
 <div style="border: thin solid lightgrey;">
