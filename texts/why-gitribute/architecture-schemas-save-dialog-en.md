@@ -1,6 +1,7 @@
 
 ## Dialog before saving changes (send contribution)
-"Merge requests", "branches" and those other weirds terms are not things your grandma or grandpa are _really_ interested in. If they seem to, call a doctor.
+
+"Merge requests", "branches" and those other weirds terms are not things your grandma' or grandpa' are _really_ interested in. If they seem to, call a doctor.
 
 At the contrary _saving_ a document became something quite usual for most.
 

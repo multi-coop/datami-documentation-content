@@ -1,7 +1,7 @@
 
 # Tutorial / Contribution
 
-<!-- 🚧  &nbsp; `Work in progress...` -->
+<!-- 🚧  &nbsp; `Redaction in progress...` -->
 
 **Contributing to open data and simplifying the process to do so online** are the core purposes of the Gitribute project.
 

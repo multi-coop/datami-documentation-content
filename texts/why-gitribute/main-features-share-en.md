@@ -1,8 +1,6 @@
----
-tags: what
----
+### Share your datasets
 
-### Share and reuse the data you produce
+🚧  &nbsp; `Redaction in progress...`
 
 - **Create a set of components for modular uses** :
   - preview for `.csv`, `.md`, `.json` files or `mediawiki` ressources, with several choices for preview (table, cards list, ...) ;

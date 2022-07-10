@@ -10,4 +10,5 @@ The solutions we listed below are the ones we could think of, as close as possib
 - Simple to deploy ;
 - Simple to maintain ;
 - Replicable ;
+- No mandatory account creation ;
 - Open source (but let not keep proprietary solutions under the radar)

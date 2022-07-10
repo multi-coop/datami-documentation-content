@@ -354,7 +354,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            en: Contribute to datasets
+            en: Edit & contribute online
         files:
           fr: ./texts/why-gitribute/main-features-edit-en.md
           en: ./texts/why-gitribute/main-features-edit-en.md

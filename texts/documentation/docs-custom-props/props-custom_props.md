@@ -1,6 +1,6 @@
 ## Custom properties file
 
-🚧  &nbsp; `Work in progress...`
+🚧  &nbsp; `Redaction in progress...`
 
 ### Structure
 
@@ -14,7 +14,7 @@
 
 ### Custom fields properties
 
-🚧  &nbsp; `Work in progress...`
+🚧  &nbsp; `Redaction in progress...`
 
 #### Example
 
@@ -184,7 +184,7 @@
 
 ### Consolidation properties
 
-🚧  &nbsp; `Work in progress...`
+🚧  &nbsp; `Redaction in progress...`
 
 #### Example
 
@@ -215,4 +215,4 @@
 
 ### Validation
 
-🚧  &nbsp; `Work in progress...`
+🚧  &nbsp; `Redaction in progress...`

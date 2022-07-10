@@ -1,6 +1,6 @@
 ### Open source "no code" solutions
 
-🚧  &nbsp; `Work in progress...`
+🚧  &nbsp; `Redaction in progress...`
 
 | Solution                                                    | Main features | Database | Pros | Cons |
 | ---                                                         | ---           | ---      | ---  | ---  |
