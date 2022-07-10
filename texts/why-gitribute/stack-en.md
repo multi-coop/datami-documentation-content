@@ -14,3 +14,7 @@ We only used open source packages and technologies, coz' that's what we do... :
 - [`JSDiff`](https://github.com/kpdecker/jsdiff) : to get diff between an original content and its edited version
 - [`Diff2html`](https://www.npmjs.com/package/diff2html) : to display diff like in github / gitlab
 - ...and a lot of Stackoverflow help...
+
+# Licence
+
+Gitribute is under an open source licence : the [GNU Affero General Public Licence Version 3](https://gitlab.com/multi-coop/gitribute/-/blob/main/LICENSE)

@@ -112,8 +112,8 @@ buttons-left:
         link: /stack
         component: simpleLink
         label: 
-          fr: Stack
-          en: Stack
+          fr: Stack & licence
+          en: Stack & licence
 
   - name: widgets 
     component: dropdownLink
