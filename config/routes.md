@@ -594,7 +594,7 @@ routes:
         options:
           columns-size: full
           name:
-            en: Benchmark
+            en: Introduction
         files:
           en: ./texts/benchmark/benchmark-head-en.md
       - name: benchmark-comparisons
