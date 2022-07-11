@@ -69,10 +69,10 @@ columns:
       #   label:
       #     fr: Equipe
       #     en: Team
-      - url: https://www.multi.coop/references
-        label:
-          fr: Références
-          en: References
+      # - url: https://www.multi.coop/references
+      #  label:
+      #    fr: Références
+      #    en: References
       - url: https://docs.google.com/presentation/d/1Jp4l94DKxjYXP0ATVhpyyy6lq_0FYbzU5HeOVm43Zlw/edit#slide=id.g4dc788bd0f_0_7
         label:
           fr: So you have free time I see
