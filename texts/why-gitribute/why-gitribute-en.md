@@ -17,7 +17,7 @@ Let's sum up the starting point of the Gitribute project by those bits of (not s
 
 > _An open data activist_ :
 >
-> &nbsp; — You know I'm already using [this](/benchmark) or [that](/benchmark) solution. Do you know Airtable / Notion / GoogleSheet... ?
+> &nbsp; — You know I'm already using [this](/benchmark) or [that](/benchmark) solution. Do you know Airtable / Notion / GSheet... ?
 > &nbsp; — Can't say I'm extatic but it does (some of) the job...
 
 > _Your grandpa', your grandma', your neighbour... perhaps yourself_ :
