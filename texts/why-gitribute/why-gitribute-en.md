@@ -63,7 +63,7 @@ There is no precise moment to think of, but those bits of (not so much) imaginar
 > &nbsp; — **... But what the hell is a 'csv' ?**
 > &nbsp; — ( Nevermind'em, let me use my good'old Excel )
 
-<p class="has-text-centered">
+<p class="has-text-centered mt-6 mb-4">
   * * *
 </p>
 
@@ -82,3 +82,7 @@ They - you included - quite certainly know a lot of stuff concerning their land,
 In this the race to produce this data framing our world, we plead for a **better balance between "big and visible" producers and the "less visible" ones** : local or regional non profit organizations, small regional public services, unformal collectives...
 
 We also plead for a **better interoperability between "grassroot" and "top-down" data**. If anyone can edit an excel table, anyone should be able to make that table understandable, reusable, improvable by oher actors.
+
+<p class="has-text-centered mt-6 mb-0">
+  * * *
+</p>
