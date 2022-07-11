@@ -7,3 +7,5 @@ So **Gitribute does not have its own backend server**, but relies only on [Gitla
 
 This way your data stays protected, and you can manage the incoming contributions as you'd manage many pull requests.
 
+> **Note** : More about our benchmark in the **[Why Gitribute / Benchmark](/benchmark)** section
+
