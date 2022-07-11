@@ -82,17 +82,24 @@ At this point the alternative became quite clear :
 
 The Gitribute projects inherits from a lot a brainstorming about **what is open data**, and **what is open data for**.
 
-Nowadays _open data_ is everywhere, and sometimes you don't even notice it. Wikipedia pages are crawled by startups, Open Street Maps data are reused by state or private entities, public data are re-published for public use...
+Nowadays _open data_ is everywhere, and sometimes you don't even notice it. Wikipedia pages are crawled by startups, Open Street Maps data are reused by state or private entities, public data are re-published for public use... Data helps governments in piloting their policies, startups to target customers and refine their commercial offer... 
 
-Data helps governments in piloting their politics, startups to target customers and refine their commercial offer... For an actor **the data** - at least its available data - is what helps giving an **understading** of the actor's world, **sharing** this vision, **guiding** the actor in its actions, and consequently **reshaping** the world.
+For an actor **their data** - at least their available data - is what helps them :
 
-The question remains : usually **who can produce** this data ? Developpers, institutions, banks, startups, some NGOs, few media... Big structures, specialized engineers, big fellows.
+- Giving them an **understading** of the world they live in ;
+- **Sharing** the actor's vision of the world they shaped with their data ; 
+- **Guiding** the actor in its actions ;
+- And consequently **reshaping** the world.
 
-Where is your grandpa' or your grandma' in this picture ? Your neighbour ? Your work colleagues ? Your local non profit association ? Yourself ?
+The question remains : usually **who can produce** this data ? 
 
-They - you included - quite certainly know a lot of stuff concerning their land, the country they live in, or even the smallest interesting initiatives in their town. They are as **legitimate** and **concerned** by _open data_ than engineers, states, or corporations. But usually they are far less or well equiped to produce some useful open data themselves.
+Developpers and engineers firsthand yes, but in service of states, institutions, banks, startups, some [NGOs](https://www.openstreetmap.org), [very few media](https://www.icij.org/)... Big structures, specialized engineers, big fellows, few of you fellow man (or woman).
 
-In this the race to produce this data framing our world, we plead for a **better balance between "big and visible" producers and the "less visible" ones** : local or regional non profit organizations, small regional public services, unformal collectives...
+Where is your grandpa' or your grandma' fitting in this picture ? Your neighbour ? Your work colleagues ? Your local non profit association ? Yourself ?
+
+This large multitude - you included if you're not listed above - quite certainly know a lot of stuff concerning their land, the country they live in, or even the smallest interesting initiatives in their town. They are as **legitimate** and **concerned** by _open data_ than engineers, states, or corporations. But usually they are far less or well equiped to produce some useful open data themselves.
+
+In this the race to produce the data framing our world, we plead for a **better balance between "big and visible" data producers and the "less visible" ones** : local or regional non-profit organizations, small regional public services, unformal collectives...
 
 We also plead for a **better interoperability between "grassroot" and "top-down" data**. If anyone can edit an excel table, anyone should be able to make that table understandable, reusable, improvable by oher actors.
 
