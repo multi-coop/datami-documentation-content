@@ -10,11 +10,11 @@ Somehow we consider Gitribute as a "low-tech" approach when it comes to edit dat
 > — [How ?](/how-it-works)
 > &nbsp; _( You would ask at this point )_
 
-By using the most used and most free data infrastuctures already existing to store data : Github, Gitlab, or Mediawiki.
+By **using the most popular and free data infrastuctures already existing around to store users' data** : Github, Gitlab, or Mediawiki.
 
 > — [Is it really free ?](/business-model)
 > &nbsp; _( You would ask later on )_
 
-Yes. The code and the project itself are designed to remain 100% free.
+**Yes**. The Gitribute's [code](/stack) and the solution itself are designed to remain 100% free, and our [business model](/business-model) for Gitribute is built around this rule.
 
 _[Code is law, and law is code](https://journals.openedition.org/factsreports/4518)_. Our law : do free software.
