@@ -8,7 +8,7 @@ Would you guess which difference between Wikipedia and Twitter we like to emphas
 
 If freedom of speech stays a core principle in a democracy, it takes at least two to have a chat isn't it ? And it takes at least two to build a shared knowledge.
 
-Contributing is a team-playing game, you can't contribute alone... Duh, that would makes no sense.
+Contributing is a team-playing game, you can't contribute alone... Duh, that would make no sense.
 
 We believe that letting a **"peer review"** - even in the slighest and apparently meaningless documents anyone produces - leads to better documents. 
 
