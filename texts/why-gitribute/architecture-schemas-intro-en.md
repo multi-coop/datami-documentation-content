@@ -13,3 +13,5 @@ Finally some _complex components can be re-used_ by others such as the `EditCell
 We are proud (and a bit ashamed too) to apply `#passionSchema` to our brainstorming process...
 
 ![SCHEMA-GITRIBUTE-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-schema-02.png)
+
+> **Note** : More about the widgets in the **["Widgets > Overview"](/docs-widgets-overview)** section
