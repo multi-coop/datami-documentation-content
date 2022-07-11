@@ -37,8 +37,8 @@ buttons-left:
         link: /architecture
         component: simpleLink
         label: 
-          fr: Architecture & schemas
-          en: Architecture & schemas
+          fr: Architecture & sketches
+          en: Architecture & sketches
       - name: roadmap
         link: /roadmap
         component: simpleLink
