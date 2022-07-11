@@ -11,5 +11,5 @@ With Gitribute we try to **adress this need for data consolidation**, mainly bec
 
 To consolidate data from Gitribute's widgets we mobilized two different families of tools : 
 
-- **Schemas** : see [this section](/tutorial-edition#tutorial-edition-3-edition-csv-fields)
-- **Third party APIs** : see [this section](/tutorial-edition#tutorial-edition-5-edition-csv-consolidation_field)
+- **Schemas** : see below and [this section](/tutorial-edition#tutorial-edition-3-edition-csv-fields)
+- **Third party APIs** : see below and [this other section](/tutorial-edition#tutorial-edition-5-edition-csv-consolidation_field)
