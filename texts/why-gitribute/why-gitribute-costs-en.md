@@ -10,7 +10,11 @@ Somehow we consider Gitribute as a "low-tech" approach when it comes to edit dat
 > — [How ?](/how-it-works)
 > &nbsp; _( You would ask at this point )_
 
-By **using the most popular and free data infrastuctures already existing around to store users' data** : Github, Gitlab, or Mediawiki.
+By **using the most popular and free data infrastuctures already existing around the globe to store users' data** : 
+
+- [Gitlab](https://gitlab.com/)
+- [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki)
+- [Github](https://github.com/)
 
 > — [Is it really free ?](/business-model)
 > &nbsp; _( You would ask later on )_
