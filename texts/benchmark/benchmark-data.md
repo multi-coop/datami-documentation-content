@@ -60,6 +60,8 @@ items:
   - file: ./texts/benchmark/solutions/libreoffice.md
   - file: ./texts/benchmark/solutions/koumoul.md
   - file: ./texts/benchmark/solutions/mediawiki.md
+  - file: ./texts/benchmark/solutions/semapps.md
+  - file: ./texts/benchmark/solutions/ckan.md
   # propriteary
   - file: ./texts/benchmark/solutions/airtable.md
   - file: ./texts/benchmark/solutions/kantree.md
@@ -67,6 +69,7 @@ items:
   - file: ./texts/benchmark/solutions/coda.md
   - file: ./texts/benchmark/solutions/googlesheet.md
   - file: ./texts/benchmark/solutions/excel.md
+  - file: ./texts/benchmark/solutions/ods.md
 
 
 dict:

@@ -1,11 +1,11 @@
 ---
-name: Gîs
+name: Open Data Soft
 
 open: 
-  - "yes"
+  - "no"
 
 stage: 
-  - In development
+  - Mature
 
 period: 
   en: TO DO
@@ -28,7 +28,7 @@ technos: [
 
 code:
   - name: website
-    link: https://gxis.codeursenliberte.fr/
+    link: hhttps://www.opendatasoft.com/en/
     en: Website
 
 images:

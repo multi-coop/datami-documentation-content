@@ -1,11 +1,11 @@
 ---
-name: Gîs
+name: CKAN
 
 open: 
   - "yes"
 
 stage: 
-  - In development
+  - Mature
 
 period: 
   en: TO DO
@@ -28,7 +28,7 @@ technos: [
 
 code:
   - name: website
-    link: https://gxis.codeursenliberte.fr/
+    link: https://ckan.org/
     en: Website
 
 images:

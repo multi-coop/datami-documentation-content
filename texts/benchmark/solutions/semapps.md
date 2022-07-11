@@ -1,11 +1,11 @@
 ---
-name: Gîs
+name: Semapps
 
 open: 
   - "yes"
 
 stage: 
-  - In development
+  - Stable
 
 period: 
   en: TO DO
@@ -28,7 +28,7 @@ technos: [
 
 code:
   - name: website
-    link: https://gxis.codeursenliberte.fr/
+    link: https://semapps.org/
     en: Website
 
 images:
