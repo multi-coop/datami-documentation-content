@@ -48,7 +48,7 @@ There is no precise moment to think of, but those bits of (not so much) imaginar
 
 > _Another developper, as smart as the previous_ :
 >
-> &nbsp; — I know [this tech](/benchmark) that does it already. You gonna _reinvent the wheel_...
+> &nbsp; — I think [this tech](/benchmark) does it already. You gonna _reinvent the wheel !_
 > &nbsp; — huhuhu
 <!-- > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _( ...engineers )_ -->
 
@@ -63,7 +63,12 @@ There is no precise moment to think of, but those bits of (not so much) imaginar
 > &nbsp; — **... But what the hell is a 'csv' ?**
 > &nbsp; — ( Nevermind'em, let me use my good'old Excel )
 
-<p class="has-text-centered mt-6 mb-4">
+At this point the alternative became quite clear :
+
+- either enjoy the absurdity of the situation ;
+- **OR** there was - perhaps - room for **something new to imagine**.
+
+<p class="has-text-centered mt-3 mb-4">
   * * *
 </p>
 
