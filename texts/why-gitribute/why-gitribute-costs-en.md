@@ -19,4 +19,6 @@ By **using the most popular and free data infrastuctures already existing around
 
 The Gitribute's [code](/stack) and the solution itself are designed to remain 100% free, and our [business model](/business-model) for Gitribute is built around this rule.
 
-_[Code is law, and law is code](https://journals.openedition.org/factsreports/4518)_. Our law : do free software.
+_[Code is law, and law is code](https://journals.openedition.org/factsreports/4518)_.
+
+Our rule, our law : **do free softwares**.
