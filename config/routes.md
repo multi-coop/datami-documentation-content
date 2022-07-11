@@ -1292,6 +1292,20 @@ routes:
         files:
           fr: ./texts/documentation/docs-gitfile-en.md
           en: ./texts/documentation/docs-gitfile-en.md
+      - name: btn-gitfile
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          not-in-menu: true
+          custom-class: mb-6
+          buttons:
+            - link: /docs-gitfile
+              icon-left: book-open-variant
+              rounded: true
+              label: 
+                fr: Gitfile widget
+                en: Gitfile widget
       - name: docs-widgets-overview-multifiles
         component: TextComponent
         options:
@@ -1301,6 +1315,20 @@ routes:
         files:
           fr: ./texts/documentation/docs-multi-files-en.md
           en: ./texts/documentation/docs-multi-files-en.md
+      - name: btn-multifiles
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          not-in-menu: true
+          custom-class: mb-6
+          buttons:
+            - link: /docs-multifiles
+              icon-left: book-open-variant
+              rounded: true
+              label: 
+                fr: Multi-files widget
+                en: Multi-files widget
       - name: docs-widgets-overview
         component: TextComponent
         options:
@@ -1310,6 +1338,20 @@ routes:
         files:
           fr: ./texts/documentation/docs-explowiki-en.md
           en: ./texts/documentation/docs-explowiki-en.md
+      - name: btn-explowiki
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          not-in-menu: true
+          custom-class: mb-6
+          buttons:
+            - link: /docs-explowiki
+              icon-left: book-open-variant
+              rounded: true
+              label: 
+                fr: Explowiki widget
+                en: Explowiki widget
       - name: Contact
         component: ButtonsComponent
         options:
