@@ -2,7 +2,7 @@
 
 We worked with **real user cases** since we started to develop Gitribute, even in its early releases.
 
-We begun to develop the first bricks of Gitribute as responses to one, then two, then three clients sharing similar needs.
+We begun to develop the first bricks of Gitribute as responses to one, then two, then three clients sharing what we considered as similar needs.
 
 Doing so we can **have real feedbacks** along all the development cycles.
 
