@@ -3,9 +3,11 @@
 
 Gitribute uses the [tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) system provided by Github or Gitlab to "commit" and contribute to some data stored on one of those git providers.
 
-To avoid asking to your grandpa' or your grandma' creating an account on those providers, and to avoid asking them to create their own personal tokens, **Gitribute uses a default "ghost user token" (or an individual one)**.
+To avoid asking to your grandpa' or your grandma' to create an account on those providers, and even worse to avoid asking them to create their own personal tokens, **Gitribute uses a default "ghost user token" (or your own)**.
 
-If you want anonymous contribution against your data with Gitribute, it is necessary to set your repo and its branches on Github or Gitlab as authorizing this "ghost user" token. Basically, you don't want this token to allow "pushes" on your `main` branch for instance...
+If you want anonymous contribution onto your data with Gitribute, it is necessary to set your repo and related branches on Github or Gitlab for this "ghost user"'s actions (GET, PUT, POST). 
+
+> **Note** : Basically you don't want this user's token to make "pushes" on your `main` branch for instance...
 
 To sum up, when you set up your Gitribute widget from scratch you have to :
 
@@ -17,8 +19,8 @@ That way, an **user can push commits anonymously, without having to create its o
 
 Users can also use their own token.
 
-Your data stays protected on your Git provider, and you - the dataset's owner - keep the control of who can write on it and where.
+Your data on the `main` branch stays protected on your Git provider, and you - the dataset's owner - keep the control of who can write on it and on which branch.
 
-It's a bit of a hack, but the "ghost user" trick is not that much complicated.
+It could seem like a bit of a hack, but the "ghost user" trick is not that much complicated.
 
 It's like letting your grandpa' or grandma' use your Netflix account...
