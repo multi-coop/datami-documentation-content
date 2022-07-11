@@ -10,4 +10,4 @@
 
 <br>
 
-When you edit a `csv` file with Gitribute the cells you need to edit depends on the same time on the column's input type and the column's options.
+When you edit a `csv` file with Gitribute the cells you need to edit **depends at the same time on the column's input type and the column's options**.
