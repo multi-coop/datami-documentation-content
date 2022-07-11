@@ -1,25 +1,27 @@
 
 # Roadmap
 
-Ours roadmaps is visible [here on the source code repository](https://gitlab.com/multi-coop/gitribute/-/boards/4084563).
+Ours roadmaps boards are visible [here on the source code repository](https://gitlab.com/multi-coop/gitribute/-/boards/4084563).
 
-This project is currently under early developments...
+This project is currently under early developments, we are finishing our "POC" and the "MVP" is near...
 
 ---
 
-## Proof of concept (april-july 2022)
+## Proof Of Concept, or POC (april-july 2022)
 
-The first step of the project is to prove our hypothesis are technically working :
+The first step of the project was to prove our ideas and hypothesis were technically working.
 
-- To know how to use github and gitlab APIs similarly ;
-- To be able to setup working widgets ;
-- ... in a techno we understand in the team ;
+We needed to be sure :
+
+- To know how to use Github and Gitlab APIs with common functions ;
+- To be able to setup working widgets...
+- ... in a frameworks we understood amongst the team ;
 - Do all those early developments with **real** users and clients ;
 - _[Do it agile or do not, there is no try](https://www.youtube.com/watch?v=BQ4yd2W50No)..._
 
 ### Our to-do list for a nice POC
 
-The **roadmap** for a first proof of concept (POC) is the following :
+The **roadmap** for a first proof of concept (POC) was the following :
 
 - [x] Skeleton for `vue-custom-element` / `vuejs` : vuex (shared store between all web components), dependencies, linting, ... ;
 - [x] First utils functions and mixins to process a file's gitlab/github url ;
@@ -53,12 +55,12 @@ The **roadmap** for a first proof of concept (POC) is the following :
   - [![Netlify Status](https://api.netlify.com/api/v1/badges/1cd66edf-3b08-43db-bd21-6490377bb24a/deploy-status)](https://app.netlify.com/sites/multi-gitribute/deploys)
 - [ ] A good documentation for each web component (at least in this readme for now) **<--- We are here, we just have one checkbox left !!**
 
-... and just for a POC, that would be greaaaaat ...
+... and just for a POC, [that would be greaaaaat... mmm'kay ?](https://www.youtube.com/watch?v=JFRa7Ovym8s&ab_channel=IAJSTU)
 
-**Work in progress... be patient guys (or help us by contributing) :)**
+**Work in progress... the end is near (or help us by contributing) :)**
 
 ---
 
-## Minimum Viable Product (september 2022)
+## Minimum Viable Product, or MVP (september 2022)
 
-...suspense...
+... We got some surprises for automn 2022 ... Suspense ...
