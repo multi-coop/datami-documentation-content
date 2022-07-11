@@ -8,7 +8,7 @@
     />
 </div>
 
-There are basic choices available in "edit" mode, we will refer to those choices as "Edit view modes" :
+There are basic choices available in "edit" mode, we will refer to those choices as "edit-view" modes :
 
 - **"Preview mode"** : preview of the document as you edit it ;
 - **"Edit mode"** : view where you can edit the source document ;
