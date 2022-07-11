@@ -20,7 +20,7 @@ buttons-left:
         component: simpleLink
         label: 
           fr: Pourquoi Gitribute ?
-          en: Why Gitribute
+          en: Why Gitribute ?
       - name: features
         link: /main-features
         component: simpleLink
@@ -51,6 +51,12 @@ buttons-left:
         label: 
           fr: Benchmark
           en: Benchmark
+      - name: business-model
+        link: /business-model
+        component: simpleLink
+        label: 
+          fr: Quel est le business model ?
+          en: What is the business model ?
 
   - name: tutorials
     icon: school

@@ -162,13 +162,6 @@ routes:
         files:
           fr: ./texts/landing/more.md
           en: ./texts/landing/more.md
-      - name: clients-intro
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/landing/landing-clients-intro-en.md
-          en: ./texts/landing/landing-clients-intro-en.md
       - name: clients
         component: TextComponent
         options:
@@ -600,6 +593,94 @@ routes:
               label: 
                 fr: Code source
                 en: Source code
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
+  - name: business-model
+    url: /business-model
+    options:
+      # hero: true
+      summary: true
+      contrib: true
+      name:
+        en: Business-model
+    sections: 
+      - name: business-model
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Business model
+        files:
+          fr: ./texts/why-gitribute/business-model-en.md
+          en: ./texts/why-gitribute/business-model-en.md
+      - name: business-model-no_trap
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: No trap, just open source
+        files:
+          fr: ./texts/why-gitribute/business-model-no_trap-en.md
+          en: ./texts/why-gitribute/business-model-no_trap-en.md
+      - name: business-model-idea
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: An idea, and the quick proof it could technically work
+        files:
+          fr: ./texts/why-gitribute/business-model-idea-en.md
+          en: ./texts/why-gitribute/business-model-idea-en.md
+      - name: business-model-usecases
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Real use cases
+        files:
+          fr: ./texts/why-gitribute/business-model-usecases-en.md
+          en: ./texts/why-gitribute/business-model-usecases-en.md
+      - name: business-model-mutualize
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Mutualize & converge with the roadmap 
+        files:
+          fr: ./texts/why-gitribute/business-model-mutualize-en.md
+          en: ./texts/why-gitribute/business-model-mutualize-en.md
+      - name: business-model-valorize
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Valorize the expertise, not the code
+        files:
+          fr: ./texts/why-gitribute/business-model-valorize-en.md
+          en: ./texts/why-gitribute/business-model-valorize-en.md
+      - name: clients
+        component: TextComponent
+        options:
+          columns-size: full
+          name:
+            en: They support Gitribute
+        files:
+          fr: ./texts/landing/landing-clients.md
+          en: ./texts/landing/landing-clients.md
+      - name: contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
             - link: /contact
               icon-left: email
               rounded: true

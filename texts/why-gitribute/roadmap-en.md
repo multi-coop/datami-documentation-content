@@ -15,7 +15,7 @@ The first step of the project is to prove our hypothesis are technically working
 - To be able to setup working widgets ;
 - ... in a techno we understand in the team ;
 - Do all those early developments with **real** users and clients ;
-- [Do it agile or do not, there is no try](https://www.youtube.com/watch?v=BQ4yd2W50No)...
+- _[Do it agile or do not, there is no try](https://www.youtube.com/watch?v=BQ4yd2W50No)..._
 
 ### Our to-do list for a nice POC
 

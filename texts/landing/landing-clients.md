@@ -1,3 +1,7 @@
+<h3 class="has-text-centered mt-6 mb-6">
+  They use | support Gitribute
+</h3>
+
 <div class="columns is-multiline is-8 is-vcentered is-centered mt-0 mb-6">
   <div class="column is-3 has-text-centered">
     <a class=""
