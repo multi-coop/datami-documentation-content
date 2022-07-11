@@ -5,6 +5,8 @@ We are developping Gitribute so **the cost to share data, and the cost to make o
 
 The most expensive part of maintaining any data infrastructure lies often in the servers. So we skipped them...
 
+Somehow we consider Gitribute as a "low-tech" approach when it comes to edit data online in a no-code way, at least relatively to [other solutions on the market](/benchmark).
+
 [How](/how-it-works) (you would ask) ? By using the most used and most free data infrastuctures already existing to store data : Github, Gitlab, or Mediawiki.
 
 [Is it really free](/business-model) (you would ask later) ? Yes. The code and the project itself are designed to remain 100% free.
