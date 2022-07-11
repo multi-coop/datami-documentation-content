@@ -14,8 +14,8 @@ Given Gitribute is :
 
 The question remains :
 
-> — 😧 &nbsp; **How the hell are they hoping to fund Gitribute developments ?!**
+> 😧 &nbsp; — **How the hell are they hoping to fund Gitribute developments ?!**
 
 And if you are a bit suspicious, that question too :
 
-> — 🤔 &nbsp; _( ... There must be a trap somewhere )_
+> 🤔 &nbsp; — _( ... There must be a trap somewhere )_
