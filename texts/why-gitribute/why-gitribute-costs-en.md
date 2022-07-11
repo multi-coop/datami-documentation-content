@@ -7,6 +7,6 @@ The most expensive part of maintaining any data infrastructure lies often in the
 
 [How](/how-it-works) (you would ask) ? By using the most used and most free data infrastuctures already existing to store data : Github, Gitlab, or Mediawiki.
 
-[Is it really free](/business-model) (you would ask) ? Yes. The code and the project itself are designed to remain 100% free.
+[Is it really free](/business-model) (you would ask later) ? Yes. The code and the project itself are designed to remain 100% free.
 
 _[Code is law, and law is code](https://journals.openedition.org/factsreports/4518)_. Our law : do free software.
