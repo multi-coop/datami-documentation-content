@@ -21,7 +21,7 @@
       </a> ...
     </span>
   </div>
-  <div class="column is-1 has-text-grey-light mt-5 has-text-centered">
+  <div class="column is-1 has-text-grey-light mt-4 has-text-centered">
     <b>+</b>
   </div>
   <div class="column is-5 has-text-left">
