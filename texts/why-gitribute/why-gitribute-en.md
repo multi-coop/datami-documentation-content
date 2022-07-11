@@ -65,7 +65,7 @@ There is no precise moment to think of, but those bits of (not so much) imaginar
 >
 > &nbsp; — Y'all seem to speak about important stuff and all...
 > &nbsp; — **... But what the hell is a 'csv' ?**
-> &nbsp; — ( Nevermind'em, let me use my good'old Excel )
+> &nbsp; — ( Nevermind'em, let me use my good ol' Excel )
 
 <p class="has-text-centered mt-3 mb-4">
   * * *
