@@ -40,6 +40,10 @@ But let's rewind to the starting point of the Gitribute project.
 
 There is no precise moment to think of, but those bits of (not so much) imaginary conversations will give you an idea of what was going on in our mind.
 
+<p class="has-text-centered mt-3 mb-4">
+  * * *
+</p>
+
 > _Any developper, slightly ironic_ :
 >
 > &nbsp; — *Why the hell* are you starting a project aiming to help contributing to simple things as a csv ?
@@ -52,7 +56,7 @@ There is no precise moment to think of, but those bits of (not so much) imaginar
 > &nbsp; — huhuhu
 <!-- > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _( ...engineers )_ -->
 
-> _An open data activist_ :
+> _An [open data](https://okfn.org/opendata/) activist_ :
 >
 > &nbsp; — You know I'm already using [this](/benchmark) or [that](/benchmark) solution. Do you know Airtable / Notion / GSheet... ?
 > &nbsp; — Can't say I'm extatic but it does (some of) the job...
@@ -62,6 +66,10 @@ There is no precise moment to think of, but those bits of (not so much) imaginar
 > &nbsp; — Y'all seem to speak about important stuff and all...
 > &nbsp; — **... But what the hell is a 'csv' ?**
 > &nbsp; — ( Nevermind'em, let me use my good'old Excel )
+
+<p class="has-text-centered mt-3 mb-4">
+  * * *
+</p>
 
 At this point the alternative became quite clear :
 
