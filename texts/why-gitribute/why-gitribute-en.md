@@ -1,7 +1,44 @@
 
-# Why Gitribute ?
+<h1 class="has-text-centered">
+  Why Gitribute ?
+</h1>
 
-Let's sum up the starting point of the Gitribute project by those bits of (not so much) imaginary conversations.
+---
+
+<p class="has-text-centered">
+  The project's name gives you a first hint :)
+</p>
+
+<div class="columns is-centered is-v-centered">
+  <div class="column is-5 has-text-right">
+    <p class="has-text-weight-bold mb-1">
+      "Git"...
+    </p>
+    <span class="is-italic is-size-6">
+      We use 
+      <a href="https://en.wikipedia.org/wiki/Git" target="_blank">
+        Git
+      </a> ...
+    </span>
+  </div>
+  <div class="column is-1 mt-5 has-text-centered">
+    <b>+</b>
+  </div>
+  <div class="column is-5 has-text-left">
+    <p class="has-text-weight-bold mb-1">
+     ..."tribute"
+    </p>
+    <span class="is-italic is-size-6">
+      ... for contribution
+    </span>
+  </div>
+</div>
+
+---
+
+But let's rewind to the starting point of the Gitribute project.
+
+There is no precise moment to think of, but those bits of (not so much) imaginary conversations will give you an idea of what was going on in our mind.
 
 > _Any developper, slightly ironic_ :
 >
