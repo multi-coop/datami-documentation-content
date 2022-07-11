@@ -13,7 +13,9 @@ Each API could be configured independantly.
 
 Once consolidation is configured for a particular table file, a Gitribute widget will display a "consolidation" column (or `field`) on the left side of the table.
 
-For each row this consolidation field will display a consolidation button. By clicking on this button the user will or could have several consolidation APIs to chose from.
+For each row this consolidation field will display a consolidation button. 
+
+By clicking on this button the user will or could have several consolidation APIs to chose from.
 
 <div style="border: thin solid lightgrey;">
   <img
