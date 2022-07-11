@@ -89,7 +89,7 @@ For an actor **their data** - at least their available data - is what helps them
 - Giving them an **understading** of the world they live in ;
 - **Sharing** the actor's vision of the world they shaped with their data ; 
 - **Guiding** the actor in its actions ;
-- And consequently **reshaping** the world.
+- And consequently **reshaping** the world at their own scale.
 
 The question remains : usually **who can produce** this data ? 
 
