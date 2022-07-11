@@ -25,4 +25,4 @@ The contributive internet we dream of is not similar to those endless lists of c
 
 **We don't think reacting to other people's thoughts helps build knowledge.** Reaction can be a trigger, but it is far from enough to build anything.
 
-Contribution is a matter of **good habits**, **adequate tooling**, **_manners_**, and **shared values**.
+Good contribution - on internet even more - is a matter of **good habits**, **adequate tooling**, **_manners_**, and **shared values**.
