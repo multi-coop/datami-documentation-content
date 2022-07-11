@@ -1396,6 +1396,16 @@ routes:
         files:
           fr: ./texts/documentation/docs-gitfile-structure-en.md
           en: ./texts/documentation/docs-gitfile-structure-en.md
+      - name: docs-gitfile-structure-example
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Example
+        files:
+          fr: ./texts/documentation/docs-gitfile-structure-example-en.md
+          en: ./texts/documentation/docs-gitfile-structure-example-en.md
       - name: docs-params
         component: TextComponent
         options:
@@ -1565,6 +1575,16 @@ routes:
         files:
           fr: ./texts/documentation/docs-explowiki-structure-en.md
           en: ./texts/documentation/docs-explowiki-structure-en.md
+      - name: docs-explowiki-structure-example
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Example
+        files:
+          fr: ./texts/documentation/docs-explowiki-structure-example-en.md
+          en: ./texts/documentation/docs-explowiki-structure-example-en.md
       - name: docs-params
         component: TextComponent
         options:
@@ -1714,6 +1734,16 @@ routes:
         files:
           fr: ./texts/documentation/docs-multi-files-structure-en.md
           en: ./texts/documentation/docs-multi-files-structure-en.md
+      - name: docs-multi-files-structure-example
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Example
+        files:
+          fr: ./texts/documentation/docs-multi-files-structure-example-en.md
+          en: ./texts/documentation/docs-multi-files-structure-example-en.md
       - name: docs-params
         component: TextComponent
         options:
