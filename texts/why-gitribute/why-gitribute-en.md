@@ -5,7 +5,7 @@ Let's sum up the starting point of the Gitribute project by those bits of (not s
 
 > _Any developper, slightly ironic_ :
 >
-> &nbsp; — Why the hell are you starting a project aiming to help people contributing to datasets as simple as a csv ?
+> &nbsp; — Why the hell are you starting a project aiming to help people contributing to simple things as a csv ?
 > &nbsp; — I'd be you, I'd stick to more custom developments and do real serious projects...
 > &nbsp; — Speaking of serious things I'm currently working on...blah blah...
 
