@@ -73,7 +73,7 @@ There is no precise moment to think of, but those bits of (not so much) imaginar
 
 At this point the alternative became quite clear :
 
-- either enjoy the absurdity of the situation ;
+- either enjoy the absurdity of the situation (tempting) ;
 - **OR** there was - perhaps - room for **something new to imagine**.
 
 <p class="has-text-centered mt-3 mb-4">
