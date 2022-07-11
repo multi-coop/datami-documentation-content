@@ -40,8 +40,8 @@ The question remains : usually **who can produce** this data ? Developpers, inst
 
 Where is your grandpa' or your grandma' in this picture ? Your neighbour ? Your work colleagues ? Your local non profit association ? Yourself ?
 
-They quite certainly know a lot of stuff conerning their land, the country they live in, or even concerning interesting initiatives in their town. They are as legitimate and concerned by _open data_ than engineers, states, or corporations. But usually they are far less or well equiped to produce some open data themselves.
+They - you included - quite certainly know a lot of stuff concerning their land, the country they live in, or even the smallest interesting initiatives in their town. They are as **legitimate** and **concerned** by _open data_ than engineers, states, or corporations. But usually they are far less or well equiped to produce some useful open data themselves.
 
-In this the race to produce the data framing our world, we plead for a **better balance between "big and visible" producers and the "less visible" ones** : local or regional non profit organizations, small regional public services, unformal collectives...
+In this the race to produce this data framing our world, we plead for a **better balance between "big and visible" producers and the "less visible" ones** : local or regional non profit organizations, small regional public services, unformal collectives...
 
-We plead also for a **better interoperability between "grassroot" and "top-down" data**. If anyone can edit an excel table, anyone should be able to make that table understandable, reusable, improvable by oher actors.
+We also plead for a **better interoperability between "grassroot" and "top-down" data**. If anyone can edit an excel table, anyone should be able to make that table understandable, reusable, improvable by oher actors.
