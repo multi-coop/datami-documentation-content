@@ -1315,7 +1315,7 @@ routes:
         files:
           fr: ./texts/documentation/docs-multi-files-en.md
           en: ./texts/documentation/docs-multi-files-en.md
-      - name: btn-multifiles
+      - name: btn-multi-files
         component: ButtonsComponent
         options:
           columns-size: two-thirds
