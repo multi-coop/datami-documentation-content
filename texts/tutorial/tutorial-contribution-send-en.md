@@ -7,8 +7,6 @@
     />
 </div>
 
-<br>
-
 Once you have finished to edit your file in a Gitribute widget you can send your modifications proposal to the file's owner(s) by clicking on the "Save" button.
 
 **This action - "Save" - is what constitutes a contribution with Gitribute.**
@@ -40,8 +38,6 @@ If the request is correctly accepted by the API a notification will appear on to
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/contribution-response.png"
     />
 </div>
-
-<br>
 
 The notification contains the name of the "branch" you just created by sending your proposal, and the links to the repository's new branch.
 
