@@ -430,14 +430,14 @@ routes:
       summary: true
       contrib: true
       name:
-        en: Architecture & schemas
+        en: Architecture & sketches
     sections: 
       - name: architecture-schemas-intro
         component: TextComponent
         options:
           columns-size: three-quarters
           name:
-            en: Schemas & wireframes
+            en: Sketches & wireframes
         files:
           fr: ./texts/why-gitribute/architecture-schemas-intro-en.md
           en: ./texts/why-gitribute/architecture-schemas-intro-en.md
