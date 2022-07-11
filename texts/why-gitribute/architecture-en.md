@@ -1,8 +1,3 @@
-
-# Architecture & schemas
-
----
-
 ## Main ideas
 
 Gitribute is designed as a light micro-service, letting you chose between a small library of widgets you can reuse to **display the data you want**, **where you want**, and all that **for free**.

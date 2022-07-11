@@ -439,6 +439,15 @@ routes:
       name:
         en: Architecture & schemas
     sections: 
+      - name: architecture-schemas-intro
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Schemas & wireframes
+        files:
+          fr: ./texts/why-gitribute/architecture-schemas-intro-en.md
+          en: ./texts/why-gitribute/architecture-schemas-intro-en.md
       - name: architecture
         component: TextComponent
         options:
@@ -498,15 +507,6 @@ routes:
         files:
           fr: ./texts/why-gitribute/architecture-for-noobs-en.md
           en: ./texts/why-gitribute/architecture-for-noobs-en.md
-      - name: architecture-schemas-intro
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            en: Schemas & wireframes
-        files:
-          fr: ./texts/why-gitribute/architecture-schemas-intro-en.md
-          en: ./texts/why-gitribute/architecture-schemas-intro-en.md
       - name: architecture-schemas-wireframes
         component: TextComponent
         options:
