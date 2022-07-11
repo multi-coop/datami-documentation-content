@@ -22,11 +22,13 @@ You can also add your email if you want the owner to contact you (for instance t
     />
 </div>
 
-Once you finished typing your message you can now send your contribution proposal to the owner by clicking on the "Send" button.
+<br>
+
+Once you have finished typing your message you can send your contribution proposal to the owner by clicking on the "Send" button.
 
 Gitribute will then send the request to the Git provider API (Github or Gitlab).
 
-If the request is correctly accepted by the API a notification will appear on top of the document, looking something like this :
+If the request is correctly accepted by the API a notification will appear on top of the widget, looking something like this :
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -35,10 +37,12 @@ If the request is correctly accepted by the API a notification will appear on to
     />
 </div>
 
+<br>
+
 The notification contains the name of the "branch" you just created by sending your proposal, and the links to the repository's new branch.
 
 So your proposal has been correctly sent.
 
-You can now close the notification, congratulate yourself for helping the file's owner, and go on with your life with a bit of good karma.
+You can now close the notification, congratulate yourself for helping the file's owner, and go on with your life with a new bit of good karma.
 
 > **Note** : The "branches" button is now activated so you can find your proposal back later.
