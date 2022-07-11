@@ -87,3 +87,12 @@ Files will be locally served on :
 If you want to propose somme enhancements to our content please make pull requests against the `main` branch. We will review that with great pleasure :)
 
 You can also add issues directly in the reop, or add notes or issues from our [gitlab "board" page](https://gitlab.com/multi-coop/gitribute-documentation-content/-/boards).
+
+---
+
+## Notes / tutorials' section images
+
+Here are the links to the source documents (slides) we used to create the tutorials's images : 
+
+- [Gitribute tutorial - 01](https://docs.google.com/presentation/d/1hS5GqXxUJzquXDgO4Ch8O3klNekf-Ih-MNbJ8Ikp45M/edit#slide=id.g13be72e9310_0_24)
+- [Gitribute tutorial - 02](https://docs.google.com/presentation/d/1DjJGQn80bHzxpNdMHIufwLLaUB3lJVPqvMVGpSRScb0/edit#slide=id.p)
