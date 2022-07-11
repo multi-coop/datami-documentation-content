@@ -1,5 +1,13 @@
 # Architecture & schemas
 
+How do you switch from _"Hey, how should use Git more in frontend projects ?"_ to _"Do you know Gitribute ?"_ ... ?
+
+_There's no wizard jizz in [making stuff](https://www.youtube.com/watch?v=N4IfPtl3W_M&ab_channel=exurb1a), [only a lot of engineering](https://www.youtube.com/watch?v=qE0UimODxNg&ab_channel=exurb1a)_
+
+This section focuses on the early works and brainstorming processes that lead to make Gitribute someting more than a good idea : [a plan](https://agileflow.co.uk/2016/06/08/agile-planning/).
+
+Brace yourself for a little trip...
+
 ## Schemas & wireframes
 
 Gitribute have some _core_ components and functions, reusable among other components.
@@ -14,4 +22,4 @@ We are proud (and a bit ashamed too) to apply `#passionSchema` to our brainstorm
 
 ![SCHEMA-GITRIBUTE-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-schema-02.png)
 
-> **Note** : More about the widgets in the **["Widgets > Overview"](/docs-widgets-overview)** section
+> _**Note** : More about the widgets in the **["Widgets > Overview"](/docs-widgets-overview)** section_
