@@ -6,23 +6,27 @@ Would you guess which difference between Wikipedia and Twitter we like to emphas
 
 **Someone can moderate what you wrote before making it official**
 
-Contributing is a team-playing game, you can't contribute alone, it makes no sense.
-
-We believe that allowing a **"peer review"** - even in the slighest and apparently meaningless documents anyone produce - leads to better documents. Some daily-life illustrations :
-
-- _Before sending an important mail we can tend to have someone reading it over before sending it._
-- _When correcting an article in Wikipedia, third persons are checking it back to verify the authenticity of your sources..._
-
 If freedom of speech stays a core principle in a democracy, it takes at least two to have a chat isn't it ? And it takes at least two to build a shared knowledge.
 
-Building a cooperative environment - digital or not - means opening what you think to others and let them have a right to modify those thoughts. Thus the object produced from those thoughts gets improved.
+Contributing is a team-playing game, you can't contribute alone... Duh, that would makes no sense.
 
-With Gitribute we wanted to **apply this logic and this ethic to any data or dataset** we can think of.
+We believe that letting a **"peer review"** - even in the slighest and apparently meaningless documents anyone produces - leads to better documents. 
 
-Above all we wanted to **allow non-technicians internet users to get a grasp on this practice** _(did we mention your grandpa' or grandma' before ?)_.
+Building a cooperative environment - digital or not - means opening what you think to others, and let them have a right to modify those thoughts. Thus the object produced from those thoughts gets improved.
 
-The contributive internet we dream of is not similar to those endless lists of comments below a video on YouTube, nor to those endless threads on Twitter, where you feel people comment reactively.
+Let's imagine some daily-life illustrations :
 
-**We don't think reacting to other people's thoughts helps build knowledge.** Reaction can be a trigger, but it is far from enough to build anything.
+- _Before sending an important mail one can tend to have someone reading it again, before sending it._
+- _When correcting an article in Wikipedia, third persons are checking it back to verify the authenticity of your sources..._
+
+With Gitribute we wanted to **apply this process and this ethic to any data or dataset** we could think of.
+
+Above all, we wanted to **allow non-technicians internet users to get a grasp on this practice** 
+
+_(Speaking of which, did we mention your grandpa' or grandma' before ?)_.
+
+**We strongly doubt that reacting to other people's thoughts helps build any form of knowledge.** Reaction can be a trigger, but it is far from enough to build anything as a group.
+
+The contributive internet we dream of is NOT represented by to those endless lists of comments below a video on YouTube, nor by those endless threads on Twitter where you get the feeling people are commenting by impulse alone.
 
 Good contribution - on internet even more - is a matter of **good habits**, **adequate tooling**, **_manners_**, and **shared values**.
