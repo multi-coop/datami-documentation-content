@@ -2,11 +2,11 @@
 
 How do you switch from :
 
-> — _"Hey, how should use Git more in frontend projects ?"_
+> — _Hey, how should use Git more in frontend projects ?_
  
  to :
  
-> — _"[Sir, do you have a minute to speak about Gitribute ?](https://www.youtube.com/watch?v=sghOYbR_fXA&ab_channel=TikTokTaciousShorts)"_
+> — _[Sir, do you have a minute to speak about Gitribute ?](https://www.youtube.com/watch?v=sghOYbR_fXA&ab_channel=TikTokTaciousShorts)_
 
 _There's no wizard jizz in [making stuff](https://www.youtube.com/watch?v=N4IfPtl3W_M&ab_channel=exurb1a), [only a lot of engineering](https://www.youtube.com/watch?v=qE0UimODxNg&ab_channel=exurb1a)_
 
