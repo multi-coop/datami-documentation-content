@@ -26,4 +26,4 @@ Once - and only once - those design principles put in place, we wanted to add ex
 
 ![GITRIBUTE-WIREFRAME-EDIT-CSV-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-csv-02.png)
 
----
+> **Note** : More about csv edition in the **["Tutorials > Edition"](/tutorial-edition)** section

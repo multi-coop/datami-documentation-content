@@ -5,4 +5,4 @@ We were inspired a lot by [HedgeDoc](https://hedgedoc.org/) and [Hackmd](https:/
 
 ![GITRIBUTE-WIREFRAME-EDIT-MD-01](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-md-01.png)
 
----
+> **Note** : More about editing in the **["Tutorials > Edition"](/tutorial-edition)** section

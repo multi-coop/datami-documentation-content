@@ -13,3 +13,8 @@ The challenge was to find an "user path" and a design to express this idea **sim
 - "Honestly" by letting the user learn step by step what those weird terms (tooltips), keeping technical information in the background (in another tab, but accessible), etc...
 
 ![GITRIBUTE-WIREFRAME-DIALOG_SAVE-01](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-commit_dialog-01.png)
+
+> **Note** : More about contributing in the **["Tutorials > Contribution"](/tutorial-contribution)** section
+
+<br>
+<br>
