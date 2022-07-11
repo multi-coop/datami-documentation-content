@@ -1,8 +1,9 @@
 
 ### Widget for `csv` preview and edition
 
-> _they_ say (at least some developpers) :
-> &nbsp; — Everything tends to look like Excel !
+_"They"_ say (at least some developpers) :
+
+> — Everything tends to look like Excel !
 
 Perhaps it does so because... Is it what human brain understands the most when it comes to lists ? You know, matrices, squares, cells, columns, lines or rows... What is there here to be surprised of ?
 
