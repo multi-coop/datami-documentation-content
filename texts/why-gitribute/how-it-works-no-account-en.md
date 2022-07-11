@@ -19,4 +19,6 @@ Users can also use their own token.
 
 Your data stays protected on your Git provider, and you - the dataset's owner - keep the control of who can write on it and where.
 
-It's a bit of a hack, but the "ghost user" trick is not that much complicated. It's like your grandpa' or grandma' using your Netflix account...
+It's a bit of a hack, but the "ghost user" trick is not that much complicated.
+
+It's like letting your grandpa' or grandma' use your Netflix account...
