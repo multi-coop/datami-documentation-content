@@ -5,7 +5,7 @@ _"They"_ say (at least some developpers) :
 
 > — Everything tends to look like Excel !
 
-Perhaps it does so because... Is it what human brain understands the most when it comes to lists ? You know, matrices, squares, cells, columns, lines or rows... What is there here to be surprised of ?
+Perhaps it does so because... Is it what human brain understands the most when it comes to lists ? You know, basic geometry : matrices, squares, cells, columns, lines or rows, straight lines and shapes... What is there here to be surprised with ?
 
 Is really everything "looking like Excel" ? Or is Excel just looking like something easy to understand, to appropriate, when it comes to data ?
 
