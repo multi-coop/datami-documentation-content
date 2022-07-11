@@ -144,18 +144,18 @@ buttons-left:
         label: 
           fr: gitribute-file
           en: gitribute-file
-      - name: explowiki
-        link: /docs-explowiki
-        component: simpleLink
-        label: 
-          fr: gitribute-explowiki
-          en: gitribute-explowiki
       - name: multi-files
         link: /docs-multi-files
         component: simpleLink
         label: 
           fr: gitribute-multi-files
           en: gitribute-multi-files
+      - name: explowiki
+        link: /docs-explowiki
+        component: simpleLink
+        label: 
+          fr: gitribute-explowiki
+          en: gitribute-explowiki
   
 
 buttons-right: 

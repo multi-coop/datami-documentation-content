@@ -1323,7 +1323,7 @@ routes:
           not-in-menu: true
           custom-class: mb-6
           buttons:
-            - link: /docs-multifiles
+            - link: /docs-multi-files
               icon-left: book-open-variant
               rounded: true
               label: 
