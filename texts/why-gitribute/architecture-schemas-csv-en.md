@@ -8,7 +8,7 @@ Perhaps it does so because... Is it what human brain understands the most when i
 
 Is really everything "looking like Excel" ? Or is Excel just looking like something easy to understand, to appropriate, when it comes to data ?
 
-Anyway... if we keep esthetics and philosphical mumbo jumbo aside, let's say **[table is good, table gets things done](https://www.youtube.com/watch?v=qUTtKYMk7u8&t=48s&ab_channel=DestinyOftheEndless)**.
+Anyway... if we keep esthetics and philosphical mumbo jumbo aside, let's say **[table is good, table gets things done](https://youtu.be/qUTtKYMk7u8?t=141)**.
 
 Gitribute's adress is to users as common possible, so no overkill innovations concerning the UX ideas. We wanted an interface even Donald Trump could understand (even if this is not really the kind of commoner we're looking for). An interface anybody could rely to :
 
