@@ -23,9 +23,11 @@ Luckily some initiatives were quite aware of this difference early on, and clear
 
 Wikipedia represents the embodiement of how review and moderation processes can lead to build an infinite and universal source of knowledge.
 
-We are **absolutly NOT aiming to reinvent Wikipedia** with Gitribute, nevertheless it's an deep inspiration for this project.
+Let us be clear : we are **absolutly NOT aiming to reinvent Wikipedia** with Gitribute. We are indeed in the open source industry in a world looking for [unicorns](https://www.reddit.com/r/memes/comments/67oofp/lost_unicorn_if_found_please_stop_doing_drugs/) (!), but we are not completely insane... Yet.
 
-The only thing where we try to add an original brick to the wall, is we want an **absolutly decentralized** control over the data source.
+Nevertheless Wikipedia remains a deep inspiration for this project.
+
+The only thing where we try to add an original brick to the open source wall, is we want an **absolutly decentralized** control over the data source.
 
 As opposed to centralized servers storing collaborative work worldwide, we would prefer a "locally-sourced" data commons **stored a bit everywhere**, **curated by moderators**, but the **most interoperable as possible**.
 
