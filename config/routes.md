@@ -33,18 +33,24 @@ routes:
               label: 
                 fr: Tutorials
                 en: Tutorials
+            - link: /why-gitribute
+              icon-left: help-circle
+              rounded: true
+              label:
+                fr: Pourquoi Gitribute ?
+                en: Why Gitribute ?
             - link: /docs-widgets-overview
               icon-left: book-open-variant
               rounded: true
               label: 
                 fr: Doc des widgets
                 en: Widgets' docs
-            - link: https://gitlab.com/multi-coop/gitribute
-              icon-left: gitlab
-              rounded: true
-              label: 
-                fr: Code source
-                en: Source code
+            # - link: https://gitlab.com/multi-coop/gitribute
+            #  icon-left: gitlab
+            #  rounded: true
+            #  label: 
+            #    fr: Code source
+            #    en: Source code
       - name: more
         component: TextComponent
         options:
