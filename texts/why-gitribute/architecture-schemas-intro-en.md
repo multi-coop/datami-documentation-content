@@ -1,6 +1,6 @@
 # Architecture & sketches
 
-How do you switch from :
+How do you transition from :
 
 > — _Hey, how should use Git more in frontend projects ?_
  
