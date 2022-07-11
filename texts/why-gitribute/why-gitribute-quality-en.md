@@ -1,5 +1,5 @@
 
-## To plead for quality data
+## To plead for quality open data
 
 Anyone who received table data (a spreadsheet, a csv) in their mail knows the challenges in reusing - or even understanding - tables you didn't produced yourself.
 
