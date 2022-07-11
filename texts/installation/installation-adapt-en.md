@@ -9,4 +9,4 @@ For instance the `<multi-gitribute-file>` widget alone can display several types
 
 By changing the `gitfile` parameter in your `<multi-gitribute-file>` html block, you will be able to display the data you want...
 
-More details about the widgets parameters in the ["Widgets" section](/docs-widgets-overview).
+> **Note** : More details about the widgets parameters in the ["Widgets"](/docs-widgets-overview) section.
