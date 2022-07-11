@@ -39,6 +39,6 @@ The notification contains the name of the "branch" you just created by sending y
 
 So your proposal has been correctly sent.
 
-You can now close the notification and go on with your life.
+You can now close the notification, congratulate yourself for helping the file's owner, and go on with your life with a bit of good karma.
 
 > **Note** : The "branches" button is now activated so you can find your proposal back later.
