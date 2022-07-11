@@ -6,7 +6,9 @@ The main principle we try to follow when it comes to fund the developments of a 
 - A product should respond to expressed needs ;
 - Development on a product could benefit several clients, even if they don't know one another ;
 
-During our carreer we could observe many actors in need for developments, emphasizing their particularities when comparing themselves to others. [Nothing new under the sun](https://fr.wikipedia.org/wiki/Narcissisme_des_petites_diff%C3%A9rences-)...
+During our carreer we could observe many actors in need for developments, emphasizing their particularities when comparing themselves to others. 
+
+_[Nothing new under the sun](https://fr.wikipedia.org/wiki/Narcissisme_des_petites_diff%C3%A9rences-)..._
 
 Small differences, and - sometimes - huge similarities... if analyzed as such.
 
