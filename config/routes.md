@@ -1525,6 +1525,7 @@ routes:
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -1532,6 +1533,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: docs-gitfile
     url: /docs-gitfile
     options:
@@ -1704,6 +1714,7 @@ routes:
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -1711,6 +1722,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: docs-explowiki
     url: /docs-explowiki
     options:
@@ -1984,6 +2004,7 @@ routes:
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -1991,6 +2012,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
 
   # STANDARD ROUTES
   - name: Contact
