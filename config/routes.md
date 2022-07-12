@@ -51,7 +51,14 @@ routes:
             #  label: 
             #    fr: Code source
             #    en: Source code
-      - name: more
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
+      - name: more-intro
         component: TextComponent
         options:
           columns-size: three-quarters
@@ -72,7 +79,7 @@ routes:
         files:
           fr: ./texts/landing/landing-intro-en.md
           en: ./texts/landing/landing-intro-en.md
-      - name: more-1
+      - name: more-simulator
         component: TextComponent
         options:
           columns-size: three-quarters
@@ -147,7 +154,21 @@ routes:
               locale="fr"
               debug="false"
             />
-      - name: more-2
+      - name: more-clients
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/landing/more.md
+          en: ./texts/landing/more.md
+      - name: clients
+        component: TextComponent
+        options:
+          columns-size: full
+        files:
+          fr: ./texts/landing/landing-clients-en.md
+          en: ./texts/landing/landing-clients-en.md
+      - name: more-outro
         component: TextComponent
         options:
           columns-size: three-quarters
@@ -161,21 +182,7 @@ routes:
         files:
           fr: ./texts/landing/landing-outro-en.md
           en: ./texts/landing/landing-outro-en.md
-      - name: more-3
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-        files:
-          fr: ./texts/landing/more.md
-          en: ./texts/landing/more.md
-      - name: clients
-        component: TextComponent
-        options:
-          columns-size: full
-        files:
-          fr: ./texts/landing/landing-clients.md
-          en: ./texts/landing/landing-clients.md
-      - name: more-4
+      - name: more-why
         component: TextComponent
         options:
           columns-size: three-quarters
@@ -186,6 +193,7 @@ routes:
         component: ButtonsComponent
         options:
           columns-size: three-quarters
+          custom-class: my-6
           buttons-size: one-third
           buttons:
             - link: /why-gitribute
@@ -194,7 +202,14 @@ routes:
               label: 
                 fr: Pourquoi Gitribute ?
                 en: Why Gitribute ?
-  
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
+
   # WHAT IS GITRIBUTE
   - name: why-gitribute
     url: /why-gitribute
@@ -281,6 +296,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: how-it-works
     url: /how-it-works
     options:
@@ -326,11 +350,12 @@ routes:
         files:
           fr: ./texts/why-gitribute/how-it-works-no-account-en.md
           en: ./texts/why-gitribute/how-it-works-no-account-en.md
-      - name: Contact
+      - name: contact
         component: ButtonsComponent
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -338,6 +363,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: main-features
     url: /main-features
     options:
@@ -382,11 +416,12 @@ routes:
         files:
           fr: ./texts/why-gitribute/main-features-adapt-en.md
           en: ./texts/why-gitribute/main-features-adapt-en.md
-      - name: Contact
+      - name: contact
         component: ButtonsComponent
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -394,23 +429,33 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: roadmap
     url: /roadmap
     options:
       contrib: true
     sections: 
-      - name: head
+      - name: roadmap
         component: TextComponent
         options:
           columns-size: two-thirds
         files:
           fr: ./texts/why-gitribute/roadmap-en.md
           en: ./texts/why-gitribute/roadmap-en.md
-      - name: Contact
+      - name: contact
         component: ButtonsComponent
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /stack
               icon-left: xml
@@ -430,6 +475,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: architecture
     url: /architecture
     options:
@@ -569,6 +623,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: stack
     url: /stack
     options:
@@ -586,6 +649,7 @@ routes:
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /roadmap
               icon-left: map-search-outline
@@ -605,6 +669,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: business-model
     url: /business-model
     options:
@@ -679,13 +752,14 @@ routes:
           name:
             en: They support Gitribute
         files:
-          fr: ./texts/landing/landing-clients.md
-          en: ./texts/landing/landing-clients.md
+          fr: ./texts/landing/landing-clients-en.md
+          en: ./texts/landing/landing-clients-en.md
       - name: contact
         component: ButtonsComponent
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -693,7 +767,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
-  
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   # BENCHMARK
   - name: benchmark
     url: /benchmark
@@ -759,6 +841,7 @@ routes:
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -766,6 +849,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
 
   # TUTORIAL
   - name: tutorial-overview

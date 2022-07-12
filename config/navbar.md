@@ -39,12 +39,6 @@ buttons-left:
         label: 
           fr: Architecture & sketches
           en: Architecture & sketches
-      - name: roadmap
-        link: /roadmap
-        component: simpleLink
-        label: 
-          fr: Feuille de route
-          en: Roadmap
       - name: benchmark
         link: /benchmark
         component: simpleLink
@@ -117,6 +111,12 @@ buttons-left:
         label: 
           fr: Développeurs.euses
           en: Quickstart for developpers
+      - name: roadmap
+        link: /roadmap
+        component: simpleLink
+        label: 
+          fr: Feuille de route
+          en: Roadmap
       - name: stack
         link: /stack
         component: simpleLink
@@ -157,6 +157,14 @@ buttons-left:
           fr: gitribute-explowiki
           en: gitribute-explowiki
   
+  - name: contact 
+    icon: at
+    link: /contact
+    component: simpleLink
+    options: [ arrowless, hoverable ]
+    label: 
+      fr: Contact
+      en: Contact
 
 buttons-right: 
 
@@ -168,13 +176,6 @@ buttons-right:
     label: 
       fr: Code source de Gitribute
       en: Gitribute source code
-  - name: contact 
-    link: /contact
-    component: simpleLink
-    options: [ arrowless, hoverable ]
-    label: 
-      fr: Contactez-nous
-      en: Contact us
 
   - name: gallery
     disabled: false
@@ -208,6 +209,16 @@ buttons-right:
         label: 
           fr: CoopTech - Annuaire des coopératives
           en: CoopTech - Cooperatives registry
+
+  - name: multi 
+    link: https://multi.coop
+    image: https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/logos/logo-multi-003.png
+    icon: open-in-new
+    component: extLink
+    options: [ arrowless ]
+    label: 
+      fr: multi.coop
+      en: multi.coop
 
   - name: switch-locale
     component: switchLocaleDropdown
