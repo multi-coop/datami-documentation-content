@@ -1,6 +1,8 @@
-# MULTI WEBSITE CONTENTS
+# GITRIBUTE DOCUMENTATION WEBSITE CONTENTS
 
-This repo contains all contents for multi website, including the site's architecture : website name, locales, navbar, routes, footers, images, and text contents...
+Website : https://gitribute-docs.multi.coop
+
+This repo contains all contents for the gitribute's documentation website, including the site's architecture : website name, locales, navbar, routes, footers, images, and text contents...
 
 Thoses contents are organized so they could be deployed as a website, thanks to a softawre developped by the digital cooperative **[multi](https://multi.coop)**.
 
