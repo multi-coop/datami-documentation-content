@@ -29,7 +29,7 @@
      ..."tribute"
     </p>
     <span class="is-italic is-size-6">
-      ... for contribution
+      ... to con<b>tribute</b>
     </span>
   </div>
 </div>
