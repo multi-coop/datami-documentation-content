@@ -350,7 +350,7 @@ routes:
         files:
           fr: ./texts/why-gitribute/how-it-works-no-account-en.md
           en: ./texts/why-gitribute/how-it-works-no-account-en.md
-      - name: contact
+      - name: Contact
         component: ButtonsComponent
         options:
           columns-size: two-thirds
@@ -416,7 +416,7 @@ routes:
         files:
           fr: ./texts/why-gitribute/main-features-adapt-en.md
           en: ./texts/why-gitribute/main-features-adapt-en.md
-      - name: contact
+      - name: Contact
         component: ButtonsComponent
         options:
           columns-size: two-thirds
@@ -450,7 +450,7 @@ routes:
         files:
           fr: ./texts/why-gitribute/roadmap-en.md
           en: ./texts/why-gitribute/roadmap-en.md
-      - name: contact
+      - name: Contact
         component: ButtonsComponent
         options:
           columns-size: two-thirds
@@ -754,7 +754,7 @@ routes:
         files:
           fr: ./texts/landing/landing-clients-en.md
           en: ./texts/landing/landing-clients-en.md
-      - name: contact
+      - name: Contact
         component: ButtonsComponent
         options:
           columns-size: two-thirds
@@ -909,6 +909,7 @@ routes:
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -916,6 +917,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: tutorial-actions
     url: /tutorial-actions
     options:
@@ -1102,6 +1112,7 @@ routes:
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -1109,6 +1120,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: tutorial-edition
     url: /tutorial-edition
     options:
@@ -1188,6 +1208,7 @@ routes:
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -1195,6 +1216,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: tutorial-contribution
     url: /tutorial-contribution
     options:
@@ -1235,6 +1265,7 @@ routes:
         options:
           columns-size: two-thirds
           buttons-size: half
+          custom-class: mt-6
           buttons:
             - link: /contact
               icon-left: email
@@ -1242,6 +1273,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
 
   # DOCUMENTATION
   - name: install
@@ -1292,6 +1332,7 @@ routes:
         component: ButtonsComponent
         options:
           columns-size: two-thirds
+          custom-class: mt-6
           buttons-size: half
           buttons:
             - link: https://gitlab.com/multi-coop/gitribute
@@ -1306,6 +1347,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: quickstart-developpers
     url: /quickstart-developpers
     options:
@@ -1322,6 +1372,7 @@ routes:
         component: ButtonsComponent
         options:
           columns-size: two-thirds
+          custom-class: mt-6
           buttons-size: half
           buttons:
             - link: https://gitlab.com/multi-coop/gitribute
@@ -1336,6 +1387,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
   - name: integration
     url: /integration
     options:
@@ -1354,6 +1414,7 @@ routes:
         component: ButtonsComponent
         options:
           columns-size: two-thirds
+          custom-class: mt-6
           buttons-size: half
           buttons:
             - link: /contact
@@ -1362,6 +1423,15 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/landing/landing-multi-en.md
+          en: ./texts/landing/landing-multi-en.md
 
   # WIDGETS
   - name: docs-widgets-overview
@@ -1923,12 +1993,12 @@ routes:
                 en: Contact us
 
   # STANDARD ROUTES
-  - name: contact
+  - name: Contact
     url: /contact
     options:
       hero: true
     sections: 
-      - name: contact
+      - name: Contact
         component: TextComponent
         options:
           columns-size: three-quarters

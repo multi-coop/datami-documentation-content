@@ -156,29 +156,10 @@ buttons-left:
         label: 
           fr: gitribute-explowiki
           en: gitribute-explowiki
-  
-  - name: contact 
-    icon: at
-    link: /contact
-    component: simpleLink
-    options: [ arrowless, hoverable ]
-    label: 
-      fr: Contact
-      en: Contact
-
-buttons-right: 
-
-  - name: repo 
-    link: https://gitlab.com/multi-coop/gitribute
-    icon: gitlab
-    component: extLink
-    options: [ arrowless ]
-    label: 
-      fr: Code source de Gitribute
-      en: Gitribute source code
 
   - name: gallery
     disabled: false
+    icon: image
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
@@ -210,6 +191,17 @@ buttons-right:
           fr: CoopTech - Annuaire des coopératives
           en: CoopTech - Cooperatives registry
 
+  - name: contact 
+    icon: at
+    link: /contact
+    component: simpleLink
+    options: [ arrowless, hoverable ]
+    label: 
+      fr: Contact
+      en: Contact
+
+buttons-right: 
+
   - name: multi 
     link: https://multi.coop
     image: https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/logos/logo-multi-003.png
@@ -217,13 +209,22 @@ buttons-right:
     component: extLink
     options: [ arrowless ]
     label: 
-      fr: multi.coop
-      en: multi.coop
+      fr: A project by the tech cooperative multi
+      en: A project by the tech cooperative multi
+
+  - name: repo 
+    link: https://gitlab.com/multi-coop/gitribute
+    icon: gitlab
+    component: extLink
+    options: [ arrowless ]
+    label: 
+      fr: Code source de Gitribute
+      en: Gitribute source code
 
   - name: switch-locale
     component: switchLocaleDropdown
     options: [ arrowless, uppercase, rounded, hoverable ]
-    
+
 
 --- 
 
