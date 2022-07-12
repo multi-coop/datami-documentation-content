@@ -1,4 +1,4 @@
-# GITRIBUTE DOCUMENTATION WEBSITE CONTENTS
+# GITRIBUTE DOCUMENTATION CONTENT
 
 Website : https://gitribute-docs.multi.coop
 
