@@ -17,7 +17,7 @@
     <span class="is-italic is-size-6">
       We use 
       <a href="https://en.wikipedia.org/wiki/Git" target="_blank">
-        Git
+        <b>Git</b>
       </a> ...
     </span>
   </div>
