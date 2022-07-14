@@ -1399,17 +1399,46 @@ routes:
   - name: integration
     url: /integration
     options:
-      hero: true
+      # hero: true
       contrib: true
+      summary: true
     sections: 
       - name: integration
         component: TextComponent
         options:
           columns-size: three-quarters
-          # columns-divider: h1
+          name:
+           en: Introduction
         files:
           fr: ./texts/installation/integration-en.md
           en: ./texts/installation/integration-en.md
+      - name: integration-example
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+           en: Example
+        files:
+          fr: ./texts/installation/integration-example-en.md
+          en: ./texts/installation/integration-example-en.md
+      - name: integration-no_panic
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+           en: No panic! 
+        files:
+          fr: ./texts/installation/integration-no_panic-en.md
+          en: ./texts/installation/integration-no_panic-en.md
+      - name: integration-dependencies
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+           en: Dependencies
+        files:
+          fr: ./texts/installation/integration-dependencies-en.md
+          en: ./texts/installation/integration-dependencies-en.md
       - name: Contact
         component: ButtonsComponent
         options:

@@ -27,24 +27,16 @@ buttons-left:
         label: 
           fr: Principales fonctionnalités
           en: Main features
-      - name: how-it-works
-        link: /how-it-works
-        component: simpleLink
-        label: 
-          fr: Comment ça marche ?
-          en: How does it work ?
-      - name: architecture
-        link: /architecture
-        component: simpleLink
-        label: 
-          fr: Architecture & sketches
-          en: Architecture & sketches
+      - name: sep-01
+        separator: true
       - name: benchmark
         link: /benchmark
         component: simpleLink
         label: 
           fr: Benchmark
           en: Benchmark
+      - name: sep-02
+        separator: true
       - name: business-model
         link: /business-model
         component: simpleLink
@@ -60,6 +52,14 @@ buttons-left:
       fr: Tutoriels
       en: Tutorials
     submenu: 
+      - name: integration
+        link: /integration
+        component: simpleLink
+        label: 
+          fr: Intégration
+          en: Integration
+      - name: sep-01
+        separator: true
       - name: tutorial-overview
         link: /tutorial-overview
         component: simpleLink
@@ -84,54 +84,52 @@ buttons-left:
         label: 
           fr: Contribution
           en: Contribution
-
-  - name: installation 
-    icon: code-greater-than
-    component: dropdownLink
-    options: [ arrowless, hoverable ]
-    label: 
-      fr: Installation
-      en: Installation
-    submenu:
-      - name: lookup
-        link: /install
-        component: simpleLink
-        label: 
-          fr: Installation strategies
-          en: Installation strategies
-      - name: integration
-        link: /integration
-        component: simpleLink
-        label: 
-          fr: Intégration
-          en: Integration
+      - name: sep-02
+        separator: true
       - name: quickstart-developpers
         link: /quickstart-developpers
         component: simpleLink
         label: 
           fr: Développeurs.euses
           en: Quickstart for developpers
-      - name: roadmap
-        link: /roadmap
-        component: simpleLink
-        label: 
-          fr: Feuille de route
-          en: Roadmap
-      - name: stack
-        link: /stack
-        component: simpleLink
-        label: 
-          fr: Stack & licence
-          en: Stack & licence
 
-  - name: widgets 
+  # - name: installation 
+  #   icon: code-greater-than
+  #   component: dropdownLink
+  #   options: [ arrowless, hoverable ]
+  #   label: 
+  #     fr: Installation
+  #     en: Installation
+  #   submenu:
+  #     - name: install
+  #       link: /install
+  #       component: simpleLink
+  #       label: 
+  #         fr: Installation strategies
+  #         en: Installation strategies
+
+  - name: documentation 
     icon: book-open-variant
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
-      fr: Widgets
-      en: Widgets
+      fr: Documentation
+      en: Documentation
     submenu:
+      - name: install
+        link: /install
+        component: simpleLink
+        label: 
+          fr: Installation strategies
+          en: Installation strategies
+      - name: how-it-works
+        link: /how-it-works
+        component: simpleLink
+        label: 
+          fr: Comment ça marche ?
+          en: How does it work ?
+      - name: sep-01
+        separator: true
       - name: docs-widgets-overview
         link: /docs-widgets-overview
         component: simpleLink
@@ -142,20 +140,40 @@ buttons-left:
         link: /docs-gitfile
         component: simpleLink
         label: 
-          fr: gitribute-file
-          en: gitribute-file
+          fr: Widget "gitfile"
+          en: Widget "gitfile"
       - name: multi-files
         link: /docs-multi-files
         component: simpleLink
         label: 
-          fr: gitribute-multi-files
-          en: gitribute-multi-files
+          fr: Widget "multi-files"
+          en: Widget "multi-files"
       - name: explowiki
         link: /docs-explowiki
         component: simpleLink
         label: 
-          fr: gitribute-explowiki
-          en: gitribute-explowiki
+          fr: Widget "explowiki"
+          en: Widget "explowiki"
+      - name: sep-01
+        separator: true
+      - name: architecture
+        link: /architecture
+        component: simpleLink
+        label: 
+          fr: Architecture & sketches
+          en: Architecture & sketches
+      - name: stack
+        link: /stack
+        component: simpleLink
+        label: 
+          fr: Stack & licence
+          en: Stack & licence
+      - name: roadmap
+        link: /roadmap
+        component: simpleLink
+        label: 
+          fr: Feuille de route
+          en: Roadmap
 
   - name: gallery
     disabled: false
