@@ -1,4 +1,6 @@
-## Proof Of Concept, or POC (april-july 2022)
+## Proof Of Concept (POC) 
+
+**Developments : april-july 2022**
 
 The first step of the project was to prove our ideas and hypothesis were technically working.
 
