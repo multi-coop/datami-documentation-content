@@ -11,5 +11,4 @@ It means if you already have your own Gitlab account (or better, your own Gitlab
 
 This way your data stays where it was, protected, and you can manage the incoming contributions as you would manage any "pull request".
 
-> **Note** : More about our "no-code" solutions benchmark in the **[Why Gitribute / Benchmark](/benchmark)** section
-
+> **Note** : More about our "no-code" solutions benchmark in the **["Why Gitribute ? > Benchmark"](/benchmark)** section

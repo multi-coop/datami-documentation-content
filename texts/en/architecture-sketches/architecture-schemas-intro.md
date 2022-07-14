@@ -28,4 +28,4 @@ We are proud (and a bit ashamed too) to apply `#passionSchema` to our brainstorm
 
 ![SCHEMA-GITRIBUTE-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-schema-02.png)
 
-> _**Note** : More about the widgets in the **["Widgets > Overview"](/docs-widgets-overview)** section_
+> **Note** : More about the widgets in the **["Documentation > Overview"](/docs-widgets-overview)** section

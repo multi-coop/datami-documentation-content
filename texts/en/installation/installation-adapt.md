@@ -11,4 +11,4 @@ By changing the `gitfile` parameter in your `<multi-gitribute-file>` html block,
 
 It could seem a bit abstract here, but the documentation provides several examples and templates you can play with to see the results by yourself.
 
-> **Note** : More details about the widgets parameters in the ["Widgets"](/docs-widgets-overview) section.
+> **Note** : More details about the widgets parameters in the **["Documentation > Overview"](/docs-widgets-overview)** section.

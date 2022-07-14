@@ -41,4 +41,4 @@ This drawer contains the "old" and "new" values : "old" being the value inside y
 
 To overwrite the "old" value by the "new" one, just select the field(s) you want to overwrite and click on "Validate the changes".
 
-> More about how to add consolidation properties to a table dataset, with the Gitribute `gitfile` widget, in the [Widgets > `gitfile` section](/docs-gitfile)
+> **Note** : More about how to add consolidation properties to a table dataset, with the Gitribute `gitfile` widget, in the **["Documentation > Widget 'gitfile'"](/docs-gitfile)** section.

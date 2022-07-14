@@ -1164,8 +1164,8 @@ routes:
           name:
            en: Introduction
         files:
-          fr: ./texts/fr/installation/integration.md
-          en: ./texts/en/installation/integration.md
+          fr: ./texts/fr/integration/integration.md
+          en: ./texts/en/integration/integration.md
       - name: integration-example
         component: TextComponent
         options:
@@ -1173,17 +1173,17 @@ routes:
           name:
            en: Example
         files:
-          fr: ./texts/fr/installation/integration-example.md
-          en: ./texts/en/installation/integration-example.md
+          fr: ./texts/fr/integration/integration-example.md
+          en: ./texts/en/integration/integration-example.md
       - name: integration-no_panic
         component: TextComponent
         options:
           columns-size: three-quarters
           name:
-           en: No panic! 
+           en: Do not panic !
         files:
-          fr: ./texts/fr/installation/integration-no_panic.md
-          en: ./texts/en/installation/integration-no_panic.md
+          fr: ./texts/fr/integration/integration-no_panic.md
+          en: ./texts/en/integration/integration-no_panic.md
       - name: integration-dependencies
         component: TextComponent
         options:
@@ -1191,8 +1191,8 @@ routes:
           name:
            en: Dependencies
         files:
-          fr: ./texts/fr/installation/integration-dependencies.md
-          en: ./texts/en/installation/integration-dependencies.md
+          fr: ./texts/fr/integration/integration-dependencies.md
+          en: ./texts/en/integration/integration-dependencies.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -1368,6 +1368,8 @@ routes:
     options:
       contrib: true
       summary: true
+      name:
+        en: Software informations
     sections: 
       - name: docs-licence
         component: TextComponent
@@ -1416,6 +1418,15 @@ routes:
         files:
           fr: ./texts/fr/software/roadmap-mvp.md
           en: ./texts/en/software/roadmap-mvp.md
+      - name: contributing
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Contributing to the docs
+        files:
+          fr: ./texts/fr/software/contributing.md
+          en: ./texts/en/software/contributing.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -2121,18 +2132,6 @@ routes:
         files:
           fr: ./texts/fr/contact/contact-head.md
           en: ./texts/en/contact/contact-head.md
-
-  - name: contribute
-    url: /contribute
-    sections: 
-      - name: head
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-          columns-divider: h1
-        files:
-          fr: ./texts/fr/contact/contribute-head.md
-          en: ./texts/en/contact/contribute-head.md
 
   - name: legal
     url: /legal

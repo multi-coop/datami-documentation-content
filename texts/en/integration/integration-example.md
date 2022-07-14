@@ -1,4 +1,4 @@
-### Integration examples
+## Integration example
 
 Widgets can then be called directly into the page as custom html elements.
 

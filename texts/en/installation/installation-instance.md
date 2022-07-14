@@ -9,4 +9,4 @@ So please clone/copy/reuse, the only thing you'll need to do is to respect the t
 
 **We let you reuse it, so you keep it open sourced !**
 
-> **Note** : More about local development and deployment in the ["Install > Quickstart for developpers"](/quickstart-developpers) section.
+> **Note** : More about local development and deployment in the **["Tutorials > Quickstart for developpers"](/quickstart-developpers)** section.

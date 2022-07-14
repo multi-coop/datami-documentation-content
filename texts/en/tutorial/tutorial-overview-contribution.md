@@ -15,4 +15,4 @@ Making a open contribution to a document, including the possibility for the docu
 - **What is a "pull request" or a "merge request" ?**
 - **How do I know my contribution was accepted ?**
 
-> More details about the contribution process in the **[Tutorials > Contribution](/tutorial-contribution)** section
+> More details about the contribution process in the **["Tutorials > Contribution"](/tutorial-contribution)** section
