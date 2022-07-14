@@ -1390,7 +1390,7 @@ routes:
       - name: roadmap
         component: TextComponent
         options:
-          columns-size: two-thirds
+          columns-size: three-quarters
           name:
             en: Roadmap
         files:
@@ -1399,7 +1399,7 @@ routes:
       - name: roadmap-poc
         component: TextComponent
         options:
-          columns-size: two-thirds
+          columns-size: three-quarters
           depth: 1
           name:
             en: POC
@@ -1409,7 +1409,7 @@ routes:
       - name: roadmap-mvp
         component: TextComponent
         options:
-          columns-size: two-thirds
+          columns-size: three-quarters
           depth: 1
           name:
             en: MVP
