@@ -1057,6 +1057,8 @@ routes:
     options:
       contrib: true
       summary: true
+      name:
+        en: Quickstart for developpers
     sections: 
       - name: intro
         component: TextComponent
