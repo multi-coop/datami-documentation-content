@@ -15,7 +15,7 @@ To sum up, when you set up your Gitribute widget from scratch you have to :
 - 2/ Set up the target repo to allow this token to make contributions (create branches, but not pushes directly to your `main` branch)
 - 3/ You can inject this default token in the widget (either from an `.env` variable or directly from the frontend).
 
-That way, an **user can push commits anonymously, without having to create its own Github or Gitlab account**.
+That way, an **user can push commits anonymously, without having to create its own Github or Gitlab account**. That said you can add a little message to the data owner to your anonymous contribution.
 
 Users can also use their own token.
 
