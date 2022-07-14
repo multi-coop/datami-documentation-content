@@ -7,7 +7,7 @@
     />
 </div>
 
-Finally some fetaures are correlated to the core purpose of Gitribute : "Contribute with Git".
+Finally some features are correlated to the core purpose of Gitribute : **"Contribute with Git"**.
 
 Making a open contribution to a document, including the possibility for the document's owner to reject or to modify it comes with some little perks and a bit of vocabulary.
 
