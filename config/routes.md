@@ -1156,6 +1156,8 @@ routes:
       # hero: true
       contrib: true
       summary: true
+      name:
+        en: Integration
     sections: 
       - name: integration
         component: TextComponent
