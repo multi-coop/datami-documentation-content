@@ -11,7 +11,7 @@
       href="https://multi.coop"
       target="_blank">
       <img
-        style="height: 40px;"
+        style="max-height: 45px; width: auto;"
         src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/logos/logo-multi-003.png"
         alt="MULTI"
       />

@@ -1118,7 +1118,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            en: Unit-tests
+            en: Unit tests
         files:
           fr: ./texts/fr/quickstart/unit-tests.md
           en: ./texts/en/quickstart/unit-tests.md
