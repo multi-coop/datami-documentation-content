@@ -19,39 +19,39 @@ Last but not least Gitribute's widgets are designed to be "copy-paste", so you c
     <p class="has-text-weight-bold">
       <a href="/docs-gitfile">
         Gitfile widget
+        <div style="border: thin solid lightgrey;">
+          <img
+            src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-md-edit-01.png"
+            alt="SCREENSHOT-02"
+          />
+        </div>
       </a>
     </p>
-    <div style="border: thin solid lightgrey;">
-      <img
-        src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-md-edit-01.png"
-        alt="SCREENSHOT-02"
-      />
-    </div>
   </div>
   <div class="column is-4 has-text-centered">
     <p class="has-text-weight-bold">
       <a href="/docs-multi-files">
         Multi-files widget
+        <div style="border: thin solid lightgrey;">
+          <img
+            src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/multifiles-preview-01.png"
+            alt="SCREENSHOT-01"
+          />
+        </div>
       </a>
     </p>
-    <div style="border: thin solid lightgrey;">
-      <img
-        src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/multifiles-preview-01.png"
-        alt="SCREENSHOT-01"
-      />
-    </div>
   </div>
   <div class="column is-4 has-text-centered">
     <p class="has-text-weight-bold">
       <a href="/docs-explowiki">
         Explowiki widget
+        <div style="border: thin solid lightgrey;">
+          <img
+            src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/explowiki-preview-01.png"
+            alt="SCREENSHOT-03"
+          />
+        </div>
       </a>
     </p>
-    <div style="border: thin solid lightgrey;">
-      <img
-        src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/explowiki-preview-01.png"
-        alt="SCREENSHOT-03"
-      />
-      </div>
   </div>
 </div>
