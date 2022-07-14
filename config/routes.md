@@ -27,18 +27,18 @@ routes:
           columns-size: three-quarters
           buttons-size: one-third
           buttons:
-            - link: /tutorial-overview
-              icon-left: school
-              rounded: true
-              label: 
-                fr: Tutorials
-                en: Tutorials
             - link: /why-gitribute
               icon-left: help-circle
               rounded: true
               label:
                 fr: Pourquoi Gitribute ?
                 en: Why Gitribute ?
+            - link: /tutorial-overview
+              icon-left: school
+              rounded: true
+              label: 
+                fr: Tutorials
+                en: Tutorials
             - link: /docs-widgets-overview
               icon-left: book-open-variant
               rounded: true
