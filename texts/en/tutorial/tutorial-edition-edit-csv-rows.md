@@ -30,4 +30,4 @@ A cell input could have a different interface given those type + properties :
 - `tag` : a `string` category (only one entry possible in a selection)
 - `tags` : a list of `string` values, separated automatically by a separator (`,` by default). You don't have to write the separator between the values.
 
-> **Note** : We have in mind we could include more types, as `date` or `coordinates`, those are in our [roadmap](/roadmap) for later developments during the MVP development cycle.
+> **Note** : We have in mind we could include more types, as `date` or `coordinates`, those are in our [roadmap](/software) for later developments during the MVP development cycle.

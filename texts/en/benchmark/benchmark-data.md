@@ -53,24 +53,24 @@ options:
 
 items: 
   # open source
-  - file: ./texts/benchmark/solutions/gitribute.md
-  - file: ./texts/benchmark/solutions/data-patch.md
-  - file: ./texts/benchmark/solutions/gis.md
-  - file: ./texts/benchmark/solutions/nocodb.md
-  - file: ./texts/benchmark/solutions/framacalc.md
-  - file: ./texts/benchmark/solutions/libreoffice.md
-  - file: ./texts/benchmark/solutions/koumoul.md
-  - file: ./texts/benchmark/solutions/mediawiki.md
-  - file: ./texts/benchmark/solutions/semapps.md
-  - file: ./texts/benchmark/solutions/ckan.md
+  - file: ./texts/en/benchmark/solutions/gitribute.md
+  - file: ./texts/en/benchmark/solutions/data-patch.md
+  - file: ./texts/en/benchmark/solutions/gis.md
+  - file: ./texts/en/benchmark/solutions/nocodb.md
+  - file: ./texts/en/benchmark/solutions/framacalc.md
+  - file: ./texts/en/benchmark/solutions/libreoffice.md
+  - file: ./texts/en/benchmark/solutions/koumoul.md
+  - file: ./texts/en/benchmark/solutions/mediawiki.md
+  - file: ./texts/en/benchmark/solutions/semapps.md
+  - file: ./texts/en/benchmark/solutions/ckan.md
   # propriteary
-  - file: ./texts/benchmark/solutions/airtable.md
-  - file: ./texts/benchmark/solutions/kantree.md
-  - file: ./texts/benchmark/solutions/notion.md
-  - file: ./texts/benchmark/solutions/coda.md
-  - file: ./texts/benchmark/solutions/googlesheet.md
-  - file: ./texts/benchmark/solutions/excel.md
-  - file: ./texts/benchmark/solutions/ods.md
+  - file: ./texts/en/benchmark/solutions/airtable.md
+  - file: ./texts/en/benchmark/solutions/kantree.md
+  - file: ./texts/en/benchmark/solutions/notion.md
+  - file: ./texts/en/benchmark/solutions/coda.md
+  - file: ./texts/en/benchmark/solutions/googlesheet.md
+  - file: ./texts/en/benchmark/solutions/excel.md
+  - file: ./texts/en/benchmark/solutions/ods.md
 
 
 dict:

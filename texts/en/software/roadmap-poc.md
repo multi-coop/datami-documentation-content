@@ -1,12 +1,3 @@
-
-# Roadmap
-
-Ours roadmaps boards are visible [here on the source code repository](https://gitlab.com/multi-coop/gitribute/-/boards/4084563).
-
-This project is currently under early developments, we are finishing our "POC" and the "MVP" is near...
-
----
-
 ## Proof Of Concept, or POC (april-july 2022)
 
 The first step of the project was to prove our ideas and hypothesis were technically working.
@@ -58,9 +49,3 @@ The **roadmap** for a first proof of concept (POC) was the following :
 ... and just for a POC, [that would be greaaaaat... mmm'kay ?](https://www.youtube.com/watch?v=JFRa7Ovym8s&ab_channel=IAJSTU)
 
 **Work in progress... the end is near (or help us by contributing) :)**
-
----
-
-## Minimum Viable Product, or MVP (september 2022)
-
-... We got some surprises for automn 2022 ... Suspense ...

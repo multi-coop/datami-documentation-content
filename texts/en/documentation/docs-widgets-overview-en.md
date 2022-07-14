@@ -9,7 +9,7 @@ Each widget has its own specificities, and can work independently or altogether.
 
 Some widgets are specialized in visualizing data from github or gitlab, some to visualize multiple files at once, some in visualizing data from wiki websites...
 
-Our [roadmaps](/roadmap) draws some intentions for the planned future developments. We plan to develop some or all of the following :
+Our [roadmaps](/software) draws some intentions for the planned future developments. We plan to develop some or all of the following :
 
 - a widget to visualize data tables as charts (dataviz) ;
 - a widget to help data owners make triage with the merge requests ;

@@ -27,15 +27,7 @@ buttons-left:
         label: 
           fr: Principales fonctionnalités
           en: Main features
-      - name: sep-01
-        separator: true
-      - name: benchmark
-        link: /benchmark
-        component: simpleLink
-        label: 
-          fr: Benchmark
-          en: Benchmark
-      - name: sep-02
+      - name: sep
         separator: true
       - name: business-model
         link: /business-model
@@ -43,6 +35,12 @@ buttons-left:
         label: 
           fr: Quel est le business model ?
           en: What is the business model ?
+      - name: benchmark
+        link: /benchmark
+        component: simpleLink
+        label: 
+          fr: Benchmark
+          en: Benchmark
 
   - name: tutorials
     icon: school
@@ -58,7 +56,7 @@ buttons-left:
         label: 
           fr: Intégration
           en: Integration
-      - name: sep-01
+      - name: sep
         separator: true
       - name: tutorial-overview
         link: /tutorial-overview
@@ -84,7 +82,7 @@ buttons-left:
         label: 
           fr: Contribution
           en: Contribution
-      - name: sep-02
+      - name: sep
         separator: true
       - name: quickstart-developpers
         link: /quickstart-developpers
@@ -122,13 +120,7 @@ buttons-left:
         label: 
           fr: Installation strategies
           en: Installation strategies
-      - name: how-it-works
-        link: /how-it-works
-        component: simpleLink
-        label: 
-          fr: Comment ça marche ?
-          en: How does it work ?
-      - name: sep-01
+      - name: sep
         separator: true
       - name: docs-widgets-overview
         link: /docs-widgets-overview
@@ -154,26 +146,32 @@ buttons-left:
         label: 
           fr: Widget "explowiki"
           en: Widget "explowiki"
-      - name: sep-01
+      - name: sep
         separator: true
+      - name: how-it-works
+        link: /how-it-works
+        component: simpleLink
+        label: 
+          fr: Comment ça marche ?
+          en: How does it work ?
       - name: architecture
         link: /architecture
         component: simpleLink
         label: 
           fr: Architecture & sketches
           en: Architecture & sketches
-      - name: stack
-        link: /stack
+      - name: software
+        link: /software
         component: simpleLink
         label: 
-          fr: Stack & licence
-          en: Stack & licence
-      - name: roadmap
-        link: /roadmap
-        component: simpleLink
-        label: 
-          fr: Feuille de route
-          en: Roadmap
+          fr: Software infos
+          en: Software infos
+      # - name: roadmap
+      #   link: /roadmap
+      #   component: simpleLink
+      #   label: 
+      #     fr: Feuille de route
+      #     en: Roadmap
 
   - name: gallery
     disabled: false

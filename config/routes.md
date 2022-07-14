@@ -12,15 +12,15 @@ routes:
         options:
           columns-size: '5'
         files:
-          fr: ./texts/landing/logo-gitribute.md
-          en: ./texts/landing/logo-gitribute.md
+          fr: ./texts/fr/landing/logo-gitribute.md
+          en: ./texts/en/landing/logo-gitribute.md
       - name: catchphrase
         component: TextComponent
         options:
           columns-size: full
         files:
-          fr: ./texts/landing/catchphrase-en.md
-          en: ./texts/landing/catchphrase-en.md
+          fr: ./texts/fr/landing/catchphrase.md
+          en: ./texts/en/landing/catchphrase.md
       - name: btns
         component: ButtonsComponent
         options:
@@ -56,36 +56,36 @@ routes:
         options:
           columns-size: full
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
       - name: more-intro
         component: TextComponent
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/landing/more.md
-          en: ./texts/landing/more.md
+          fr: ./texts/fr/landing/more.md
+          en: ./texts/en/landing/more.md
       # - name: intro-widget
       #   component: HtmlComponent
       #   options:
       #     columns-size: two-thirds
       #   files:
-      #     fr: ./texts/landing/landing-widget.html
-      #     en: ./texts/landing/landing-widget.html
+      #     fr: ./texts/fr/landing/landing-widget.html
+      #     en: ./texts/en/landing/landing-widget.html
       - name: intro
         component: TextComponent
         options:
           columns-size: two-thirds
         files:
-          fr: ./texts/landing/landing-intro-en.md
-          en: ./texts/landing/landing-intro-en.md
+          fr: ./texts/fr/landing/landing-intro.md
+          en: ./texts/en/landing/landing-intro.md
       - name: more-simulator
         component: TextComponent
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/landing/more.md
-          en: ./texts/landing/more.md
+          fr: ./texts/fr/landing/more.md
+          en: ./texts/en/landing/more.md
       - name: simulator
         component: WidgetComponent
         options:
@@ -159,36 +159,36 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/landing/more.md
-          en: ./texts/landing/more.md
+          fr: ./texts/fr/landing/more.md
+          en: ./texts/en/landing/more.md
       - name: clients
         component: TextComponent
         options:
           columns-size: full
         files:
-          fr: ./texts/landing/landing-clients-en.md
-          en: ./texts/landing/landing-clients-en.md
+          fr: ./texts/fr/landing/landing-clients.md
+          en: ./texts/en/landing/landing-clients.md
       - name: more-outro
         component: TextComponent
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/landing/more.md
-          en: ./texts/landing/more.md
+          fr: ./texts/fr/landing/more.md
+          en: ./texts/en/landing/more.md
       - name: outro
         component: TextComponent
         options:
           columns-size: two-thirds
         files:
-          fr: ./texts/landing/landing-outro-en.md
-          en: ./texts/landing/landing-outro-en.md
+          fr: ./texts/fr/landing/landing-outro.md
+          en: ./texts/en/landing/landing-outro.md
       - name: more-why
         component: TextComponent
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/landing/more.md
-          en: ./texts/landing/more.md
+          fr: ./texts/fr/landing/more.md
+          en: ./texts/en/landing/more.md
       - name: btn-to-why
         component: ButtonsComponent
         options:
@@ -207,8 +207,8 @@ routes:
         options:
           columns-size: full
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
 
   # WHAT IS GITRIBUTE
   - name: why-gitribute
@@ -226,8 +226,8 @@ routes:
           name:
             en: Introduction
         files:
-          fr: ./texts/why-gitribute/why-gitribute-en.md
-          en: ./texts/why-gitribute/why-gitribute-en.md
+          fr: ./texts/fr/why-gitribute/why-gitribute.md
+          en: ./texts/en/why-gitribute/why-gitribute.md
       - name: why-intro-easy
         component: TextComponent
         options:
@@ -235,8 +235,8 @@ routes:
           name:
             en: Make open contribution easier 
         files:
-          fr: ./texts/why-gitribute/why-gitribute-easy-en.md
-          en: ./texts/why-gitribute/why-gitribute-easy-en.md
+          fr: ./texts/fr/why-gitribute/why-gitribute-easy.md
+          en: ./texts/en/why-gitribute/why-gitribute-easy.md
       - name: why-open
         component: TextComponent
         options:
@@ -244,8 +244,8 @@ routes:
           name:
             en: Help organizations opening data
         files:
-          fr: ./texts/why-gitribute/why-gitribute-open-en.md
-          en: ./texts/why-gitribute/why-gitribute-open-en.md
+          fr: ./texts/fr/why-gitribute/why-gitribute-open.md
+          en: ./texts/en/why-gitribute/why-gitribute-open.md
       - name: why-costs
         component: TextComponent
         options:
@@ -253,8 +253,8 @@ routes:
           name:
             en: Reduce the cost of open data
         files:
-          fr: ./texts/why-gitribute/why-gitribute-costs-en.md
-          en: ./texts/why-gitribute/why-gitribute-costs-en.md
+          fr: ./texts/fr/why-gitribute/why-gitribute-costs.md
+          en: ./texts/en/why-gitribute/why-gitribute-costs.md
       - name: why-quality
         component: TextComponent
         options:
@@ -262,8 +262,8 @@ routes:
           name:
             en: Make quality open data
         files:
-          fr: ./texts/why-gitribute/why-gitribute-quality-en.md
-          en: ./texts/why-gitribute/why-gitribute-quality-en.md
+          fr: ./texts/fr/why-gitribute/why-gitribute-quality.md
+          en: ./texts/en/why-gitribute/why-gitribute-quality.md
       - name: why-quality-schemas
         component: TextComponent
         options:
@@ -272,8 +272,8 @@ routes:
           name:
             en: Data & schemas
         files:
-          fr: ./texts/why-gitribute/why-gitribute-quality-schemas-en.md
-          en: ./texts/why-gitribute/why-gitribute-quality-schemas-en.md
+          fr: ./texts/fr/why-gitribute/why-gitribute-quality-schemas.md
+          en: ./texts/en/why-gitribute/why-gitribute-quality-schemas.md
       - name: why-quality-consolidation
         component: TextComponent
         options:
@@ -282,8 +282,8 @@ routes:
           name:
             en: Data consolidation
         files:
-          fr: ./texts/why-gitribute/why-gitribute-quality-consolidation-en.md
-          en: ./texts/why-gitribute/why-gitribute-quality-consolidation-en.md
+          fr: ./texts/fr/why-gitribute/why-gitribute-quality-consolidation.md
+          en: ./texts/en/why-gitribute/why-gitribute-quality-consolidation.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -303,75 +303,9 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
-  - name: how-it-works
-    url: /how-it-works
-    options:
-      hero: true
-      summary: true
-      contrib: true
-      name:
-        en: How it works
-    sections: 
-      - name: how
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            en: Introduction
-        files:
-          fr: ./texts/why-gitribute/how-it-works-en.md
-          en: ./texts/why-gitribute/how-it-works-en.md
-      - name: how-widgets-collection
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            en: A widgets collection
-        files:
-          fr: ./texts/why-gitribute/how-it-works-widgets-collection-en.md
-          en: ./texts/why-gitribute/how-it-works-widgets-collection-en.md
-      - name: how-git-providers
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            en: Git providers
-        files:
-          fr: ./texts/why-gitribute/how-it-works-git-providers-en.md
-          en: ./texts/why-gitribute/how-it-works-git-providers-en.md
-      - name: how-no-account
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            en: Contribute anonymously
-        files:
-          fr: ./texts/why-gitribute/how-it-works-no-account-en.md
-          en: ./texts/why-gitribute/how-it-works-no-account-en.md
-      - name: Contact
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: half
-          custom-class: mt-6
-          buttons:
-            - link: /contact
-              icon-left: email
-              rounded: true
-              label: 
-                fr: Nous contacter
-                en: Contact us
-      - name: logo-multi
-        component: TextComponent
-        options:
-          columns-size: full
-          custom-class: mt-6
-          not-in-menu: true
-        files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
+
   - name: main-features
     url: /main-features
     options:
@@ -387,8 +321,8 @@ routes:
           name:
             en: Introduction
         files:
-          fr: ./texts/why-gitribute/main-features-en.md
-          en: ./texts/why-gitribute/main-features-en.md
+          fr: ./texts/fr/main-features/main-features.md
+          en: ./texts/en/main-features/main-features.md
       - name: main-features-edit
         component: TextComponent
         options:
@@ -396,8 +330,8 @@ routes:
           name:
             en: Edit & contribute online
         files:
-          fr: ./texts/why-gitribute/main-features-edit-en.md
-          en: ./texts/why-gitribute/main-features-edit-en.md
+          fr: ./texts/fr/main-features/main-features-edit.md
+          en: ./texts/en/main-features/main-features-edit.md
       - name: main-features-share
         component: TextComponent
         options:
@@ -405,8 +339,8 @@ routes:
           name:
             en: Share your datasets
         files:
-          fr: ./texts/why-gitribute/main-features-share-en.md
-          en: ./texts/why-gitribute/main-features-share-en.md
+          fr: ./texts/fr/main-features/main-features-share.md
+          en: ./texts/en/main-features/main-features-share.md
       - name: main-features-adapt
         component: TextComponent
         options:
@@ -414,8 +348,8 @@ routes:
           name:
             en: Adapt the widgets to your needs
         files:
-          fr: ./texts/why-gitribute/main-features-adapt-en.md
-          en: ./texts/why-gitribute/main-features-adapt-en.md
+          fr: ./texts/fr/main-features/main-features-adapt.md
+          en: ./texts/en/main-features/main-features-adapt.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -436,248 +370,9 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
-  - name: roadmap
-    url: /roadmap
-    options:
-      contrib: true
-    sections: 
-      - name: roadmap
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/why-gitribute/roadmap-en.md
-          en: ./texts/why-gitribute/roadmap-en.md
-      - name: Contact
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: half
-          custom-class: mt-6
-          buttons:
-            - link: /stack
-              icon-left: xml
-              rounded: true
-              label: 
-                fr: Stack
-                en: Stack
-            - link: https://gitlab.com/multi-coop/gitribute
-              icon-left: gitlab
-              rounded: true
-              label: 
-                fr: Code source
-                en: Source code
-            - link: /contact
-              icon-left: email
-              rounded: true
-              label: 
-                fr: Nous contacter
-                en: Contact us
-      - name: logo-multi
-        component: TextComponent
-        options:
-          columns-size: full
-          custom-class: mt-6
-          not-in-menu: true
-        files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
-  - name: architecture
-    url: /architecture
-    options:
-      summary: true
-      contrib: true
-      name:
-        en: Architecture & sketches
-    sections: 
-      - name: architecture-schemas-intro
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            en: Sketches & wireframes
-        files:
-          fr: ./texts/why-gitribute/architecture-schemas-intro-en.md
-          en: ./texts/why-gitribute/architecture-schemas-intro-en.md
-      - name: architecture
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            en: Main ideas
-        files:
-          fr: ./texts/why-gitribute/architecture-en.md
-          en: ./texts/why-gitribute/architecture-en.md
-      - name: architecture-git-providers
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            en: Git providers as database
-        files:
-          fr: ./texts/why-gitribute/architecture-git-providers-en.md
-          en: ./texts/why-gitribute/architecture-git-providers-en.md
-      - name: architecture-basic-interoperability
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            en: Basic interoperability
-        files:
-          fr: ./texts/why-gitribute/architecture-basic-interoperability-en.md
-          en: ./texts/why-gitribute/architecture-basic-interoperability-en.md
-      - name: architecture-git-data-agnostic
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            en: Data agnostic
-        files:
-          fr: ./texts/why-gitribute/architecture-data-agnostic-en.md
-          en: ./texts/why-gitribute/architecture-data-agnostic-en.md
-      - name: architecture-widgets-collection
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            en: A widgets collection...
-        files:
-          fr: ./texts/why-gitribute/architecture-widgets-collection-en.md
-          en: ./texts/why-gitribute/architecture-widgets-collection-en.md
-      - name: architecture-for-noobs
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            en: ...For noobs
-        files:
-          fr: ./texts/why-gitribute/architecture-for-noobs-en.md
-          en: ./texts/why-gitribute/architecture-for-noobs-en.md
-      - name: architecture-schemas-wireframes
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            en: Components wireframes
-        files:
-          fr: ./texts/why-gitribute/architecture-schemas-wireframes-en.md
-          en: ./texts/why-gitribute/architecture-schemas-wireframes-en.md
-      - name: architecture-schemas-csv
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            en: Widget for `csv` preview and edition
-        files:
-          fr: ./texts/why-gitribute/architecture-schemas-csv-en.md
-          en: ./texts/why-gitribute/architecture-schemas-csv-en.md
-      - name: architecture-schemas-md
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            en: Widget for `md` preview and edition
-        files:
-          fr: ./texts/why-gitribute/architecture-schemas-md-en.md
-          en: ./texts/why-gitribute/architecture-schemas-md-en.md
-      - name: architecture-schemas-save-dialog
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            en: Dialog before saving changes
-        files:
-          fr: ./texts/why-gitribute/architecture-schemas-save-dialog-en.md
-          en: ./texts/why-gitribute/architecture-schemas-save-dialog-en.md
-      - name: Contact
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: half
-          buttons:
-            - link: /stack
-              icon-left: xml
-              rounded: true
-              label: 
-                fr: Stack
-                en: Stack
-            - link: https://gitlab.com/multi-coop/gitribute
-              icon-left: gitlab
-              rounded: true
-              label: 
-                fr: Code source
-                en: Source code
-            - link: /contact
-              icon-left: email
-              rounded: true
-              label: 
-                fr: Nous contacter
-                en: Contact us
-      - name: logo-multi
-        component: TextComponent
-        options:
-          columns-size: full
-          custom-class: mt-6
-          not-in-menu: true
-        files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
-  - name: stack
-    url: /stack
-    options:
-      contrib: true
-    sections: 
-      - name: docs-stack
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-        files:
-          fr: ./texts/why-gitribute/stack-en.md
-          en: ./texts/why-gitribute/stack-en.md
-      - name: Contact
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: half
-          custom-class: mt-6
-          buttons:
-            - link: /roadmap
-              icon-left: map-search-outline
-              rounded: true
-              label: 
-                fr: Roadmap
-                en: Roadmap
-            - link: https://gitlab.com/multi-coop/gitribute
-              icon-left: gitlab
-              rounded: true
-              label: 
-                fr: Code source
-                en: Source code
-            - link: /contact
-              icon-left: email
-              rounded: true
-              label: 
-                fr: Nous contacter
-                en: Contact us
-      - name: logo-multi
-        component: TextComponent
-        options:
-          columns-size: full
-          custom-class: mt-6
-          not-in-menu: true
-        files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
+
   - name: business-model
     url: /business-model
     options:
@@ -694,8 +389,8 @@ routes:
           name:
             en: Business model
         files:
-          fr: ./texts/why-gitribute/business-model-en.md
-          en: ./texts/why-gitribute/business-model-en.md
+          fr: ./texts/fr/business-model/business-model.md
+          en: ./texts/en/business-model/business-model.md
       - name: business-model-no_trap
         component: TextComponent
         options:
@@ -703,8 +398,8 @@ routes:
           name:
             en: No trap, just open source
         files:
-          fr: ./texts/why-gitribute/business-model-no_trap-en.md
-          en: ./texts/why-gitribute/business-model-no_trap-en.md
+          fr: ./texts/fr/business-model/business-model-no_trap.md
+          en: ./texts/en/business-model/business-model-no_trap.md
       - name: business-model-idea
         component: TextComponent
         options:
@@ -713,8 +408,8 @@ routes:
           name:
             en: An idea, and the quick proof it could technically work
         files:
-          fr: ./texts/why-gitribute/business-model-idea-en.md
-          en: ./texts/why-gitribute/business-model-idea-en.md
+          fr: ./texts/fr/business-model/business-model-idea.md
+          en: ./texts/en/business-model/business-model-idea.md
       - name: business-model-usecases
         component: TextComponent
         options:
@@ -723,8 +418,8 @@ routes:
           name:
             en: Real use cases
         files:
-          fr: ./texts/why-gitribute/business-model-usecases-en.md
-          en: ./texts/why-gitribute/business-model-usecases-en.md
+          fr: ./texts/fr/business-model/business-model-usecases.md
+          en: ./texts/en/business-model/business-model-usecases.md
       - name: business-model-mutualize
         component: TextComponent
         options:
@@ -733,8 +428,8 @@ routes:
           name:
             en: Mutualize & converge with the roadmap 
         files:
-          fr: ./texts/why-gitribute/business-model-mutualize-en.md
-          en: ./texts/why-gitribute/business-model-mutualize-en.md
+          fr: ./texts/fr/business-model/business-model-mutualize.md
+          en: ./texts/en/business-model/business-model-mutualize.md
       - name: business-model-valorize
         component: TextComponent
         options:
@@ -743,8 +438,8 @@ routes:
           name:
             en: Valorize the expertise, not the code
         files:
-          fr: ./texts/why-gitribute/business-model-valorize-en.md
-          en: ./texts/why-gitribute/business-model-valorize-en.md
+          fr: ./texts/fr/business-model/business-model-valorize.md
+          en: ./texts/en/business-model/business-model-valorize.md
       - name: clients
         component: TextComponent
         options:
@@ -752,8 +447,8 @@ routes:
           name:
             en: They support Gitribute
         files:
-          fr: ./texts/landing/landing-clients-en.md
-          en: ./texts/landing/landing-clients-en.md
+          fr: ./texts/fr/landing/landing-clients.md
+          en: ./texts/en/landing/landing-clients.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -774,8 +469,9 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
+  
   # BENCHMARK
   - name: benchmark
     url: /benchmark
@@ -792,7 +488,7 @@ routes:
           name:
             en: Introduction
         files:
-          en: ./texts/benchmark/benchmark-head-en.md
+          en: ./texts/en/benchmark/benchmark-head.md
       - name: benchmark-comparisons
         component: TextComponent
         options:
@@ -800,7 +496,7 @@ routes:
           name:
             en: Comparisons
         files:
-          en: ./texts/benchmark/benchmark-comparisons-en.md
+          en: ./texts/en/benchmark/benchmark-comparisons.md
       - name: benchmark-comparisons-open
         component: TextComponent
         options:
@@ -809,7 +505,7 @@ routes:
           name:
             en: Open source solutions
         files:
-          en: ./texts/benchmark/benchmark-comparisons-open-en.md
+          en: ./texts/en/benchmark/benchmark-comparisons-open.md
       - name: benchmark-comparisons-proprietary
         component: TextComponent
         options:
@@ -818,7 +514,7 @@ routes:
           name:
             en: Proprietary solutions
         files:
-          en: ./texts/benchmark/benchmark-comparisons-proprietary-en.md
+          en: ./texts/en/benchmark/benchmark-comparisons-proprietary.md
       - name: benchmark-solutions
         component: TextComponent
         options:
@@ -826,7 +522,7 @@ routes:
           name:
             en: Solutions
         files:
-          en: ./texts/benchmark/benchmark-solutions-en.md
+          en: ./texts/en/benchmark/benchmark-solutions.md
       - name: benchmark-data
         component: DataGrid
         options:
@@ -835,7 +531,7 @@ routes:
           name:
             en: Grid list
         files:
-          en: ./texts/benchmark/benchmark-data.md
+          en: ./texts/en/benchmark/benchmark-data.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -856,8 +552,8 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
 
   # TUTORIAL
   - name: tutorial-overview
@@ -875,8 +571,8 @@ routes:
           name:
             en: Introduction
         files:
-          fr: ./texts/tutorial/tutorial-overview-en.md
-          en: ./texts/tutorial/tutorial-overview-en.md
+          fr: ./texts/fr/tutorial/tutorial-overview.md
+          en: ./texts/en/tutorial/tutorial-overview.md
       - name: tutorial-overview-actions
         component: TextComponent
         options:
@@ -884,8 +580,8 @@ routes:
           name:
             en: Main actions
         files:
-          fr: ./texts/tutorial/tutorial-overview-actions-en.md
-          en: ./texts/tutorial/tutorial-overview-actions-en.md
+          fr: ./texts/fr/tutorial/tutorial-overview-actions.md
+          en: ./texts/en/tutorial/tutorial-overview-actions.md
       - name: tutorial-overview-edition
         component: TextComponent
         options:
@@ -893,8 +589,8 @@ routes:
           name:
             en: Edition
         files:
-          fr: ./texts/tutorial/tutorial-overview-edition-en.md
-          en: ./texts/tutorial/tutorial-overview-edition-en.md
+          fr: ./texts/fr/tutorial/tutorial-overview-edition.md
+          en: ./texts/en/tutorial/tutorial-overview-edition.md
       - name: tutorial-overview-contribution
         component: TextComponent
         options:
@@ -902,8 +598,8 @@ routes:
           name:
             en: Contribution
         files:
-          fr: ./texts/tutorial/tutorial-overview-contribution-en.md
-          en: ./texts/tutorial/tutorial-overview-contribution-en.md
+          fr: ./texts/fr/tutorial/tutorial-overview-contribution.md
+          en: ./texts/en/tutorial/tutorial-overview-contribution.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -924,8 +620,8 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
   - name: tutorial-actions
     url: /tutorial-actions
     options:
@@ -941,8 +637,8 @@ routes:
           name:
             en: Introduction
         files:
-          fr: ./texts/tutorial/tutorial-actions-en.md
-          en: ./texts/tutorial/tutorial-actions-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions.md
+          en: ./texts/en/tutorial/tutorial-actions.md
       - name: tutorial-actions-file-infos
         component: TextComponent
         options:
@@ -950,8 +646,8 @@ routes:
           name:
             en: File's informations
         files:
-          fr: ./texts/tutorial/tutorial-actions-file-infos-en.md
-          en: ./texts/tutorial/tutorial-actions-file-infos-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-file-infos.md
+          en: ./texts/en/tutorial/tutorial-actions-file-infos.md
       - name: tutorial-actions-user-options
         component: TextComponent
         options:
@@ -959,8 +655,8 @@ routes:
           name:
             en: User's options
         files:
-          fr: ./texts/tutorial/tutorial-actions-user-options-en.md
-          en: ./texts/tutorial/tutorial-actions-user-options-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-user-options.md
+          en: ./texts/en/tutorial/tutorial-actions-user-options.md
       - name: tutorial-actions-user-options-reload
         component: TextComponent
         options:
@@ -969,8 +665,8 @@ routes:
           name:
             en: Reload the source file
         files:
-          fr: ./texts/tutorial/tutorial-actions-user-options-reload-en.md
-          en: ./texts/tutorial/tutorial-actions-user-options-reload-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-user-options-reload.md
+          en: ./texts/en/tutorial/tutorial-actions-user-options-reload.md
       - name: tutorial-actions-user-options-download
         component: TextComponent
         options:
@@ -979,8 +675,8 @@ routes:
           name:
             en: Download the file
         files:
-          fr: ./texts/tutorial/tutorial-actions-user-options-download-en.md
-          en: ./texts/tutorial/tutorial-actions-user-options-download-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-user-options-download.md
+          en: ./texts/en/tutorial/tutorial-actions-user-options-download.md
       - name: tutorial-actions-user-options-usertoken
         component: TextComponent
         options:
@@ -989,8 +685,8 @@ routes:
           name:
             en: Change your user token
         files:
-          fr: ./texts/tutorial/tutorial-actions-user-options-usertoken-en.md
-          en: ./texts/tutorial/tutorial-actions-user-options-usertoken-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-user-options-usertoken.md
+          en: ./texts/en/tutorial/tutorial-actions-user-options-usertoken.md
       - name: tutorial-actions-user-options-branches
         component: TextComponent
         options:
@@ -999,8 +695,8 @@ routes:
           name:
             en: Check your branches
         files:
-          fr: ./texts/tutorial/tutorial-actions-user-options-branches-en.md
-          en: ./texts/tutorial/tutorial-actions-user-options-branches-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-user-options-branches.md
+          en: ./texts/en/tutorial/tutorial-actions-user-options-branches.md
       - name: tutorial-actions-user-options-copy
         component: TextComponent
         options:
@@ -1009,8 +705,8 @@ routes:
           name:
             en: Copy the widget
         files:
-          fr: ./texts/tutorial/tutorial-actions-user-options-copy-en.md
-          en: ./texts/tutorial/tutorial-actions-user-options-copy-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-user-options-copy.md
+          en: ./texts/en/tutorial/tutorial-actions-user-options-copy.md
       - name: tutorial-actions-user-options-locale
         component: TextComponent
         options:
@@ -1019,8 +715,8 @@ routes:
           name:
             en: Change the language
         files:
-          fr: ./texts/tutorial/tutorial-actions-user-options-locale-en.md
-          en: ./texts/tutorial/tutorial-actions-user-options-locale-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-user-options-locale.md
+          en: ./texts/en/tutorial/tutorial-actions-user-options-locale.md
       - name: tutorial-actions-change-modes
         component: TextComponent
         options:
@@ -1028,8 +724,8 @@ routes:
           name:
             en: The view modes
         files:
-          fr: ./texts/tutorial/tutorial-actions-change-modes-en.md
-          en: ./texts/tutorial/tutorial-actions-change-modes-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-change-modes.md
+          en: ./texts/en/tutorial/tutorial-actions-change-modes.md
       - name: tutorial-actions-edit-modes
         component: TextComponent
         options:
@@ -1037,8 +733,8 @@ routes:
           name:
             en: Switch the "edit-view" modes
         files:
-          fr: ./texts/tutorial/tutorial-actions-edit-modes-en.md
-          en: ./texts/tutorial/tutorial-actions-edit-modes-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-edit-modes.md
+          en: ./texts/en/tutorial/tutorial-actions-edit-modes.md
       - name: tutorial-actions-edit-modes-preview
         component: TextComponent
         options:
@@ -1047,8 +743,8 @@ routes:
           name:
             en: The "Preview" mode
         files:
-          fr: ./texts/tutorial/tutorial-actions-edit-modes-preview-en.md
-          en: ./texts/tutorial/tutorial-actions-edit-modes-preview-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-edit-modes-preview.md
+          en: ./texts/en/tutorial/tutorial-actions-edit-modes-preview.md
       - name: tutorial-actions-edit-modes-edit
         component: TextComponent
         options:
@@ -1057,8 +753,8 @@ routes:
           name:
             en: The "Edit" mode
         files:
-          fr: ./texts/tutorial/tutorial-actions-edit-modes-edit-en.md
-          en: ./texts/tutorial/tutorial-actions-edit-modes-edit-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-edit-modes-edit.md
+          en: ./texts/en/tutorial/tutorial-actions-edit-modes-edit.md
       - name: tutorial-actions-edit-modes-diff
         component: TextComponent
         options:
@@ -1067,8 +763,8 @@ routes:
           name:
             en: The "Diff" mode
         files:
-          fr: ./texts/tutorial/tutorial-actions-edit-modes-diff-en.md
-          en: ./texts/tutorial/tutorial-actions-edit-modes-diff-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-edit-modes-diff.md
+          en: ./texts/en/tutorial/tutorial-actions-edit-modes-diff.md
       - name: tutorial-actions-cards_view
         component: TextComponent
         options:
@@ -1076,8 +772,8 @@ routes:
           name:
             en: Cards view
         files:
-          fr: ./texts/tutorial/tutorial-actions-cards_view-en.md
-          en: ./texts/tutorial/tutorial-actions-cards_view-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-cards_view.md
+          en: ./texts/en/tutorial/tutorial-actions-cards_view.md
       - name: tutorial-actions-search_filters
         component: TextComponent
         options:
@@ -1085,8 +781,8 @@ routes:
           name:
             en: Search and filter
         files:
-          fr: ./texts/tutorial/tutorial-actions-search_filters-en.md
-          en: ./texts/tutorial/tutorial-actions-search_filters-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-search_filters.md
+          en: ./texts/en/tutorial/tutorial-actions-search_filters.md
       - name: tutorial-actions-search
         component: TextComponent
         options:
@@ -1095,8 +791,8 @@ routes:
           name:
             en: Fulltext search
         files:
-          fr: ./texts/tutorial/tutorial-actions-search-en.md
-          en: ./texts/tutorial/tutorial-actions-search-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-search.md
+          en: ./texts/en/tutorial/tutorial-actions-search.md
       - name: tutorial-actions-filters
         component: TextComponent
         options:
@@ -1105,8 +801,8 @@ routes:
           name:
             en: Filters
         files:
-          fr: ./texts/tutorial/tutorial-actions-filters-en.md
-          en: ./texts/tutorial/tutorial-actions-filters-en.md
+          fr: ./texts/fr/tutorial/tutorial-actions-filters.md
+          en: ./texts/en/tutorial/tutorial-actions-filters.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -1127,8 +823,8 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
   - name: tutorial-edition
     url: /tutorial-edition
     options:
@@ -1144,8 +840,8 @@ routes:
           name:
             en: Introduction
         files:
-          fr: ./texts/tutorial/tutorial-edition-en.md
-          en: ./texts/tutorial/tutorial-edition-en.md
+          fr: ./texts/fr/tutorial/tutorial-edition.md
+          en: ./texts/en/tutorial/tutorial-edition.md
       - name: edition-md
         component: TextComponent
         options:
@@ -1153,8 +849,8 @@ routes:
           name:
             en: Edit a markdown file
         files:
-          fr: ./texts/tutorial/tutorial-edition-edit-md-en.md
-          en: ./texts/tutorial/tutorial-edition-edit-md-en.md
+          fr: ./texts/fr/tutorial/tutorial-edition-edit-md.md
+          en: ./texts/en/tutorial/tutorial-edition-edit-md.md
       - name: edition-csv
         component: TextComponent
         options:
@@ -1162,8 +858,8 @@ routes:
           name:
             en: Edit a CSV file
         files:
-          fr: ./texts/tutorial/tutorial-edition-edit-csv-en.md
-          en: ./texts/tutorial/tutorial-edition-edit-csv-en.md
+          fr: ./texts/fr/tutorial/tutorial-edition-edit-csv.md
+          en: ./texts/en/tutorial/tutorial-edition-edit-csv.md
       - name: edition-csv-fields
         component: TextComponent
         options:
@@ -1172,8 +868,8 @@ routes:
           name:
             en: Table fields
         files:
-          fr: ./texts/tutorial/tutorial-edition-edit-csv-fields-en.md
-          en: ./texts/tutorial/tutorial-edition-edit-csv-fields-en.md
+          fr: ./texts/fr/tutorial/tutorial-edition-edit-csv-fields.md
+          en: ./texts/en/tutorial/tutorial-edition-edit-csv-fields.md
       - name: edition-csv-rows
         component: TextComponent
         options:
@@ -1182,8 +878,8 @@ routes:
           name:
             en: Common rows operations
         files:
-          fr: ./texts/tutorial/tutorial-edition-edit-csv-rows-en.md
-          en: ./texts/tutorial/tutorial-edition-edit-csv-rows-en.md
+          fr: ./texts/fr/tutorial/tutorial-edition-edit-csv-rows.md
+          en: ./texts/en/tutorial/tutorial-edition-edit-csv-rows.md
       - name: edition-csv-consolidation_field
         component: TextComponent
         options:
@@ -1192,8 +888,8 @@ routes:
           name:
             en: Consolidation field
         files:
-          fr: ./texts/tutorial/tutorial-edition-edit-csv-consolidation_field-en.md
-          en: ./texts/tutorial/tutorial-edition-edit-csv-consolidation_field-en.md
+          fr: ./texts/fr/tutorial/tutorial-edition-edit-csv-consolidation_field.md
+          en: ./texts/en/tutorial/tutorial-edition-edit-csv-consolidation_field.md
       - name: edition-json
         component: TextComponent
         options:
@@ -1201,8 +897,8 @@ routes:
           name:
             en: Edit a JSON file
         files:
-          fr: ./texts/tutorial/tutorial-edition-edit-json-en.md
-          en: ./texts/tutorial/tutorial-edition-edit-json-en.md
+          fr: ./texts/fr/tutorial/tutorial-edition-edit-json.md
+          en: ./texts/en/tutorial/tutorial-edition-edit-json.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -1223,8 +919,8 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
   - name: tutorial-contribution
     url: /tutorial-contribution
     options:
@@ -1240,8 +936,8 @@ routes:
           name:
             en: Introduction
         files:
-          fr: ./texts/tutorial/tutorial-contribution-en.md
-          en: ./texts/tutorial/tutorial-contribution-en.md
+          fr: ./texts/fr/tutorial/tutorial-contribution.md
+          en: ./texts/en/tutorial/tutorial-contribution.md
       - name: contribution-what
         component: TextComponent
         options:
@@ -1249,8 +945,8 @@ routes:
           name:
             en: What is a contribution ?
         files:
-          fr: ./texts/tutorial/tutorial-contribution-what-en.md
-          en: ./texts/tutorial/tutorial-contribution-what-en.md
+          fr: ./texts/fr/tutorial/tutorial-contribution-what.md
+          en: ./texts/en/tutorial/tutorial-contribution-what.md
       - name: contribution-send
         component: TextComponent
         options:
@@ -1258,8 +954,8 @@ routes:
           name:
             en: Send your contribution
         files:
-          fr: ./texts/tutorial/tutorial-contribution-send-en.md
-          en: ./texts/tutorial/tutorial-contribution-send-en.md
+          fr: ./texts/fr/tutorial/tutorial-contribution-send.md
+          en: ./texts/en/tutorial/tutorial-contribution-send.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -1280,8 +976,8 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
 
   # DOCUMENTATION
   - name: install
@@ -1299,8 +995,8 @@ routes:
           name:
            en: Introduction
         files:
-          fr: ./texts/installation/installation-en.md
-          en: ./texts/installation/installation-en.md
+          fr: ./texts/fr/installation/installation.md
+          en: ./texts/en/installation/installation.md
       - name: installation-reuse
         component: TextComponent
         options:
@@ -1308,8 +1004,8 @@ routes:
           name:
            en: Reuse some widgets
         files:
-          fr: ./texts/installation/installation-reuse-en.md
-          en: ./texts/installation/installation-reuse-en.md
+          fr: ./texts/fr/installation/installation-reuse.md
+          en: ./texts/en/installation/installation-reuse.md
       - name: installation-adapt
         component: TextComponent
         options:
@@ -1317,8 +1013,8 @@ routes:
           name:
            en: Adapt Gitribute for your website
         files:
-          fr: ./texts/installation/installation-adapt-en.md
-          en: ./texts/installation/installation-adapt-en.md
+          fr: ./texts/fr/installation/installation-adapt.md
+          en: ./texts/en/installation/installation-adapt.md
       - name: installation-instance
         component: TextComponent
         options:
@@ -1326,8 +1022,8 @@ routes:
           name:
            en: Install your instance
         files:
-          fr: ./texts/installation/installation-instance-en.md
-          en: ./texts/installation/installation-instance-en.md
+          fr: ./texts/fr/installation/installation-instance.md
+          en: ./texts/en/installation/installation-instance.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -1354,20 +1050,78 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
   - name: quickstart-developpers
     url: /quickstart-developpers
     options:
       contrib: true
+      summary: true
     sections: 
+      - name: intro
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Introduction
+        files:
+          fr: ./texts/fr/quickstart/introduction.md
+          en: ./texts/en/quickstart/introduction.md
       - name: setup
         component: TextComponent
         options:
           columns-size: three-quarters
+          name:
+            en: Setup
         files:
-          fr: ./texts/installation/setup-en.md
-          en: ./texts/installation/setup-en.md
+          fr: ./texts/fr/quickstart/setup.md
+          en: ./texts/en/quickstart/setup.md
+      - name: env-file
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: The `env` file
+        files:
+          fr: ./texts/fr/quickstart/env-file.md
+          en: ./texts/en/quickstart/env-file.md
+      - name: local-dev
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Local development
+        files:
+          fr: ./texts/fr/quickstart/local-dev.md
+          en: ./texts/en/quickstart/local-dev.md
+      - name: production
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Production
+        files:
+          fr: ./texts/fr/quickstart/production.md
+          en: ./texts/en/quickstart/production.md
+      - name: linting
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Linting
+        files:
+          fr: ./texts/fr/quickstart/linting.md
+          en: ./texts/en/quickstart/linting.md
+      - name: unit-tests
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Unit-tests
+        files:
+          fr: ./texts/fr/quickstart/unit-tests.md
+          en: ./texts/en/quickstart/unit-tests.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -1394,8 +1148,8 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
   - name: integration
     url: /integration
     options:
@@ -1410,8 +1164,8 @@ routes:
           name:
            en: Introduction
         files:
-          fr: ./texts/installation/integration-en.md
-          en: ./texts/installation/integration-en.md
+          fr: ./texts/fr/installation/integration.md
+          en: ./texts/en/installation/integration.md
       - name: integration-example
         component: TextComponent
         options:
@@ -1419,8 +1173,8 @@ routes:
           name:
            en: Example
         files:
-          fr: ./texts/installation/integration-example-en.md
-          en: ./texts/installation/integration-example-en.md
+          fr: ./texts/fr/installation/integration-example.md
+          en: ./texts/en/installation/integration-example.md
       - name: integration-no_panic
         component: TextComponent
         options:
@@ -1428,8 +1182,8 @@ routes:
           name:
            en: No panic! 
         files:
-          fr: ./texts/installation/integration-no_panic-en.md
-          en: ./texts/installation/integration-no_panic-en.md
+          fr: ./texts/fr/installation/integration-no_panic.md
+          en: ./texts/en/installation/integration-no_panic.md
       - name: integration-dependencies
         component: TextComponent
         options:
@@ -1437,8 +1191,8 @@ routes:
           name:
            en: Dependencies
         files:
-          fr: ./texts/installation/integration-dependencies-en.md
-          en: ./texts/installation/integration-dependencies-en.md
+          fr: ./texts/fr/installation/integration-dependencies.md
+          en: ./texts/en/installation/integration-dependencies.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -1459,10 +1213,312 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
+  - name: architecture
+    url: /architecture
+    options:
+      summary: true
+      contrib: true
+      name:
+        en: Architecture & sketches
+    sections: 
+      - name: architecture-schemas-intro
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Sketches & wireframes
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture-schemas-intro.md
+          en: ./texts/en/architecture-sketches/architecture-schemas-intro.md
+      - name: architecture
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Main ideas
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture.md
+          en: ./texts/en/architecture-sketches/architecture.md
+      - name: architecture-git-providers
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Git providers as database
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture-git-providers.md
+          en: ./texts/en/architecture-sketches/architecture-git-providers.md
+      - name: architecture-basic-interoperability
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Basic interoperability
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture-basic-interoperability.md
+          en: ./texts/en/architecture-sketches/architecture-basic-interoperability.md
+      - name: architecture-git-data-agnostic
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Data agnostic
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture-data-agnostic.md
+          en: ./texts/en/architecture-sketches/architecture-data-agnostic.md
+      - name: architecture-widgets-collection
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: A widgets collection...
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture-widgets-collection.md
+          en: ./texts/en/architecture-sketches/architecture-widgets-collection.md
+      - name: architecture-for-noobs
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: ...For noobs
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture-for-noobs.md
+          en: ./texts/en/architecture-sketches/architecture-for-noobs.md
+      - name: architecture-schemas-wireframes
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Components wireframes
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture-schemas-wireframes.md
+          en: ./texts/en/architecture-sketches/architecture-schemas-wireframes.md
+      - name: architecture-schemas-csv
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Widget for `csv` preview and edition
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture-schemas-csv.md
+          en: ./texts/en/architecture-sketches/architecture-schemas-csv.md
+      - name: architecture-schemas-md
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Widget for `md` preview and edition
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture-schemas-md.md
+          en: ./texts/en/architecture-sketches/architecture-schemas-md.md
+      - name: architecture-schemas-save-dialog
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Dialog before saving changes
+        files:
+          fr: ./texts/fr/architecture-sketches/architecture-schemas-save-dialog.md
+          en: ./texts/en/architecture-sketches/architecture-schemas-save-dialog.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          buttons:
+            - link: /software
+              icon-left: xml
+              rounded: true
+              label: 
+                fr: Stack
+                en: Stack
+            - link: https://gitlab.com/multi-coop/gitribute
+              icon-left: gitlab
+              rounded: true
+              label: 
+                fr: Code source
+                en: Source code
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
+  - name: software
+    url: /software
+    options:
+      contrib: true
+      summary: true
+    sections: 
+      - name: docs-licence
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Licence
+        files:
+          fr: ./texts/fr/software/licence.md
+          en: ./texts/en/software/licence.md
+      - name: docs-stack
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Stack
+        files:
+          fr: ./texts/fr/software/stack.md
+          en: ./texts/en/software/stack.md
+      - name: roadmap
+        component: TextComponent
+        options:
+          columns-size: two-thirds
+          name:
+            en: Roadmap
+        files:
+          fr: ./texts/fr/software/roadmap.md
+          en: ./texts/en/software/roadmap.md
+      - name: roadmap-poc
+        component: TextComponent
+        options:
+          columns-size: two-thirds
+          depth: 1
+          name:
+            en: POC
+        files:
+          fr: ./texts/fr/software/roadmap-poc.md
+          en: ./texts/en/software/roadmap-poc.md
+      - name: roadmap-mvp
+        component: TextComponent
+        options:
+          columns-size: two-thirds
+          depth: 1
+          name:
+            en: MVP
+        files:
+          fr: ./texts/fr/software/roadmap-mvp.md
+          en: ./texts/en/software/roadmap-mvp.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          custom-class: mt-6
+          buttons:
+            # - link: /roadmap
+            #   icon-left: map-search-outline
+            #   rounded: true
+            #   label: 
+            #     fr: Roadmap
+            #     en: Roadmap
+            - link: https://gitlab.com/multi-coop/gitribute
+              icon-left: gitlab
+              rounded: true
+              label: 
+                fr: Code source
+                en: Source code
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
 
   # WIDGETS
+  - name: how-it-works
+    url: /how-it-works
+    options:
+      hero: true
+      summary: true
+      contrib: true
+      name:
+        en: How it works
+    sections: 
+      - name: how
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Introduction
+        files:
+          fr: ./texts/fr/how-it-works/how-it-works.md
+          en: ./texts/en/how-it-works/how-it-works.md
+      - name: how-widgets-collection
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: A widgets collection
+        files:
+          fr: ./texts/fr/how-it-works/how-it-works-widgets-collection.md
+          en: ./texts/en/how-it-works/how-it-works-widgets-collection.md
+      - name: how-git-providers
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Git providers
+        files:
+          fr: ./texts/fr/how-it-works/how-it-works-git-providers.md
+          en: ./texts/en/how-it-works/how-it-works-git-providers.md
+      - name: how-no-account
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            en: Contribute anonymously
+        files:
+          fr: ./texts/fr/how-it-works/how-it-works-no-account.md
+          en: ./texts/en/how-it-works/how-it-works-no-account.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          custom-class: mt-6
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
   - name: docs-widgets-overview
     url: /docs-widgets-overview
     options:
@@ -1478,8 +1534,8 @@ routes:
           name:
             en: Introduction
         files:
-          fr: ./texts/documentation/docs-widgets-overview-en.md
-          en: ./texts/documentation/docs-widgets-overview-en.md
+          fr: ./texts/fr/documentation/docs-widgets-overview.md
+          en: ./texts/en/documentation/docs-widgets-overview.md
       - name: docs-widgets-overview-gitfile
         component: TextComponent
         options:
@@ -1487,8 +1543,8 @@ routes:
           name:
             en: The "gitfile" widget
         files:
-          fr: ./texts/documentation/docs-gitfile-en.md
-          en: ./texts/documentation/docs-gitfile-en.md
+          fr: ./texts/fr/documentation/docs-gitfile.md
+          en: ./texts/en/documentation/docs-gitfile.md
       - name: btn-gitfile
         component: ButtonsComponent
         options:
@@ -1510,8 +1566,8 @@ routes:
           name:
             en: The "multi-files" widget
         files:
-          fr: ./texts/documentation/docs-multi-files-en.md
-          en: ./texts/documentation/docs-multi-files-en.md
+          fr: ./texts/fr/documentation/docs-multi-files.md
+          en: ./texts/en/documentation/docs-multi-files.md
       - name: btn-multi-files
         component: ButtonsComponent
         options:
@@ -1533,8 +1589,8 @@ routes:
           name:
             en: The "explowiki" widget
         files:
-          fr: ./texts/documentation/docs-explowiki-en.md
-          en: ./texts/documentation/docs-explowiki-en.md
+          fr: ./texts/fr/documentation/docs-explowiki.md
+          en: ./texts/en/documentation/docs-explowiki.md
       - name: btn-explowiki
         component: ButtonsComponent
         options:
@@ -1569,8 +1625,8 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
   - name: docs-gitfile
     url: /docs-gitfile
     options:
@@ -1586,8 +1642,8 @@ routes:
           name:
             en: Presentation
         files:
-          fr: ./texts/documentation/docs-gitfile-en.md
-          en: ./texts/documentation/docs-gitfile-en.md
+          fr: ./texts/fr/documentation/docs-gitfile.md
+          en: ./texts/en/documentation/docs-gitfile.md
       - name: docs-gitfile-structure
         component: TextComponent
         options:
@@ -1595,8 +1651,8 @@ routes:
           name:
             en: Structure
         files:
-          fr: ./texts/documentation/docs-gitfile-structure-en.md
-          en: ./texts/documentation/docs-gitfile-structure-en.md
+          fr: ./texts/fr/documentation/docs-gitfile-structure.md
+          en: ./texts/en/documentation/docs-gitfile-structure.md
       - name: docs-gitfile-structure-example
         component: TextComponent
         options:
@@ -1605,8 +1661,8 @@ routes:
           name:
             en: Example
         files:
-          fr: ./texts/documentation/docs-gitfile-structure-example-en.md
-          en: ./texts/documentation/docs-gitfile-structure-example-en.md
+          fr: ./texts/fr/documentation/docs-gitfile-structure-example.md
+          en: ./texts/en/documentation/docs-gitfile-structure-example.md
       - name: docs-params
         component: TextComponent
         options:
@@ -1614,8 +1670,8 @@ routes:
           name:
             en: Parameters
         files:
-          fr: ./texts/documentation/docs-params/params-en.md
-          en: ./texts/documentation/docs-params/params-en.md
+          fr: ./texts/fr/documentation/docs-params/params.md
+          en: ./texts/en/documentation/docs-params/params.md
       - name: docs-param-title
         component: TextComponent
         options:
@@ -1623,8 +1679,8 @@ routes:
           name:
             en: The "title" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-title.md
-          en: ./texts/documentation/docs-params/param-title.md
+          fr: ./texts/fr/documentation/docs-params/param-title.md
+          en: ./texts/en/documentation/docs-params/param-title.md
       - name: docs-param-height
         component: TextComponent
         options:
@@ -1632,8 +1688,8 @@ routes:
           name:
             en: The "height" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-height.md
-          en: ./texts/documentation/docs-params/param-height.md
+          fr: ./texts/fr/documentation/docs-params/param-height.md
+          en: ./texts/en/documentation/docs-params/param-height.md
       - name: docs-param-gitfile
         component: TextComponent
         options:
@@ -1641,8 +1697,8 @@ routes:
           name:
             en: The "gitfile" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-gitfile.md
-          en: ./texts/documentation/docs-params/param-gitfile.md
+          fr: ./texts/fr/documentation/docs-params/param-gitfile.md
+          en: ./texts/en/documentation/docs-params/param-gitfile.md
       - name: docs-param-usertoken
         component: TextComponent
         options:
@@ -1650,8 +1706,8 @@ routes:
           name:
             en: The "usertoken" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-usertoken.md
-          en: ./texts/documentation/docs-params/param-usertoken.md
+          fr: ./texts/fr/documentation/docs-params/param-usertoken.md
+          en: ./texts/en/documentation/docs-params/param-usertoken.md
       - name: docs-param-usertoken-notes-git
         component: TextComponent
         options:
@@ -1660,8 +1716,8 @@ routes:
           name:
             en: Notes about the "usertoken" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-usertoken-notes-git.md
-          en: ./texts/documentation/docs-params/param-usertoken-notes-git.md
+          fr: ./texts/fr/documentation/docs-params/param-usertoken-notes-git.md
+          en: ./texts/en/documentation/docs-params/param-usertoken-notes-git.md
       - name: docs-param-onlypreview
         component: TextComponent
         options:
@@ -1669,8 +1725,8 @@ routes:
           name:
             en: The "onlypreview" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-onlypreview.md
-          en: ./texts/documentation/docs-params/param-onlypreview.md
+          fr: ./texts/fr/documentation/docs-params/param-onlypreview.md
+          en: ./texts/en/documentation/docs-params/param-onlypreview.md
       - name: docs-param-locale
         component: TextComponent
         options:
@@ -1678,8 +1734,8 @@ routes:
           name:
             en: The "locale" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-locale.md
-          en: ./texts/documentation/docs-params/param-locale.md
+          fr: ./texts/fr/documentation/docs-params/param-locale.md
+          en: ./texts/en/documentation/docs-params/param-locale.md
       - name: docs-param-debug
         component: TextComponent
         options:
@@ -1687,8 +1743,8 @@ routes:
           name:
             en: The "debug" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-debug.md
-          en: ./texts/documentation/docs-params/param-debug.md
+          fr: ./texts/fr/documentation/docs-params/param-debug.md
+          en: ./texts/en/documentation/docs-params/param-debug.md
       - name: docs-option-global
         component: TextComponent
         options:
@@ -1696,8 +1752,8 @@ routes:
           name:
             en: The "options" parameter
         files:
-          fr: ./texts/documentation/docs-options/option-global.md
-          en: ./texts/documentation/docs-options/option-global.md
+          fr: ./texts/fr/documentation/docs-options/option-global.md
+          en: ./texts/en/documentation/docs-options/option-global.md
       - name: docs-option-gitfile-csv
         component: TextComponent
         options:
@@ -1706,8 +1762,8 @@ routes:
           name:
             en: The "options" keys for table files
         files:
-          fr: ./texts/documentation/docs-options/option-gitfile-csv.md
-          en: ./texts/documentation/docs-options/option-gitfile-csv.md
+          fr: ./texts/fr/documentation/docs-options/option-gitfile-csv.md
+          en: ./texts/en/documentation/docs-options/option-gitfile-csv.md
       - name: docs-option-gitfile-custom_props
         component: TextComponent
         options:
@@ -1716,8 +1772,8 @@ routes:
           name:
             en: Custom properties file for table files
         files:
-          fr: ./texts/documentation/docs-custom-props/props-custom_props.md
-          en: ./texts/documentation/docs-custom-props/props-custom_props.md
+          fr: ./texts/fr/documentation/docs-custom-props/props-custom_props.md
+          en: ./texts/en/documentation/docs-custom-props/props-custom_props.md
       - name: docs-option-gitfile-json
         component: TextComponent
         options:
@@ -1726,8 +1782,8 @@ routes:
           name:
             en: The "options" keys for json files
         files:
-          fr: ./texts/documentation/docs-options/option-gitfile-json.md
-          en: ./texts/documentation/docs-options/option-gitfile-json.md
+          fr: ./texts/fr/documentation/docs-options/option-gitfile-json.md
+          en: ./texts/en/documentation/docs-options/option-gitfile-json.md
       - name: docs-option-gitfile-md
         component: TextComponent
         options:
@@ -1736,8 +1792,8 @@ routes:
           name:
             en: The "options" keys for md files
         files:
-          fr: ./texts/documentation/docs-options/option-gitfile-md.md
-          en: ./texts/documentation/docs-options/option-gitfile-md.md
+          fr: ./texts/fr/documentation/docs-options/option-gitfile-md.md
+          en: ./texts/en/documentation/docs-options/option-gitfile-md.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -1758,8 +1814,8 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
   - name: docs-explowiki
     url: /docs-explowiki
     options:
@@ -1775,8 +1831,8 @@ routes:
           name:
             en: Presentation
         files:
-          fr: ./texts/documentation/docs-explowiki-en.md
-          en: ./texts/documentation/docs-explowiki-en.md
+          fr: ./texts/fr/documentation/docs-explowiki.md
+          en: ./texts/en/documentation/docs-explowiki.md
       - name: docs-explowiki-structure
         component: TextComponent
         options:
@@ -1784,8 +1840,8 @@ routes:
           name:
             en: Structure
         files:
-          fr: ./texts/documentation/docs-explowiki-structure-en.md
-          en: ./texts/documentation/docs-explowiki-structure-en.md
+          fr: ./texts/fr/documentation/docs-explowiki-structure.md
+          en: ./texts/en/documentation/docs-explowiki-structure.md
       - name: docs-explowiki-structure-example
         component: TextComponent
         options:
@@ -1794,8 +1850,8 @@ routes:
           name:
             en: Example
         files:
-          fr: ./texts/documentation/docs-explowiki-structure-example-en.md
-          en: ./texts/documentation/docs-explowiki-structure-example-en.md
+          fr: ./texts/fr/documentation/docs-explowiki-structure-example.md
+          en: ./texts/en/documentation/docs-explowiki-structure-example.md
       - name: docs-params
         component: TextComponent
         options:
@@ -1803,8 +1859,8 @@ routes:
           name:
             en: Parameters
         files:
-          fr: ./texts/documentation/docs-params/params-en.md
-          en: ./texts/documentation/docs-params/params-en.md
+          fr: ./texts/fr/documentation/docs-params/params.md
+          en: ./texts/en/documentation/docs-params/params.md
       - name: docs-param-title
         component: TextComponent
         options:
@@ -1812,8 +1868,8 @@ routes:
           name:
             en: The "title" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-title.md
-          en: ./texts/documentation/docs-params/param-title.md
+          fr: ./texts/fr/documentation/docs-params/param-title.md
+          en: ./texts/en/documentation/docs-params/param-title.md
       - name: docs-param-height
         component: TextComponent
         options:
@@ -1821,8 +1877,8 @@ routes:
           name:
             en: The "height" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-height.md
-          en: ./texts/documentation/docs-params/param-height.md
+          fr: ./texts/fr/documentation/docs-params/param-height.md
+          en: ./texts/en/documentation/docs-params/param-height.md
       - name: docs-param-wikilist
         component: TextComponent
         options:
@@ -1830,8 +1886,8 @@ routes:
           name:
             en: The "wikilist" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-wikilist.md
-          en: ./texts/documentation/docs-params/param-wikilist.md
+          fr: ./texts/fr/documentation/docs-params/param-wikilist.md
+          en: ./texts/en/documentation/docs-params/param-wikilist.md
       - name: docs-param-wikipages
         component: TextComponent
         options:
@@ -1839,8 +1895,8 @@ routes:
           name:
             en: The "wikipages" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-wikipages.md
-          en: ./texts/documentation/docs-params/param-wikipages.md
+          fr: ./texts/fr/documentation/docs-params/param-wikipages.md
+          en: ./texts/en/documentation/docs-params/param-wikipages.md
       - name: docs-param-usertoken
         component: TextComponent
         options:
@@ -1848,8 +1904,8 @@ routes:
           name:
             en: The "usertoken" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-usertoken.md
-          en: ./texts/documentation/docs-params/param-usertoken.md
+          fr: ./texts/fr/documentation/docs-params/param-usertoken.md
+          en: ./texts/en/documentation/docs-params/param-usertoken.md
       - name: docs-param-usertoken-notes-mediawiki
         component: TextComponent
         options:
@@ -1858,8 +1914,8 @@ routes:
           name:
             en: Notes about the "usertoken" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-usertoken-notes-mediawiki.md
-          en: ./texts/documentation/docs-params/param-usertoken-notes-mediawiki.md
+          fr: ./texts/fr/documentation/docs-params/param-usertoken-notes-mediawiki.md
+          en: ./texts/en/documentation/docs-params/param-usertoken-notes-mediawiki.md
       - name: docs-param-locale
         component: TextComponent
         options:
@@ -1867,8 +1923,8 @@ routes:
           name:
             en: The "locale" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-locale.md
-          en: ./texts/documentation/docs-params/param-locale.md
+          fr: ./texts/fr/documentation/docs-params/param-locale.md
+          en: ./texts/en/documentation/docs-params/param-locale.md
       - name: docs-param-debug
         component: TextComponent
         options:
@@ -1876,8 +1932,8 @@ routes:
           name:
             en: The "debug" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-debug.md
-          en: ./texts/documentation/docs-params/param-debug.md
+          fr: ./texts/fr/documentation/docs-params/param-debug.md
+          en: ./texts/en/documentation/docs-params/param-debug.md
       - name: docs-option-global
         component: TextComponent
         options:
@@ -1885,8 +1941,8 @@ routes:
           name:
             en: The "options" parameter
         files:
-          fr: ./texts/documentation/docs-options/option-global.md
-          en: ./texts/documentation/docs-options/option-global.md
+          fr: ./texts/fr/documentation/docs-options/option-global.md
+          en: ./texts/en/documentation/docs-options/option-global.md
       - name: docs-option-explowiki-table
         component: TextComponent
         options:
@@ -1895,8 +1951,8 @@ routes:
           name:
             en: The "options" keys for wiki data
         files:
-          fr: ./texts/documentation/docs-options/option-explowiki-table.md
-          en: ./texts/documentation/docs-options/option-explowiki-table.md
+          fr: ./texts/fr/documentation/docs-options/option-explowiki-table.md
+          en: ./texts/en/documentation/docs-options/option-explowiki-table.md
       - name: docs-option-explowiki-custom_props
         component: TextComponent
         options:
@@ -1905,8 +1961,8 @@ routes:
           name:
             en: Custom properties file for wiki data
         files:
-          fr: ./texts/documentation/docs-custom-props/props-custom_props.md
-          en: ./texts/documentation/docs-custom-props/props-custom_props.md
+          fr: ./texts/fr/documentation/docs-custom-props/props-custom_props.md
+          en: ./texts/en/documentation/docs-custom-props/props-custom_props.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -1934,8 +1990,8 @@ routes:
           name:
             en: Presentation
         files:
-          fr: ./texts/documentation/docs-multi-files-en.md
-          en: ./texts/documentation/docs-multi-files-en.md
+          fr: ./texts/fr/documentation/docs-multi-files.md
+          en: ./texts/en/documentation/docs-multi-files.md
       - name: docs-multi-files-structure
         component: TextComponent
         options:
@@ -1943,8 +1999,8 @@ routes:
           name:
             en: Structure
         files:
-          fr: ./texts/documentation/docs-multi-files-structure-en.md
-          en: ./texts/documentation/docs-multi-files-structure-en.md
+          fr: ./texts/fr/documentation/docs-multi-files-structure.md
+          en: ./texts/en/documentation/docs-multi-files-structure.md
       - name: docs-multi-files-structure-example
         component: TextComponent
         options:
@@ -1953,8 +2009,8 @@ routes:
           name:
             en: Example
         files:
-          fr: ./texts/documentation/docs-multi-files-structure-example-en.md
-          en: ./texts/documentation/docs-multi-files-structure-example-en.md
+          fr: ./texts/fr/documentation/docs-multi-files-structure-example.md
+          en: ./texts/en/documentation/docs-multi-files-structure-example.md
       - name: docs-params
         component: TextComponent
         options:
@@ -1962,8 +2018,8 @@ routes:
           name:
             en: Parameters
         files:
-          fr: ./texts/documentation/docs-params/params-en.md
-          en: ./texts/documentation/docs-params/params-en.md
+          fr: ./texts/fr/documentation/docs-params/params.md
+          en: ./texts/en/documentation/docs-params/params.md
       - name: docs-param-title
         component: TextComponent
         options:
@@ -1971,8 +2027,8 @@ routes:
           name:
             en: The "title" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-title.md
-          en: ./texts/documentation/docs-params/param-title.md
+          fr: ./texts/fr/documentation/docs-params/param-title.md
+          en: ./texts/en/documentation/docs-params/param-title.md
       - name: docs-param-height
         component: TextComponent
         options:
@@ -1980,8 +2036,8 @@ routes:
           name:
             en: The "height" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-height.md
-          en: ./texts/documentation/docs-params/param-height.md
+          fr: ./texts/fr/documentation/docs-params/param-height.md
+          en: ./texts/en/documentation/docs-params/param-height.md
       - name: docs-param-gitfiles
         component: TextComponent
         options:
@@ -1989,8 +2045,8 @@ routes:
           name:
             en: The "gitfiles" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-gitfiles.md
-          en: ./texts/documentation/docs-params/param-gitfiles.md
+          fr: ./texts/fr/documentation/docs-params/param-gitfiles.md
+          en: ./texts/en/documentation/docs-params/param-gitfiles.md
       - name: docs-param-locale
         component: TextComponent
         options:
@@ -1998,8 +2054,8 @@ routes:
           name:
             en: The "locale" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-locale.md
-          en: ./texts/documentation/docs-params/param-locale.md
+          fr: ./texts/fr/documentation/docs-params/param-locale.md
+          en: ./texts/en/documentation/docs-params/param-locale.md
       - name: docs-param-debug
         component: TextComponent
         options:
@@ -2007,8 +2063,8 @@ routes:
           name:
             en: The "debug" parameter
         files:
-          fr: ./texts/documentation/docs-params/param-debug.md
-          en: ./texts/documentation/docs-params/param-debug.md
+          fr: ./texts/fr/documentation/docs-params/param-debug.md
+          en: ./texts/en/documentation/docs-params/param-debug.md
       - name: docs-option-global
         component: TextComponent
         options:
@@ -2016,8 +2072,8 @@ routes:
           name:
             en: The "options" parameter
         files:
-          fr: ./texts/documentation/docs-options/option-global.md
-          en: ./texts/documentation/docs-options/option-global.md
+          fr: ./texts/fr/documentation/docs-options/option-global.md
+          en: ./texts/en/documentation/docs-options/option-global.md
       - name: docs-option-multifiles
         component: TextComponent
         options:
@@ -2026,8 +2082,8 @@ routes:
           name:
             en: The "options" keys for multi-files
         files:
-          fr: ./texts/documentation/docs-options/option-multifiles.md
-          en: ./texts/documentation/docs-options/option-multifiles.md
+          fr: ./texts/fr/documentation/docs-options/option-multifiles.md
+          en: ./texts/en/documentation/docs-options/option-multifiles.md
       - name: Contact
         component: ButtonsComponent
         options:
@@ -2048,8 +2104,8 @@ routes:
           custom-class: mt-6
           not-in-menu: true
         files:
-          fr: ./texts/landing/landing-multi-en.md
-          en: ./texts/landing/landing-multi-en.md
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
 
   # STANDARD ROUTES
   - name: Contact
@@ -2063,8 +2119,8 @@ routes:
           columns-size: three-quarters
           # columns-divider: h1
         files:
-          fr: ./texts/contact/contact-head-fr.md
-          en: ./texts/contact/contact-head-en.md
+          fr: ./texts/fr/contact/contact-head.md
+          en: ./texts/en/contact/contact-head.md
 
   - name: contribute
     url: /contribute
@@ -2075,8 +2131,8 @@ routes:
           columns-size: two-thirds
           columns-divider: h1
         files:
-          fr: ./texts/contact/contribute-head-fr.md
-          en: ./texts/contact/contribute-head-fr.md
+          fr: ./texts/fr/contact/contribute-head.md
+          en: ./texts/en/contact/contribute-head.md
 
   - name: legal
     url: /legal
@@ -2084,12 +2140,12 @@ routes:
       # - name: data
       #   component: TextDataComponent
       #   files:
-      #     fr: ./texts/contact/legal-data.md
+      #     fr: ./texts/fr/contact/legal-data.md
       - name: legal-text
         component: TextComponent
         files:
-          fr: ./texts/contact/legal-mentions-fr.md
-          en: ./texts/contact/legal-mentions-fr.md
+          fr: ./texts/fr/contact/legal-mentions.md
+          en: ./texts/en/contact/legal-mentions.md
       - name: Contact
         component: ButtonsComponent
         options:
