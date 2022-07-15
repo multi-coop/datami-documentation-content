@@ -44,4 +44,4 @@ For instance to integrate a widget displaying a `csv` file you will have to copy
 <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript" defer></script>
 ```
 
-> **Note** : More details about the widgets action buttons in the **["Tutorials > Wordpress integration"](/integration-wordpress)** section.
+> **Note** : A step-by-step integration tutorial for Wordpress is visible in the **["Tutorials > Wordpress integration"](/integration-wordpress)** section.
