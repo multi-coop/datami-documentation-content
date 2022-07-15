@@ -1,6 +1,6 @@
 ## Create a new page or edit an existing one
 
-<div style="border: thin solid lightgrey;">
+<div>
   <img
     alt="WORDPRESS-LOGIN"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-admin-help.png"
