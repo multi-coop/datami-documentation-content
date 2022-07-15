@@ -7,7 +7,7 @@
     />
 </div>
 
-A quite useful button you will find on any Gitribute widget : it allows you to copy-paste the widget as a whole, so you could reuse it where you want.
+The "copy widget's html" button is a quite useful button you will find on any Gitribute widget : it allows you to copy-paste the widget as a whole, so you could reuse it where you want.
 
 Once you've clicked this button a dialog appears :
 
