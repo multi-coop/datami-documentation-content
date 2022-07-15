@@ -65,13 +65,6 @@ routes:
         files:
           fr: ./texts/fr/landing/more.md
           en: ./texts/en/landing/more.md
-      # - name: intro-widget
-      #   component: HtmlComponent
-      #   options:
-      #     columns-size: two-thirds
-      #   files:
-      #     fr: ./texts/fr/landing/landing-widget.html
-      #     en: ./texts/en/landing/landing-widget.html
       - name: intro
         component: TextComponent
         options:
@@ -86,74 +79,81 @@ routes:
         files:
           fr: ./texts/fr/landing/more.md
           en: ./texts/en/landing/more.md
-      - name: simulator
-        component: WidgetComponent
+      - name: demo-gitribute-cooptech
+        component: HtmlComponent
         options:
-          columns-size: two-thirds
-          js: 
-            - href: https://gitribute.multi.coop/js/app.js
-          css: 
-            - href: https://gitribute.multi.coop/css/app.css
-          html: |
-            <multi-gitribute-file
-              title="Liste des coopératives de la tech en France - csv ( semicolon separator)"
-              gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/cooptech/Annuaire-SCOP-SCIC-tech-France.csv"
-              options='{
-                "height": "500px",
-                "separator":",",
-                "lockcolumns": true,
-                "tagseparator":",",
-                "customfilters" : {
-                  "activate": true,
-                  "filterfields": [
-                  "type",
-                    "Statut juridique"
-                    ]
-                },
-                "schema": {
-                  "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-schema.json"
-                },
-                "fields-custom-properties": {
-                  "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-fields-custom-props.json"
-                },
-                "customsorting" : {
-                  "activate": true,
-                  "sortfields": [
-                    { "name": "Nom" }
-                  ]
-                },
-                "pagination":{
-                  "itemsPerPage": 20
-                },
-                "cardsview": {
-                  "activate": true,
-                  "default": false
-                },
-                "cardsdetail": true,
-                "cardssettings": {
-                  "mini": {
-                    "Nom": {"position": "title"},
-                    "Présentation": {"position": "description"},
-                    "Site internet": {"position": "description"},
-                    "Statut juridique": {"position": "tags"},
-                    "Domaine(s)": {"position": "tags"}
-                  },
-                  "detail": {
-                    "Nom": {"position": "title"},
-                    "Site internet": {"position": "description"},
-                    "Présentation": {"position": "description"},
-                    "Numéro SIREN": {"position": "description"},
-                    "Adresse": {"position": "description"},
-                    "Statut juridique": {"position": "tags"},
-                    "Domaine(s)": {"position": "tags"},
-                    "Fiche URSCOP": {"position": "links"}
-                  }
-                }
-              }'
-              usertoken=""
-              locale="fr"
-              debug="false"
-            />
+          columns-size: three-quarters
+        files:
+          fr: ./texts/fr/gallery/demo-cooptech.html
+          en: ./texts/en/gallery/demo-cooptech.html
+      # - name: simulator
+      #   component: WidgetComponent
+      #   options:
+      #     columns-size: two-thirds
+      #     js: 
+      #       - href: https://gitribute.multi.coop/js/app.js
+      #     css: 
+      #       - href: https://gitribute.multi.coop/css/app.css
+      #     html: |
+      #       <multi-gitribute-file
+      #         title="Liste des coopératives de la tech en France"
+      #         gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/cooptech/Annuaire-SCOP-SCIC-tech-France.csv"
+      #         options='{
+      #           "height": "500px",
+      #           "separator":",",
+      #           "lockcolumns": true,
+      #           "tagseparator":",",
+      #           "customfilters" : {
+      #             "activate": true,
+      #             "filterfields": [
+      #             "type",
+      #               "Statut juridique"
+      #               ]
+      #           },
+      #           "schema": {
+      #             "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-schema.json"
+      #           },
+      #           "fields-custom-properties": {
+      #             "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-fields-custom-props.json"
+      #           },
+      #           "customsorting" : {
+      #             "activate": true,
+      #             "sortfields": [
+      #               { "name": "Nom" }
+      #             ]
+      #           },
+      #           "pagination":{
+      #             "itemsPerPage": 20
+      #           },
+      #           "cardsview": {
+      #             "activate": true,
+      #             "default": false
+      #           },
+      #           "cardsdetail": true,
+      #           "cardssettings": {
+      #             "mini": {
+      #               "Nom": {"position": "title"},
+      #               "Présentation": {"position": "description"},
+      #               "Site internet": {"position": "description"},
+      #               "Statut juridique": {"position": "tags"},
+      #               "Domaine(s)": {"position": "tags"}
+      #             },
+      #             "detail": {
+      #               "Nom": {"position": "title"},
+      #               "Site internet": {"position": "description"},
+      #               "Présentation": {"position": "description"},
+      #               "Numéro SIREN": {"position": "description"},
+      #               "Adresse": {"position": "description"},
+      #               "Statut juridique": {"position": "tags"},
+      #               "Domaine(s)": {"position": "tags"},
+      #               "Fiche URSCOP": {"position": "links"}
+      #             }
+      #           }
+      #         }'
+      #         usertoken=""
+      #         locale="fr"
+      #         debug="false"
+      #       />
       - name: more-clients
         component: TextComponent
         options:
@@ -2162,7 +2162,69 @@ routes:
                 fr: Nous contacter
                 en: Contact us
 
-  # GALLERY
+  # GALLERY - HTML
+  - name: demo-cooptech
+    url: /demo-cooptech
+    options:
+      contrib: true
+    sections:
+      - name: demo-gitribute-cooptech
+        component: HtmlComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/fr/gallery/demo-cooptech.html
+          en: ./texts/en/gallery/demo-cooptech.html
+  - name: demo-fabmob
+    url: /demo-fabmob
+    options:
+      contrib: true
+    sections:
+      - name: demo-gitribute-fabmob
+        component: HtmlComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/fr/gallery/demo-fabmob.html
+          en: ./texts/en/gallery/demo-fabmob.html
+  - name: demo-aac
+    url: /demo-aac
+    options:
+      contrib: true
+    sections:
+      - name: demo-gitribute-aac
+        component: HtmlComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/fr/gallery/demo-aac.html
+          en: ./texts/en/gallery/demo-aac.html
+  - name: demo-odf-observatoire
+    url: /demo-odf-observatoire
+    options:
+      contrib: true
+    sections:
+      - name: demo-gitribute-odf-observatoire
+        component: HtmlComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/fr/gallery/demo-odf-observatoire.html
+          en: ./texts/en/gallery/demo-odf-observatoire.html
+  - name: demo-odf-ressources
+    url: /demo-odf-ressources
+    options:
+      contrib: true
+    sections:
+      - name: demo-gitribute-odf-ressources
+        component: HtmlComponent
+        options:
+          columns-size: three-quarters
+        files:
+          fr: ./texts/fr/gallery/demo-odf-ressources.html
+          en: ./texts/en/gallery/demo-odf-ressources.html
+
+  # GALLERY - WIDGET / DEPRECATED
   - name: gitribute-odf-observatoire
     url: /gitribute-odf-observatoire
     sections: 
@@ -2600,4 +2662,6 @@ routes:
               label: 
                 fr: Nous contacter
                 en: Contact us
+
+
 --- 
