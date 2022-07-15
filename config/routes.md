@@ -1283,7 +1283,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-            en: Paste the widget
+            en: Copy the widget
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-user-options-copy.md
           en: ./texts/en/tutorial/tutorial-actions-user-options-copy.md
@@ -1293,7 +1293,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Edit 03
+           en: Paste the widget
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-edit-03.md
           en: ./texts/en/integration-wordpress/wordpress-edit-03.md
