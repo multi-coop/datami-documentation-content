@@ -6,3 +6,4 @@
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-edit-03.png"
     />
 </div>
+<br>
