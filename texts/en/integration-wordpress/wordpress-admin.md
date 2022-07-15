@@ -1,4 +1,4 @@
-## Log to your Wordpress backoffice
+## Create a new page or edit an existing one
 
 <div style="border: thin solid lightgrey;">
   <img
