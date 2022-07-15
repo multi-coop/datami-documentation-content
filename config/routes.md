@@ -79,81 +79,81 @@ routes:
         files:
           fr: ./texts/fr/landing/more.md
           en: ./texts/en/landing/more.md
-      # - name: demo-cooptech
-      #   component: HtmlComponent
-      #   options:
-      #     columns-size: three-quarters
-      #   files:
-      #     fr: ./texts/fr/gallery/demo-cooptech.html
-      #     en: ./texts/en/gallery/demo-cooptech.html
-      - name: gitribute-cooptech
-        component: WidgetComponent
+      - name: demo-cooptech
+        component: HtmlComponent
         options:
-          columns-size: two-thirds
-          js: 
-            - href: https://gitribute.multi.coop/js/app.js
-          css: 
-            - href: https://gitribute.multi.coop/css/app.css
-          html: |
-            <multi-gitribute-file
-              title="Liste des coopératives de la tech en France"
-              gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/cooptech/Annuaire-SCOP-SCIC-tech-France.csv"
-              options='{
-                "height": "500px",
-                "separator":",",
-                "lockcolumns": true,
-                "tagseparator":",",
-                "customfilters" : {
-                  "activate": true,
-                  "filterfields": [
-                  "type",
-                    "Statut juridique"
-                    ]
-                },
-                "schema": {
-                  "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-schema.json"
-                },
-                "fields-custom-properties": {
-                  "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-fields-custom-props.json"
-                },
-                "customsorting" : {
-                  "activate": true,
-                  "sortfields": [
-                    { "name": "Nom" }
-                  ]
-                },
-                "pagination":{
-                  "itemsPerPage": 20
-                },
-                "cardsview": {
-                  "activate": true,
-                  "default": false
-                },
-                "cardsdetail": true,
-                "cardssettings": {
-                  "mini": {
-                    "Nom": {"position": "title"},
-                    "Présentation": {"position": "description"},
-                    "Site internet": {"position": "description"},
-                    "Statut juridique": {"position": "tags"},
-                    "Domaine(s)": {"position": "tags"}
-                  },
-                  "detail": {
-                    "Nom": {"position": "title"},
-                    "Site internet": {"position": "description"},
-                    "Présentation": {"position": "description"},
-                    "Numéro SIREN": {"position": "description"},
-                    "Adresse": {"position": "description"},
-                    "Statut juridique": {"position": "tags"},
-                    "Domaine(s)": {"position": "tags"},
-                    "Fiche URSCOP": {"position": "links"}
-                  }
-                }
-              }'
-              usertoken=""
-              locale="fr"
-              debug="false"
-            />
+          columns-size: three-quarters
+        files:
+          fr: ./texts/fr/gallery/demo-cooptech.html
+          en: ./texts/en/gallery/demo-cooptech.html
+      # - name: gitribute-cooptech
+      #   component: WidgetComponent
+      #   options:
+      #     columns-size: two-thirds
+      #     js: 
+      #       - href: https://gitribute.multi.coop/js/app.js
+      #     css: 
+      #       - href: https://gitribute.multi.coop/css/app.css
+      #     html: |
+      #       <multi-gitribute-file
+      #         title="Liste des coopératives de la tech en France"
+      #         gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/cooptech/Annuaire-SCOP-SCIC-tech-France.csv"
+      #         options='{
+      #           "height": "500px",
+      #           "separator":",",
+      #           "lockcolumns": true,
+      #           "tagseparator":",",
+      #           "customfilters" : {
+      #             "activate": true,
+      #             "filterfields": [
+      #             "type",
+      #               "Statut juridique"
+      #               ]
+      #           },
+      #           "schema": {
+      #             "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-schema.json"
+      #           },
+      #           "fields-custom-properties": {
+      #             "file": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/json/cooptech/Annuaire-SCOP-SCIC-tech-France-fields-custom-props.json"
+      #           },
+      #           "customsorting" : {
+      #             "activate": true,
+      #             "sortfields": [
+      #               { "name": "Nom" }
+      #             ]
+      #           },
+      #           "pagination":{
+      #             "itemsPerPage": 20
+      #           },
+      #           "cardsview": {
+      #             "activate": true,
+      #             "default": false
+      #           },
+      #           "cardsdetail": true,
+      #           "cardssettings": {
+      #             "mini": {
+      #               "Nom": {"position": "title"},
+      #               "Présentation": {"position": "description"},
+      #               "Site internet": {"position": "description"},
+      #               "Statut juridique": {"position": "tags"},
+      #               "Domaine(s)": {"position": "tags"}
+      #             },
+      #             "detail": {
+      #               "Nom": {"position": "title"},
+      #               "Site internet": {"position": "description"},
+      #               "Présentation": {"position": "description"},
+      #               "Numéro SIREN": {"position": "description"},
+      #               "Adresse": {"position": "description"},
+      #               "Statut juridique": {"position": "tags"},
+      #               "Domaine(s)": {"position": "tags"},
+      #               "Fiche URSCOP": {"position": "links"}
+      #             }
+      #           }
+      #         }'
+      #         usertoken=""
+      #         locale="fr"
+      #         debug="false"
+      #       />
       - name: more-clients
         component: TextComponent
         options:
