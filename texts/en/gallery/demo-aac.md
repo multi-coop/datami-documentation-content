@@ -82,11 +82,9 @@
     title="gitribute for explowiki - communs :)"
     locale="fr"
   ></multi-gitribute-explowiki>
-      
+
   <!-- GITRIBUTE WIDGET'S APP.JS SCRIPT -->
-  <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript" defer></script>
-
-
+  <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript"></script>
 
   <hr>
 
