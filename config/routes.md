@@ -2173,8 +2173,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-cooptech.html
-          en: ./texts/en/gallery/demo-cooptech.html
+          fr: ./texts/fr/gallery/demo-cooptech.md
+          en: ./texts/en/gallery/demo-cooptech.md
   - name: demo-odf-observatoire
     url: /demo-odf-observatoire
     options:
@@ -2185,8 +2185,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-odf-observatoire.html
-          en: ./texts/en/gallery/demo-odf-observatoire.html
+          fr: ./texts/fr/gallery/demo-odf-observatoire.md
+          en: ./texts/en/gallery/demo-odf-observatoire.md
   - name: demo-odf-ressources
     url: /demo-odf-ressources
     options:
@@ -2197,8 +2197,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-odf-ressources.html
-          en: ./texts/en/gallery/demo-odf-ressources.html
+          fr: ./texts/fr/gallery/demo-odf-ressources.md
+          en: ./texts/en/gallery/demo-odf-ressources.md
   - name: demo-fabmob
     url: /demo-fabmob
     options:
@@ -2209,8 +2209,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-fabmob.html
-          en: ./texts/en/gallery/demo-fabmob.html
+          fr: ./texts/fr/gallery/demo-fabmob.md
+          en: ./texts/en/gallery/demo-fabmob.md
   - name: demo-aac
     url: /demo-aac
     options:
@@ -2221,8 +2221,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-aac.html
-          en: ./texts/en/gallery/demo-aac.html
+          fr: ./texts/fr/gallery/demo-aac.md
+          en: ./texts/en/gallery/demo-aac.md
 
   # GALLERY - WIDGET / DEPRECATED
   - name: gitribute-odf-observatoire
