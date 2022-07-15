@@ -56,6 +56,12 @@ buttons-left:
         label: 
           fr: Intégration
           en: Integration
+      - name: integration-wordpress
+        link: /integration-wordpress
+        component: simpleLink
+        label: 
+          fr: Intégration Wordpress
+          en: Wordpress integration
       - name: sep
         separator: true
       - name: tutorial-overview

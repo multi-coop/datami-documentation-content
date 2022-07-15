@@ -84,8 +84,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-cooptech.html
-          en: ./texts/en/gallery/demo-cooptech.html
+          fr: ./texts/fr/gallery/demo-cooptech.md
+          en: ./texts/en/gallery/demo-cooptech.md
       # - name: gitribute-cooptech
       #   component: WidgetComponent
       #   options:
@@ -1197,6 +1197,46 @@ routes:
         files:
           fr: ./texts/fr/integration/integration-dependencies.md
           en: ./texts/en/integration/integration-dependencies.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          custom-class: mt-6
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
+  - name: integration-wordpress
+    url: /integration-wordpress
+    options:
+      # hero: true
+      contrib: true
+      summary: true
+      name:
+        en: Wordpress integration
+    sections: 
+      - name: integration
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+           en: Introduction
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress.md
+          en: ./texts/en/integration-wordpress/wordpress.md
       - name: Contact
         component: ButtonsComponent
         options:
