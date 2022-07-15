@@ -182,30 +182,65 @@ buttons-left:
       fr: Galerie
       en: Gallery
     submenu:
-      - name: demo-cooptech
-        link: /demo-cooptech
+      # - name: demo-cooptech
+      #   link: /demo-cooptech
+      #   component: simpleLink
+      #   label: 
+      #     fr: Cooptech - annuaire
+      #     en: Cooptech - organisations
+      # - name: sep
+      #   separator: true
+      # - name: demo-odf-observatoire
+      #   link: /demo-odf-observatoire
+      #   component: simpleLink
+      #   label: 
+      #     fr: Open Data France - Données de l'Observatoire
+      #     en: Open Data France - Observatory's datasets
+      # - name: demo-odf-ressources
+      #   link: /demo-odf-ressources
+      #   component: simpleLink
+      #   label: 
+      #     fr: Open Data France - Ressources
+      #     en: Open Data France - Ressources
+      # - name: sep
+      #   separator: true
+      # - name: demo-fabmob
+      #   link: /demo-fabmob
+      #   component: simpleLink
+      #   label: 
+      #     fr: Fabmob - Projets du wiki
+      #     en: Fabmob - Projects from wikimedia
+      # - name: demo-aac
+      #   link: /demo-aac
+      #   component: simpleLink
+      #   label: 
+      #     fr: AAC - Projets du wiki
+      #     en: AAC - Projects from wikimedia
+
+      - name: gitribute-cooptech
+        link: /gitribute-cooptech
         component: simpleLink
         label: 
           fr: Cooptech - annuaire
           en: Cooptech - organisations
       - name: sep
         separator: true
-      - name: demo-odf-observatoire
-        link: /demo-odf-observatoire
+      - name: gitribute-odf-observatoire
+        link: /gitribute-odf-observatoire
         component: simpleLink
         label: 
           fr: Open Data France - Données de l'Observatoire
           en: Open Data France - Observatory's datasets
-      - name: demo-odf-ressources
-        link: /demo-odf-ressources
+      - name: gitribute-odf-ressources
+        link: /gitribute-odf-ressources
         component: simpleLink
         label: 
           fr: Open Data France - Ressources
           en: Open Data France - Ressources
       - name: sep
         separator: true
-      - name: demo-fabmob
-        link: /demo-fabmob
+      - name: gitribute-explowiki-fabmob
+        link: /gitribute-explowiki-fabmob
         component: simpleLink
         label: 
           fr: Fabmob - Projets du wiki
@@ -216,7 +251,6 @@ buttons-left:
         label: 
           fr: AAC - Projets du wiki
           en: AAC - Projects from wikimedia
-
 
   - name: contact 
     icon: at
