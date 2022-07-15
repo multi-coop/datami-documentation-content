@@ -12,7 +12,7 @@ To do so you have to follow those steps.
 <div>
   <img
     alt="WORDPRESS-LOGIN"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/wordpress/wordpress-login.png"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-login.png"
     />
 </div>
 <br>
@@ -22,7 +22,7 @@ To do so you have to follow those steps.
 <div>
   <img
     alt="WORDPRESS-ADMIN"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/wordpress/wordpress-admin.png"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-admin.png"
     />
 </div>
 <br>
@@ -32,7 +32,7 @@ To do so you have to follow those steps.
 <div>
   <img
     alt="WORDPRESS-EDIT-01"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/wordpress/wordpress-edit-01.png"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-edit-01.png"
     />
 </div>
 <br>
@@ -42,7 +42,7 @@ To do so you have to follow those steps.
 <div>
   <img
     alt="WORDPRESS-EDIT-02"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/wordpress/wordpress-edit-02.png"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-edit-02.png"
     />
 </div>
 <br>
@@ -52,7 +52,7 @@ To do so you have to follow those steps.
 <div>
   <img
     alt="WORDPRESS-EDIT-03"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/wordpress/wordpress-edit-03.png"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-edit-03.png"
     />
 </div>
 
@@ -61,7 +61,7 @@ To do so you have to follow those steps.
 <div>
   <img
     alt="WORDPRESS-PREVIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/wordpress/wordpress-preview.png"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-preview.png"
     />
 </div>
 <br>
