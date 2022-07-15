@@ -1237,6 +1237,66 @@ routes:
         files:
           fr: ./texts/fr/integration-wordpress/wordpress.md
           en: ./texts/en/integration-wordpress/wordpress.md
+      - name: login
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+           en: Log as admin
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-login.md
+          en: ./texts/en/integration-wordpress/wordpress-login.md
+      - name: back-office
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+           en: Create a new page
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-admin.md
+          en: ./texts/en/integration-wordpress/wordpress-admin.md
+      - name: edit-01
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+           en: Edit 01
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-edit-01.md
+          en: ./texts/en/integration-wordpress/wordpress-edit-01.md
+      - name: edit-02
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+           en: Edit 02
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-edit-02.md
+          en: ./texts/en/integration-wordpress/wordpress-edit-02.md
+      - name: edit-03
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+           en: Edit 03
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-edit-03.md
+          en: ./texts/en/integration-wordpress/wordpress-edit-03.md
+      - name: preview
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+           en: Preview
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-preview.md
+          en: ./texts/en/integration-wordpress/wordpress-preview.md
       - name: Contact
         component: ButtonsComponent
         options:
