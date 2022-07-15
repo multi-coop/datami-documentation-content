@@ -1243,7 +1243,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Log as admin
+           en: Log to the backoffice
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-login.md
           en: ./texts/en/integration-wordpress/wordpress-login.md
@@ -1263,20 +1263,20 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Open the edition preferences
+           en: Switch to "Code editor"
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-edit-01.md
           en: ./texts/en/integration-wordpress/wordpress-edit-01.md
-      - name: edit-02
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-           en: Select "Code editor"
-        files:
-          fr: ./texts/fr/integration-wordpress/wordpress-edit-02.md
-          en: ./texts/en/integration-wordpress/wordpress-edit-02.md
+      # - name: edit-02
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #     depth: 1
+      #     name:
+      #      en: Select "Code editor"
+      #   files:
+      #     fr: ./texts/fr/integration-wordpress/wordpress-edit-02.md
+      #     en: ./texts/en/integration-wordpress/wordpress-edit-02.md
       - name: tutorial-actions-user-options-copy
         component: TextComponent
         options:

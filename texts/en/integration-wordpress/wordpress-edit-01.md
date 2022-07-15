@@ -1,4 +1,4 @@
-## Open your edition preferences in Wordpress
+## Switch to "Code editor" edition
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -6,9 +6,10 @@
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-edit-01-help.png"
     />
 </div>
-<br>
 
 A this point you would have to click on the "options" button to open the menu on the right-side.
+
+You then have to select "Editor > Code editor", in order to edit directly you Wordpress page's `html`.
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -17,5 +18,3 @@ A this point you would have to click on the "options" button to open the menu on
     />
 </div>
 <br>
-
-You have to select "Editor > Code editor", in order to edit directly you Wordpress page's `html`
