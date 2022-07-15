@@ -17,3 +17,5 @@ On your Wordpress page preview you now can see the widget integrated to your can
     />
 </div>
 <br>
+
+If you find any problem during this process don't hesitate to contact us, your feedbacks are always usefull.
