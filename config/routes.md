@@ -79,7 +79,7 @@ routes:
         files:
           fr: ./texts/fr/landing/more.md
           en: ./texts/en/landing/more.md
-      # - name: demo-gitribute-cooptech
+      # - name: landing-gitribute-cooptech
       #   component: HtmlComponent
       #   options:
       #     columns-size: three-quarters
