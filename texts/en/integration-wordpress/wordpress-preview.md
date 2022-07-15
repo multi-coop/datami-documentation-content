@@ -1,4 +1,4 @@
-### 6. Save and see the result
+### Check the result
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -7,3 +7,5 @@
     />
 </div>
 <br>
+
+On your Wordpress page preview you can see the widget is now integrated and respects the Wordpress theme of your website.

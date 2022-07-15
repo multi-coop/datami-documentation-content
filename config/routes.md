@@ -1263,7 +1263,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Edit 01
+           en: Open the edition preferences
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-edit-01.md
           en: ./texts/en/integration-wordpress/wordpress-edit-01.md
@@ -1273,10 +1273,20 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Edit 02
+           en: Select "Code editor"
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-edit-02.md
           en: ./texts/en/integration-wordpress/wordpress-edit-02.md
+      - name: tutorial-actions-user-options-copy
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            en: Paste the widget
+        files:
+          fr: ./texts/fr/tutorial/tutorial-actions-user-options-copy.md
+          en: ./texts/en/tutorial/tutorial-actions-user-options-copy.md
       - name: edit-03
         component: TextComponent
         options:
@@ -1293,7 +1303,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Preview
+           en: Preview the result
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-preview.md
           en: ./texts/en/integration-wordpress/wordpress-preview.md

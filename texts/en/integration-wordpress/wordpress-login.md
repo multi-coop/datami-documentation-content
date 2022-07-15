@@ -1,4 +1,4 @@
-## 1. Log to your Wordpress backoffice
+## Log to your Wordpress backoffice
 
 <div>
   <img
@@ -7,3 +7,5 @@
     />
 </div>
 <br>
+
+The first thing you have to do is to log as an admin to your Wordpress website, as usual.

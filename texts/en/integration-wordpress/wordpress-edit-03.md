@@ -1,4 +1,4 @@
-## 5. Paste the widget in Wordpress
+## Paste the widget in Wordpress
 
 <div style="border: thin solid lightgrey;">
   <img
