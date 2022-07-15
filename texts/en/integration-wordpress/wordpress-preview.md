@@ -1,6 +1,6 @@
 ### Check the result
 
-<div style="border: thin solid lightgrey;">
+<div>
   <img
     alt="WORDPRESS-PREVIEW-SWITCH"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-preview-help.png"
