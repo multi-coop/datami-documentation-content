@@ -17,5 +17,5 @@ Once you've clicked this button a dialog appears :
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/actions-copy_result.png"
     />
 </div>
-
-You can now paste the block in any html page you want to include the widget.
+ 
+The `html` code of the widget is copied to your clipboard. You can now paste the block in any html page you want to include the widget in any other `html` page (for instance in a Wordpress website).
