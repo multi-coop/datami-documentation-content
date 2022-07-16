@@ -1,6 +1,8 @@
-## The widget `<multi-gitribute-multi-files>`
+## Le widget `<multi-gitribute-multi-files>`
 
-This widget allows to preview and edit a list of files stored on Gitlab or Github.
+Ce widget permet de visualiser et d'éditer une liste de fichiers hébergés sur Gitlab ou Github.
+
+Il est possible d'alterner entre différents fichiers grâce au système d'onglets dans la partie supérieur du widget.
 
 <div style="border: thin solid lightgrey;">
   <img 
@@ -11,4 +13,4 @@ This widget allows to preview and edit a list of files stored on Gitlab or Githu
 
 <br>
 
-The specifity of the `multi-files` widget, beside its function of "wrapper" of `gitfile` widgets, remains in its capacity to create links between documents. That system is close to a "foreign key" system.
+La particularité du widget `multi-files`, en dehors de sa fonction de _wrapper_ de widgets `gitfile`, réside en sa capacité de créer des liens entre les documents. Ce système est proche d'un système de "clé étrangère" permettant de référencer / injecter dans un fichier des informations contenues dans un autre.
