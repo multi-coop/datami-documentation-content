@@ -1,4 +1,4 @@
-## Log to your Wordpress backoffice
+## S'authentifier dans votre backoffice Wordpress
 
 <div>
   <img
@@ -8,4 +8,4 @@
 </div>
 <br>
 
-The first thing you have to do is to log as an admin to your Wordpress website, as usual.
+La première chose à faire est de vous authentifier dans la partie admin de votre site Wordpress, comme vous le feriez habituellement.
