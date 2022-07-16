@@ -1,4 +1,4 @@
-## Contribution features
+## Fonctionnalités de contribution
 
 <div>
   <img
@@ -7,12 +7,12 @@
     />
 </div>
 
-Finally some features are correlated to the core purpose of Gitribute : **"Contribute with Git"**.
+Enfin certaines fonctionnalités sont au coeur du projet de Gitribute : **Contribuer avec Git**.
 
-Making a open contribution to a document, including the possibility for the document's owner to reject or to modify it comes with some little perks and a bit of vocabulary.
+Faire des contributions ouvertes sur un document, en incluant la possibilité que le propriétaire du document rejette / modifie / accepte votre contribution, n'est pas sans inclure quelques petites nouveautés ne serait-ce qu'en terme de vocabulaire.
 
-- **What is a branch ?**
-- **What is a "pull request" or a "merge request" ?**
-- **How do I know my contribution was accepted ?**
+- **Qu'est-ce qu'une "branche" ?**
+- **Qu'est-ce qu'une "pull request" ou une "merge request" ?**
+- **Comment savoir si ma contribution a été acceptée / "mergée" ?**
 
-> More details about the contribution process in the **["Tutorials > Contribution"](/tutorial-contribution)** section
+> Plus de détails sur le processus de contribution dans la partie **["Tutoriels > Contribution"](/tutorial-contribution)**.
