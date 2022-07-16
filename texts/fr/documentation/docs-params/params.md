@@ -1,4 +1,4 @@
 
-### Widget's parameters
+### Paramètres du widget
 
-This widget can take several parameters, some of them depends on your input file's type
+Ce widget accepte différents paramètres, dont certains dépendent du type de fichier source.
