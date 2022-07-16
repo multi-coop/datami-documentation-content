@@ -124,7 +124,7 @@ buttons-left:
         link: /install
         component: simpleLink
         label: 
-          fr: Installation strategies
+          fr: Stratégies d'installation
           en: Installation strategies
       - name: sep
         separator: true
@@ -132,7 +132,7 @@ buttons-left:
         link: /docs-widgets-overview
         component: simpleLink
         label: 
-          fr: Overview
+          fr: Panorama
           en: Overview
       - name: gitribute-file
         link: /docs-gitfile
@@ -164,13 +164,13 @@ buttons-left:
         link: /architecture
         component: simpleLink
         label: 
-          fr: Architecture & sketches
+          fr: Architecture & dessins
           en: Architecture & sketches
       - name: software
         link: /software
         component: simpleLink
         label: 
-          fr: Software infos
+          fr: Infos sur le logiciel
           en: Software infos
       # - name: roadmap
       #   link: /roadmap
@@ -276,7 +276,7 @@ buttons-right:
     component: extLink
     options: [ arrowless ]
     label: 
-      fr: A project by the tech cooperative multi
+      fr: Un projet par la coopérative multi
       en: A project by the tech cooperative multi
 
   - name: repo 
