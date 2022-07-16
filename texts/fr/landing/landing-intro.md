@@ -17,7 +17,8 @@
       <i class="mdi mdi-arrow-down"></i>
     </span>
     un widget de Gitribute
-    <br>affichant un ficher <code>csv</code>.
+    <br>affichant un ficher <code>csv</code>
+    <br>(un équivalent de fichier excel)
   </p>
   <p class="is-size-4">
     Ce ficher est
