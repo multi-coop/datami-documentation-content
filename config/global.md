@@ -2,8 +2,8 @@
 app_name : Gitribute docs
 app_default_locale: en
 app_locales: [
-  # fr,
-  en
+  en,
+  fr
 ]
 app_md_flavor: github
 app_icon: ./images/logo_GITRIBUTE.png

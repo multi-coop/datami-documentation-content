@@ -12,8 +12,8 @@ routes:
         options:
           columns-size: '5'
         files:
-          fr: ./texts/fr/landing/logo-gitribute.md
-          en: ./texts/en/landing/logo-gitribute.md
+          fr: ./texts/international/logo-gitribute.md
+          en: ./texts/international/logo-gitribute.md
       - name: catchphrase
         component: TextComponent
         options:
@@ -63,8 +63,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/landing/more.md
-          en: ./texts/en/landing/more.md
+          fr: ./texts/international/more.md
+          en: ./texts/international/more.md
       - name: intro
         component: TextComponent
         options:
@@ -77,8 +77,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/landing/more.md
-          en: ./texts/en/landing/more.md
+          fr: ./texts/international/more.md
+          en: ./texts/international/more.md
       # - name: landing-gitribute-cooptech
       #   component: HtmlComponent
       #   options:
@@ -159,8 +159,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/landing/more.md
-          en: ./texts/en/landing/more.md
+          fr: ./texts/international/more.md
+          en: ./texts/international/more.md
       - name: clients
         component: TextComponent
         options:
@@ -173,8 +173,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/landing/more.md
-          en: ./texts/en/landing/more.md
+          fr: ./texts/international/more.md
+          en: ./texts/international/more.md
       - name: outro
         component: TextComponent
         options:
@@ -187,8 +187,8 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/landing/more.md
-          en: ./texts/en/landing/more.md
+          fr: ./texts/international/more.md
+          en: ./texts/international/more.md
       - name: btn-to-why
         component: ButtonsComponent
         options:
@@ -217,6 +217,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Pourquoi Gitribute ?
         en: Why Gitribute ?
     sections: 
       - name: why-intro
@@ -224,6 +225,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Introduction
             en: Introduction
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute.md
@@ -233,6 +235,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Simplififier la contribution ouverte
             en: Make open contribution easier 
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-easy.md
@@ -242,6 +245,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Aider les organisation à ouvrir leurs données
             en: Help organizations opening data
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-open.md
@@ -251,6 +255,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Réduire le coût de l'open data
             en: Reduce the cost of open data
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-costs.md
@@ -260,6 +265,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Faire de l'open data de qualité
             en: Make quality open data
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-quality.md
@@ -270,6 +276,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Data & schemas
             en: Data & schemas
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-quality-schemas.md
@@ -280,6 +287,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Consolidation de données
             en: Data consolidation
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-quality-consolidation.md
@@ -312,6 +320,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Principales fonctionnalités
         en: Main features
     sections: 
       - name: main-features
@@ -319,6 +328,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Introduction
             en: Introduction
         files:
           fr: ./texts/fr/main-features/main-features.md
@@ -328,6 +338,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Éditer & contribuer online
             en: Edit & contribute online
         files:
           fr: ./texts/fr/main-features/main-features-edit.md
@@ -337,6 +348,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Partager vos jeux de données
             en: Share your datasets
         files:
           fr: ./texts/fr/main-features/main-features-share.md
@@ -346,6 +358,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Adapter les widgets à vos besoins
             en: Adapt the widgets to your needs
         files:
           fr: ./texts/fr/main-features/main-features-adapt.md
@@ -380,13 +393,15 @@ routes:
       summary: true
       contrib: true
       name:
-        en: Business-model
+        fr: Business model
+        en: Business model
     sections: 
       - name: business-model
         component: TextComponent
         options:
           columns-size: three-quarters
           name:
+            fr: Business model
             en: Business model
         files:
           fr: ./texts/fr/business-model/business-model.md
@@ -396,6 +411,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Pas de piège, juste open source
             en: No trap, just open source
         files:
           fr: ./texts/fr/business-model/business-model-no_trap.md
@@ -406,6 +422,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Une idée, et la preuve rapide que ça fonctionne
             en: An idea, and the quick proof it could technically work
         files:
           fr: ./texts/fr/business-model/business-model-idea.md
@@ -416,6 +433,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Des vrais cas d'usage
             en: Real use cases
         files:
           fr: ./texts/fr/business-model/business-model-usecases.md
@@ -426,6 +444,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Mutualiser & converger sur une feuille de route
             en: Mutualize & converge with the roadmap 
         files:
           fr: ./texts/fr/business-model/business-model-mutualize.md
@@ -436,6 +455,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Valoriser l'expertise, pas le code
             en: Valorize the expertise, not the code
         files:
           fr: ./texts/fr/business-model/business-model-valorize.md
@@ -445,6 +465,7 @@ routes:
         options:
           columns-size: full
           name:
+            fr: Ils soutiennent Gitribute
             en: They support Gitribute
         files:
           fr: ./texts/fr/landing/landing-clients.md
@@ -479,6 +500,7 @@ routes:
       contrib: true
       summary: true
       name:
+        fr: Benchmark
         en: Benchmark
     sections: 
       - name: benchmark-head
@@ -486,16 +508,20 @@ routes:
         options:
           columns-size: full
           name:
+            fr: Introduction
             en: Introduction
         files:
+          fr: ./texts/fr/benchmark/benchmark-head.md
           en: ./texts/en/benchmark/benchmark-head.md
       - name: benchmark-comparisons
         component: TextComponent
         options:
           columns-size: full
           name:
+            fr: Compairisons
             en: Comparisons
         files:
+          fr: ./texts/fr/benchmark/benchmark-comparisons.md
           en: ./texts/en/benchmark/benchmark-comparisons.md
       - name: benchmark-comparisons-open
         component: TextComponent
@@ -503,8 +529,10 @@ routes:
           columns-size: full
           depth: 1
           name:
+            fr: Solutions open source
             en: Open source solutions
         files:
+          fr: ./texts/fr/benchmark/benchmark-comparisons-open.md
           en: ./texts/en/benchmark/benchmark-comparisons-open.md
       - name: benchmark-comparisons-proprietary
         component: TextComponent
@@ -512,16 +540,20 @@ routes:
           columns-size: full
           depth: 1
           name:
+            fr: Solutions propriétaires
             en: Proprietary solutions
         files:
+          fr: ./texts/fr/benchmark/benchmark-comparisons-proprietary.md
           en: ./texts/en/benchmark/benchmark-comparisons-proprietary.md
       - name: benchmark-solutions
         component: TextComponent
         options:
           columns-size: full
           name:
+            fr: Solutions
             en: Solutions
         files:
+          fr: ./texts/fr/benchmark/benchmark-solutions.md
           en: ./texts/en/benchmark/benchmark-solutions.md
       - name: benchmark-data
         component: DataGrid
@@ -529,8 +561,10 @@ routes:
           columns-size: full
           depth: 1
           name:
+            fr: Listing
             en: Grid list
         files:
+          fr: ./texts/fr/benchmark/benchmark-data.md
           en: ./texts/en/benchmark/benchmark-data.md
       - name: Contact
         component: ButtonsComponent
@@ -562,6 +596,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Panorama des tutoriels
         en: Tutorials overview
     sections: 
       - name: tutorial-overview
@@ -569,6 +604,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Introduction
             en: Introduction
         files:
           fr: ./texts/fr/tutorial/tutorial-overview.md
@@ -578,6 +614,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Actions principales
             en: Main actions
         files:
           fr: ./texts/fr/tutorial/tutorial-overview-actions.md
@@ -587,6 +624,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Édition
             en: Edition
         files:
           fr: ./texts/fr/tutorial/tutorial-overview-edition.md
@@ -596,6 +634,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Contribution
             en: Contribution
         files:
           fr: ./texts/fr/tutorial/tutorial-overview-contribution.md
@@ -628,6 +667,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Actions
         en: Actions features
     sections: 
       - name: tutorial-actions
@@ -635,6 +675,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Introduction
             en: Introduction
         files:
           fr: ./texts/fr/tutorial/tutorial-actions.md
@@ -644,6 +685,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Informations sur le fichier
             en: File's informations
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-file-infos.md
@@ -653,6 +695,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Options de l'utilisateur
             en: User's options
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-user-options.md
@@ -663,6 +706,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Recharger le fichier source
             en: Reload the source file
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-user-options-reload.md
@@ -673,6 +717,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Télécharger le fichier
             en: Download the file
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-user-options-download.md
@@ -683,6 +728,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Changer le token utilisateur
             en: Change your user token
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-user-options-usertoken.md
@@ -693,6 +739,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Vérifier vos branches
             en: Check your branches
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-user-options-branches.md
@@ -703,6 +750,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Copier le widget 
             en: Copy the widget
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-user-options-copy.md
@@ -713,6 +761,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Changer de langue
             en: Change the language
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-user-options-locale.md
@@ -722,6 +771,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Les modes de vue
             en: The view modes
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-change-modes.md
@@ -731,6 +781,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Changer le mode de "vue-édition"
             en: Switch the "edit-view" modes
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-edit-modes.md
@@ -741,6 +792,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Le mode "Prévisualisation"
             en: The "Preview" mode
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-edit-modes-preview.md
@@ -751,6 +803,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Le mode "Édition"
             en: The "Edit" mode
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-edit-modes-edit.md
@@ -761,6 +814,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Le mode "Comparaison"
             en: The "Diff" mode
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-edit-modes-diff.md
@@ -770,6 +824,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Vue "cartes"
             en: Cards view
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-cards_view.md
@@ -779,6 +834,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Rechercher et filtrer
             en: Search and filter
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-search_filters.md
@@ -789,6 +845,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Recherche textuelle
             en: Fulltext search
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-search.md
@@ -799,6 +856,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Filtres
             en: Filters
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-filters.md
@@ -831,6 +889,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Édition
         en: Edition features
     sections: 
       - name: edition
@@ -838,6 +897,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Introduction
             en: Introduction
         files:
           fr: ./texts/fr/tutorial/tutorial-edition.md
@@ -847,6 +907,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Éditer un fichier markdown
             en: Edit a markdown file
         files:
           fr: ./texts/fr/tutorial/tutorial-edition-edit-md.md
@@ -856,6 +917,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Éditer un fichier CSV
             en: Edit a CSV file
         files:
           fr: ./texts/fr/tutorial/tutorial-edition-edit-csv.md
@@ -866,6 +928,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Champs d'un tableur
             en: Table fields
         files:
           fr: ./texts/fr/tutorial/tutorial-edition-edit-csv-fields.md
@@ -876,6 +939,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Opérations usuelles sur les lignes
             en: Common rows operations
         files:
           fr: ./texts/fr/tutorial/tutorial-edition-edit-csv-rows.md
@@ -886,6 +950,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Champ de consolidation
             en: Consolidation field
         files:
           fr: ./texts/fr/tutorial/tutorial-edition-edit-csv-consolidation_field.md
@@ -895,6 +960,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Éditer un fichier JSON
             en: Edit a JSON file
         files:
           fr: ./texts/fr/tutorial/tutorial-edition-edit-json.md
@@ -927,6 +993,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Contribution
         en: Contribution features
     sections: 
       - name: contribution
@@ -934,6 +1001,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Introduction
             en: Introduction
         files:
           fr: ./texts/fr/tutorial/tutorial-contribution.md
@@ -943,6 +1011,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Qu'est-ce qu'une contribution ?
             en: What is a contribution ?
         files:
           fr: ./texts/fr/tutorial/tutorial-contribution-what.md
@@ -952,6 +1021,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Envoyer une contribution
             en: Send your contribution
         files:
           fr: ./texts/fr/tutorial/tutorial-contribution-send.md
@@ -986,6 +1056,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Stratégies d'installation
         en: Installation strategies
     sections: 
       - name: installation
@@ -993,7 +1064,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-           en: Introduction
+            fr: Introduction
+            en: Introduction
         files:
           fr: ./texts/fr/installation/installation.md
           en: ./texts/en/installation/installation.md
@@ -1002,7 +1074,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-           en: Reuse some widgets
+            fr: Réutiliser des widgets
+            en: Reuse some widgets
         files:
           fr: ./texts/fr/installation/installation-reuse.md
           en: ./texts/en/installation/installation-reuse.md
@@ -1011,7 +1084,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-           en: Adapt Gitribute for your website
+            fr: Adapter Gitribute à votre site
+            en: Adapt Gitribute for your website
         files:
           fr: ./texts/fr/installation/installation-adapt.md
           en: ./texts/en/installation/installation-adapt.md
@@ -1020,7 +1094,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-           en: Install your instance
+            fr: Installer votre instance
+            en: Install your instance
         files:
           fr: ./texts/fr/installation/installation-instance.md
           en: ./texts/en/installation/installation-instance.md
@@ -1058,6 +1133,7 @@ routes:
       contrib: true
       summary: true
       name:
+        fr: Quickstart pour les développeurs
         en: Quickstart for developpers
     sections: 
       - name: intro
@@ -1065,6 +1141,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Introduction
             en: Introduction
         files:
           fr: ./texts/fr/quickstart/introduction.md
@@ -1074,6 +1151,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Setup
             en: Setup
         files:
           fr: ./texts/fr/quickstart/setup.md
@@ -1084,6 +1162,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Le fichier `env`
             en: The `env` file
         files:
           fr: ./texts/fr/quickstart/env-file.md
@@ -1093,6 +1172,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Développement local
             en: Local development
         files:
           fr: ./texts/fr/quickstart/local-dev.md
@@ -1102,6 +1182,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Production
             en: Production
         files:
           fr: ./texts/fr/quickstart/production.md
@@ -1111,6 +1192,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Linting
             en: Linting
         files:
           fr: ./texts/fr/quickstart/linting.md
@@ -1120,6 +1202,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Tests unitaires
             en: Unit tests
         files:
           fr: ./texts/fr/quickstart/unit-tests.md
@@ -1159,6 +1242,7 @@ routes:
       contrib: true
       summary: true
       name:
+        fr: Intégration
         en: Integration
     sections: 
       - name: integration
@@ -1166,7 +1250,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-           en: Introduction
+            fr: Introduction
+            en: Introduction
         files:
           fr: ./texts/fr/integration/integration.md
           en: ./texts/en/integration/integration.md
@@ -1175,7 +1260,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-           en: Example
+            fr: Exemple
+            en: Example
         files:
           fr: ./texts/fr/integration/integration-example.md
           en: ./texts/en/integration/integration-example.md
@@ -1184,7 +1270,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-           en: Do not panic !
+            fr: Pas de panique !
+            en: Do not panic !
         files:
           fr: ./texts/fr/integration/integration-no_panic.md
           en: ./texts/en/integration/integration-no_panic.md
@@ -1193,7 +1280,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-           en: Dependencies
+            fr: Dépendances
+            en: Dependencies
         files:
           fr: ./texts/fr/integration/integration-dependencies.md
           en: ./texts/en/integration/integration-dependencies.md
@@ -1226,6 +1314,7 @@ routes:
       contrib: true
       summary: true
       name:
+        fr: Intégration dans Wordpress
         en: Wordpress integration
     sections: 
       - name: integration
@@ -1233,7 +1322,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-           en: Introduction
+            fr: Introduction
+            en: Introduction
         files:
           fr: ./texts/fr/integration-wordpress/wordpress.md
           en: ./texts/en/integration-wordpress/wordpress.md
@@ -1243,7 +1333,8 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Log to the backoffice
+            fr: S'authentifier dans le backoffice
+            en: Log to the backoffice
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-login.md
           en: ./texts/en/integration-wordpress/wordpress-login.md
@@ -1253,7 +1344,8 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Create a new page
+            fr: Créer une nouvelle page
+            en: Create a new page
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-admin.md
           en: ./texts/en/integration-wordpress/wordpress-admin.md
@@ -1263,26 +1355,18 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Switch to "Code editor"
+            fr: Passer en mode "Editeur de code"
+            en: Switch to "Code editor"
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-edit-01.md
           en: ./texts/en/integration-wordpress/wordpress-edit-01.md
-      # - name: edit-02
-      #   component: TextComponent
-      #   options:
-      #     columns-size: three-quarters
-      #     depth: 1
-      #     name:
-      #      en: Select "Code editor"
-      #   files:
-      #     fr: ./texts/fr/integration-wordpress/wordpress-edit-02.md
-      #     en: ./texts/en/integration-wordpress/wordpress-edit-02.md
       - name: tutorial-actions-user-options-copy
         component: TextComponent
         options:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Copier le widget
             en: Copy the widget
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-user-options-copy.md
@@ -1293,7 +1377,8 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Paste the widget
+            fr: Coller le widget
+            en: Paste the widget
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-edit-03.md
           en: ./texts/en/integration-wordpress/wordpress-edit-03.md
@@ -1303,7 +1388,8 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-           en: Preview the result
+            fr: Prévisualiser le résultat
+            en: Preview the result
         files:
           fr: ./texts/fr/integration-wordpress/wordpress-preview.md
           en: ./texts/en/integration-wordpress/wordpress-preview.md
@@ -1335,6 +1421,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Architecture & dessins
         en: Architecture & sketches
     sections: 
       - name: architecture-schemas-intro
@@ -1342,6 +1429,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Dessins & wireframes
             en: Sketches & wireframes
         files:
           fr: ./texts/fr/architecture-sketches/architecture-schemas-intro.md
@@ -1351,6 +1439,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Idées principales
             en: Main ideas
         files:
           fr: ./texts/fr/architecture-sketches/architecture.md
@@ -1361,6 +1450,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Des services Git comme bases de données
             en: Git providers as database
         files:
           fr: ./texts/fr/architecture-sketches/architecture-git-providers.md
@@ -1371,6 +1461,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Intéropérabilité basique
             en: Basic interoperability
         files:
           fr: ./texts/fr/architecture-sketches/architecture-basic-interoperability.md
@@ -1381,6 +1472,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Data agnostique
             en: Data agnostic
         files:
           fr: ./texts/fr/architecture-sketches/architecture-data-agnostic.md
@@ -1391,6 +1483,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Une collection de widgets...
             en: A widgets collection...
         files:
           fr: ./texts/fr/architecture-sketches/architecture-widgets-collection.md
@@ -1401,6 +1494,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: ...Pour débutants
             en: ...For noobs
         files:
           fr: ./texts/fr/architecture-sketches/architecture-for-noobs.md
@@ -1410,6 +1504,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Wireframes des composants
             en: Components wireframes
         files:
           fr: ./texts/fr/architecture-sketches/architecture-schemas-wireframes.md
@@ -1420,6 +1515,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Widget pour la visualisation et l'édition de `csv`
             en: Widget for `csv` preview and edition
         files:
           fr: ./texts/fr/architecture-sketches/architecture-schemas-csv.md
@@ -1430,6 +1526,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Widget pour la visualisation et l'édition de `md`
             en: Widget for `md` preview and edition
         files:
           fr: ./texts/fr/architecture-sketches/architecture-schemas-md.md
@@ -1440,6 +1537,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Dialogue avant de sauvegarder
             en: Dialog before saving changes
         files:
           fr: ./texts/fr/architecture-sketches/architecture-schemas-save-dialog.md
@@ -1483,6 +1581,7 @@ routes:
       contrib: true
       summary: true
       name:
+        fr: Infos sur le logiciel
         en: Software informations
     sections: 
       - name: docs-licence
@@ -1490,6 +1589,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Licence
             en: Licence
         files:
           fr: ./texts/fr/software/licence.md
@@ -1499,6 +1599,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Stack
             en: Stack
         files:
           fr: ./texts/fr/software/stack.md
@@ -1508,6 +1609,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Feuille de route
             en: Roadmap
         files:
           fr: ./texts/fr/software/roadmap.md
@@ -1518,6 +1620,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: POC
             en: POC
         files:
           fr: ./texts/fr/software/roadmap-poc.md
@@ -1528,6 +1631,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: MVP
             en: MVP
         files:
           fr: ./texts/fr/software/roadmap-mvp.md
@@ -1537,6 +1641,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Contribuer à la documentation
             en: Contributing to the docs
         files:
           fr: ./texts/fr/software/contributing.md
@@ -1584,6 +1689,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Comment ça marche
         en: How it works
     sections: 
       - name: how
@@ -1591,6 +1697,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Introduction
             en: Introduction
         files:
           fr: ./texts/fr/how-it-works/how-it-works.md
@@ -1600,6 +1707,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Une collection de widgets
             en: A widgets collection
         files:
           fr: ./texts/fr/how-it-works/how-it-works-widgets-collection.md
@@ -1609,6 +1717,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Services Git
             en: Git providers
         files:
           fr: ./texts/fr/how-it-works/how-it-works-git-providers.md
@@ -1618,6 +1727,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Contribuer anonymement
             en: Contribute anonymously
         files:
           fr: ./texts/fr/how-it-works/how-it-works-no-account.md
@@ -1650,6 +1760,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Panorama des widgets
         en: Widgets overview
     sections: 
       - name: docs-widgets-overview
@@ -1657,6 +1768,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Introduction
             en: Introduction
         files:
           fr: ./texts/fr/documentation/docs-widgets-overview.md
@@ -1666,6 +1778,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le widget "gitfile"
             en: The "gitfile" widget
         files:
           fr: ./texts/fr/documentation/docs-gitfile.md
@@ -1682,13 +1795,14 @@ routes:
               icon-left: book-open-variant
               rounded: true
               label: 
-                fr: Gitfile widget
+                fr: Widget Gitfile
                 en: Gitfile widget
       - name: docs-widgets-overview-multifiles
         component: TextComponent
         options:
           columns-size: three-quarters
           name:
+            fr: Le widget "multi-files"
             en: The "multi-files" widget
         files:
           fr: ./texts/fr/documentation/docs-multi-files.md
@@ -1705,13 +1819,14 @@ routes:
               icon-left: book-open-variant
               rounded: true
               label: 
-                fr: Multi-files widget
+                fr: Widget Multi-files
                 en: Multi-files widget
       - name: docs-widgets-overview
         component: TextComponent
         options:
           columns-size: three-quarters
           name:
+            fr: Le widget "explowiki"
             en: The "explowiki" widget
         files:
           fr: ./texts/fr/documentation/docs-explowiki.md
@@ -1728,7 +1843,7 @@ routes:
               icon-left: book-open-variant
               rounded: true
               label: 
-                fr: Explowiki widget
+                fr: Widget Explowiki
                 en: Explowiki widget
       - name: Contact
         component: ButtonsComponent
@@ -1758,6 +1873,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Le widget "gitfile"
         en: The "gitfile" widget
     sections: 
       - name: docs-gitfile
@@ -1765,6 +1881,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Présentation
             en: Presentation
         files:
           fr: ./texts/fr/documentation/docs-gitfile.md
@@ -1774,6 +1891,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Structure
             en: Structure
         files:
           fr: ./texts/fr/documentation/docs-gitfile-structure.md
@@ -1784,6 +1902,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Exemple
             en: Example
         files:
           fr: ./texts/fr/documentation/docs-gitfile-structure-example.md
@@ -1793,6 +1912,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Paramètres
             en: Parameters
         files:
           fr: ./texts/fr/documentation/docs-params/params.md
@@ -1802,6 +1922,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "title"
             en: The "title" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-title.md
@@ -1811,6 +1932,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "height"
             en: The "height" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-height.md
@@ -1820,6 +1942,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "gitfile"
             en: The "gitfile" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-gitfile.md
@@ -1829,6 +1952,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "usertoken"
             en: The "usertoken" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-usertoken.md
@@ -1839,6 +1963,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Notes à propos du paramètre "usertoken"
             en: Notes about the "usertoken" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-usertoken-notes-git.md
@@ -1848,6 +1973,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "onlypreview"
             en: The "onlypreview" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-onlypreview.md
@@ -1857,6 +1983,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "locale"
             en: The "locale" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-locale.md
@@ -1866,6 +1993,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "debug"
             en: The "debug" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-debug.md
@@ -1875,6 +2003,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "options"
             en: The "options" parameter
         files:
           fr: ./texts/fr/documentation/docs-options/option-global.md
@@ -1885,6 +2014,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Les clés des "options" pour fichiers tabulaires
             en: The "options" keys for table files
         files:
           fr: ./texts/fr/documentation/docs-options/option-gitfile-csv.md
@@ -1895,6 +2025,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Fichier de propriétés custom pour fichiers tabulaires
             en: Custom properties file for table files
         files:
           fr: ./texts/fr/documentation/docs-custom-props/props-custom_props.md
@@ -1905,6 +2036,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: The "options" keys for json files
             en: The "options" keys for json files
         files:
           fr: ./texts/fr/documentation/docs-options/option-gitfile-json.md
@@ -1915,6 +2047,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Les clés des "options" pour fichiers md
             en: The "options" keys for md files
         files:
           fr: ./texts/fr/documentation/docs-options/option-gitfile-md.md
@@ -1947,6 +2080,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Le widget "explowiki"
         en: The "explowiki" widget
     sections: 
       - name: docs-explowiki
@@ -1954,6 +2088,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Présentation
             en: Presentation
         files:
           fr: ./texts/fr/documentation/docs-explowiki.md
@@ -1963,6 +2098,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Structure
             en: Structure
         files:
           fr: ./texts/fr/documentation/docs-explowiki-structure.md
@@ -1973,6 +2109,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Exemple
             en: Example
         files:
           fr: ./texts/fr/documentation/docs-explowiki-structure-example.md
@@ -1982,6 +2119,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Paramètres
             en: Parameters
         files:
           fr: ./texts/fr/documentation/docs-params/params.md
@@ -1991,6 +2129,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "title"
             en: The "title" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-title.md
@@ -2000,6 +2139,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "height"
             en: The "height" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-height.md
@@ -2009,6 +2149,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "wikilist"
             en: The "wikilist" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-wikilist.md
@@ -2018,6 +2159,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "wikipages"
             en: The "wikipages" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-wikipages.md
@@ -2027,6 +2169,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "usertoken"
             en: The "usertoken" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-usertoken.md
@@ -2037,6 +2180,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Notes à propos du paramètre "usertoken"
             en: Notes about the "usertoken" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-usertoken-notes-mediawiki.md
@@ -2046,6 +2190,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "locale"
             en: The "locale" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-locale.md
@@ -2055,6 +2200,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "debug"
             en: The "debug" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-debug.md
@@ -2064,6 +2210,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "options"
             en: The "options" parameter
         files:
           fr: ./texts/fr/documentation/docs-options/option-global.md
@@ -2074,6 +2221,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Les clés "options" pour des données wiki
             en: The "options" keys for wiki data
         files:
           fr: ./texts/fr/documentation/docs-options/option-explowiki-table.md
@@ -2084,6 +2232,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Fichier de propriétés custom pour données wiki 
             en: Custom properties file for wiki data
         files:
           fr: ./texts/fr/documentation/docs-custom-props/props-custom_props.md
@@ -2106,6 +2255,7 @@ routes:
       summary: true
       contrib: true
       name:
+        fr: Le widget "multi-files"
         en: The "multi-files" widget
     sections: 
       - name: docs-multi-files
@@ -2113,6 +2263,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Présentation
             en: Presentation
         files:
           fr: ./texts/fr/documentation/docs-multi-files.md
@@ -2122,6 +2273,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Structure
             en: Structure
         files:
           fr: ./texts/fr/documentation/docs-multi-files-structure.md
@@ -2132,6 +2284,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: Exemple
             en: Example
         files:
           fr: ./texts/fr/documentation/docs-multi-files-structure-example.md
@@ -2141,6 +2294,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Paramètres
             en: Parameters
         files:
           fr: ./texts/fr/documentation/docs-params/params.md
@@ -2150,6 +2304,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "title"
             en: The "title" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-title.md
@@ -2159,6 +2314,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "height"
             en: The "height" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-height.md
@@ -2168,6 +2324,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "gitfiles"
             en: The "gitfiles" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-gitfiles.md
@@ -2177,6 +2334,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "locale"
             en: The "locale" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-locale.md
@@ -2186,6 +2344,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "debug"
             en: The "debug" parameter
         files:
           fr: ./texts/fr/documentation/docs-params/param-debug.md
@@ -2195,6 +2354,7 @@ routes:
         options:
           columns-size: three-quarters
           name:
+            fr: Le paramètre "options"
             en: The "options" parameter
         files:
           fr: ./texts/fr/documentation/docs-options/option-global.md
@@ -2205,6 +2365,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
+            fr: The "options" keys for multi-files
             en: The "options" keys for multi-files
         files:
           fr: ./texts/fr/documentation/docs-options/option-multifiles.md
@@ -2283,8 +2444,21 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-cooptech.md
-          en: ./texts/en/gallery/demo-cooptech.md
+          fr: ./texts/gallery/demo-cooptech.md
+          en: ./texts/gallery/demo-cooptech.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          custom-class: mt-6
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: demo-odf-observatoire
     url: /demo-odf-observatoire
     options:
@@ -2295,8 +2469,21 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-odf-observatoire.md
-          en: ./texts/en/gallery/demo-odf-observatoire.md
+          fr: ./texts/gallery/demo-odf-observatoire.md
+          en: ./texts/gallery/demo-odf-observatoire.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          custom-class: mt-6
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: demo-odf-ressources
     url: /demo-odf-ressources
     options:
@@ -2307,8 +2494,21 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-odf-ressources.md
-          en: ./texts/en/gallery/demo-odf-ressources.md
+          fr: ./texts/gallery/demo-odf-ressources.md
+          en: ./texts/gallery/demo-odf-ressources.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          custom-class: mt-6
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: demo-fabmob
     url: /demo-fabmob
     options:
@@ -2319,8 +2519,21 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-fabmob.md
-          en: ./texts/en/gallery/demo-fabmob.md
+          fr: ./texts/gallery/demo-fabmob.md
+          en: ./texts/gallery/demo-fabmob.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          custom-class: mt-6
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
   - name: demo-aac
     url: /demo-aac
     options:
@@ -2331,8 +2544,21 @@ routes:
         options:
           columns-size: three-quarters
         files:
-          fr: ./texts/fr/gallery/demo-aac.md
-          en: ./texts/en/gallery/demo-aac.md
+          fr: ./texts/gallery/demo-aac.md
+          en: ./texts/gallery/demo-aac.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          custom-class: mt-6
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
 
   # GALLERY - WIDGET / DEPRECATED
   - name: gitribute-odf-observatoire
