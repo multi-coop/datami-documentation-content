@@ -1,4 +1,4 @@
-## Switch to "Code editor" edition
+## Passer en mode "Editeur de code" dans l'édition
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -8,9 +8,9 @@
 </div>
 <br>
 
-A this point you would have to click on the "options" button to open the menu on the right-side.
+À cet endroit vous devez cliquer sur le bouton "options" afin d´ouvrir le menu sur la droite.
 
-You then have to select "Editor > Code editor", in order to edit directly you Wordpress page's `html`.
+Ensuite vous devez sélectionner "Editeur > Editeur de code" afin d´éditer directement le code `html` de votre page Wordpress.
 
 <div style="border: thin solid lightgrey;">
   <img
