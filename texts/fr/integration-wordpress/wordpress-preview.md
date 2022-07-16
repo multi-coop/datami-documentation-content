@@ -1,4 +1,4 @@
-### Check the result
+### Prévisualiser le résultat
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -8,7 +8,7 @@
 </div>
 <br>
 
-On your Wordpress page preview you now can see the widget integrated to your canvas, so it respects the Wordpress theme you chose for your website.
+Sur la prévisualisation de votre page Wordpress vous pouvez maintenant voir le widget Gitribute là où vous l´avez copié, respectant de fait le thème que vous avez choisi pour votre site.
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -18,4 +18,4 @@ On your Wordpress page preview you now can see the widget integrated to your can
 </div>
 <br>
 
-If you find any problem during this process don't hesitate to contact us, your feedbacks are always usefull.
+Dans le cas où vous rencontriez un souci durant ce processus n´hésitez pas à nous contacter, vos retours sont toujours utiles pour améliorer Gitribute.
