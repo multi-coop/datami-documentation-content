@@ -43,7 +43,10 @@
     </h5>
     <p class="has-text-centered">
       Gitribute est un projet développé<br>
-      par la [SCOP](https://www.les-scop.coop/les-scop)
+      par la 
+      <a href="https://www.les-scop.coop/les-scop" target="_blank">
+        SCOP
+      </a>
       <a href="https://multi.coop" target="_blank">
         <b>multi</b>
       </a>
