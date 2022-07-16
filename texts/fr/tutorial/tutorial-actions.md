@@ -1,5 +1,5 @@
 
-# Tutorial / Actions
+# Tutoriel / Actions
 
 <div>
   <img
@@ -8,6 +8,6 @@
     />
 </div>
 
-There are several action buttons appearing by default on the Gitribute widgets.
+Plusieurs boutons d´actions apparaissent par défaut dans les widgets Gitribute, en général dans la partie en haut à droite du widget.
 
-These buttons allow the user to make some commons actions we will see in details below.
+Ces boutons permettent à l´utilisateur de procéder à des actions globales dont nous allons voir le détail dans les parties suivantes.
