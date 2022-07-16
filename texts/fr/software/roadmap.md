@@ -1,6 +1,6 @@
 
-# Roadmap
+# Feuille(s) de route
 
-Ours roadmaps boards are visible [here on the source code repository](https://gitlab.com/multi-coop/gitribute/-/boards/4084563).
+Nos différentes feuilles de route sont visibles [sur le "repo" du code source](https://gitlab.com/multi-coop/gitribute/-/boards/4084563).
 
-This project is currently under early developments, we are finishing our "POC" and the "MVP" is near...
+Ce projet est actuellement au stade des premiers développements, et nous sommes actuellement en train de fignoler le "POC" pour nous diriger désormais droit vers le "MVP".
