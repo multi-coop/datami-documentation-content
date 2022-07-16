@@ -1,14 +1,14 @@
 
-## Adapt Gitribute for your website
+## Adapter Gitribute à votre site web
 
-We designed Gitribute in a way its widgets could be customized so you could use them to display your own data, the way you like it.
+Nous avons conçu Gitribute afin que ses widgets puissent être personnalisés puis qu'ils puissent afficher vos propres données, de la manière que vous souhaitez.
 
-This documentation provides several examples of how a single Gitribute widget could be adapted to display any kind of data you want.
+Ce site de documentation vous fournit différents exemples de comment personnaliser un widget et l'adapter à vos données.
 
-For instance the `<multi-gitribute-file>` widget alone can display several types of files : `csv`, `json`, `md`, `tsv`...
+Par exemple le widget `<multi-gitribute-file>` peut à lui seul afficher différents types de fichiers : `csv`, `md`, `tsv`... 
 
-By changing the `gitfile` parameter in your `<multi-gitribute-file>` html block, and playing with the several options you will discover in the present documentation, you will be able to display the data you want...
+En changeant le paramètre `gitfile` dans le html du widget `<multi-gitribute-file>`, et en jouant avec les différentes options que vous découvrirez dans la documentation, vous serez en mesure d'afficher les données que vous voulez.
 
-It could seem a bit abstract here, but the documentation provides several examples and templates you can play with to see the results by yourself.
+Si cela vous semble encore un peu abstrait, c'est normal, et la documentation est faite pour vous éclairer. Vous y trouverez des exemples et des modèles avec lesquels jouer pour les résultats par vous-même.
 
-> **Note** : More details about the widgets parameters in the **["Documentation > Overview"](/docs-widgets-overview)** section.
+> **Note** : Plus de détails à propos des paramètres des widgets dans la partie **["Documentation > Panorama des widgets"](/docs-widgets-overview)**.
