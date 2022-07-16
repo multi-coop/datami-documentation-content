@@ -1,47 +1,47 @@
 
 ---
 
-# You can contribute to this documentation
+# Vous pouvez contribuer à la documentation
 
-Depending on your wish to and/or your code skills you can help us either improve this [documentation website][site_content], or even [this website's source code][repo_app].
+En fonction de votre envie et/ou de vos compétences en code vous pouvez aussi nous aider soit à améliorer la [documentation de ce site][site_content], soit contribuer au [code source de ce site][repo_app].
 
 ---
 
-### Improve the documentation
+### Améliorer la documentation
 
-All content of this documentation website are open on this repository :
+Tous les contenus de ce site de documentation sont visibles sur ce repo :
 
-📁 &nbsp; [**Documentation content**][site_content]
+📁 &nbsp; [**Contenus de la documentation Gitribute**][site_content]
 
 <p>
-  You can also
-  <b>click directly on the little grey <code>git</code> icon</b>
+  Vous pouvez également
+  <b>cliquer directement sur le petit icône gris <code>git</code> icon</b>
   <span
     class="icon">
     <i class="mdi mdi-git"></i>
   </span>
-  on the right side of paragraphs in almost every page, and you will be directly redirected to the source file on Gihutb.
+  sur la droite en face de chaque paragraphe dans la plupart des pages du site. Vous serez renvoyé vers le fichier source du paragraphe en question sur Github.
 </p>
 
-**Don't hesitate to create an _issue_ or to propose corrections 😃 !**
+**N'hésitez pas à créer une _issue_ ou à proposer des corrections 😃 !**
 
 ---
 
-### Contribute to this website's source code
+### Contribuer au code source de ce site
 
-This website is powered by an open source app we developped at [multi](https://multi.coop), we called this solution **"[multi-site-app][repo_app]"** and you are as likely welcome to contribute to it.
+Ce site fonctionne grâce à (une autre) application _open source_ que nous avons développée à [multi](https://multi.coop). Nous appelons cette solution **"[multi-site-app][repo_app]"** et vous êtes les bienvenu.e.s si vous souhaitez y contribuer.
 
-This tool allows to generate an SPA (*Single Page App*) from a repository hosted on Github or Gilab containing :
+La solution `multi-site-app` permet de générer un site de type "SPA" (pour _Single Page App_) sur la base d'un repo Github contenant :
 
-- some configuration files ;
-- markdown files for content ;
-- images folder(s) ;
+- des fichiers de configuration ;
+- des fichiers de contenus en markdown ;
+- un dossier d'images ;
 
 ---
 
-### Deployment
+### Déploiement
 
-This documentation website is deployed thanks to [netlify](https://www.netlify.com/).
+Ce site de documentation est déployé en production grâce à [netlify](https://www.netlify.com/).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8a49a93f-e443-48e5-b5d8-baa2d7f5fee5/deploy-status)](https://app.netlify.com/sites/gitribute-documentation/deploys)
 
