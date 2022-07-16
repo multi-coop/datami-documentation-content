@@ -1,4 +1,4 @@
-## Get on with Gitribute's main actions
+## Découvrir les actions principales dans Gitribute
 
 <div>
   <img
@@ -7,15 +7,15 @@
     />
 </div>
 
-Some action features are available globaly :
+Des fonctionnalités de type "action" sont accesibles globalement dans les widgets de Gitribute : 
 
-- **Show a file's infos**
-- **Copy the widget's html code**
-- **Manipulate the user options**
-- **Switch between edit view modes**
+- **Afficher les informations relatives à un fichier**
+- **Copier le code html d'un widget**
+- **Modifier les options de l'utilisateur**
+- **Alterner entre les vues du mode édition**
 
-Other features are quite useful but more specific to table files (like `csv`), for instance :
+D'autres fonctionnalités plus spécifiques sont aussi accessibles pour certains types de fichiers (tels que les fichiers `csv`), par exemple :
 
-- **Switch between "table" and "cards" view**
+- **Alterner entre les vues "table" et "fiches"**
 
-> **Note** : More details about the actions features in the **["Tutorials > Actions"](/tutorial-actions)** section
+> **Note** : Plus de détails sur les "actions dans la partie" **["Tutoriels > Actions"](/tutorial-actions)**.
