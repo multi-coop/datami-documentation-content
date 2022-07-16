@@ -1,10 +1,10 @@
 
-# Installation strategies
+# Sratégies d'installation
 
-There are several ways to use Gitribute, from the easiest to the more sovereign and technical one.
+Il existe plusieurs manières d´utiliser Gitribute, allant de la plus simple à la plus technique.
 
-You can either :
+Vous pouvez soit :
 
-- **Reuse an existing widget** and just copy-paste it to your html page ; 
-- With the help of this documentation, you can **configure adapt a widget html** to display the data of your choice ;
-- Finally you can **install your own instance of Gitribute** and use its widgets as you wish :)
+- **Réutiliser un widget existant** en le copiant-collant dans votre page html ; 
+- Avec l´aide de cette documentation, vous pouvez **configurer et/ou adapter le html d'u  widget** afin d´afficher un fichier de votre choix ;
+- Enfin vous pouvez **installer votre propre instance de Gitribute** et utiliser ses widgets comme bon vous semble :)
