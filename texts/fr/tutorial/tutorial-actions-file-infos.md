@@ -1,4 +1,4 @@
-## File's information
+## Informations sur le fichier
 
 <div>
   <img
@@ -7,7 +7,7 @@
     />
 </div>
 
-By clicking this button you will open a drawer containing some basic metadata related to the source file :
+En cliquant sur ce bouton you ouvrez un tiroir contenant les informations (ou metadata) de base sur le fichier source :
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -16,13 +16,13 @@ By clicking this button you will open a drawer containing some basic metadata re
     />
 </div>
 
-As you see the dialog details you many details about the file displayed in the widget :
+Comme vous le voyez les informations détaillent plusieurs choses concernant le widget et le fichier :
 
-- file name ;
-- file type ;
-- type of the provider : github, gitlab, mediawiki... ;
-- link to the source file, name of the main branch... ;
-- links to related files if any : schema, custom properties...
+- nom du fichier ;
+- type de fichier ;
+- type de "service git" : github, gitlab, mediawiki... ;
+- lien vers le fichier source, nom de la branche principale... ;
+- liens vers des fichiers externes si c'est le cas : schema, propriétés custom...
 - etc...
 
 ---
