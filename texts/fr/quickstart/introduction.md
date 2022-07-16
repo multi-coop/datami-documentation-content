@@ -1,7 +1,7 @@
-# Quickstart for developpers
+# Quickstart pour les développeurs•euses
 
-Gitribute is a frontend project developped with Vue.js (Javascript).
+Gitribute est un projet frontend développé avec Vue.js (Javascript).
 
-If you feel curious about our stack check **[this page](/software)**.
+Si vous avez des questions sur notre stack vous pouvez consulter **[cette page](/software)**.
 
-Here are the basics steps to do for local development.
+Les étapes de base pour du développement en local sont les suivantes.
