@@ -1,8 +1,8 @@
-## Integration example
+## Exemple d´intégration
 
-Widgets can then be called directly into the page as custom html elements.
+Les widgets peuvent être insérés et personnalisés dans une page web.
 
-For instance to integrate a widget displaying a `csv` file you will have to copy-paste this block to your html :
+L´exemple suivant vous montre le code ˋhtmlˋ d´un widget affichant un fichier ˋcsvˋ. Vous pouvez copier-coller ce bloc dans une page html de votre choix : 
 
 ```html
 <!-- GITRIBUTE - contribute with GIT ...but without minding it-->
@@ -44,4 +44,4 @@ For instance to integrate a widget displaying a `csv` file you will have to copy
 <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript" defer></script>
 ```
 
-> **Note** : A step-by-step integration tutorial for Wordpress is visible in the **["Tutorials > Wordpress integration"](/integration-wordpress)** section.
+> **Note** : Un tutoriel étape par étape pour intégrer un widget dans Wordpress est acessible dans la partie **["Tutoriels > Intégration Wordpress"](/integration-wordpress)**.
