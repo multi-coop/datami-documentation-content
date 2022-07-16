@@ -2,7 +2,7 @@
 <div class="has-text-centered">
 
   <p class="is-size-4 has-text-weight-bold mb-2">
-    Share and contribute easily with git
+    Share and contribute easily with <i>git</i>
   </p>
 
   <p class="is-italic">
