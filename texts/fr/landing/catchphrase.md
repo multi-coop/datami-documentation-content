@@ -2,11 +2,11 @@
 <div class="has-text-centered">
 
   <p class="is-size-4 has-text-weight-bold mb-2">
-    Partager et contribuer facilement avec <i>git</i>
+    Partager, éditer, contribuer facilement et gratuitement
   </p>
 
   <p class="is-italic">
-    ... mais sans toucher à git
+    grâce à Git... mais sans toucher à Git
   </p>
 
 </div>
