@@ -1,5 +1,5 @@
 
-### Example
+### Exemple
 
 ```html
   <!-- Example for loading and contribute several files into the widget -->
