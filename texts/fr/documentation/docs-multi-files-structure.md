@@ -1,7 +1,7 @@
 
 ### Structure
 
-The widget takes several parameters, following this structure :
+Le widget comprend plusieurs paramètres, suivant cette structure :
 
 ```html
   <multi-gitribute-multi-files 
