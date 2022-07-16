@@ -1,4 +1,4 @@
-### Change the language
+### Changer la langue
 
 <div>
   <img
@@ -7,7 +7,7 @@
     />
 </div>
 
-As you can imagine this button can change the language used in the widget.
+Ce bouton permet de changer la langue utilisée dans le widget.
 
 <div>
   <img
@@ -20,8 +20,8 @@ As you can imagine this button can change the language used in the widget.
 
 > **Note** :
 >  
-> Changing the language can translate all texts from a Gitribute's widget itself, but can't change the data contained from the document itself.
+> Changer la langue permet de traduire tous les textes propres au widget lui-même mais pas les textes contenus dans les données (car elles sont maintenues et hébergées "ailleurs" sur Github, Gitlab, un wiki...).
 >
-> For instance if the mardown file displayed in the widget is written in swahili, its stays swahili. 
+> Par exemple si un markdown importé dans Gitribute est écrit en swahili, il reste et s'affiche en swahili... 
 
-For now only french and english are available in Gitribute, but we would be glad if you propose to help us translate Gitribute to other languages (anyone speaking German, or Turkish, or Spanish, or Italian, or Arabic, or any other language... ?).
+Pour le moment Gitribute est développé et traduit en français et anglais uniquement. Cela dit si vous voulez vous proposer pour nous aider à le traduire dans d'autres langues c'est avec plaisir (quelqu'un pour l'allemand, ou le turc, ou l'espagnol, ou l'arabe, ou ce que vous voulez en fait ? ...).
