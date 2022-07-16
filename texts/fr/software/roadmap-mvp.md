@@ -1,5 +1,5 @@
-## Minimum Viable Product (MVP)
+## Produit Minimum Viable (MVP)
 
-**Developments : beginning september 2022**
+**Développements : à partir de septembre 2022**
 
-... We got some surprises for automn 2022 ... Suspense ...
+... On a quelques surprises dans la manche en préparation pour l'automne 2022 ... Suspense ...
