@@ -1,7 +1,7 @@
 
-### The `options` parameter
+### Le paramètre `options` 
 
-This widget can take several parameters, some of them depends on your input file's type (`csv`, `json`, `md`, ...) and on the widget you use (`multi-gitribute-gitfile`, `multi-gitribute-explowiki`, `multi-gitribute-multi-files`)
+Ce paramètre peut accepter différents champs, dont certains dépendent du type de fichier (`csv`, `json`, `md`, ...) et du widget que vous utilisez (`multi-gitribute-gitfile`, `multi-gitribute-explowiki`, `multi-gitribute-multi-files`)
 
 ---
 
@@ -17,4 +17,4 @@ This widget can take several parameters, some of them depends on your input file
 
 ---
 
-#### Options keys
+#### Options / champs
