@@ -1,4 +1,4 @@
 
-# How does Gitribute work ?
+# Comment ça marche Gitribute ?
 
-Let's have a look under the hood...
+C'est parti pour un petit coup d'oeil sous le capot.
