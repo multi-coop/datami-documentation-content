@@ -47,6 +47,7 @@
       <a href="https://www.les-scop.coop/les-scop" target="_blank">
         SCOP
       </a>
+      &nbsp;
       <a href="https://multi.coop" target="_blank">
         <b>multi</b>
       </a>
