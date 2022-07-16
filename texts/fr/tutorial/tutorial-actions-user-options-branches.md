@@ -1,4 +1,4 @@
-### Check your commit branches
+### Vérifier vos branches de contribution
 
 <div>
   <img
@@ -7,7 +7,7 @@
     />
 </div>
 
-A "branch" selection dialog appears once you have saved your document. It means your contribution proposal has been sent to the owner for the source file, but is not "merged" yet onto the source file. 
+Un dialogue de sélection des "branches" apparaît une fois que vous avez sauvé votre document. Cela signifie que vous pu envoyer votre proposition au responsable ou propriétaire du fichier, mais que ce dernier n´a pas encore accepté et "mergé" votre proposition dans le fichier source. 
 
 <div style="border: thin solid lightgrey;">
   <img
