@@ -1,4 +1,4 @@
-## Paste the widget in Wordpress
+## Coller le widget dans Wordpress
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -8,6 +8,6 @@
 </div>
 <br>
 
-At this point you just have to paste (ctrl+v) your widgt into the Wordpress text input bloc.
+À ce moment vous avez simplement à coller (ctrl+v) le bloc html du widget dans la partie texte de l´édition de votre page Wordpress.
 
-Then you can click on "Save" or "Save your draft".
+Vous pouvez maintenant cliquer sur "Enregistrer" ou "Enregistrer le brouillon".
