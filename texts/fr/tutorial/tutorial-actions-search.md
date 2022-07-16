@@ -1,4 +1,4 @@
-### Full text search
+### Recherche textuelle
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -7,4 +7,4 @@
     />
 </div>
 
-The full text search allows you to filter your table to display only the rows containing the text you entered.
+Le champ de recherche textuelle vous permet de filtrer votre table pour n'afficher que les lignes contenant le text que vous avez entré dans le champ.
