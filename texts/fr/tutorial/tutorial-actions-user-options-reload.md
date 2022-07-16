@@ -1,4 +1,4 @@
-### Reload the source file
+### Recharger le fichier source
 
 <div>
   <img
@@ -7,4 +7,5 @@
     />
 </div>
 
-As the file displayed in the widget is stored elsewhere (on a Github or Gitlab repository, or in a wiki), it could be useful to refresh the source data to check if any changes occured while you were editing it.
+Étant donné que le fichier affiché dans le widget est hébergé "ailleurs" (dans Github, Gitlab, ou dans un wiki), il peut se révéler utile de pouvoir
+rafraîchir les données source pour vérifier qu´aucun changement n´a eu lieu alors que vous étiez en train de les éditer dans le widget.
