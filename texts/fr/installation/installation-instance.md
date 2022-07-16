@@ -1,12 +1,12 @@
 
-## Install your own instance
+## Installer votre propre instance
 
-If you have some technical skills when it comes to code, you can finally deploy your own instance of Gitribute and use its widgets as you wish.
+Si vous avez quelques compétences en matière de code, vous pouvez installer votre propre instance de Gitribute (localement ou sur un serveur) et utiliser les widgets à votre guise.
 
-Gitribute is a 100% open source project under [GNU AGPLv3 licence](/software).
+Gitribute est 100% _open source_ et sous licence [GNU AGPLv3](/software).
 
-So please clone/copy/reuse, the only thing you'll need to do is to respect the terms of our licence : 
+Vous pouvez donc cloner / copier / réutiliser comme vous le souhaitez (vous y êtes même invité.e), la seule chose à faire est de bien respecter les termes de notre licence :
 
-**We designed Gitribute to be free, so free you shall keep it !**
+**Nous avons conçu l'application Gitribute pour qu'elle soit libre, donc laissez-la libre !**
 
-> **Note** : More about local development and deployment in the **["Tutorials > Quickstart for developpers"](/quickstart-developpers)** section.
+> **Note** : Plus d'infos à propos du développement et du déploiement dans la partie **["Tutoriels > Développeurs.euses"](/quickstart-developpers)**.
