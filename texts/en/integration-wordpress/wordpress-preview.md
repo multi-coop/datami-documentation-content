@@ -1,6 +1,6 @@
 ### Check the result
 
-<div style="border: thin solid lightgrey;">
+<div>
   <img
     alt="WORDPRESS-PREVIEW-SWITCH"
     src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-preview-help.png"
@@ -18,4 +18,4 @@ On your Wordpress page preview you now can see the widget integrated to your can
 </div>
 <br>
 
-If you find any problem during this process don't hesitate to contact us, your feedbacks are always usefull.
+If you find any problem during this process don't hesitate to contact us, your feedbacks are always useful.
