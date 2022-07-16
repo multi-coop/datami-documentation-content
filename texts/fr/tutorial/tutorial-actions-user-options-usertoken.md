@@ -1,4 +1,4 @@
-### Change your user token
+### Changer votre token utilisateur
 
 <div>
   <img
@@ -7,11 +7,11 @@
     />
 </div>
 
-By default Gitribute uses a "ghost user" token (like the account `multi-contributor` on Github), so you could contribute to a file without having to create an account.
+Par défaut Gitribute utilise un jeton (ou _token_) d'un "utilisateur fantôme". Le déploiement de Gitribute sur https://gitribute.multi.coop utilise par exemple le jeton de l'utilisateur fantôme `multi-contributor` par défaut. Grâce à ce _token_ d'un "utilisateur fantôme" il vous est possible de contribuer à un fichier sans avoir à vous créer un compte sur Github ou Gitlab.
 
-The token is essential so you could "save" the changes you have made on the widget. This token is mandatory to make `POST` and `PUT` request to your Git provider's API.
+Ce _token_ est essentiel pour que vous puissiez "sauver" les modifications que vous avez effectuées depuis le widget. Le _token_ permet en effet d'envoyer des requêtes en `PUT` ou en `POST` vers Github ou Gitlab. 
 
-But if you are familiar with Github or Gitlab (and if you already have an account on those) you can add change the token to put your own. You just have to click on the button, then click on the "Change" button and copy your own.
+Cela étant et si vous êtes familier avec Github et/ou Gitlab (et que vous avez déjà un compte ) vous pouvez changer le _token_ par défaut pour utiliser le vôtre. Cliquez simplement sur le bouton puis cliquez sur "Changer", et enfin collez votre propre _token_.
 
 <div style="border: thin solid lightgrey;">
   <img
