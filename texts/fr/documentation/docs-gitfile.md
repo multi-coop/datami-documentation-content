@@ -3,7 +3,7 @@
 
 Ce widget permet de visualiser et d'éditer un fichier hébergé sur Github ou Gitlab.
 
-### Fichiers en markdown (MD)
+### Fichiers en markdown (`md`)
 
 Ce widget permet de visualiser, éditer, partager un fichier de type `markown`.
 
@@ -18,7 +18,7 @@ Ce fichier doit être hébergé sur Github ou Gitlab.
 
 <br>
 
-### Fichiers tabulaires (CSV, TSV)
+### Fichiers tabulaires (`csv`, `tsv`)
 
 Ce widget permet de visualiser, éditer, partager un fichier de type `csv` ou `tsv`.
 
@@ -37,7 +37,7 @@ Vous pouvez vous référer aux [paramètres d'`options`](/docs-gitfile#keys-for-
 
 <br>
 
-### Fichiers JSON
+### Fichiers `json`
 
 Ce widget permet de visualiser, éditer, partager un fichier de type `json` ou `geojson`.
 
