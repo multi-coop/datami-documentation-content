@@ -1,4 +1,4 @@
-## Create a new page or edit an existing one
+## Créer une nouvelle page ou modifier une page existante
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -8,4 +8,4 @@
 </div>
 <br>
 
-Then you can create a new page or edit an existing one as you would usually do.
+Vous pouvez alors soit créer une nouvelle page ou en modifier une déjà existante, toujours comme vous feriez habituellement dans Wordpress.
