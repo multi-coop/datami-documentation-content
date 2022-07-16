@@ -1,6 +1,6 @@
-### Lints and fixes files
+### Linting et fix des fichiers
 
-Linting is sooo useful, don't forget to switch on your `autofix`...
+C´est teeeellement pratique le linting (oubliez pas de mettre votre éditeur en mode ˋautofixˋ aussi)...
 
 ```bash
 npm run lint
