@@ -1,6 +1,6 @@
 ### Structure
 
-The widget takes several parameters, following this structure :
+Le widget accepte différents paramètres, suivant cette structure :
 
 ```html
   <multi-gitribute-explowiki 
