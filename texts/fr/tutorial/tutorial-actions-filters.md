@@ -1,4 +1,4 @@
-### Search filters
+### Filtres de recherche
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -7,7 +7,7 @@
     />
 </div>
 
-The search filters are usually dropdown menus where you can select one option, corresponding to a tag value in your table data.
+Les filtres de recherche sont habituellement des menus déroulants où vous pouvez sélectionner parmi des valeurs, valeurs qui correspondent à un "tag" dans un des champs/colonnes de votre table.
 
 <div>
   <img
@@ -16,7 +16,7 @@ The search filters are usually dropdown menus where you can select one option, c
     />
 </div>
 
-You can have more than one filter.
+Vous pouvez paramétrer plus qu'un filtre de recherche sur une table.
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -27,7 +27,7 @@ You can have more than one filter.
 
 <br>
 
-If you use a filter a filter tag corresponding to your choice appears below. If you want to deactivate this filter just click on the tag's `x` icon.
+Si vous utilisez un filtre, un "tag" de filtre correspondant à votre choix apparaît en dessous de la barre de recherche. Si vous souhaitez alors désactiver ce filtre cliquez simplement sur l'icône `x` du tag de filtre.
 
 <div style="border: thin solid lightgrey;">
   <img
