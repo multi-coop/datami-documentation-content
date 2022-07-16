@@ -1,5 +1,5 @@
 
-# Tutorial / Edition
+# Tutoriel / Édition
 
 <div>
   <img
@@ -8,6 +8,6 @@
     />
 </div>
 
-This section focuses on the different options available when you are editing a document.
+Cette partie se concentre sur les différentes options disponibles lorsque vous êtes en train d´éditer un fichier avec Gitribute.
 
-Depending on what your source file's type (`csv`, `json`, `md`, ...) the interface will not be the same.
+Selon le type du fichier source (`csv`, `json`, `md`, ...) l´interface et les options disponibles ne seront pas les mêmes.
