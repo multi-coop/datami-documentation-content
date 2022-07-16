@@ -1,4 +1,4 @@
-### Copy the widget
+### Copier le widget
 
 <div>
   <img
@@ -7,9 +7,9 @@
     />
 </div>
 
-A quite useful button you will find on any Gitribute widget : it allows you to copy-paste the widget as a whole, so you could reuse it where you want.
+Nous avons inclus un bouton assez utile dans tous les widgets de Gitribute : il permet de copier-coller un widget complet afin de pouvoir le réutiliser dans n´importe quel site web.
 
-Once you've clicked this button a dialog appears :
+Quand vous cliquez sur ce bouton un dialogue apparaît :
 
 <div style="">
   <img
@@ -18,4 +18,4 @@ Once you've clicked this button a dialog appears :
     />
 </div>
  
-The `html` code of the widget is copied to your clipboard. You can now paste the block in any html page you want to include the widget in any other `html` page (for instance in a Wordpress website).
+Le bloc `html` du widget est alors copié dans votre presse-papier. Vous pouvez maintenant coller ce bloc dans n´importe quelle page html de votre choix (par exemple dans votre site Wordpress).
