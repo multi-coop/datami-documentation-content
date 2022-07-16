@@ -1,8 +1,8 @@
-### Run your unit tests
+### Run des tests unitaires
 
-We are a bit short for now on the topic of testing, but - cross my heart - we'll work on it soon...
+Bon c´est vrai on n´est un peu short niveau, mais promis on y bosse bientôt.
 
-But if you feel like proposing some you are absolutly welcome !
+Après si vous voulez en écrire et nous en proposer on n´est pas contre non plus !
 
 ```bash
 npm run test:unit
