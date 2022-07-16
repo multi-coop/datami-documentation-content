@@ -1,4 +1,4 @@
-### Switch the "edit-view" modes
+### Alterner entre les modes de "vue-édition"
 
 <div>
   <img
@@ -7,4 +7,4 @@
     />
 </div>
 
-This buttons group aims to simplify the navigation between the document's states when you are editing it.
+Ce groupe de boutons vise à simplifier la navigation entre les différents modes d'édition.
