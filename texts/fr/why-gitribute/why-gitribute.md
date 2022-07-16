@@ -9,7 +9,7 @@
   Le nom du projet vous donne un premier indice :)
 </p>
 
-<div class="columns is-centered is-v-centered">
+<div class="columns is-mobile is-centered is-v-centered">
   <div class="column is-5 has-text-right">
     <p class="has-text-weight-bold mb-1">
       "Git"...
