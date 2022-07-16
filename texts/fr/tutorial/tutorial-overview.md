@@ -1,7 +1,7 @@
 
 # Panorama des tutoriels
 
-Cette partie vise à vous orienter dans l´usage basique des différentes fonctionnalités de Gitribute.
+Cette partie vise à vous aider à comprendre les différentes fonctionnalités globales de Gitribute.
 
 Idéalement nous n´aurions pas à écrire cette partie du tout, vu que nous tentons de concevoir Gitribute de sorte sorte à ce que toutes le rôle des fonctionnalités soient évidentes pour l´utilisateur. Nous avons ajouté de nombreuses bulles d´aide sur les différents boutons afin que l´utilisateur puisse savoir immédiatement à quoi sert tel ou tel bouton, sans avoir à se référer à la documentation.
 
