@@ -1,5 +1,5 @@
 
-## Edition features
+## Fonctionnalités d'édition
 
 <div>
   <img
@@ -8,16 +8,16 @@
     />
 </div>
 
-There are basic choices available in "edit" mode, we will refer to those choices as "edit-view" modes :
+Plusieurs choix sont proposés en mode "édition". Nous nous référerons à ces choix comme les modes "vue-édition" :
 
-- **"Preview mode"** : preview of the document as you edit it ;
-- **"Edit mode"** : view where you can edit the source document ;
-- **"Diff mode"** : preview of the differences between the source document and your own modifications ;
+- **Mode "Prévisualisation"** : prévisualisation du document tel que vous l'avez édité ;
+- **Mode "Édition"** : vue sur laquelle vous pouvez modifier le document ;
+- **Mode "Diff"** : visualisation des différentences entre le document source et vos propres modifications ;
 
-Other features are quite useful but more specific to table files (like `csv`), for instance :
+D'autres fonctionnalités peuvent être utiles dans le cas où vous travaillez sur un fichier de type "table" (comme un `csv`). Ces fonctionnalités spécifiques sont :
 
-- **Show the external ressources**
-- **Make a text search across the table**
-- **Filter a table**
+- **Voir les ressources externes du document (schéma, propriétés custom...)**
+- **Faire une recherche textuelle dans la table**
+- **Filtrer la table**
 
-> More details about the edition features in the **["Tutorials > Edition"](/tutorial-edition)** section
+> Plus de détails sur les fonctionnalités d'édition dans la partie **["Tutoriels > Édition"](/tutorial-edition)**.
