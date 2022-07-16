@@ -1,4 +1,4 @@
-## Main features
+## Principales fonctionnalités
 
 <!-- 🚧  &nbsp; `Redaction in progress...` -->
 
