@@ -1,19 +1,19 @@
 
-# Gitribute widgets overview
+# Panorama des widgets Gitribute
 
-Gitribute is not a widget per say, it's a **collection of widgets**.
+Gitribute n´est pas un widget à proprement parler, c´est une **collection de widgets**.
 
-We are developping several widgets you can therefore include _ad libidum_ onto your own websites.
+Nous développons différents widgets que vous pouvez ensuite inclure _ad libidum_ dans vos propres sites web.
 
-Each widget has its own specificities, and can work independently or altogether.
+Chaque widget a ses propres particularités, et peut être utilisé indépendamment ou conjointement avec d´autres.
 
-Some widgets are specialized in visualizing data from github or gitlab, some to visualize multiple files at once, some in visualizing data from wiki websites...
+Certains widgets se spécialisent dans l´affichage de données hébergées sur Github ou Gitlab, un autre dans la visualisation de multiples fichiers en même temps, d´autres dans la visualisation de données provenant de wiki...
 
-Our [roadmaps](/software) draws some intentions for the planned future developments. We plan to develop some or all of the following :
+Notre [feuille de route](/software) dessine nos intentions pour les prochains cycles de développement. Nous prévoyons de développer un ou plusieurs widgets servant à :
 
-- a widget to visualize data tables as charts (dataviz) ;
-- a widget to help data owners make triage with the merge requests ;
-- a widget to have simple but customized maps from data tables ; 
-- ...imagination (and time, money) are the limits.
+- visualiser des tables sous formes de graphiques (dataviz) ;
+- aider des curateurs de données dans leur tri de contributions (les _merge requests_) ;
+- afficher une cartographie à partir de données tabulaires ; 
+- ...l´imagination (et le temps, l´argent) est la limite.
 
-Those are our ideas of widget to develop, now let's see which are the ones already existing in the Gitribute collection.
+Maintenant que nous vous avons présenté des idées de widgets que nous pourrions développer voyons ceux qui existent déjà dans la collection des wdgets Gitribute.
