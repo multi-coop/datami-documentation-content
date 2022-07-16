@@ -1,6 +1,6 @@
-### Compiles and minifies for production
+### Compilation et minification pour la production
 
-For a production build you need to run :
+Pour la production entrez la commande :
 
 ```bash
 npm run build
