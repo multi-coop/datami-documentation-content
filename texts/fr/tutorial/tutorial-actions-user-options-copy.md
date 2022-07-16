@@ -7,7 +7,7 @@
     />
 </div>
 
-Nous avons inclus un bouton assez utile dans tous les widgets de Gitribute : il permet de copier-coller un widget complet afin de pouvoir le réutiliser dans n´importe quel site web.
+Nous avons inclus un bouton assez utile - celui avec l´icône <span class="icon"><i class="mdi mdi-code-tags"></i></span> - dans tous les widgets de Gitribute : il permet de copier-coller un widget complet afin de pouvoir le réutiliser dans n´importe quel site web.
 
 Quand vous cliquez sur ce bouton un dialogue apparaît :
 
