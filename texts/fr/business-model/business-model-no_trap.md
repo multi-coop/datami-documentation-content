@@ -1,8 +1,8 @@
-## No trap, just open source
+## Pas de piège, c´est juste _open source_
 
-Nothing really original here in the world of open source projects.
+Rien de très original en fait dans le monde des projets _open source_
 
-- **Code the technical backbone of the idea** ;
-- **Start small and cheap, and increment around a roadmap** ;
-- **Mutualize clients' needs** ;
-- **Valorize our expertise, not the code** ;
+- **Coder la base technique du projet** ;
+- **Commencer petit et peu cher, et itérer avec une feuille de route** ;
+- **Mutualiser les besoins de différents clients** ; 
+- **Valoriser notre expertise, pas le code** ;
