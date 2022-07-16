@@ -1,13 +1,13 @@
 
-## The widget `<multi-gitribute-file>`
+## Le widget `<multi-gitribute-file>`
 
-This widget allows to preview and edit a file stored on Gitlab or Github.
+Ce widget permet de visualiser et d'éditer un fichier hébergé sur Github ou Gitlab.
 
-### Markdown files
+### Fichiers en markdown (MD)
 
-This widget allows you to display, share and edit a `markown` file.
+Ce widget permet de visualiser, éditer, partager un fichier de type `markown`.
 
-The file needs to be hosted on Github or Gitlab.
+Ce fichier doit être hébergé sur Github ou Gitlab.
 
 <div style="border: thin solid lightgrey;">
   <img 
@@ -18,15 +18,15 @@ The file needs to be hosted on Github or Gitlab.
 
 <br>
 
-### Table files
+### Fichiers tabulaires (CSV, TSV)
 
-This widget allows you to display, share and edit a `csv` or `tsv` file.
+Ce widget permet de visualiser, éditer, partager un fichier de type `csv` ou `tsv`.
 
-You can apply a [table schema](https://specs.frictionlessdata.io/table-schema/) to your table file.
+Vous pouvez appliquer un ["table schema"](https://specs.frictionlessdata.io/table-schema/) à votre fichier tabulaire (comme une sorte de masque, de modèle de données).
 
-The file needs to be hosted on Github or Gitlab.
+Ces fichiers doivent être hébergés sur Github ou Gitlab.
 
-See the [`options` parameter](/docs-gitfile#keys-for-the-options-parameter-for-csv-and-tsv-files) for more details about the schema and custom properties.
+Vous pouvez vous référer aux [paramètres d'`options`](/docs-gitfile#keys-for-the-options-parameter-for-csv-and-tsv-files) pour avoir plus de détails sur les _table schemas_ et les fichiers de propriétés custom.
 
 <div style="border: thin solid lightgrey;">
   <img 
@@ -37,11 +37,11 @@ See the [`options` parameter](/docs-gitfile#keys-for-the-options-parameter-for-c
 
 <br>
 
-### JSON files
+### Fichiers JSON
 
-This widget allows you to display, share and edit a `json` or `geojson` file.
+Ce widget permet de visualiser, éditer, partager un fichier de type `json` ou `geojson`.
 
-The file needs to be hosted on Github or Gitlab.
+Ce fichier doit être hébergé sur Github ou Gitlab.
 
 <div style="border: thin solid lightgrey;">
   <img 
