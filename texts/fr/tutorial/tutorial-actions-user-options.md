@@ -1,4 +1,4 @@
-## User options
+## Options utilisateur
 
 <div>
   <img
@@ -7,15 +7,15 @@
     />
 </div>
 
-This block regroups many standard actions an user could expect from a service aiming to display and edit a file stored on a Git provider (Github or Gitlab).
+The bloc de boutons regroupe plusieurs actions standards dont un utilisateur peut avoir besoin habituellement. Par "habituellement" on entend que cet utilisateur attend de pouvoir aussi effectuer des actions propres à un "service git" (Github ou Gitlab).
 
-The "user options" buttons are the following :
+Les "options utilisateur" sont les suivantes :
 
-- **Reload** the file ;
-- **Download** the file ;
-- **Change your user token** ;
-- **Check the user's commit branch(es)** ;
-- **Copy the widget** ;
-- **Change the language** ;
+- **Recharger** le fichier ;
+- **Télécharger** le fichier ;
+- **Changer le token utilisateur** ;
+- **Vérifier la/les "branch(es)" de _commit_** ;
+- **Copier le widget** ;
+- **Changer la langue** ;
 
-Let's see those more precisely.
+Voyons ces actions en détails.
