@@ -2,7 +2,8 @@
 <div class="has-text-centered">
 
   <p class="is-size-4 has-text-weight-bold mb-2">
-    Share, edit, contribute<br>easily and for free
+    Share, edit, contribute
+    <br>easily & for free
   </p>
 
   <p class="is-italic">
