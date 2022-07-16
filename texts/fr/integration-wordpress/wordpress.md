@@ -3,6 +3,6 @@
 
 🚧  &nbsp; `Redaction in progress...`
 
-Imagine you have a Wordpress website and you want to include a Gitribute widget in one of your website's pages.
+Imaginons que vous ayez un site Worpress et que vous vouliez intégrer un widget Gitribute dans une page de votre site.
 
-To do so you have to follow those steps.
+Pour ce faire suivez la procédure qui suit.
