@@ -68,7 +68,7 @@ buttons-left:
         link: /tutorial-overview
         component: simpleLink
         label: 
-          fr: Overview
+          fr: Panorama des tutoriels
           en: Overview
       - name: tutorial-actions
         link: /tutorial-actions
