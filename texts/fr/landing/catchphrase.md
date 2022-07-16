@@ -2,7 +2,7 @@
 <div class="has-text-centered">
 
   <p class="is-size-4 has-text-weight-bold mb-2">
-    Partager, éditer, contribuer facilement et gratuitement
+    Partager, éditer, contribuer<br>facilement et gratuitement
   </p>
 
   <p class="is-italic">
