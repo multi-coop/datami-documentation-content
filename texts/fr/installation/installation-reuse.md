@@ -1,15 +1,15 @@
 
-## Reuse one or several widgets
+## Réutiliser un ou plusieurs widgets
 
-The easiest way to integrate a widget to your own website is to copy-paste an existing one.
+La manière la plus simple d´intégrer un widget dans votre site est de copier-coller un widget déjà existant.
 
 <p>
-  To do so you just have to click on the "copy the widget's block code" 
+  Pour ce faire cliquez sur le bouton "copier le bloc html du widget" 
   <span
     class="icon">
     <i class="mdi mdi-code-tags"></i>
   </span>
-  on the top-right corner of the widget.
+  habituellement dans la liste des boutons situés en haut à droite dans le widget.
 </p>
 
 <div>
@@ -21,4 +21,4 @@ The easiest way to integrate a widget to your own website is to copy-paste an ex
 
 <br>
 
-> **Note** : More details about the button "copy widget block code" in the **["Tutorials > Actions"](/docs-widgets-overview)** section.
+> **Note** : Plus de détails sur le bouton "copier le widget" dans la partie **["Tutoriels > Actions"](/docs-widgets-overview)**.
