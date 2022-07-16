@@ -1,6 +1,6 @@
 
-## To make open contribution easier for everybody
+## Faciliter la contribution ouverte pour tout le monde
 
-We arrived to the conclusion that _open data_ means that **any citizen or organization** should be able to contribute **to any kind of data** they are interested in, and they should not be restrained by their technical abilities.
+Nous sommes arrivés à la conclusion que le mouvement _open data_ impliquait que **tout citoyen ou organisation** devrait être en capacité de **contribuer** sur **n´importe quelle sorte de donnée ouverte** auxquelle il•elle s´intéresse, cela sans que leurs compétences techniques ne soient un frein.
 
-Gitribute aims to provide interfaces as simple as possible to allow any individual to contribute to open data, without having to create an account and give away private informations.
+Gitribute a pour but de proposer des interfaces aussi simples et intuitives que possible afin que tout individu puisse contribuer à de l´_open data_, sans que cette personne ne soit contraint de se créer un compte ou de donner des données personnelles.
