@@ -1,4 +1,4 @@
-### Download the file
+### Télécharger le fichier soyrce
 
 <div>
   <img
@@ -7,4 +7,4 @@
     />
 </div>
 
-You can download the file on your computer or device just by clicking this button.
+Vous pouvez télécharger localement le fichier sur votre ordinateur ou votre terminal en cliquant simplement sur ce bouton.
