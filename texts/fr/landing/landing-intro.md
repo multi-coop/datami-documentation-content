@@ -29,7 +29,7 @@
     mais <b>vous n'aurez pas</b> à...
   </p>
   <p class="is-size-4 my-6">
-    — être polytechnicien &nbsp; 🚀
+    — apprendre à coder &nbsp; 🚀
     <br>
     — vous créer un compte Github &nbsp; 🔓
   </p>
