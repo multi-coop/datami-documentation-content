@@ -36,7 +36,7 @@
 
 ---
 
-Mais faison un petit retour sur le moment où a démarré le projet Gitribute.
+Mais faisons un petit retour sur le moment où a démarré le projet Gitribute.
 
 Il n'y a pas réellement un moment précis, mais ces petits dialogues imaginaires (pas tant que ça en fait) vous donneront une idée de ce qui nous préoccupait à l'époque.
 
