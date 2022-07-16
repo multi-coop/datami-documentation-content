@@ -1,4 +1,4 @@
-### Example
+### Exemple
 
 ```html
   <!-- Example for loading and contribute to a distant mediawiki ressource -->
