@@ -1,5 +1,5 @@
 
-# Sratégies d'installation
+# Stratégies d'installation
 
 Il existe plusieurs manières d´utiliser Gitribute, allant de la plus simple à la plus technique.
 
