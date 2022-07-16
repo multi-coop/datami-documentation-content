@@ -27,8 +27,8 @@
       Informations & contact
     </h5>
     <p class="has-text-centered">
-      For more infos about Gitribute <br>
-      contact us at
+      Pour plus d´infos sur Gitribute <br>
+      contactez-nous à
     </p>
     <p class="has-text-centered is-size-4 mt-6">
       📥 &nbsp;
@@ -39,11 +39,11 @@
   </div>
   <div class="column is-half has-text-centered">
     <h5 class="has-text-centered pt-5 is-italic">
-      Tech cooperative multi
+      Coopérative numérique multi
     </h5>
     <p class="has-text-centered">
-      Gitribute is a project developped<br>
-      by the tech cooperative 
+      Gitribute est un projet développé<br>
+      par la [SCOP](https://www.les-scop.coop/les-scop)
       <a href="https://multi.coop" target="_blank">
         <b>multi</b>
       </a>
