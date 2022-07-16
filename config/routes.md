@@ -37,13 +37,13 @@ routes:
               icon-left: school
               rounded: true
               label: 
-                fr: Tutorials
+                fr: Tutoriels
                 en: Tutorials
             - link: /docs-widgets-overview
               icon-left: book-open-variant
               rounded: true
               label: 
-                fr: Doc des widgets
+                fr: Documentation
                 en: Widgets' docs
             # - link: https://gitlab.com/multi-coop/gitribute
             #  icon-left: gitlab
