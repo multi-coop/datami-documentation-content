@@ -1,4 +1,4 @@
-## Project setup
+## Setup
 
 ```bash
 nvm use
