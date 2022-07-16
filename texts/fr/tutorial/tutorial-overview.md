@@ -1,13 +1,13 @@
 
-# Tutorials
+# Panorama des tutoriels
 
-This section aims to give you some hints for using basic features of Gitribute.
+Cette partie vise à vous orienter dans l´usage basique des différentes fonctionnalités de Gitribute.
 
-Ideally we wouldn't want to write this section at all, given we are trying to design Gitribute as self-explanatory : a lot of tooltips are associated to the action buttons, so the user could directly have a glimpse of what every button does without having to jump to the docs.
+Idéalement nous n´aurions pas à écrire cette partie du tout, vu que nous tentons de concevoir Gitribute de sorte sorte à ce que toutes le rôle des fonctionnalités soient évidentes pour l´utilisateur. Nous avons ajouté de nombreuses bulles d´aide sur les différents boutons afin que l´utilisateur puisse savoir immédiatement à quoi sert tel ou tel bouton, sans avoir à se référer à la documentation.
 
-But if we're honest, we're not 100% sure our UX design will ever be ever clear enough for everybody, so tutorials could be seen as complementary tools to guide new users.
+Cela dit si nous voulons rester un peu modestes concernant notre design, nous ne sommes pas 100% sûrs que cela sera suffisant pour tous les publics. Nous avons donc écrit ces tutoriels et ce site en les pensant comme des outils complémentaires pour les nouveaux utilisateurs.
 
-In the illustration and tutorials below you will discover the different buttons usually accessible by a Gitribute user :
+Dans l´illustration et les tutoriels suivants vous découvrirez les différents boutons les plus généralement visibles et utilisables dans les widgets de Gitribute :
 
 <div>
   <img
