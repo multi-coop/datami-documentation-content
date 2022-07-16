@@ -6,7 +6,7 @@
   </p>
 
   <p class="is-italic">
-    ... sans toucher à git
+    ... mais sans toucher à git
   </p>
 
 </div>
