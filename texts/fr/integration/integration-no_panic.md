@@ -1,10 +1,10 @@
-### Don't panic !
+### Pas de panique !
 
-Such blocks of html code could look complex and overwhelming to some. With reasons.
+Un tel bloc de html peut sembler un peu complexe... À raison.
 
-But you won't have to take intensive html lessons to integrate a Gitribute widget to your favorite Wordpress website.
+Toutefois vous n´aurez pas à prendre de leçons intensives de html pour intégrer un widget Gitribute dans votre Wordpress favori.
 
-Gitribute includes **a button to copy an existing widget in one click**, so you won't have to write your whole widget from scratch.
+Gitribute inclut **un bouton pour copier en un clic un widget existant**. Ainsi vous n´aurez pas à configurer votre widget depuis zéro.
 
 <div>
   <img
@@ -15,6 +15,6 @@ Gitribute includes **a button to copy an existing widget in one click**, so you 
 
 <br>
 
-Once clicked, **you just have to paste it - and adapt it if you feel confortable - in a web page** of you choice !
+Une fois avoir cliqué sur ce bouton, **vous aurez juste à coller le bloc ˋhtmlˋ du widget - et l´adapter si vous vous le sentez - dans une page web** de votre choix !
 
-> **Note** : More details about the widgets action buttons in the **["Tutorials > Actions"](/tutorial-actions)** section.
+> **Note** : Plus de détails sur les boutons d´action des widgets dans la partie **["Tutoriels > Actions"](/tutorial-actions)**.
