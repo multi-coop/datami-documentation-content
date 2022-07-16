@@ -1,6 +1,6 @@
 ### Run des tests unitaires
 
-Bon c´est vrai on n´est un peu short niveau, mais promis on y bosse bientôt.
+Bon c´est vrai on n´est un peu short niveau tests, mais promis on y bosse bientôt.
 
 Après si vous voulez en écrire et nous en proposer on n´est pas contre non plus !
 
