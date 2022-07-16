@@ -1,12 +1,12 @@
-### Dependencies
+### Dépendances
 
-Gitribute's widgets need several files and the widget's block in order to work correctly :
+Les widgets de Gitribute ont besoin de plusieurs fichiers externes et d´un bloc html pour fonctionner correctement : 
 
-- `app.js` : the Gitribute application itself
-- `app.css` : Gitribute's styles
-- `materialdesignicons-webfont.woff2`: : Gitribute's icons
-- and finally the widget's `html` block (`<multi-gitribute-file>`, `<multi-gitribute-multi-files>`, ...)
+- `app.js` : le script de l´application Gitribute
+- `app.css` : la feuille de styles de Gitribute
+- `materialdesignicons-webfont.woff2`: les icônes utilisés dans Gitribute
+- et enfin le bloc `html` du widget souhaité (`<multi-gitribute-file>`, `<multi-gitribute-multi-files>`, ...)
 
-The `css` and `font` files are imported automatically, you just have to add the `script` and the widget's `html` block to integrate a widget to your page.
+Les fichiers `css` et `font` sont are importés automatiquement, vous devez juste importer le tag `script` et le bloc `html` du widget souhaité pour intégrer celui-ci dans une page web.
 
-By clicking on the "copy-paste" button you will have those two blocks (`script` and `html`) immediately copied to your clipboard.
+En cliquant sur le bouton "copier le widget" vous aurez immédiatement à disposition ces deux blocs dans votre presse-papier.
