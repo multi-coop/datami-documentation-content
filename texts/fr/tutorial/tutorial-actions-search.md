@@ -7,4 +7,4 @@
     />
 </div>
 
-Le champ de recherche textuelle vous permet de filtrer votre table pour n'afficher que les lignes contenant le text que vous avez entré dans le champ.
+Le champ de recherche textuelle vous permet de filtrer votre table pour n'afficher que les lignes contenant le texte que vous avez entré dans le champ.
