@@ -1,5 +1,5 @@
 
-# How to integrate Gitribute to Worpress
+# Comment intégrer Gitribute dans Worpress
 
 🚧  &nbsp; `Redaction in progress...`
 
