@@ -1,4 +1,4 @@
-## The view modes
+## Les modes de vue de vos données
 
 <div>
   <img
@@ -7,14 +7,14 @@
     />
 </div>
 
-Gitribute is primarly designed to edit data, and instantaneously see the result of what you just edited.
+Gitribute est conçu pour vous permettre d'éditer des données et de voir instanément le résultat de vos modifications. 
 
-So you can switch views between :
+Vous pouvez donc alterner entre différentes vues en fonction de vos besoins en édition :
 
-- A `preview` mode
-- An `edit` mode
-- And also a `diff` mode, so you could see the difference between the original data and what you edited.
+- Un mode `prévisualisation`
+- Un mode `édition`
+- Et enfin un mode `diff`, pour voir les différences entre les données originales et les données telles que vous les avez éditées.
 
-Those are what we call the **"edit-view" modes**.
+Ces trois vues sont ce que nous appellerons les **modes de "vue-édition"**.
 
-For tables files (`csv`, `tsv`) and table datasets (`mediawiki`) we felt the need to display the data also in another ways... So we implemented another kind of views, the **"view" modes**, to switch between `table` and `cards` views.
+Pour les fichiers de type "table" (`csv`) mais aussi de type `mediawiki` nous avons pensé qu'il serait aussi nécessaire de visualiser ces données d'une autre manière en plus de la vue tableur. Nous avons ainsi imlpémenté un autre type de vue, les **modes de "vue"**, pour alterner entre une "tableur" et vue "fiches". 
