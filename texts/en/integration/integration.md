@@ -1,5 +1,5 @@
-## Comment intégrer vos widgets Gitribute personnalisés
+## How to integrate your customized Gitribute widgets
 
-Les widgets (ou composants web) sont conçus pour être intégrés dans des sites tiers.
+Widgets are made to be integrated in a third-party website.
 
-Intégrer un des widgets de Gitribute suit le même principe : vous insérez le bloc `html` d´un widget Gitribute ainsi que son `script`, et c´est tout.
+Integrating one of Gitribute's widgets follows the same logic : integrate the `html` block of the Gitribute widget and its `script`, and you're done.
