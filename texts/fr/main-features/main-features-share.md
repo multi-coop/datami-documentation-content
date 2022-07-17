@@ -1,15 +1,15 @@
-### Share your datasets
+### Partager et valoriser vos jeux de données
 
-Gitribute allow you to put in a place **a widget that other people can copy and include in their own website**.
+Gitribute vous permet pour chaque fichier de mettre en place **un ou plusieurs widgets que d'autres personnes pourront copier et inclure dans leur propre site web**.
 
-Even if the widget is copied, the data source stays the same. That way **you can multiply the number of persons contributing to your data**.
+Même si le widget est copié, les données source resteront les mêmes. De cette façon **vous pourrez multiplier le nombre de contributeurs potentiels à votre jeu de données**.
 
 🚧  &nbsp; `Redaction in progress...`
 
-- **Create a set of components for modular uses** :
-  - preview for `.csv`, `.md`, `.json` files or `mediawiki` ressources, with several choices for preview (table, cards list, ...) ;
-  - files edition interfaces ;
-  - dataviz for `.csv` files (barcharts, pies, ...) ;
-  - user preferences: language, user token, ...
+- **Créer un ensemble de composants modulaires** :
+  - prévisualisation de fichiers `.csv`, `.md`, `.json` ou de ressources `mediawiki`, avec différents choix de vues (table, liste de fiches, ...) ;
+  - interfaces d'édition ;
+  - dataviz de fichiers `.csv` (barcharts, pies, ...) ;
+  - préférences utilisateurs: langage, token utilisateur, ...
   - etc...
-- **Web integration as modular web component**
+- **Intégration web modulaire**
