@@ -8,4 +8,4 @@
 </div>
 <br>
 
-Vous pouvez alors soit créer une nouvelle page ou en modifier une déjà existante, toujours comme vous feriez habituellement dans Wordpress.
+Vous pouvez alors soit créer une nouvelle page ou en modifier une déjà existante, toujours comme vous le feriez habituellement dans Wordpress.
