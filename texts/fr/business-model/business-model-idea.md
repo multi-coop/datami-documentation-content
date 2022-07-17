@@ -1,17 +1,17 @@
-### An idea, and a quick proof it could technically work
+### Une idée, et une preuve rapide que techniquement ça fonctionne
 
-As any idea, Gitribute's idea didn't come from a blank void.
+Comme n´importe quelle idée, l´idée de Gitribute ne sort pas de la cuisse de Jupiter.
 
-The idea takes its roots in various things we experimented and discussed before between associates, along the years. 
+Cette idée puise dans différentes choses, projets, discussions, que nous avons avec les associés de la coopérative depuis un long moment.
 
-- How could we use Git in a more efficient way ?
-- How could Git relieve us from many things we don't want to do that much (maintain a backend server for instance) ?
-- How can we make something useful and new for the open data movement ?
+- Comment utiliser Git de manière plus efficace ?
+- Comment Git pourrait nous soulager de nombreuses tâches que nous ne voulons plus faire autant (maintenir un serveur de _backend_ par exemple) ?
+- Quels types de projets pourrait-on faire qui soit à la fois innovant et utile pour le mouvement _open data_ ?
 
-And as any idea it needed to take a first form to be refined.
+Et comme n´importe quelle idée celle-ci devait prendre une première forme avant d´être affinée.
 
-The real first pieces of Gitribute's concretization weren't lines of code, they were the [architecture & schemas](/architecture) drawings. And paper is cheap...
+La première concrétisation de Gitribute n´a pas été des lignes de code, cela a consisté à faire quelques [dessins d´architecture](/architecture). Et le papier ça coûte pas trop cher...
 
-We already had some experiences in some technologies, some of we wanted to experiment more with for instance to do widgets.
+Nous avions déjà fait quelques expériences dans des technos qui nous plaisaient, et certains voulaient expérimenter plus avant avec les widgets.
 
-That laid - **an idea and a plan** - coding the "backbone" structure for the Gitribute project was jst a matter of a couple of days.
+Avec ces choses en poche - **une idée et un plan d'action** - coder le "squelette" du projet Gitribute était l´affaire de quelques jours seulement.
