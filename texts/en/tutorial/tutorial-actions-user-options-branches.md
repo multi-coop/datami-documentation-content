@@ -7,7 +7,7 @@
     />
 </div>
 
-A "branch" selection dialog appears once you have saved your document. It means your contribution proposal has been sent to the owner for the source file, but is not "merged" yet onto the source file. 
+A "branch" selection dialog appears once you have saved your document, which you can activate by clicking on the <span class="icon"><i class="mdi mdi-source-branch"></i></span> button. It means your contribution proposal has been sent to the owner for the source file, but is not "merged" yet onto the source file. 
 
 <div style="border: thin solid lightgrey;">
   <img
