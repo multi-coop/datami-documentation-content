@@ -1,4 +1,4 @@
-#### "Diff" mode
+#### Le mode "Diff"
 
 <div>
   <img
@@ -7,11 +7,11 @@
     />
 </div>
 
-The "diff" mode can be quite useful once you have finished editing it. 
+Le mode "diff" peut se révéler utile lorsque vous avez terminé d'éditer un document.
 
-It highlights the modification you have made, so you and the document's owner could distinguish what was already present in the source document and what is new thanks to your contribution.
+Il permet de mettre en valeur les modifications que vous avez apportées, et de cette manière vous comme le propriétaire du fichier pourrez bien distinguer entre ce qui était déjà présent dans le document d'origine et les nouveautés apportées par votre contribution.
 
-For instance the `diff` mode for a `md` (markdown) file looks something like this :
+Par exemple le mode `diff` pour un fichier `md` (markdown) ressemble à ceci :
 
 <div style="border: thin solid lightgrey;">
   <img 
@@ -22,4 +22,4 @@ For instance the `diff` mode for a `md` (markdown) file looks something like thi
 
 <br>
 
-> **Note** : More about the "diff" mode in the **["Tutorials > Edition"](/tutorial-edition)** and in the **["Tutorials > Contribution"](/tutorial-contribution)** sections.
+> **Note** : Plus de détails sur le mode "diff" dans les parties **["Tutoriels > Édition"](/tutorial-edition)** et **["Tutoriels > Contribution"](/tutorial-contribution)**.
