@@ -2,7 +2,7 @@
 
 <!-- 🚧  &nbsp; `Redaction in progress...` -->
 
-Maintenant que nous avons énuméré les raisons pour lesquelles [la coopérative multi](https://multi.coop) s'est lancée dans le projet Gitribute faisons un point, et posons-nous la question que vous pouvez légitimement vous poser.
+Maintenant que nous avons énuméré les raisons pour lesquelles [la coopérative multi](https://multi.coop) s'est lancée dans le projet Gitribute faisons un point, et posons-nous la question que vous pouvez légitimement vous poser à votre tour.
 
 Étant donné que Gitribute est :
 
