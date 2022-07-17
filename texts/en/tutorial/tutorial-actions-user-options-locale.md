@@ -7,7 +7,7 @@
     />
 </div>
 
-As you can imagine this button can change the language used in the widget.
+As you can imagine the button <span class="icon"><i class="mdi mdi-translate"></i></span> can change the language used in the widget.
 
 <div>
   <img
