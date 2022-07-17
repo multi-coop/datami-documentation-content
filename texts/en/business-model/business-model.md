@@ -1,4 +1,4 @@
-# What is the business model ?
+# 100% free
 
 <!-- 🚧  &nbsp; `Redaction in progress...` -->
 
