@@ -1,5 +1,5 @@
 
-## 💸 &nbsp; To reduce the costs of opening your data
+## 💸 · To reduce the costs of opening your data
 
 We are developping Gitribute so **the cost to share data, and the cost to make open contributions to it approaches zero**.
 

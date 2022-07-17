@@ -1,5 +1,5 @@
 
-## 🔧 &nbsp; Aider les organisations à ouvrir leurs données
+## 🔧 · Aider les organisations à ouvrir leurs données
 
 **Produire** des données ouvertes peut se révéler être une tâche assez technique et/ou chronophage. De plus il n´est pas rare que le producteur d´un jeu de données doive s´appuyer sur une communauté pour enrichir son jeu de données.
 

@@ -1,7 +1,7 @@
 
-## 🔧 &nbsp; To help organizations opening their data
+## 🔧 · To help organizations opening their data
 
-The thing is that **producing** open datasets could be a very technical task. 
+The thing is that **producing** open datasets could be a very technical task.
 
 If any citizen **should** contribute to open data, few people or structures **have the skills** to produce clean datasets, maintain them, and curate them...
 
