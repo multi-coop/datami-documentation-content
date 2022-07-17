@@ -1,11 +1,12 @@
-### Valorize our expertise, not the code
+### Valoriser notre expertise, pas le code
 
-No subscription nor private data will be generated from Gitribute to our benefit.
+Gitribute fonctionne sans revenu basé sur les abonnements ou les données personnelles.
 
-We won't make a dime from the code itself, but it doesn't mean Gitribute won't help our cooperative to grow.
+Le code à lui seul n'est pas supposé nous apporter de revenus, mais cela n'empêche pas que Gitribute soit pour nous un véritable levier de croissance parmi d'autres.
 
-**Gitribute is a growth vector from several perspectives** :
+**Gitribute est un levier de croissance à plusieurs titres** :
 
-- It could be used as a pedagogic tool for us to **help organizations opening their data**, and as such in need for our expertise ;
-- It could be a way to **work on more complex cases**, where organizations need to produce open data over open data, schema, and APIs ;
-- Our technical **skillset grows** as we develop and innovate, **so is our global value as a structure**.
+- Il peut nous servir de support pédagogique pour **aider les organisations à ouvrir leurs données**, et qui ont besoin de notre expertise en la matière ;
+- Il peut être une porte d'entrée nous permettant de **travailler sur des besoins plus complexes** en termes de data, lorsque des organisations doivent ouvrir des données impliquant des schémas, de la validation, des APIs...
+- Il nous sert également à **consolider nos compétences en développement et en innovation**, et de fait augmenter la valeur globale de notre coopérative .
+- 
