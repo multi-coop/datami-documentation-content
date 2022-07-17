@@ -276,7 +276,7 @@ routes:
           columns-size: three-quarters
           depth: 1
           name:
-            fr: Data & schemas
+            fr: Data & schémas de données
             en: Data & schemas
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-quality-schemas.md
