@@ -33,8 +33,8 @@ buttons-left:
         link: /business-model
         component: simpleLink
         label: 
-          fr: Quel est le business model ?
-          en: What is the business model ?
+          fr: "100% libre & gratuit"
+          en: "100% free"
       - name: benchmark
         link: /benchmark
         component: simpleLink
