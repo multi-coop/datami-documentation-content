@@ -1,6 +1,6 @@
 ### Data & schémas de données
 
-Les "_Schémas_" sont essentiels pour rendre des données interopérables. Pour aider des acteurs publics ou privés à rendre leurs données ouvertes réutilisables par d'autres et les rendre plus intéressantes, **partager des référentiels communs est primordial**.
+Les "_schémas de données_" sont essentiels pour rendre des données interopérables. Pour aider des acteurs publics ou privés à rendre leurs données ouvertes réutilisables par d'autres et les rendre plus intéressantes, **partager des référentiels communs est primordial**.
 
 L'Etat français a par exemple une politique et une feuille de route solides en ce qui concerne les schémas de données, une [liste de schémas](https://schema.data.gouv.fr/schemas.html) est d'ailleurs consultable et permet de créer ou d'analyser des données au regard de ceux-ci.
 
