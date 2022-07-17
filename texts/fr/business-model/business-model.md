@@ -16,6 +16,6 @@ La question se pose :
 
 > 😧 &nbsp; — **Comment est-ce qu´ils comptent financer les développements de Gitribute ?!**
 
-Et ça vous semble un peu suspect, cette question aussi :
+Et si ça vous semble un peu suspect, cette question aussi :
 
 > 🤔 &nbsp; — _( ... Il doit y avoir un piège quelque part )_
