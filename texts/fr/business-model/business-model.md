@@ -1,21 +1,21 @@
-# What is the business model ?
+# 100% libre et gratuit
 
 <!-- 🚧  &nbsp; `Redaction in progress...` -->
 
-Now we get a better understanding of the reasons the [tech cooperative multi](https://multi.coop) started the Gitribute project let's sum up, and focus on something you could legitimately ask us.
+Maintenant que nous avons énuméré les raisons pour lesquelles [la coopérative multi](https://multi.coop) s´est lancée dans le projet Gitribute faisons un point, et posons-nous la question que vous pouvez légitimement vous poser.
 
-Given Gitribute is :
+Étant donné que Gitribute est :
 
 - 100% open source ;
-- Under a [GNU GPL v3 licence](/software) ;
-- Free to use, extensively (we don't ask you to create an account nor to pay to use Gitribute) ;
-- Without any proprietary backend in its code ;
-- And finally - to add to the perplexity - developped by a private cooperative for which [external investment funding is more restrictive than other private companies](https://www.cairn.info/revue-des-sciences-de-gestion-2011-3-page-97.htm)...
+- Sous licence [GNU GPL v3](/software) ;
+- Gratuit à utiliser, extensivement (on ne vous demande pas de créer de compte pour utiliser Gitribute) ;
+- Sans aucun _backend_ propriétaire dans son code source ;
+- Et finalement - pour couronner le tout - développé par une structure coopérative privée pour qui [les investissements extérieurs sont plus limités que pour d´autres types de sociétés](https://www.cairn.info/revue-des-sciences-de-gestion-2011-3-page-97.htm)...
 
-The question remains :
+La question se pose :
 
-> 😧 &nbsp; — **How the hell are they hoping to fund Gitribute developments ?!**
+> 😧 &nbsp; — **Comment est-ce qu´ils comptent financer les développements de Gitribute ?!**
 
-And if you are a bit suspicious, that question too :
+Et ça vous semble un peu suspect, cette question aussi :
 
-> 🤔 &nbsp; — _( ... There must be a trap somewhere )_
+> 🤔 &nbsp; — _( ... Il doit y avoir un piège quelque part )_
