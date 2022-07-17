@@ -21,6 +21,12 @@ buttons-left:
         label: 
           fr: Pourquoi Gitribute ?
           en: Why Gitribute ?
+      - name: business-model
+        link: /business-model
+        component: simpleLink
+        label: 
+          fr: "100% libre & gratuit"
+          en: "100% free"
       - name: features
         link: /main-features
         component: simpleLink
@@ -29,12 +35,6 @@ buttons-left:
           en: Main features
       - name: sep
         separator: true
-      - name: business-model
-        link: /business-model
-        component: simpleLink
-        label: 
-          fr: "100% libre & gratuit"
-          en: "100% free"
       - name: benchmark
         link: /benchmark
         component: simpleLink

@@ -2,7 +2,7 @@
 <div class="has-text-centered">
 
   <p class="is-size-4 has-text-weight-bold mb-2">
-    Share, edit, contribute
+    Share, edit, contribute to open data
     <br>easily & for free
   </p>
 
