@@ -9,7 +9,7 @@ La manière la plus simple d'intégrer un widget dans votre site est de copier-c
     class="icon">
     <i class="mdi mdi-code-tags"></i>
   </span>
-  habituellement dans la liste des boutons situés en haut à droite dans le widget.
+  qui se trouve dans la liste des boutons situés en haut à droite du widget.
 </p>
 
 <div>
