@@ -10,4 +10,4 @@ Those first clients allowed us to **begin quickly**, with **short development cy
 
 _[Do it agile or do not, there is no try](https://www.youtube.com/watch?v=BQ4yd2W50No)..._
 
-The fundings corresponding to those mfirst issions payed for the POC alone.
+The fundings corresponding to those first issions payed for the POC alone.
