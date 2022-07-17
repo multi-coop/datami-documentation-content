@@ -1,5 +1,5 @@
 
-## Edit a csv file
+## Editer un fichier csv
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -10,4 +10,4 @@
 
 <br>
 
-When you edit a `csv` file with Gitribute the cells you need to edit **depends at the same time on the column's input type and the column's options**.
+Lorsque vous éditez un fichier `csv` avec Gitribute les cellules ont des propriétés qui **dépendent à la fois du type de colonne et des options associées à cette colonne**
