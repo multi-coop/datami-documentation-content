@@ -1,4 +1,4 @@
-#### "Edit" mode
+#### Le mode "Édition"
 
 <div>
   <img
@@ -7,11 +7,11 @@
     />
 </div>
 
-If you have clicked on the "Edit" button or if you have clicked on this icon, the widget switches to the edit mode.
+Si vous cliquez sur le bouton "Éditer" ou si vous cliquez sur cet icône, le widget passe en mode édition.
 
-On this mode you can apply modifications to the data, depending on the type of data you are editing : `csv`, `md`, `json`...
+Dans ce mode vous pouvez modifier les données, en fonction du type de données affichées : `csv`, `md`, `json`...
 
-For instance the `edit` mode for a `csv` (table) file looks something like this :
+Le mode `édition` d'un fichier `csv` (table) ressemble à ceci :
 
 <div style="border: thin solid lightgrey;">
   <img 
@@ -22,4 +22,4 @@ For instance the `edit` mode for a `csv` (table) file looks something like this 
 
 <br>
 
-> **Note** : More about the "edit" mode in the **["Tutorials > Edition"](/tutorial-edition)** section.
+> **Note** : Plus de détails sur le mode "édition" dans la partie **["Tutoriels > Édition"](/tutorial-edition)**.
