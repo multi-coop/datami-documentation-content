@@ -1,6 +1,6 @@
-### Notes about the `.env` file
+### Notes à propos du fichier `.env`
 
-Gitribute uses some environment variables to work perfectly :
+Gitribute utilise quelques variables d´environnement pour fonctionner correctement :
 
 ```env
 DEFAULT_GITHUB_TOKEN=<YOUR-GITHUB-USER-TOKEN>
@@ -9,11 +9,11 @@ VUE_APP_GITRIBUTE_DEPLOY_DOMAIN=gitribute.multi.coop
 VUE_APP_GITRIBUTE_DOCUMENTATION=gitribute-docs.multi.coop
 ```
 
-- `DEFAULT_GITHUB_TOKEN` : an user token allowing to use the github API
-  - 🤫 ... it's a secret...
-- `DEFAULT_GITLAB_TOKEN` : an user token allowing to use the gitlab API
-  - 🤐 ... we told you already, it's tooop secret...
-- `VUE_APP_GITRIBUTE_DEPLOY_DOMAIN` : the domain name you deploy your instance on, so the copy-paste button works correctly
-  - default value : `gitribute.multi.coop`
-- `VUE_APP_GITRIBUTE_DOCUMENTATION` : the domain for Gitribute documentation
-  - default value : `gitribute-docs.multi.coop`
+- `DEFAULT_GITHUB_TOKEN` : le token utilisateur par défaut pour requêter l´API de Github
+  - 🤫 ... c´est secret...
+- `DEFAULT_GITLAB_TOKEN` : le token utilisateur par défaut pour requêter l´API de Gitlab
+  - 🤐 ... on vous a dit, c´est tooop secret...
+- `VUE_APP_GITRIBUTE_DEPLOY_DOMAIN` : le nom de domaine où vous déployez votre instance, pour que le bouton copier-coller fonctionne correctement
+  - valeur par défaut : `gitribute.multi.coop`
+- `VUE_APP_GITRIBUTE_DOCUMENTATION` : le domaine pour la documentation Gitribute
+  - valeur oar défaut : `gitribute-docs.multi.coop`
