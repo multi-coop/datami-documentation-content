@@ -7,7 +7,7 @@
     />
 </div>
 
-En cliquant sur ce bouton vous ouvrez un tiroir contenant les informations (ou metadata) de base sur le fichier source :
+En cliquant sur ce bouton <span class="icon"><i class="mdi mdi-information-outline"></i></span> vous ouvrez un tiroir contenant les informations (ou metadata) de base sur le fichier source :
 
 <div style="border: thin solid lightgrey;">
   <img
