@@ -1,11 +1,11 @@
 
 # Panorama des widgets Gitribute
 
-Gitribute n'est pas un widget à proprement parler, c´est une **collection de widgets**.
+Gitribute n'est pas un widget à proprement parler, c'est une **collection de widgets**.
 
 Nous développons différents widgets que vous pouvez ensuite inclure _ad libidum_ dans vos propres sites web.
 
-Chaque widget a ses propres particularités, et peut être utilisé indépendamment ou conjointement avec d´autres.
+Chaque widget a ses propres particularités, et peut être utilisé indépendamment ou conjointement avec d'autres.
 
 Certains widgets se spécialisent dans l'affichage de données hébergées sur Github ou Gitlab, un autre dans la visualisation de multiples fichiers en même temps, d'autres dans la visualisation de données provenant de wiki...
 
