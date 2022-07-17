@@ -1,31 +1,31 @@
-### Data consolidation
+### Consolidation de données
 
-We encounter multiple use cases where we needed to "consolidate" a dataset by either changing/adding inputs inside the data, or by checking if data is how it is supposed to be like. 
+Nous rencontrons de multiples cas où il peut être nécessaire de "consolider" un jeu de données, que ce soit en changeant la valeur d'un champ, ou bien en vérifiant qu'une donnée respecte bien certains critères.
 
-"_Consolidating_" - in a broad sense - means you need modifying your data to make it "cleaner" or "better", for instance :
+"_Consolider_" - de manière générale - signifie que vous avez besoin de modifier vos données pour les rendre plus "propres", plus "précises", ou plus "complètes", par exemple :
 
-- [Geolocate an adress](https://adresse.data.gouv.fr/csv) ; 
-- [Validate your dataset respects a schema](https://validata.fr/) ; 
-- [Generate an UUID](https://heidi.etalab.studio) ;
-- [Retrieve public informations about a society](https://api.gouv.fr/les-api/api-entreprise)
-- ... or [muuuuch more use cases](https://api.gouv.fr/).
+- [Géolocaliser une adresse](https://adresse.data.gouv.fr/csv) ; 
+- [Valider qu'un jeu de données respecte un schéma](https://validata.fr/) ; 
+- [Générer un identifiant unique ou UUID](https://heidi.etalab.studio) ;
+- [Récupérer des informations publiques sur une société](https://api.gouv.fr/les-api/api-entreprise)
+- ... ou [beauuuuuuucoup d'autres cas](https://api.gouv.fr/).
 
-Consolidation could concern either some rows only within a table, or also could concern the whole dataset. 
+La consolidation peut concerner soit certaines entrées d'un tableur, soit le jeu de données au complet.
 
-Finally, the needs for consolidation on a dataset are usually related to a profession, a theme, a collective... Cases and combinations are infinite.
+Enfin, le besoin de consolidation sur un jeu de données est en géral lié à un besoin "métier" spécifique, à une profession, à une thématique, à une organisation... Les cas et les combinatoires sont infinis.
 
-Given the infinite possible ways an user could need consolidation, our intention with Gitribute is to integrate but **delegate the consolidation to external services**, mostly third party APIs (*) 
+Étant donnée cette infinité des cas où un.e utilisateur.rice aurait à consolider des données, l'intention de Gitribute est d'intégrer un système permettant de **déléguer la consolidation à des services tiers**, essentiellement des _APIs_ (*).
 
-(*) _"API" for "[Application Programming Interface](https://en.wikipedia.org/wiki/API)"_
+(*) _"API" pour "[Application Programming Interface](https://en.wikipedia.org/wiki/API)"_
 
-To keep helping users to benefit from those third party services, we though of a system to configure customized requests to APIs you would need on a particular dataset. **Gitribute let the data owner(s) choose which API they want to include in a widget, given the particularities of their dataset**.
+Pour ce faire nous avons conçu une manière de configurer des requêtes à des APIs, requêtes que vous pouvez personnaliser en fonction des spécificités de tel ou tel jeu de données. **Gitribute laisse le.s propriétaire.s du jeu de données décider quelle API il.s souhaite.ent inclure dans un widget, vues les particularités du jeu de données**.
 
-The integration of an **external API consolidation services is not hard-coded in Gitribute** : a Gitribute widget only needs a setup in its **configuration file** to populate the [consolidation button](/tutorial-edition).
+L'intégration d'un **service tiers de consolidation via API n'est pas écrit "en dur" dans Gitribute** : un widget Gitribute **nécessite une légère configuration** pour peupler le champ de [consolidation button](/tutorial-edition).
 
-We already tested the integration of the following external APis into Gitribute's widgets :
+Nous avons d'ores et déjà testé l'intégration de ces APIs tierces dans des widgets Gitribute :
 
-- [API-entreprises](https://api.gouv.fr/les-api/api-entreprise) : helps retrieve public information about an entreprise or a public structure, given its SIREN number ;
-- [Base Adresse Nationale](https://adresse.data.gouv.fr/api-doc/adresse) : helps geolocate an entity given a french postal adress in full text ;
-- ... and much more to come.
+- [API-entreprises](https://api.gouv.fr/les-api/api-entreprise) : permet de récupérer des informations publiques sur une organisation étant donné son numéro de SIREN ;
+- [Base Adresse Nationale](https://adresse.data.gouv.fr/api-doc/adresse) : permet de récupérer la géolocalisation étant donné un code postale, adresse au format textuel... ;
+- ... et bientôt bien d'autres.
 
-> **Note** : More on the consolidation in the **["Tutorial > Edition"](/tutorial-edition)** section
+> **Note** : Plus de détails sur la consolidation dans la partie **["Tutoriels > Édition"](/tutorial-edition)**.
