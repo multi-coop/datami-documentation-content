@@ -1,7 +1,7 @@
 
 ## Réutiliser un ou plusieurs widgets
 
-La manière la plus simple d´intégrer un widget dans votre site est de copier-coller un widget déjà existant.
+La manière la plus simple d'intégrer un widget dans votre site est de copier-coller un widget déjà existant.
 
 <p>
   Pour ce faire cliquez sur le bouton "copier le bloc html du widget" 
