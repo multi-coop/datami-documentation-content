@@ -22,7 +22,7 @@ Ce fichier doit être hébergé sur Github ou Gitlab.
 
 Ce widget permet de visualiser, éditer, partager un fichier de type `csv` ou `tsv`.
 
-Vous pouvez appliquer un ["table schema"](https://specs.frictionlessdata.io/table-schema/) à votre fichier tabulaire (comme une sorte de masque, de modèle de données).
+Vous pouvez appliquer un ["_table schema_"](https://specs.frictionlessdata.io/table-schema/) à votre fichier tabulaire (comme une sorte de masque, de modèle de données).
 
 Ces fichiers doivent être hébergés sur Github ou Gitlab.
 
