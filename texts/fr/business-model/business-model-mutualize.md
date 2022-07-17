@@ -1,21 +1,21 @@
-### Mutualize needs  & converge with the roadmap
+### Mutualiser les besoins & converger sur une feuille de route
 
-The main principle we try to follow when it comes to fund the developments of a product like Gitribute.
+Le principe central que nous tentons de respecter lorsqu´il s´agit de financer des dêveloppements d´un produit tel que Gitribute est le suivant :
 
-- Open source is not a hobby, it's a job. You need missions to fund it ;
-- A product should respond to expressed needs ;
-- Development on a product could benefit several clients, even if they don't know one another ;
+- L'_Open source_ n'est pas un _hobby_, c´est un métier. Nous avons besoin de missions pour le financer ;
+- Un produit doit répondre à des besoins exprimés clairement par des utilisateurs ;
+- Les développements sur un produit doivent pouvoir bénéficier à plusieurs clients, même s'ils ne se connaissent pas forcément les uns les autres ;
 
-During our carreers we could observe many actors in need for developments are emphasizing their own particularities when comparing themselves to others. 
+Aucours de nos expériences professionnelles nous avons pu observer de nombreux cas où un client avait tendance à souligner ses particularités propres en comparaison avec d'autres.
 
-_[Nothing new under the sun](https://fr.wikipedia.org/wiki/Narcissisme_des_petites_diff%C3%A9rences-)..._
+_[Rien de nouveau sous le soleil dirons-nous](https://fr.wikipedia.org/wiki/Narcissisme_des_petites_diff%C3%A9rences-)..._
 
-Small differences, while - sometimes - huge similarities...
+Plein de petites différences, et - parfois - de profondes similarités...
 
-But you can find if you are searching for it : you will only find similarities if you take the time to analyze individual needs altogether.
+Toutefois ces similarités n´apparaissent que si on les cherche : on ne les identifie que si l´on prend le temps d´analyser **ensemble** une somme de besoins particulier.
 
-Many problems benefit from this patient time of analysis, factorization, optimisation that constitutes the effort of **mutualizing problems to find a common solution**.
+De nombreux problèmes bénéficient de ce patient temps dédié à l'analyse, à la synthèse, à la factorisation et à l'optimisation. Ce temps et cet effort sont nécessaires pour **mutualiser les problèmes et y trouver une solution commune**. 
 
-In the digital industry the very advantage we have is that a problem's solution could be very flexible over the time, through each of its steps of its development...
+Dans l'industrie du numérique nous avons la chance inouïe de pouvoir concevoir des solutions techniques assez flexibles dans le temps, qui peuvent évoluer au fil des développements...
 
-But once more, only if though as such and if one is willing to make the effort.
+Mais encore une fois, cela ne fonctionne uniquement que si on prend la posture et le temps de faire cet effort.
