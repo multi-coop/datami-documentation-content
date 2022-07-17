@@ -84,7 +84,7 @@ Il n'y a pas réellement un moment précis, mais ces petits dialogues imaginaire
 
 > _Votre papi, votre mamie, votre voisin.e... peut-être vous-même_ :
 >
-> &nbsp; — Z'avez l'air de parler de trucs important et tout...
+> &nbsp; — Z'avez l'air de parler de trucs importants et tout...
 > &nbsp; — **... Mais enfin c'est quoi déjà un 'csv' ?**
 > &nbsp; — ( Naaah, j'continuerai avec mon bon vieux Excel )
 
