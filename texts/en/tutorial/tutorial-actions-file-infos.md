@@ -7,7 +7,7 @@
     />
 </div>
 
-By clicking this button you will open a drawer containing some basic metadata related to the source file :
+By clicking this button <span class="icon"><i class="mdi mdi-information-outline"></i></span> you will open a drawer containing some basic metadata related to the source file :
 
 <div style="border: thin solid lightgrey;">
   <img
