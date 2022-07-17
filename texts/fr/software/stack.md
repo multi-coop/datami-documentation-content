@@ -1,7 +1,7 @@
 
 # Stack
 
-Nous utilisons uniquement des librairies _open source_, passque c'est c'qu'on fait à [multi](https://multi.coop)
+Nous utilisons uniquement des librairies _open source_, c'est dans l'ADN de [multi](https://multi.coop)
 
 - [`Vue.js` (2.x)](https://v2.vuejs.org/v2/guide) : il est quand même bien ce framework...
 - [`VueX`](https://vuex.vuejs.org/): le _store_ pour partager des données entre différents composants ;
