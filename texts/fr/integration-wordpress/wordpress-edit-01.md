@@ -8,9 +8,9 @@
 </div>
 <br>
 
-À cet endroit vous devez cliquer sur le bouton "options" afin d´ouvrir le menu sur la droite.
+À cet endroit vous devez cliquer sur le bouton "options" afin d'ouvrir le menu sur la droite.
 
-Ensuite vous devez sélectionner "Editeur > Editeur de code" afin d´éditer directement le code `html` de votre page Wordpress.
+Ensuite vous devez sélectionner "Editeur > Editeur de code" afin d'éditer directement le code `html` de votre page Wordpress.
 
 <div style="border: thin solid lightgrey;">
   <img
