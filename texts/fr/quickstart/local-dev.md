@@ -1,9 +1,9 @@
-### Compiles and hot-reloads for development
+### Compilation et _hot-reload_ pour le développement local
 
-Once the dependencies are installed you can run the Vue.js' hot-reload server for local development :
+Une fois les dépendances installées vous pouvez lancer l´application Vue.js et son serveur de _hot-reload_ pour du développement local :
 
 ```bash
 npm run serve
 ```
 
-By default Gitribute will run on `https://localhost:8080`
+Par défaut Gitribute tournera sur `https://localhost:8080`
