@@ -7,7 +7,7 @@
     />
 </div>
 
-Un dialogue de sélection des "branches" apparaît une fois que vous avez sauvé votre document. Cela signifie que vous pu envoyer votre proposition au responsable ou propriétaire du fichier, mais que ce dernier n´a pas encore accepté et "mergé" votre proposition dans le fichier source. 
+Un dialogue de sélection des "branches" apparaît une fois que vous avez sauvé votre document. Cela signifie que vous pu envoyer votre proposition au responsable ou propriétaire du fichier, mais que ce dernier n'a pas encore accepté et "mergé" votre proposition dans le fichier source. 
 
 <div style="border: thin solid lightgrey;">
   <img
