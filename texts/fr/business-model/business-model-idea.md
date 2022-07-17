@@ -10,8 +10,7 @@ Cette idée puise dans différentes choses, projets, discussions, que nous avons
 
 Et comme n'importe quelle idée celle-ci devait prendre une première forme avant d´être affinée.
 
-La première concrétisation de Gitribute n'a pas été des lignes de code, cela a consisté à faire quelques [dessins d´
-'architecture générale du logiciel](/architecture). Et le papier ça coûte pas encore trop cher...
+La première concrétisation de Gitribute n'a pas été des lignes de code, cela a consisté à faire quelques [dessins d'architecture générale du logiciel](/architecture). Et le papier ça coûte pas encore trop cher...
 
 Nous avions déjà fait quelques expériences dans des technos qui nous plaisaient, et certains voulaient expérimenter plus avant avec les widgets.
 
