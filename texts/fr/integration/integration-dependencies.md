@@ -1,8 +1,8 @@
 ### Dépendances
 
-Les widgets de Gitribute ont besoin de plusieurs fichiers externes et d´un bloc html pour fonctionner correctement : 
+Les widgets de Gitribute ont besoin de plusieurs fichiers externes et d'un bloc `html` pour fonctionner correctement : 
 
-- `app.js` : le script de l´application Gitribute
+- `app.js` : le script de l'application Gitribute
 - `app.css` : la feuille de styles de Gitribute
 - `materialdesignicons-webfont.woff2`: les icônes utilisés dans Gitribute
 - et enfin le bloc `html` du widget souhaité (`<multi-gitribute-file>`, `<multi-gitribute-multi-files>`, ...)
