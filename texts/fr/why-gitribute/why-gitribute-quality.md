@@ -1,15 +1,15 @@
 
-## To plead for quality open data
+## Faire de l'open data de qualité
 
-Anyone who received datasets (a spreadsheet, a csv, a json...) in their mail knows the challenges in reusing - or even understanding - tables you didn't produce yourself.
+Quiconque a déjà reçu des jeux de données (tableur excel, csv, json,...) dans sa boîte mail sait qu'il peut se révéler compliqué de réutiliser - voire même  de comprendre - des données que vous n'avez pas produites vous-même.
 
-Such data could come as either incomplete, not structured enough, some columns could be missing, some entries do not respect a referential, you'd need to geolocate your rows, etc... 
+De telles données peuvent arriver incomplètes, pas assez bien structurées, des colonnes ou des champs peuvent manquer, certaines entrées ne respectent pas le référentiel ou ne sont pas géolocalisées...
 
-Delivered as such that kind of dataset is not "clean" nor ready for further uses.
+Reçues ainsi ces données ne sont ni "propres" ni réutilisables.
 
-With Gitribute we try to **adress this need for data consolidation**, mainly because this need for data consolidation is happening to us daily at work with evrey client we worked for : people's table data can always be "cleaner" or "better".
+Avec Gitribute nous essayons de **répondre à ce besoin de consolidation des données**, pour commencer car ce besoin nous le rencontrons tous les jours nous-mêmes dans le cadre de missions pour nos clients : leurs données peuvent toujours être mieux "nettoyées" ou consolidées, bref être de meilleure qualité.
 
-To consolidate data from Gitribute's widgets we mobilized two different families of tools : 
+Pour consolider des données avec Gitribute nous mobilisons deux familles d'outils :
 
-- **Schemas** : see below and [this section](/tutorial-edition#tutorial-edition-3-edition-csv-fields)
-- **Third party APIs** : see below and [this other section](/tutorial-edition#tutorial-edition-5-edition-csv-consolidation_field)
+- **Les schémas de données** : voir plus bas et dans [cette partie](/tutorial-edition#tutorial-edition-3-edition-csv-fields)
+- **Des APIs tierces** : voir plus bas et dans  [cette autre partie](/tutorial-edition#tutorial-edition-5-edition-csv-consolidation_field)
