@@ -1,8 +1,8 @@
-## Exemple d´intégration
+## Exemple d'intégration
 
 Les widgets peuvent être insérés et personnalisés dans une page web.
 
-L´exemple suivant vous montre le code ˋhtmlˋ d´un widget affichant un fichier ˋcsvˋ. Vous pouvez copier-coller ce bloc dans une page html de votre choix : 
+L'exemple suivant vous montre le code ˋhtmlˋ d'un widget affichant un fichier ˋcsvˋ. Vous pouvez copier-coller ce bloc dans une page html de votre choix : 
 
 ```html
 <!-- GITRIBUTE - contribute with GIT ...but without minding it-->
