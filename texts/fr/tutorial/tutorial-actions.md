@@ -8,6 +8,6 @@
     />
 </div>
 
-Plusieurs boutons d´actions apparaissent par défaut dans les widgets Gitribute, en général dans la partie en haut à droite du widget.
+Plusieurs boutons d'actions apparaissent par défaut dans les widgets Gitribute, en général dans la partie en haut à droite du widget.
 
-Ces boutons permettent à l´utilisateur de procéder à des actions globales dont nous allons voir le détail dans les parties suivantes.
+Ces boutons permettent à l'utilisateur.rice de procéder à des actions globales dont nous allons voir le détail dans les parties suivantes.
