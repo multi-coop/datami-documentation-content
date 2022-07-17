@@ -6,10 +6,12 @@
       Share &nbsp;
       🌐
     </span>
+    ·
     <span class="mx-4">
       Edit &nbsp;
       🖊️
     </span>
+    ·
     <span class="mx-4">
       Contribute &nbsp;
       👥
