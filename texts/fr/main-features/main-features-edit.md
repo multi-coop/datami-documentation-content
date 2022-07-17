@@ -1,4 +1,4 @@
-### Edit data & contribute to data online
+### Éditer & contribuer à des données en ligne
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -9,9 +9,9 @@
 
 <br>
 
-The first main feature of Gitribute is to allow any user to contribute to data or datasets online, **without having to create any account** if they don't want to.
+La première des fonctionnalités de Gitribute est de permettre à toute personne de contribuer facilement à des données en ligne (_no code_), **sans avoir à créer de compte sur une plateforme** si la personne ne le souhaite pas.
 
 🚧  &nbsp; `Redaction in progress...`
 
-- **Edit data stored on github or gitlab** (`csv`, `md`, or `json` files) ;
-- **Allow unidentified users to push on a separate branch** and automatically create a pull request ;
+- **Éditer des données hébergées sur Github or Gitlab** (fichiers `csv`, `md`, ou `json`) ;
+- **Permettre à des utilisateurs.rices non identifié.e.s de pousser des modifications sur une branche à part** et de créer automatiquement une "pull request" ;
