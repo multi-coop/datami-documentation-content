@@ -8,6 +8,6 @@
 </div>
 <br>
 
-À ce moment vous avez simplement à coller (ctrl+v) le bloc html du widget dans la partie texte de l´édition de votre page Wordpress.
+À ce moment vous avez simplement à coller (ctrl+v) le bloc html du widget dans la partie texte de l'édition de votre page Wordpress.
 
 Vous pouvez maintenant cliquer sur "Enregistrer" ou "Enregistrer le brouillon".
