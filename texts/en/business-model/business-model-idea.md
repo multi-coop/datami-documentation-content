@@ -14,4 +14,4 @@ The real first pieces of Gitribute's concretization weren't lines of code, they 
 
 We already had some experiences in some technologies, some of we wanted to experiment more with for instance to do widgets.
 
-That laid - **an idea and a plan** - coding the "backbone" structure for the Gitribute project was jst a matter of a couple of days.
+That laid - **an idea and a plan** - coding the "backbone" structure for the Gitribute project was just a matter of a couple of days.
