@@ -11,7 +11,7 @@ Par défaut Gitribute utilise un jeton (ou _token_) d'un "utilisateur fantôme".
 
 Ce _token_ est essentiel pour que vous puissiez "sauver" les modifications que vous avez effectuées depuis le widget. Le _token_ permet en effet d'envoyer des requêtes en `PUT` ou en `POST` vers Github ou Gitlab. 
 
-Cela étant et si vous êtes familier avec Github et/ou Gitlab (et que vous avez déjà un compte ) vous pouvez changer le _token_ par défaut pour utiliser le vôtre. Cliquez simplement sur le bouton puis cliquez sur "Changer", et enfin collez votre propre _token_.
+Cela étant et si vous êtes familier avec Github et/ou Gitlab (et que vous avez déjà un compte ) vous pouvez changer le _token_ par défaut pour utiliser le vôtre. Cliquez simplement sur le bouton <span class="icon"><i class="mdi mdi-account"></i></span> puis cliquez sur "Changer", et enfin collez votre propre _token_.
 
 <div style="border: thin solid lightgrey;">
   <img
