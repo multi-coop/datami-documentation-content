@@ -1,5 +1,5 @@
 
-## Faciliter la contribution ouverte pour tout le monde
+## Simplifier la contribution ouverte pour tout le monde
 
 Nous sommes arrivés à la conclusion que le mouvement _open data_ impliquait que **tout citoyen ou organisation** devrait être en capacité de **contribuer** sur **n´importe quelle sorte de donnée ouverte** auxquelle il•elle s´intéresse, cela sans que leurs compétences techniques ne soient un frein.
 
