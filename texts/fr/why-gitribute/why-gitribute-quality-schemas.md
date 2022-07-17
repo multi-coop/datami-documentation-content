@@ -1,11 +1,11 @@
-### Data & schemas
+### Data & schémas de données
 
-"_Schemas_" are a key stone to make open data more interoperable. To help public or private actors making their open data more reusable and more valueable, **sharing common referentials is vital**.
+Les "_Schémas_" sont essentiels pour rendre des données interopérables. Pour aider des acteurs publics ou privés à rendre leurs données ouvertes réutilisables par d'autres et les rendre plus intéressantes, **partager des référentiels communs est primordial**.
 
-The French State has a strong roadmap regarding schemas, and there is already a good [list of schemas already existing](https://schema.data.gouv.fr/schemas.html) to create or analyze datasets.
+L'Etat français a par exemple une politique et une feuille de route solides en ce qui concerne les schémas de données, une [liste de schémas](https://schema.data.gouv.fr/schemas.html) est d'ailleurs consultable et permet de créer ou d'analyser des données au regard de ceux-ci.
 
-Gitribute follows the trend of "[frictionless data](https://frictionlessdata.io/)" and some of Gitribute's widgets allow to **[apply table schema](/docs-gitfile)** to the tables you share in a widget.
+Gitribute suit le mouvement "[frictionless data](https://frictionlessdata.io/)" et certains de ses widgets permettent d'**[appliquer un schéma sur une table](/docs-gitfile)** partagée dans un widget.
 
-Our intention with Gitribute is to allow actors with more modest means than a state (!) or big companies to use schemas.
+Notre intention avec Gitribute est de permettre à des acteurs ayant des moyens plus modeste que l'Etat (!) ou que de grosses compagnies de profiter de tous les bénéfices qu'offrent les schémas.
 
-If schemas are vital to make better open data, and if we want common citizen to produce open data, **using a schema upon a table should become trivial or transparent**.
+En somme si les schémas de données sont aussi vitaux pour l'_open data_ d'une part, et que nous souhaitons que tout citoyen puisse produire de l'_open data_ de qualité d'autre part, **utiliser un schéma sur une table devrait se révéler être une opération triviale ou transparente**.
