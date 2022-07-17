@@ -27,7 +27,7 @@
       Informations & contact
     </h5>
     <p class="has-text-centered">
-      Pour plus d´infos sur Gitribute <br>
+      Pour plus d'infos sur Gitribute <br>
       contactez-nous à
     </p>
     <p class="has-text-centered is-size-4 mt-6">
