@@ -1,4 +1,4 @@
-#### "Preview" mode
+#### Mode "Prévisualisation"
 
 <div>
   <img
@@ -7,9 +7,9 @@
     />
 </div>
 
-This is the default "edit-view" mode. It displays you the data as you edited it. If you don't have edited anything on the document yet, it shows you the source data as it is in the distant source file.
+Il s'agit du mode par défaut de la "vue-édition". Ce mode permet d'afficher les données telles que vous les avez éditées. Si vous n'avez pas encore commencé à éditer le document, les données sont affichées telles qu'elles sont dans le fichier source. 
 
-For instance the `preview` mode for a `json` file looks something like this :
+Par exemple la prévisualisation d'un fichier `json` ressemble à ceci :
 
 <div style="border: thin solid lightgrey;">
   <img 
