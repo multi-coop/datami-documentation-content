@@ -2,7 +2,7 @@
 
 Nous avons travaillé dés le début des développements sur Gitribute sur la base de **vrais cas utilisateurs**, y compris dans ses toutes premières versions.
 
-Les premières briques de Gitribute répondaient déjà aux demandes d´un premier, puis d´un second, puis d´un troisième client... Ces briques répondaient à ce que nous concevions comme des besoins partagés par tous ces clients.
+Les premières briques de Gitribute répondaient déjà aux demandes d'un premier, puis d'un second, puis d'un troisième client... Ces briques répondaient à ce que nous concevions comme des besoins partagés par tous ces clients.
 
 De fait nous pouvions **avoir de réels retours** au cours de nos cycles de développements.
 
