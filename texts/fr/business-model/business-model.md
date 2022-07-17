@@ -14,7 +14,7 @@ Maintenant que nous avons énuméré les raisons pour lesquelles [la coopérativ
 
 La question se pose :
 
-> 😧 &nbsp; — **Comment est-ce qu'ils comptent financer les développements de Gitribute ?!**
+> 😧 &nbsp; — **Comment est-ce que cette coopérative compte financer les développements de Gitribute ?!**
 
 Et si ça vous semble un peu suspect, cette question aussi :
 
