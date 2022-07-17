@@ -1,28 +1,30 @@
 
-## To reduce the costs of opening your data
+## Réduire le coût de l'ouverture des données
 
-We are developping Gitribute so **the cost to share data, and the cost to make open contributions to it approaches zero**.
+Nous développons Gitribute afin que **le coût d'ouvrir ses données pour une organisation tende vers zéro**.
 
-The most expensive part of maintaining any data infrastructure lies often in the servers. So we skipped them...
+La partie la plus coûteuse de l'open data réside dans le temps humain consacré par l'organisation dans la curation des données d'une part, et dans la maintenance d'une infrastructure technique.
 
-Somehow we consider Gitribute as a "low-tech" approach when it comes to edit data online in a no-code way, at least relatively to [other solutions on the market](/benchmark).
+Gitribute cherche à répondre à ces deux points : en simplifiant le processus de curation, et en évitant d'inclure un _backend_ au sens traditionnel du terme.
 
-> — [How ?](/how-it-works)
-> &nbsp; _( You would ask at this point )_
+Nous considérons Gitribute comme ayant une approche "low-tech" lorsqu'il s'agit d'éditer des données en ligne (d'autres diraient _no-code_), du moins quand nous nous comparons aux [autres solutions similaires sur le marché](/benchmark).
 
-By **using the most popular and free data infrastuctures already existing around the globe to store users' data** : 
+> — [Mais comment ?](/how-it-works)
+> &nbsp; _( Vous vous demandez )_
+
+En **utilisant des infrastructures existantes libres et largement adoptées** qui servent déjà à héberger des données partout dans le monde ;
 
 - [Gitlab](https://gitlab.com/)
 - [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki)
 - [Github](https://github.com/)
 
-> — [Is it really free ?](/business-model)
-> &nbsp; _( You would ask later on )_
+> — [Et c'est vraiment gratuit ?](/business-model)
+> &nbsp; _( Vous demanderez alors )_
 
-**Yes**.
+**Oui**.
 
-The Gitribute's [code](/software) and the solution itself are designed to remain 100% free, and our [business model](/business-model) for Gitribute is built around this rule.
+Le [code](/software) de Gitribute et l'ensemble de la solution sont conçus pour rester 100% gratuits, et notre [business model](/business-model) pour Gitribute est construit autour de cette règle fondatrice.
 
 _[Code is law, and law is code](https://journals.openedition.org/factsreports/4518)_.
 
-Our rule, our law : **do free softwares**.
+Notre règle, notre loi : **faire du logiciel libre**.
