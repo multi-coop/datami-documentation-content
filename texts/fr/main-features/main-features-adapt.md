@@ -1,5 +1,5 @@
-### Adapt the widgets to your needs
+### Adapter les widgets à vos besoins
 
 🚧  &nbsp; `Redaction in progress...`
 
-- **Web integration as modular web component**
+- **Intégration web comme widgets modulaires**
