@@ -7,4 +7,4 @@
     />
 </div>
 
-Vous pouvez télécharger localement le fichier sur votre ordinateur ou votre terminal en cliquant simplement sur ce bouton.
+Vous pouvez télécharger localement le fichier sur votre ordinateur ou votre terminal en cliquant simplement sur le bouton <span class="icon"><i class="mdi mdi-download"></i></span> .
