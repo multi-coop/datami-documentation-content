@@ -9,7 +9,7 @@
 
 Certains boutons et vues sont uniquement possibles pour des données de type tabulaire. La vue `fiches` fait partie de ces cas.
 
-Sinle widget est configuré afin de permettre la vue `fiches`, le fichier tabulaire peut être visualisé sous la forme d'une liste de fiches.
+Si le widget est configuré afin de permettre la vue `fiches`, le fichier tabulaire peut être visualisé sous la forme d'une liste de fiches.
 
 Vous pouvez néanmoins accéder aux mêmes actions et "vues-édition" (édition, diff, prévisualisation) en vue "fiches" qu'en vue "table".
 
