@@ -8,4 +8,4 @@
 </div>
 <br>
 
-La première chose à faire est de vous authentifier dans la partie admin de votre site Wordpress, comme vous le feriez habituellement.
+La première chose à faire est de vous authentifier dans la partie `admin` de votre site Wordpress, comme vous le feriez habituellement.
