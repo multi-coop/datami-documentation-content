@@ -1,4 +1,4 @@
-## Pas de piège, c´est juste _open source_
+## Pas de piège, c'est juste _open source_
 
 Rien de très original en fait dans le monde des projets _open source_
 
