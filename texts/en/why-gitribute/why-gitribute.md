@@ -36,6 +36,27 @@
 
 ---
 
+<p class="has-text-centered">
+  Gitribute aims to...
+</p>
+
+<div class="columns is-4 is-centered">
+  <div class="column is-3 is-mobile-6 has-text-centered">
+    <b>Make contribution easier</b> on open data
+  </div>
+  <div class="column is-3 is-mobile-6 has-text-centered">
+    <b>Help produce</b> open data
+  </div>
+  <div class="column is-3 is-mobile-6 has-text-centered">
+    <b>Reduce the cost</b> of open data
+  </div>
+  <div class="column is-3 is-mobile-6 has-text-centered">
+    Make <b>quality open data</b>
+  </div>
+</div>
+
+---
+
 But let's rewind to the starting point of the Gitribute project.
 
 There is no precise moment to think of, but those bits of (not so much) imaginary conversations will give you an idea of what was going on in our mind.

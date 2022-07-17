@@ -36,6 +36,27 @@
 
 ---
 
+<p class="has-text-centered">
+  Gitribute vise à...
+</p>
+
+<div class="columns is-4 is-centered">
+  <div class="column is-3 is-mobile-6 has-text-centered">
+    <b>Simplifier la contribution</b> à l'open data
+  </div>
+  <div class="column is-3 is-mobile-6 has-text-centered">
+    <b>Aider à produire</b> des données ouvertes
+  </div>
+  <div class="column is-3 is-mobile-6 has-text-centered">
+    <b>Réduire le coût</b> de l'open data
+  </div>
+  <div class="column is-3 is-mobile-6 has-text-centered">
+    Faire de l'<b>open data de qualité</b>
+  </div>
+</div>
+
+---
+
 Mais faisons un petit retour sur le moment où a démarré le projet Gitribute.
 
 Il n'y a pas réellement un moment précis, mais ces petits dialogues imaginaires (pas tant que ça en fait) vous donneront une idée de ce qui nous préoccupait à l'époque.
@@ -80,31 +101,31 @@ A ce niveau l'alternative était devenue claire :
   * * *
 </p>
 
-🚧  &nbsp; `Redaction in progress...`
+<!-- 🚧  &nbsp; `Redaction in progress...` -->
 
-The Gitribute projects inherits from a lot a brainstorming about **what is open data**, and **what is open data for**.
+Le projet Gitribute hérite de longues et passionnantes discussions à propos de **ce qu'est l'_open data_**, et de **ce à quoi sert l'_opn_data_**.
 
-Nowadays _open data_ is everywhere, and sometimes you don't even notice it. Wikipedia pages are crawled by startups, Open Street Maps data are reused by state or private entities, public data are re-published for public use... Data helps governments in piloting their policies, startups to target customers and refine their commercial offer...
+De nos jours l'_open data_ est partour, parfois là où on ne le remarque pas. Les pages de Wikipédia sont "_crawlées_" par des startups, les données d'Open Street Map sont réutilisées par l'Etat ou des sociétés privées, les données publiques sont publiées à des fins de réutilisation par d'autres acteurs publics... Les données aident des gouvernements à piloter leurs actions, et aident des startups à cibler leurs clients ou à affiner leur offre commerciale...
 
-For an actor **their data** - at least their available data - is what helps them :
+Pour un acteur dans ce monde numérisé, **ses données** - ou du moins celles qu'il a à disposition - l'aide :
 
-- Giving them an **understading** of the world they live in ;
-- **Sharing** the actor's vision of the world they shaped with their data ;
-- **Guiding** the actor in its actions ;
-- And consequently **reshaping** the world at their own scale.
+- À **se faire une idée** de son environnement ;
+- À **partager** cette idée du monde qu'il contribue à transformer ;
+- À **piloter** ses actions ;
+- Et conséquemment à **transformer** son environnement à son échelle.
 
-The question remains : usually **who can produce** this data ?
+La question qui se pose ici est : **qui est capable de produite** ce genre de données ?
 
-Developpers and engineers firsthand yes, but in service of states, institutions, banks, startups, some [NGOs](https://www.openstreetmap.org), [very few media](https://www.icij.org/)... Big structures, specialized engineers, big fellows, few of you fellow man (or woman).
+On pourrait certes répondre en premier lieu les développeurs et les ingénieurs, mais la plupart du temps au service soit d'états, d'institutions, de banques, de startups, de quelques [ONGs](https://www.openstreetmap.org), [quelques rares médias](https://www.icij.org/)... Bref des structures de taille respectable, des ingénieurs spécialisés, des "grosses boîtes" quoi, et au final très peu de citoyens lambda.
 
-Where is your grandpa' or your grandma' fitting in this picture ? Your neighbour ? Your work colleagues ? Your local non profit association ? Yourself ?
+Et votre papi ou mamie dans cette histoire ? Votre voisin.e ? Vos collègues ? Votre association de quartier ? Vous-même ?
 
-This large multitude - you included if you're not listed above - quite certainly know a lot of stuff concerning their land, the country they live in, or even the smallest interesting initiatives in their town. They are as **legitimate** and **concerned** by _open data_ than engineers, states, or corporations. But usually they are far less or well equiped to produce some useful open data themselves.
+Cette multitude d'acteurs - vous y compris - sait et a certainement beaucoup à dire sur leurs territoires, le pays dans lequel ils vivent, voire même sur des initiatives locales. Ces "petits" acteurs sont tout aussi **légitimes** et **concernés** par l'_open data_ que des ingénieurs salariés, des états, ou des corporations. Mais ces "petits" acteurs sont en général bien moins bien équipés ou bien moins formés pour produire et ouvrir des données pour qu'elles soient réellement utiles.
 
-In this the race to produce the data framing our world, we plead for a **better balance between "big and visible" data producers and the "less visible" ones** : local or regional non-profit organizations, small regional public services, unformal collectives...
+Dans cette course à la production des données censées dépeindre le monde, nous souhaiterions un **meilleur équilibre entre les "gros et visibles" producteurs de données et les "petits et moins visibles"** : les organisations locales, les structures à lucrativité limitée ou non-llucrative, les collectifs informels de citoyens...
 
-We also plead for a **better interoperability between "grassroot" and "top-down" data**. If anyone can edit an excel table, anyone should be able to make that table understandable, reusable, improvable by oher actors.
+Nous plaidons aussi en faveur d'une **meilleure intéropérabilité entre les données produites "par le terrain" et celles produites "d'en haut"**. Si aujourd'hui la plupart des individus sont en mesure de faire un tableur Excel, chacun devrait être en capacité de produire des données compréhensibles, réutilisables, améliorables par tou.te.s.
 
 <p class="has-text-centered mt-6 mb-0">
-  ** *
+  * * *
 </p>
