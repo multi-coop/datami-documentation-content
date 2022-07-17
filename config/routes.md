@@ -393,16 +393,16 @@ routes:
       summary: true
       contrib: true
       name:
-        fr: Business model
-        en: Business model
+        fr: "100% libre & gratuit"
+        en: "100% free"
     sections: 
       - name: business-model
         component: TextComponent
         options:
           columns-size: three-quarters
           name:
-            fr: Business model
-            en: Business model
+            fr: Introduction
+            en: Introduction
         files:
           fr: ./texts/fr/business-model/business-model.md
           en: ./texts/en/business-model/business-model.md
