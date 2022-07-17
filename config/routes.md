@@ -17,7 +17,7 @@ routes:
       - name: catchphrase
         component: TextComponent
         options:
-          columns-size: full
+          columns-size: three-quarters
         files:
           fr: ./texts/fr/landing/catchphrase.md
           en: ./texts/en/landing/catchphrase.md

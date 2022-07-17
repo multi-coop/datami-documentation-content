@@ -1,8 +1,29 @@
 
+<div class="columns is-4 is-centered">
+  <div class="column is-4 has-text-centered">
+    <p class="is-size-4">
+      Share &nbsp;
+      🌐
+    </p>
+  </div>
+  <div class="column is-4 has-text-centered">
+    <p class="is-size-4">
+      Edit &nbsp;
+      🖊️
+    </p>
+  </div>
+  <div class="column is-4 has-text-centered">
+    <p class="is-size-4">
+      Contribute &nbsp;
+      👥
+    </p>
+  </div>
+</div>
+
 <div class="has-text-centered">
 
   <p class="is-size-4 mb-2">
-    <span class="mx-4">
+    <!-- <span class="mx-4">
       Share &nbsp;
       🌐
     </span>
@@ -16,7 +37,7 @@
       Contribute &nbsp;
       👥
     </span>
-    <br>
+    <br> -->
     <b>easily</b>
     &nbsp; & &nbsp;
     <b>for free</b>
