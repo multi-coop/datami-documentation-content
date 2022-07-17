@@ -1,21 +1,33 @@
 
-<div class="columns is-4 is-centered">
+<div class="columns is-mobile is-4 is-centered">
   <div class="column is-4 has-text-centered">
     <p class="is-size-4">
-      Share &nbsp;
       🌐
+      <!-- &nbsp; -->
+      <br>
+      Share
+      <!-- &nbsp; -->
+      <!-- 🌐 -->
     </p>
   </div>
   <div class="column is-4 has-text-centered">
     <p class="is-size-4">
-      Edit &nbsp;
       🖊️
+      <!-- &nbsp; -->
+      <br>
+      Edit
+      <!-- &nbsp; -->
+      <!-- 🖊️ -->
     </p>
   </div>
   <div class="column is-4 has-text-centered">
     <p class="is-size-4">
-      Contribute &nbsp;
       👥
+      <!-- &nbsp; -->
+      <br>
+      Contribute
+      <!-- &nbsp; -->
+      <!-- 👥 -->
     </p>
   </div>
 </div>
