@@ -7,4 +7,4 @@
     />
 </div>
 
-You can download the file on your computer or device just by clicking this button.
+You can download the file on your computer or device just by clicking the <span class="icon"><i class="mdi mdi-download"></i></span> button.
