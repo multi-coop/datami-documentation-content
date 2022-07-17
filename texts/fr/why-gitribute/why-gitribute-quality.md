@@ -1,5 +1,5 @@
 
-## Faire de l'open data de qualité
+## ✨ &nbsp; Faire de l'open data de qualité
 
 Quiconque a déjà reçu des jeux de données (tableur excel, csv, json,...) dans sa boîte mail sait qu'il peut se révéler compliqué de réutiliser - voire même  de comprendre - des données que vous n'avez pas produites vous-même.
 

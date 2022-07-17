@@ -1,5 +1,5 @@
 
-## To help organizations opening their data
+## 🔧 &nbsp; To help organizations opening their data
 
 The thing is that **producing** open datasets could be a very technical task. 
 

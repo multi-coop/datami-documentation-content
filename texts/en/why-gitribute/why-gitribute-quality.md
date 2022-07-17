@@ -1,5 +1,5 @@
 
-## To plead for quality open data
+## ✨ &nbsp; To plead for quality open data
 
 Anyone who received datasets (a spreadsheet, a csv, a json...) in their mail knows the challenges in reusing - or even understanding - tables you didn't produce yourself.
 

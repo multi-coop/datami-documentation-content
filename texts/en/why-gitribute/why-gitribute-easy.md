@@ -1,5 +1,5 @@
 
-## To make open contribution easier for everybody
+## 😅 &nbsp; To make open contribution easier for everybody
 
 We arrived to the conclusion that _open data_ means that **any citizen or organization** should be able to contribute **to any kind of data** they are interested in, and they should not be restrained by their technical abilities.
 

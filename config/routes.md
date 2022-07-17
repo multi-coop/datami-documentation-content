@@ -235,8 +235,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            fr: Simplififier la contribution ouverte
-            en: Make open contribution easier 
+            fr: 😅 Simplififier la contribution ouverte
+            en: 😅 Make open contribution easier 
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-easy.md
           en: ./texts/en/why-gitribute/why-gitribute-easy.md
@@ -245,8 +245,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            fr: Aider les organisation à ouvrir leurs données
-            en: Help organizations opening data
+            fr: 🔧 Aider les organisation à ouvrir leurs données
+            en: 🔧 Help organizations opening data
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-open.md
           en: ./texts/en/why-gitribute/why-gitribute-open.md
@@ -255,8 +255,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            fr: Réduire le coût de l'open data
-            en: Reduce the cost of open data
+            fr: 💸 Réduire le coût de l'open data
+            en: 💸 Reduce the cost of open data
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-costs.md
           en: ./texts/en/why-gitribute/why-gitribute-costs.md
@@ -265,8 +265,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            fr: Faire de l'open data de qualité
-            en: Make quality open data
+            fr: ✨ Faire de l'open data de qualité
+            en: ✨ Make quality open data
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-quality.md
           en: ./texts/en/why-gitribute/why-gitribute-quality.md

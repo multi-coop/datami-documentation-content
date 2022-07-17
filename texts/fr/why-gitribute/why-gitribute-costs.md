@@ -1,5 +1,5 @@
 
-## Réduire le coût de l'ouverture des données
+## 💸 &nbsp; Réduire le coût de l'ouverture des données
 
 Nous développons Gitribute afin que **le coût d'ouvrir ses données pour une organisation tende vers zéro**.
 
