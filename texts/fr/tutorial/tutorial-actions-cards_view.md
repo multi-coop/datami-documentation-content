@@ -1,4 +1,4 @@
-## The `cards` view
+## La vue `fiches`
 
 <div>
   <img
@@ -7,13 +7,13 @@
     />
 </div>
 
-Some "view-modes" buttons are only available for table data, like the `cards` view.
+Certains boutons et vues sont uniquement possibles pour des données de type tabulaire. La vue `fiches` fait partie de ces cas.
 
-If the widget is configured to allow the `cards` view, a table data file could be rendered as a list of cards.
+Sinle widget est configuré afin de permettre la vue `fiches`, le fichier tabulaire peut être visualisé sous la forme d'une liste de fiches.
 
-You can still make the same actions of edition and diff views while in `cards` view.
+Vous pouvez néanmoins accéder aux mêmes actions et "vues-édition" (édition, diff, prévisualisation) en vue "fiches" qu'en vue "table".
 
-For instance the `cards` view mode for a `csv` (table) file looks something like this :
+Par exemple la vue `fiches` pour un fichier `csv` (table) ressemble à ceci :
 
 <div style="border: thin solid lightgrey;">
   <img 
