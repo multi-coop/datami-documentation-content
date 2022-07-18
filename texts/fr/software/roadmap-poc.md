@@ -1,5 +1,7 @@
 ## Proof Of Concept (POC) 
 
+🚧  &nbsp; `Translation in progress...`
+
 **Developments : april-july 2022**
 
 The first step of the project was to prove our ideas and hypothesis were technically working.
