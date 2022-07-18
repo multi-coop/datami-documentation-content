@@ -1,5 +1,7 @@
 ### Consolidation field
 
+🚧  &nbsp; `Translation in progress...`
+
 <div>
   <img
     alt="TUTORIAL-EDITION-CSV-CONSOLIDATE"
