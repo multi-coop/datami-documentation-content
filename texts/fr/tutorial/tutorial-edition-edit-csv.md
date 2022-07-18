@@ -1,8 +1,6 @@
 
 ## Editer un fichier csv
 
-🚧  &nbsp; `Translation in progress...`
-
 <div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-EDITION-CSV"
