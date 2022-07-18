@@ -1,5 +1,7 @@
 ### Table fields
 
+🚧  &nbsp; `Translation in progress...`
+
 To be a bit more accurate we will use the terme `field` instead of `column` in this section.
 
 The fields are listed horizontally in the first row, as they are written in the source file.
