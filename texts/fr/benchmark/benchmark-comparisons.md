@@ -1,5 +1,7 @@
 ## Comparisons
 
+🚧  &nbsp; `Redaction in progress...`
+
 The solutions we listed below are the ones we could think of, as close as possible to answer to the **sum of constraints** (all at once) of an "open data for all":
 
 - **Free**, or at least very **cheap** ;
