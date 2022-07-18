@@ -10,7 +10,7 @@ Comment s'opère la transition entre :
 
 Cette partie se focialise sur les travaux préparatoire et le _brainstorming_ qui ont permis de passer d'une bonne idée encore floue au projet Gitribute tel qu'il est aujourd'hui : [un plan, une feuille de route, une architecture "agile"](https://www.linkedin.com/pulse/agile-approach-methodology-carlo-occhiena/).
 
-_There's no wizard jizz in [making stuff](https://www.youtube.com/watch?v=N4IfPtl3W_M&ab_channel=exurb1a), [only a lot of engineering](https://www.youtube.com/watch?v=qE0UimODxNg&ab_channel=exurb1a)_
+"_There's no wizard jizz in [making stuff](https://www.youtube.com/watch?v=N4IfPtl3W_M&ab_channel=exurb1a), [only a lot of engineering](https://www.youtube.com/watch?v=qE0UimODxNg&ab_channel=exurb1a)_"
 
 C'est parti pour un petit trip...
 
