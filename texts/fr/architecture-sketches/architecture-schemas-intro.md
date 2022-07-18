@@ -1,5 +1,7 @@
 # Architecture & sketches
 
+🚧  &nbsp; `Translation in progress...`
+
 How do you transition from :
 
 > — _Hey, how should use Git more in frontend projects ?_
