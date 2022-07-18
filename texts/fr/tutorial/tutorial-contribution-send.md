@@ -1,5 +1,7 @@
 ## Send a contribution
 
+🚧  &nbsp; `Translation in progress...`
+
 <div>
   <img
     alt="TUTORIAL-ACTIONS-SEARCH"
