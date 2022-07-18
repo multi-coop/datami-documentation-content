@@ -1,6 +1,8 @@
 
 ## Dialog before saving changes (send a contribution)
 
+🚧  &nbsp; `Translation in progress...`
+
 To "save" one's changes over a data, we use Git for version control.
 
 More precisely we rely on Git service providers like Github or Gitlab. 
