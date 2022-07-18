@@ -1,6 +1,6 @@
 ## What is a contribution ?
 
-<!-- 🚧  &nbsp; `Redaction in progress...` -->
+🚧  &nbsp; `Translation in progress...`
 
 Would you guess which difference between Wikipedia and Twitter we like to emphasize the most ?
 
