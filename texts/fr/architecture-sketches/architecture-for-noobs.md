@@ -1,6 +1,8 @@
 
 ### ... For noobs
 
+🚧  &nbsp; `Translation in progress...`
+
 We believe you don't have to be an engineer to have or share your knowledge.
 
 Knowledge _is_ data, and likewise it comes in all shapes and forms.
