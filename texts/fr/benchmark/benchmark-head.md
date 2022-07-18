@@ -1,6 +1,6 @@
 # Benchmark
 
-🚧  &nbsp; `Redaction in progress...`
+🚧  &nbsp; `Translation in progress...`
 
 While developping Gitribute we keep in mind there are other solutions on similar use cases.
 
