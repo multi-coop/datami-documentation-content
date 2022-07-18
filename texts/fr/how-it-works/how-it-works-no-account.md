@@ -1,6 +1,8 @@
 
 ## Contribute anonymously (if you feel a bit shy)
 
+🚧  &nbsp; `Translation in progress...`
+
 Gitribute uses the [tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) system provided by Github or Gitlab to "commit" and contribute to some data stored on one of those git providers.
 
 To avoid asking to your grandpa' or your grandma' to create an account on those providers, and even worse to avoid asking them to create their own personal tokens, **Gitribute uses a default "ghost user token" (or your own)**.
