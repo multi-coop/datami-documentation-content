@@ -1,6 +1,8 @@
 
 ## Gitribute relies on Git providers
 
+🚧  &nbsp; `Translation in progress...`
+
 The very difference with proprietary solutions (like GoogleSheet or Airtable) or with equivalent open sourced solutions (like [nocoDB](https://www.nocodb.com/) or [Baserow](https://baserow.io/)) is that the data you edit with Gitribute is not stored on our servers. 
 
 Your data is where you want it to be, for instance on your own Gitlab server or on your Github organization.
