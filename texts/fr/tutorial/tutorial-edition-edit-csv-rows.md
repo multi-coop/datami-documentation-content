@@ -1,5 +1,7 @@
 ### Common rows operation
 
+🚧  &nbsp; `Translation in progress...`
+
 <div>
   <img
     alt="TUTORIAL-EDITION-CSV-CONSOLIDATE-ROW"
