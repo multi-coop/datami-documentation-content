@@ -1,6 +1,8 @@
 
 ## Components wireframes
 
+🚧  &nbsp; `Translation in progress...`
+
 Gitribute started with an idea, while sitting at a cafe near Paris, outside, with a bright sun on a sunny sunday. No laptop around.
 
 We started designing Gitribute a bit in an "old-fashion" way : with a pen and a paper. No fancy tools like Figma at this precise moment at the cafe.
