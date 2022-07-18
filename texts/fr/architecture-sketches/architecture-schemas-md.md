@@ -1,6 +1,8 @@
 
 ### Widget for `md` preview and edition
 
+🚧  &nbsp; `Translation in progress...`
+
 We were inspired a lot by [HedgeDoc](https://hedgedoc.org/) and [Hackmd](https://hackmd.io) interfaces.
 
 **The only thing we added was `diff` view**, as an intermediary between preview and edition.
