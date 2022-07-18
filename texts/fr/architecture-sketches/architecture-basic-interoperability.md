@@ -1,6 +1,8 @@
 
 ### Basic interoperabilty
 
+🚧  &nbsp; `Translation in progress...`
+
 In the "tech" world - and especially in the open source movement - "full interoperability" is the Graal we all crave for. Http protocol, RSS, XML, Semantic web, activityPub, were or still are great inventions reaching for this goal.
 
 Digital world is full of standards, tools, frameworks, languages, uses, etc... Some standards are adopted and widely accepted, other are struggling to become so.
