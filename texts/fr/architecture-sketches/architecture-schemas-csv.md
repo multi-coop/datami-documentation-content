@@ -1,6 +1,8 @@
 
 ### Widget for `csv` preview and edition
 
+🚧  &nbsp; `Translation in progress...`
+
 _"They"_ say (at least some developpers) :
 
 > — Everything tends to look like Excel !
