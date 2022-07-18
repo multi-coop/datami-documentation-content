@@ -1,7 +1,7 @@
 
 # Tutorial / Contribution
 
-<!-- 🚧  &nbsp; `Redaction in progress...` -->
+🚧  &nbsp; `Translation in progress...`
 
 **Contributing to open data, and simplifying the process to do so online**, are the core purposes of the Gitribute project. Our whole brainstorming and effort of UX/UI simplification results from this seminal intention.
 
