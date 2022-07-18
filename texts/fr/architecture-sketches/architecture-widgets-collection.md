@@ -1,6 +1,8 @@
 
 ### A widgets collection...
 
+🚧  &nbsp; `Translation in progress...`
+
 Gitribute is constituted by of a collection of widgets you can use separatly or compose with.
 
 We didn't want to centralize a service and/or your data.
