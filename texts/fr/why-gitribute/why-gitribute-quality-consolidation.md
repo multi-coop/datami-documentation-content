@@ -1,6 +1,6 @@
 ### Consolidation de données
 
-Nous rencontrons de multiples cas où il peut être nécessaire de "consolider" un jeu de données, que ce soit en changeant la valeur d'un champ, ou bien en vérifiant qu'une donnée respecte bien certains critères.
+Nous rencontrons de multiples cas où il peut être nécessaire de "consolider" un jeu de données, que ce soit en changeant une valeur incorrecte d'un champ, ou bien en vérifiant qu'une valeur respecte bien certains critères.
 
 "_Consolider_" - de manière générale - signifie que vous avez besoin de modifier vos données pour les rendre plus "propres", plus "précises", ou plus "complètes", par exemple :
 
