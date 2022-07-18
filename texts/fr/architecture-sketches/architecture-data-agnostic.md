@@ -1,6 +1,8 @@
 
 ### Data and schema agnostic
 
+🚧  &nbsp; `Translation in progress...`
+
 Data comes in every shapes and forms. 
 
 Usually - if you did not produce this data - they come in forms you don't expected... at all...
