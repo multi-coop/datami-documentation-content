@@ -2,32 +2,30 @@
 <div class="columns is-mobile is-4 is-centered">
   <div class="column is-4 has-text-centered">
     <p class="is-size-4">
-      🌐
-      <!-- &nbsp; -->
+      <b>Partager</b>
       <br>
-      Partager
-      <!-- &nbsp; -->
-      <!-- 🌐 -->
+      <span class="is-size-3">
+        🌐
+      </span>
     </p>
   </div>
   <div class="column is-4 has-text-centered">
     <p class="is-size-4">
-      🖊️
-      <!-- &nbsp; -->
+      <b>Éditer</b>
       <br>
-      Éditer
-      <!-- &nbsp; -->
-      <!-- 🖊️ -->
+      <span class="is-size-3">
+        🖊️
+      </span>
     </p>
   </div>
   <div class="column is-4 has-text-centered">
     <p class="is-size-4">
-      👥
-      <!-- &nbsp; -->
+      <b>Contribuer</b>
       <br>
-      Contribuer
-      <!-- &nbsp; -->
-      <!-- 👥 -->
+      <span class="is-size-3">
+        <!-- 👥   -->
+        🤝
+      </span>
     </p>
   </div>
 </div>
@@ -35,21 +33,6 @@
 <div class="has-text-centered">
 
   <p class="is-size-4 mb-2">
-    <!-- <span class="mx-4">
-      Partager &nbsp;
-      🌐
-    </span>
-    ·
-    <span class="mx-4">
-      Éditer &nbsp;
-      🖊️
-    </span>
-    ·
-    <span class="mx-4">
-      Contribuer &nbsp;
-      👥
-    </span>
-    <br> -->
     <b>facilement</b>
     &nbsp; & &nbsp;
     <b>gratuitement</b>
