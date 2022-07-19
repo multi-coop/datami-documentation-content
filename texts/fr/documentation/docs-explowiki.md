@@ -1,7 +1,7 @@
 
 ## Le widget `<multi-gitribute-explowiki>`
 
-Ce widget permet d´afficher des ressources distantes provenant d´un wiki.
+Ce widget permet d'afficher des ressources distantes provenant d'un wiki.
 
 <div style="border: thin solid lightgrey;">
   <img
