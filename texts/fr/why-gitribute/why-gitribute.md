@@ -111,7 +111,7 @@ A ce niveau l'alternative était devenue claire :
 
 <!-- 🚧  &nbsp; `Redaction in progress...` -->
 
-Le projet Gitribute hérite de longues et passionnantes discussions à propos de **ce qu'est l'_open data_**, et de **ce à quoi sert l'_opn_data_**.
+Le projet Gitribute hérite de longues et passionnantes discussions à propos de **ce qu'est l'_open data_**, et de **ce à quoi sert l'_open_data_**.
 
 De nos jours l'_open data_ est partour, parfois là où on ne le remarque pas. Les pages de Wikipédia sont "_crawlées_" par des startups, les données d'Open Street Map sont réutilisées par l'Etat ou des sociétés privées, les données publiques sont publiées à des fins de réutilisation par d'autres acteurs publics... Les données aident des gouvernements à piloter leurs actions, et aident des startups à cibler leurs clients ou à affiner leur offre commerciale...
 
