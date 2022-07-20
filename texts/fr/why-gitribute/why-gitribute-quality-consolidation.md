@@ -28,4 +28,4 @@ Nous avons d'ores et déjà testé l'intégration de ces APIs tierces dans des w
 - [Base Adresse Nationale](https://adresse.data.gouv.fr/api-doc/adresse) : permet de récupérer la géolocalisation étant donné un code postale, adresse au format textuel... ;
 - ... et bientôt bien d'autres.
 
-> **Note** : Plus de détails sur la consolidation dans la partie **["Tutoriels > Édition"](/tutorial-edition)**.
+> **Note** : Plus de détails sur la consolidation dans la partie **["Tutoriels > Éditer un document"](/tutorial-edition)**.
