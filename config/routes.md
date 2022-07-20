@@ -189,19 +189,19 @@ routes:
         files:
           fr: ./texts/international/more.md
           en: ./texts/international/more.md
-      - name: btn-to-why
+      - name: btn-to-contact
         component: ButtonsComponent
         options:
           columns-size: three-quarters
           custom-class: my-6
           buttons-size: one-third
           buttons:
-            - link: /why-gitribute
+            - link: /contact
               icon-left: help-circle
               rounded: true
               label: 
-                fr: Pourquoi Gitribute ?
-                en: Why Gitribute ?
+                fr: Contactez-nous
+                en: Contact us
       - name: logo-multi
         component: TextComponent
         options:
@@ -230,6 +230,16 @@ routes:
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute.md
           en: ./texts/en/why-gitribute/why-gitribute.md
+      # - name: why-flashback
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #     name:
+      #       fr: Flashback
+      #       en: Flashback
+      #   files:
+      #     fr: ./texts/fr/why-gitribute/why-gitribute-flashback.md
+      #     en: ./texts/en/why-gitribute/why-gitribute-flashback.md
       - name: why-intro-easy
         component: TextComponent
         options:
@@ -416,50 +426,50 @@ routes:
         files:
           fr: ./texts/fr/business-model/business-model-no_trap.md
           en: ./texts/en/business-model/business-model-no_trap.md
-      - name: business-model-idea
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Une idée, et la preuve rapide que ça fonctionne
-            en: An idea, and the quick proof it could technically work
-        files:
-          fr: ./texts/fr/business-model/business-model-idea.md
-          en: ./texts/en/business-model/business-model-idea.md
-      - name: business-model-usecases
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Des vrais cas d'usage
-            en: Real use cases
-        files:
-          fr: ./texts/fr/business-model/business-model-usecases.md
-          en: ./texts/en/business-model/business-model-usecases.md
-      - name: business-model-mutualize
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Mutualiser & converger sur une feuille de route
-            en: Mutualize & converge with the roadmap 
-        files:
-          fr: ./texts/fr/business-model/business-model-mutualize.md
-          en: ./texts/en/business-model/business-model-mutualize.md
-      - name: business-model-valorize
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Valoriser l'expertise, pas le code
-            en: Valorize the expertise, not the code
-        files:
-          fr: ./texts/fr/business-model/business-model-valorize.md
-          en: ./texts/en/business-model/business-model-valorize.md
+      # - name: business-model-idea
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #     depth: 1
+      #     name:
+      #       fr: Une idée, et la preuve rapide que ça fonctionne
+      #       en: An idea, and the quick proof it could technically work
+      #   files:
+      #     fr: ./texts/fr/business-model/business-model-idea.md
+      #     en: ./texts/en/business-model/business-model-idea.md
+      # - name: business-model-usecases
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #     depth: 1
+      #     name:
+      #       fr: Des vrais cas d'usage
+      #       en: Real use cases
+      #   files:
+      #     fr: ./texts/fr/business-model/business-model-usecases.md
+      #     en: ./texts/en/business-model/business-model-usecases.md
+      # - name: business-model-mutualize
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #     depth: 1
+      #     name:
+      #       fr: Mutualiser & converger sur une feuille de route
+      #       en: Mutualize & converge with the roadmap 
+      #   files:
+      #     fr: ./texts/fr/business-model/business-model-mutualize.md
+      #     en: ./texts/en/business-model/business-model-mutualize.md
+      # - name: business-model-valorize
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #     depth: 1
+      #     name:
+      #       fr: Valoriser l'expertise, pas le code
+      #       en: Valorize the expertise, not the code
+      #   files:
+      #     fr: ./texts/fr/business-model/business-model-valorize.md
+      #     en: ./texts/en/business-model/business-model-valorize.md
       - name: clients
         component: TextComponent
         options:
@@ -766,6 +776,37 @@ routes:
         files:
           fr: ./texts/fr/tutorial/tutorial-actions-user-options-locale.md
           en: ./texts/en/tutorial/tutorial-actions-user-options-locale.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          buttons-size: half
+          custom-class: mt-6
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
+  - name: tutorial-views
+    url: /tutorial-views
+    options:
+      summary: true
+      contrib: true
+      name:
+        fr: Views
+        en: Views features
+    sections:
       - name: tutorial-actions-change-modes
         component: TextComponent
         options:
@@ -996,26 +1037,16 @@ routes:
         fr: Contribution
         en: Contribution features
     sections: 
-      - name: contribution
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Introduction
-            en: Introduction
-        files:
-          fr: ./texts/fr/tutorial/tutorial-contribution.md
-          en: ./texts/en/tutorial/tutorial-contribution.md
-      - name: contribution-what
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Qu'est-ce qu'une contribution ?
-            en: What is a contribution ?
-        files:
-          fr: ./texts/fr/tutorial/tutorial-contribution-what.md
-          en: ./texts/en/tutorial/tutorial-contribution-what.md
+      # - name: contribution
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #     name:
+      #       fr: Introduction
+      #       en: Introduction
+      #   files:
+      #     fr: ./texts/fr/tutorial/tutorial-contribution.md
+      #     en: ./texts/en/tutorial/tutorial-contribution.md
       - name: contribution-send
         component: TextComponent
         options:
@@ -1415,166 +1446,6 @@ routes:
         files:
           fr: ./texts/fr/landing/landing-multi.md
           en: ./texts/en/landing/landing-multi.md
-  - name: architecture
-    url: /architecture
-    options:
-      summary: true
-      contrib: true
-      name:
-        fr: Architecture & dessins
-        en: Architecture & sketches
-    sections: 
-      - name: architecture-schemas-intro
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Dessins & wireframes
-            en: Sketches & wireframes
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture-schemas-intro.md
-          en: ./texts/en/architecture-sketches/architecture-schemas-intro.md
-      - name: architecture
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Idées principales
-            en: Main ideas
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture.md
-          en: ./texts/en/architecture-sketches/architecture.md
-      - name: architecture-git-providers
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Des services Git comme bases de données
-            en: Git providers as database
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture-git-providers.md
-          en: ./texts/en/architecture-sketches/architecture-git-providers.md
-      - name: architecture-basic-interoperability
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Intéropérabilité basique
-            en: Basic interoperability
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture-basic-interoperability.md
-          en: ./texts/en/architecture-sketches/architecture-basic-interoperability.md
-      - name: architecture-git-data-agnostic
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Data agnostique
-            en: Data agnostic
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture-data-agnostic.md
-          en: ./texts/en/architecture-sketches/architecture-data-agnostic.md
-      - name: architecture-widgets-collection
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Une collection de widgets...
-            en: A widgets collection...
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture-widgets-collection.md
-          en: ./texts/en/architecture-sketches/architecture-widgets-collection.md
-      - name: architecture-for-noobs
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: ...Pour débutants
-            en: ...For noobs
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture-for-noobs.md
-          en: ./texts/en/architecture-sketches/architecture-for-noobs.md
-      - name: architecture-schemas-wireframes
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Wireframes des composants
-            en: Components wireframes
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture-schemas-wireframes.md
-          en: ./texts/en/architecture-sketches/architecture-schemas-wireframes.md
-      - name: architecture-schemas-csv
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Widget pour la visualisation et l'édition de `csv`
-            en: Widget for `csv` preview and edition
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture-schemas-csv.md
-          en: ./texts/en/architecture-sketches/architecture-schemas-csv.md
-      - name: architecture-schemas-md
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Widget pour la visualisation et l'édition de `md`
-            en: Widget for `md` preview and edition
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture-schemas-md.md
-          en: ./texts/en/architecture-sketches/architecture-schemas-md.md
-      - name: architecture-schemas-save-dialog
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Dialogue avant de sauvegarder
-            en: Dialog before saving changes
-        files:
-          fr: ./texts/fr/architecture-sketches/architecture-schemas-save-dialog.md
-          en: ./texts/en/architecture-sketches/architecture-schemas-save-dialog.md
-      - name: Contact
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: half
-          buttons:
-            - link: /software
-              icon-left: xml
-              rounded: true
-              label: 
-                fr: Stack
-                en: Stack
-            - link: https://gitlab.com/multi-coop/gitribute
-              icon-left: gitlab
-              rounded: true
-              label: 
-                fr: Code source
-                en: Source code
-            - link: /contact
-              icon-left: email
-              rounded: true
-              label: 
-                fr: Nous contacter
-                en: Contact us
-      - name: logo-multi
-        component: TextComponent
-        options:
-          columns-size: full
-          custom-class: mt-6
-          not-in-menu: true
-        files:
-          fr: ./texts/fr/landing/landing-multi.md
-          en: ./texts/en/landing/landing-multi.md
   - name: software
     url: /software
     options:
@@ -1682,78 +1553,6 @@ routes:
           en: ./texts/en/landing/landing-multi.md
 
   # WIDGETS
-  - name: how-it-works
-    url: /how-it-works
-    options:
-      hero: true
-      summary: true
-      contrib: true
-      name:
-        fr: Comment ça marche
-        en: How it works
-    sections: 
-      - name: how
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Introduction
-            en: Introduction
-        files:
-          fr: ./texts/fr/how-it-works/how-it-works.md
-          en: ./texts/en/how-it-works/how-it-works.md
-      - name: how-widgets-collection
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Une collection de widgets
-            en: A widgets collection
-        files:
-          fr: ./texts/fr/how-it-works/how-it-works-widgets-collection.md
-          en: ./texts/en/how-it-works/how-it-works-widgets-collection.md
-      - name: how-git-providers
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Services Git
-            en: Git providers
-        files:
-          fr: ./texts/fr/how-it-works/how-it-works-git-providers.md
-          en: ./texts/en/how-it-works/how-it-works-git-providers.md
-      - name: how-no-account
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Contribuer anonymement
-            en: Contribute anonymously
-        files:
-          fr: ./texts/fr/how-it-works/how-it-works-no-account.md
-          en: ./texts/en/how-it-works/how-it-works-no-account.md
-      - name: Contact
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          buttons-size: half
-          custom-class: mt-6
-          buttons:
-            - link: /contact
-              icon-left: email
-              rounded: true
-              label: 
-                fr: Nous contacter
-                en: Contact us
-      - name: logo-multi
-        component: TextComponent
-        options:
-          columns-size: full
-          custom-class: mt-6
-          not-in-menu: true
-        files:
-          fr: ./texts/fr/landing/landing-multi.md
-          en: ./texts/en/landing/landing-multi.md
   - name: docs-widgets-overview
     url: /docs-widgets-overview
     options:
@@ -2403,6 +2202,7 @@ routes:
         component: TextComponent
         options:
           columns-size: three-quarters
+          # custom-class: mt-6
           # columns-divider: h1
         files:
           fr: ./texts/fr/contact/contact-head.md
@@ -3000,4 +2800,20 @@ routes:
                 en: Contact us
 
 
+  # BLOG
+  - name: blog
+    url: /blog
+    sections: 
+      - name: head
+        component: TextComponent
+        options:
+          columns-size: two-thirds
+        files:
+          fr: ./texts/blog/fr/blog-head.md
+          en: ./texts/blog/en/blog-head.md
+      - name: data
+        component: DataGrid
+        files:
+          fr: ./texts/blog/fr/blog-data.md
+          en: ./texts/blog/en/blog-data.md
 --- 

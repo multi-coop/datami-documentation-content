@@ -50,32 +50,26 @@ buttons-left:
       fr: Tutoriels
       en: Tutorials
     submenu: 
-      - name: integration
-        link: /integration
-        component: simpleLink
-        label: 
-          fr: Intégration
-          en: Integration
-      - name: integration-wordpress
-        link: /integration-wordpress
-        component: simpleLink
-        label: 
-          fr: Intégration Wordpress
-          en: Wordpress integration
-      - name: sep
-        separator: true
       - name: tutorial-overview
         link: /tutorial-overview
         component: simpleLink
         label: 
           fr: Panorama des tutoriels
           en: Overview
+      - name: sep
+        separator: true
       - name: tutorial-actions
         link: /tutorial-actions
         component: simpleLink
         label: 
           fr: Actions
           en: Actions
+      - name: tutorial-views
+        link: /tutorial-views
+        component: simpleLink
+        label: 
+          fr: Vues
+          en: Views
       - name: tutorial-edition
         link: /tutorial-edition
         component: simpleLink
@@ -90,27 +84,18 @@ buttons-left:
           en: Contribution
       - name: sep
         separator: true
-      - name: quickstart-developpers
-        link: /quickstart-developpers
+      - name: integration
+        link: /integration
         component: simpleLink
         label: 
-          fr: Développeurs.euses
-          en: Quickstart for developpers
-
-  # - name: installation 
-  #   icon: code-greater-than
-  #   component: dropdownLink
-  #   options: [ arrowless, hoverable ]
-  #   label: 
-  #     fr: Installation
-  #     en: Installation
-  #   submenu:
-  #     - name: install
-  #       link: /install
-  #       component: simpleLink
-  #       label: 
-  #         fr: Installation strategies
-  #         en: Installation strategies
+          fr: Intégration
+          en: Integration
+      - name: integration-wordpress
+        link: /integration-wordpress
+        component: simpleLink
+        label: 
+          fr: Intégration Wordpress
+          en: Wordpress integration
 
   - name: documentation 
     icon: book-open-variant
@@ -120,20 +105,14 @@ buttons-left:
       fr: Documentation
       en: Documentation
     submenu:
-      - name: install
-        link: /install
-        component: simpleLink
-        label: 
-          fr: Stratégies d'installation
-          en: Installation strategies
-      - name: sep
-        separator: true
       - name: docs-widgets-overview
         link: /docs-widgets-overview
         component: simpleLink
         label: 
-          fr: Panorama
-          en: Overview
+          fr: Panorama des widgets
+          en: Widgets overview
+      - name: sep
+        separator: true
       - name: gitribute-file
         link: /docs-gitfile
         component: simpleLink
@@ -154,30 +133,26 @@ buttons-left:
           en: Widget "explowiki"
       - name: sep
         separator: true
-      - name: how-it-works
-        link: /how-it-works
+      - name: install
+        link: /install
         component: simpleLink
         label: 
-          fr: Comment ça marche ?
-          en: How does it work ?
-      - name: architecture
-        link: /architecture
+          fr: Stratégies d'installation
+          en: Installation strategies
+      - name: quickstart-developpers
+        link: /quickstart-developpers
         component: simpleLink
         label: 
-          fr: Architecture & dessins
-          en: Architecture & sketches
+          fr: Développeurs.euses
+          en: Quickstart for developpers
+      - name: sep
+        separator: true
       - name: software
         link: /software
         component: simpleLink
         label: 
           fr: Infos sur le logiciel
           en: Software infos
-      # - name: roadmap
-      #   link: /roadmap
-      #   component: simpleLink
-      #   label: 
-      #     fr: Feuille de route
-      #     en: Roadmap
 
   - name: gallery
     disabled: false
@@ -185,8 +160,8 @@ buttons-left:
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
-      fr: Galerie
-      en: Gallery
+      fr: Exemples
+      en: Examples
     submenu:
       - name: demo-cooptech
         link: /demo-cooptech
@@ -278,6 +253,15 @@ buttons-right:
     label: 
       fr: Un projet par la coopérative multi
       en: A project by the tech cooperative multi
+
+  - name: blog 
+    # icon: at
+    link: /blog
+    component: simpleLink
+    options: [ arrowless, hoverable ]
+    label: 
+      fr: Blog
+      en: Blog
 
   - name: repo 
     link: https://gitlab.com/multi-coop/gitribute
