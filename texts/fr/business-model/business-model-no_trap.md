@@ -6,3 +6,5 @@ Rien de très original en fait dans le monde des projets _open source_
 - **Commencer petit et peu cher, et itérer avec une feuille de route** ;
 - **Mutualiser les besoins de différents clients** ; 
 - **Valoriser notre expertise, pas le code** ;
+
+> **Note** : Plus de détails sur notre positionnement et notre modèle économique dans la partie **["Blog"](/blog)**.

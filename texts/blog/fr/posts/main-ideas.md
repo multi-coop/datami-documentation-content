@@ -38,78 +38,71 @@ Nous considérons que le processus de `pull request` et la modération qu'il ind
 
 Cette manière de contribuer a des _[manières](https://idiomorigins.org/origin/manners-maketh-man)_.
 
-### Basic interoperabilty
+### Intéropérabilité "basique"
 
-🚧  &nbsp; `Translation in progress...`
+Dans le petit monde de la "tech" - et particuièrement dans le milieu de '_open source_ - l'"intéropérabilité" est un Graal après lequel tous courent : faire en sorte qu'une donnée produite ici soit lisible ailleurs (sur un autre ordinateur, dans un autre logiciel). Le protocole HTTP, le RSS, le XML, le "web sémantique", le standard _activityPub_, ... sont autant d'inventions géniales allant dans ce sens.
 
-In the "tech" world - and especially in the open source movement - "full interoperability" is the Graal we all crave for. Http protocol, RSS, XML, Semantic web, activityPub, were or still are great inventions reaching for this goal.
+L'univers des technologies numériques regorge de tels standards, d'outils, de _frameworks_, de langages, etc... Certains sont réellement devenus des standards et sont à la fois largement adoptés et acceptés comme tels. D'autres luttent pour le devenir.
 
-Digital world is full of standards, tools, frameworks, languages, uses, etc... Some standards are adopted and widely accepted, other are struggling to become so.
+Depuis le début de l'informatique de nombreux acteurs de la _tech_ (des corporations par exemples) défendent et promeuvent leur(s) propre(s) standard(s), toujours meilleur(s) que celui de la concurrence.
 
-Many actors (corporations or else) fight to defend their own standard(s), which is always better than the competitor's standard, and it goes on and on...
+_Une petite pensée en passant pour le mini-disc, le bluray, et tous ces autres standards qui firent long feu avant leur chant du cygne..._ _Et une autre pensée moins tendre pour Apple et leur fâcheuse habitude de changer leurs connecteurs tous les dix minutes_.
 
-_A little though here for the mini-disc standard, the blu-ray, and many other standards who died fiercly... And a less tender though for Apple and their habit to change plugs shape every ten minutes._
+Effectivement ce petit monde de la _tech_ est... comment dire... un peu "technique", du moins pour les personnes normales.
 
-But this tech world could seem... you know... kinda very technical, at least for "normal" people.
+Tentez d'expliquer en cinq minutes les avantages et et inconvénient du _web sémantique_ à votre papi ou à votre mamie. Vous voulez vraiment essayer ? vraiment ?
 
-Try to explain the pros and cons of semantic web to your grandpa' or grandma', I dare you.
+Au lieu de viser une "intéropérabilité tous azimuts", nous avons préféré penser Gitribute comme un outil visant à **l'intéropérabilité "la meilleure possible à la fois pour les ordinateurs et les débutants"**, consistant en la combinaison de :
 
-So instead of "extensive interoperability" we prefer to imagine Gitribute posture about this topic as reaching for the **"best interoperability between noobs & machines"**, as the combination of :
+- **"Qu'est-ce que les personnes non techniciennes utilisent habituellement ?"** : excel spreadsheets, gsheet, airtable... par exemple.
+- **"Qu'est-ce que n'importe quelle machine peut lire aujourd'hui ?"** : les formats `json`, `csv`, `markdown` ...
 
-- **"What people commonly use"** : excel spreadsheets, gsheet, airtable... for instance.
-- **"What could be read by any machine today"** : `json`, `csv`, `markdown` ...
+Nous ne dirions pas que Gitribute est "intéropérable", mais juste que Gitribute tente d'utiliser au mieux les standards **à la fois les plus communs** et pour les humains, et les machines.
 
-We won't say Gitribute is interoperable, it's just it tries to use standards having the best chance to be commonly used by human and machines **altogether**...
+### Agnostique envers les données et leurs modèles
 
-### Data and schema agnostic
+Les données, il y en a pour tous les goûts et toutes les couleurs...
 
-🚧  &nbsp; `Translation in progress...`
+En général - si vous ne produisez pas vous-même un jeu de données - les données vous arrivent dans un format et dans un état que vous n'attendiez pas forcément... Et des fois plutôt l'inverse.
 
-Data comes in every shapes and forms. 
+Une idée centrale dans le projet Gitribute est que Gitribute devrait **pouvoir afficher tout type de donnée arrivant dans un fichier de type commun** (`csv`, `json`, `md`), quel que soit leur contenu : **Gitribute tente de rester "data-agnostique"**.
 
-Usually - if you did not produce this data - they come in forms you don't expected... at all...
+Cette intention est fondatrice dans la manière dont nous avons conçu Gitribute dans sa capacité à afficher des données. Pour aller au bout de cette idée nous avons permis - si l'utilisateur le souhaite - d'adjoindre différentes options de visualisations à un jeu de données afin qu'elles soient rendues aussi agréablement que voulu.
 
-A key idea in Gitribute is it should display **any data in a common format**, disregarding what's inside : **Gitribute tries to stay "data agnostic"**.
+En partant du principe que la manière la plus commune de produire des jeux de données était de le faire sous le format "tableur", nous avons inclus très rapidement dans nos développement l'option consistant à pouvoir **appliquer un [modèle de données (ou _table schema_)](https://specs.frictionlessdata.io/table-schema/)** ainsi que d'autres propriétés **à vos tableurs `csv` or `tsv`**.
 
-Taking this as the ground step for displaying data, we also wanted to append - if and only if necessary - more options so your data could be shown as beautiful you imagined it.
+### Une collection de widgets...
 
-Knowing the more common way to write data were the "table" format, we included very early in our developments a keystone feature allowing **to apply a [table schema](https://specs.frictionlessdata.io/table-schema/)** and other custom properties **to your `csv` or `tsv` files**.
+Gitribute est constitué d'une petite collection de widgets que vous pouvez utiliser séparément ou conjointement.
 
-### A widgets collection...
+Nous ne souhaitions pas centraliser et stocker vos données sur un même service. Nous ne souhaitions pas non plus obliger vos utilisateurs à se rendre sur un domaine en particulier pour consulter _vos_ données. **Nous voulions que vous puissiez valoriser vos données sur votre site**.
 
-🚧  &nbsp; `Translation in progress...`
+Après tout _vous_ avez transpiré pour les produire, _vous_ en êtes le.la propriétaire, et dond au final _vous_ en êtes responsable.
 
-Gitribute is constituted by of a collection of widgets you can use separatly or compose with.
+Cela dit si vous souhaitez à la fois **valoriser** vos données et les faire **gagner en qualité**, la meilleure des solutions est que **vos données puissent être réutilisées et améliorées par d'autres personnes.**
 
-We didn't want to centralize a service and/or your data.
+Partager. [This is the way](https://www.youtube.com/watch?v=uelA7KRLINA&ab_channel=Gabriel)...
 
-After all _you_ sweat to produce it, _you_ own it, therefore _you_ are responsible for it.
+"Partager ses données" ne peut pas se faire à moitié dans cette optique, cela suppose de laisser les personnes réutiliser VOS données où ILS le souhaitent.
 
-But if you want to **valorize** and **refine your data** the best chance to do so is to **let other people reuse and contribute to YOUR data**.
+Les widgets sont une solution technique qui nous semblait permettre ce type de partage, tout en vous laissant garder le contrôle sur vos données en nous reposant sur des "services Git" :
 
-Sharing. [This is the way](https://www.youtube.com/watch?v=uelA7KRLINA&ab_channel=Gabriel)...
+- Les données source sont hébergées dans _votre_ service Git ;
+- Tout le monde peut _proposer_ des contributions si vous le souhaitez ;
+- Mais uniquement _vous_ pouvez accepter une contribution et la merger aux données source.
 
-"Sharing data" means letting people reuse YOUR data where THEY want.
+Paraphrasons nos élégants amis les Anglais et disons que **"[Manners maketh commoner](https://www.youtube.com/watch?v=hUtNQAdhIR4&ab_channel=RodStickler)...** _you know what that means ?_"
 
-Widgets are the solution we though of to allow this, without the risk to lose entirely the control over your data :
+### ... Pour les débutants
 
-- The data source stays in _your_ repository ;
-- But _anybody_ can make a proposal...
+Nous pensons que personne n'a besoin d'un diplôme d'ingénieur pour posséder ou partager son savoir.
 
-Let's dare say again that **"[Manners maketh commoner](https://www.youtube.com/watch?v=hUtNQAdhIR4&ab_channel=RodStickler)...** _you know what that means ?_"
+La connaissance _c'est_ de la donnée, et tout comme les données la connaissance de chacun est affaire de goûts et de couleurs.
 
-### ... For noobs
+Afin de partager cette connaissances aux formes multiples dans un monde numérisé, l'expression et la transmission du savoir est affaire d'**interfaces**.
 
-🚧  &nbsp; `Translation in progress...`
+Le dernier principe - et sans doute le plus important dans notre approche - est donc celui de **donner une importance majeure à l'expérience utilisateur (_UX_) et aux interfaces (_UI_)**.
 
-We believe you don't have to be an engineer to have or share your knowledge.
+Nous ne soulignerons jamais assez cette idée : **un bon _design_ est un _design_ qui ne se remarque pas**
 
-Knowledge _is_ data, and likewise it comes in all shapes and forms.
-
-But in a digital world **interfaces** are the key to make possible the expression and sharing of people's knowledge.
-
-The last - and perhaps more important - principle we follow is the **major importance of UX and UI design**.
-
-We won't emphasize this enough : **a good design is a design you don't have to ask or care about**.
-
-Now let's do our best to fulfill this promise...
+Maintenant reste à tenir cette promesse du mieux possible...
