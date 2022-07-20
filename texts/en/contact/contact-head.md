@@ -38,6 +38,13 @@
     </p>
   </div> -->
   <div class="column is-half has-text-centered">
+    <p class="has-text-centered my-6">
+      Gitribute is a project developped<br>
+      by the tech cooperative 
+      <!-- <a href="https://multi.coop" target="_blank">
+        <b>multi</b>
+      </a> -->
+    </p>
     <a class=""
       href="https://www.multi.coop/"
       target="_blank">
@@ -46,16 +53,9 @@
         alt="TECH COOPERATIVE MULTI"
       />
     </a>
-    <h5 class="has-text-centered pt-5 is-italic">
+    <!-- <h5 class="has-text-centered pt-5 is-italic">
       Tech cooperative multi
-    </h5>
-    <p class="has-text-centered">
-      Gitribute is a project developped<br>
-      by the tech cooperative 
-      <a href="https://multi.coop" target="_blank">
-        <b>multi</b>
-      </a>
-    </p>
+    </h5> -->
     <p class="has-text-centered is-size-4 mt-6">
       <!-- 🌐 &nbsp;
       <a href="https://multi.coop" target="_blank">

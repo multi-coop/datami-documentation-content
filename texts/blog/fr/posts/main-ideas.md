@@ -5,7 +5,7 @@ created: 17/07/2022
 author: Julien Paris
 ---
 
-Gitribute est conçu comme un "micro-service" léger, qui vous laisse choisir parmi une collection réduite de widgets réutilisables pour **afficher les données que vous voulez**, **où vous voulez**, le tour **gratuitement**.
+Gitribute est conçu comme un "micro-service" léger, qui vous laisse choisir parmi une collection réduite de widgets réutilisables pour **afficher les données que vous voulez**, **où vous voulez**, le tout **gratuitement**.
 
 Pour rendre cela possible techniquement nous avons conçu Gitribute comme un projet _pure frontend_..
 
