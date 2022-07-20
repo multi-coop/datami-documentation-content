@@ -105,4 +105,6 @@ Le dernier principe - et sans doute le plus important dans notre approche - est 
 
 Nous ne soulignerons jamais assez ce principe : **un bon _design_ est un _design_ qui ne se remarque pas**.
 
+> Personnellement j'aime aussi cette variante : "Une interface c'est comme une blague. S'il faut l'expliquer c'est qu'elle n'est pas si bonne."
+
 Maintenant reste à tenir cette promesse le mieux possible...
