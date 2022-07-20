@@ -1,29 +1,29 @@
 
-#### Notes about the `usertoken` parameter
+#### Notes à propos du paramètre `usertoken`
 
-The `usertoken` parameter is one of the most important features of this project. You will need a private token to push to a repository and make all the operations we want to automatize for an open contribution :
+Le paramètre `usertoken` est un des paramètres les plus importants du projet Gitribute. Vous avez besoin d'un _token_ (ou "jeton") d'accès pour effectuer des opérations sur vos données. C'est par le biais de ce _token_ qu'il est possible d'automatiser un certain nombre d'opérations _via_ les APIs de services Git et de permettre une contribution ouverte avec Gitribute.
 
-- **Create a new branch** againt a reference branch ;
-- **Push a commit** to the new branch ;
-- **Create a merge request** from the new branch onto the reference branch.
+- **Créer une nouvelle branche** depuis la branche de référence du fichier source ;
+- **Créer un _commit_** sur cette nouvelle branche ;
+- **Créer une _merge request_** depuis la nouvelle branche vers la branche de référence.
 
-Our strategy to simplify those operations for 'normal' people (who does not give a s*** about git) was to create one or several "ghost users", so we could set the repositories' permissions and tokens in advance.
+Notre stratégie pour simplifier ces opérations pour des gens qu'on dira "normaux" (qui se fichent de Git comme Boris Johnson se fiche de son coiffeur) a été de créer un ou plusieurs "utilisateurs fantômes", de sorte qu'on puisse configurer des _tokens_ et les permissions sur un _repo_ à l'avance.
 
-In order to deploy a Gitribute demo on a domain we chose to store those tokens on an `.env` file, based on the `example.env` file at the project's root. So you can have several strategies to inject a default token :
+Afin de déployer une instance de Gitribute (par exemple sur http://gitribute.multi.coop) on pourra choisir d'injecter un _token_ d'utilisateur fantôme dans les variables d'environnement (ou dans un fichier `.env` à la racine par exemple). On a ainsi plusieurs stratégies pour injecter ce _token_ par défaut :
 
-- create an `.env` file, but you will have to deploy your own instance of Gitribute ;
-- copy-paste the html block, filling the widget's `usertoken` parameter ;
-- leave all blank and ask your users to create their own tokens on Gitub or Gitlab...
+- Créer un fichier `.env`, mais cela suppose que vous déployiez votre propre instance de Gitribute ;
+- Faire un copier-coller du bloc `html`d'un widget existant,et de remplacer la valeur du paramètre `usertoken` du widget par un _token_ de votre choix ;
+- Laisser ce paramètre vide et demander aux utilisateurs.rices du widget de créer leur propre compte et _token_ sur Github ou Gitlab...
 
-So you can read more on those topics here =>
+Davantage de documentation sur le sujet des _tokens_ personnels d'accès ici => 
 
-- More about **Gitlab** :
-  - API documentation : [docs](https://docs.gitlab.com/ee/api/)
-  - Create a private token : [docs](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
-  - Manage permissions : [docs](https://docs.gitlab.com/ee/user/permissions.html)
-- More about **Github** :
-  - API documentation : [docs](https://docs.github.com/en/rest)
-  - Create a private token : [docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-  - Manage permissions : [docs](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-roles-for-an-organization)
+- Plus d'infos sur **Gitlab** :
+  - Documentation de l'API : [docs](https://docs.gitlab.com/ee/api/)
+  - Création d'un _token_ personnel : [docs](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
+  - Gestion des permissions sur un _repo_ : [docs](https://docs.gitlab.com/ee/user/permissions.html)
+- Plus d'infos sur **Github** :
+  - Documentation de l'API : [docs](https://docs.github.com/en/rest)
+  - Création d'un _token_ personnel : [docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+  - Gestion des permissions sur un _repo_ : [docs](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-roles-for-an-organization)
 
 ---
