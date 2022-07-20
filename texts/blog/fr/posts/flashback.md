@@ -51,9 +51,9 @@ A ce niveau l'alternative était devenue claire :
 
 Le projet Gitribute hérite de longues et passionnantes discussions à propos de **ce qu'est l'_open data_**, et de **ce à quoi sert l'_opn_data_**.
 
-De nos jours l'_open data_ est partour, parfois là où on ne le remarque pas. Les pages de Wikipédia sont "_crawlées_" par des startups, les données d'Open Street Map sont réutilisées par l'Etat ou des sociétés privées, les données publiques sont publiées à des fins de réutilisation par d'autres acteurs publics... Les données aident des gouvernements à piloter leurs actions, et aident des startups à cibler leurs clients ou à affiner leur offre commerciale...
+De nos jours l'_open data_ est partout, parfois là où on ne le remarque pas. Les pages de Wikipédia sont "_crawlées_" par des startups, les données d'Open Street Map sont réutilisées par l'Etat ou des sociétés privées, les données publiques sont publiées à des fins de réutilisation par d'autres acteurs publics... Les données aident des gouvernements à piloter leurs actions, et aident des startups à cibler leurs clients ou à affiner leur offre commerciale...
 
-Pour un acteur dans ce monde numérisé, **ses données** - ou du moins celles qu'il a à disposition - l'aide :
+Pour un acteur se mouvant dans ce monde numérisé, **les données** - ou du moins celles qu'il a à disposition - l'aide :
 
 - À **se faire une idée** de son environnement ;
 - À **partager** cette idée du monde qu'il contribue à transformer ;
@@ -62,13 +62,13 @@ Pour un acteur dans ce monde numérisé, **ses données** - ou du moins celles q
 
 La question qui se pose ici est : **qui est capable de produite** ce genre de données ?
 
-On pourrait certes répondre en premier lieu les développeurs et les ingénieurs, mais la plupart du temps au service soit d'états, d'institutions, de banques, de startups, de quelques [ONGs](https://www.openstreetmap.org), [quelques rares médias](https://www.icij.org/)... Bref des structures de taille respectable, des ingénieurs spécialisés, des "grosses boîtes" quoi, et au final très peu de citoyens lambda.
+On pourrait certes répondre en premier lieu les développeurs et les ingénieurs, mais ceux-ci sont la plupart du temps au service soit d'états, d'institutions, de banques, de startups, de quelques [ONGs](https://www.openstreetmap.org), [quelques rares médias](https://www.icij.org/)... Bref des structures de taille respectable, des ingénieurs spécialisés, des "grosses boîtes" quoi, et au final très peu de citoyens lambda.
 
 Et votre papi ou mamie dans cette histoire ? Votre voisin.e ? Vos collègues ? Votre association de quartier ? Vous-même ?
 
-Cette multitude d'acteurs - vous y compris - sait et a certainement beaucoup à dire sur leurs territoires, le pays dans lequel ils vivent, voire même sur des initiatives locales. Ces "petits" acteurs sont tout aussi **légitimes** et **concernés** par l'_open data_ que des ingénieurs salariés, des états, ou des corporations. Mais ces "petits" acteurs sont en général bien moins bien équipés ou bien moins formés pour produire et ouvrir des données pour qu'elles soient réellement utiles.
+Cette multitude d'acteurs - vous y compris - sait beaucoup à dire sur leurs territoires et a certainement tout autant à en dire. Chacun possède un savoir sur le pays dans lequel il vit, sur sa région, voire même sur des initiatives locales. Ces "petits" acteurs que sont les associations ou les institutions territoriales sont tout aussi **légitimes** et **concernés** par l'_open data_ que des ingénieurs salariés des états ou des corporations. Mais ces "petits" acteurs sont en général bien moins bien équipés ou bien moins formés pour produire et ouvrir des données utiles à tous, en _open data_.
 
-Dans cette course à la production des données censées dépeindre le monde, nous souhaiterions un **meilleur équilibre entre les "gros et visibles" producteurs de données et les "petits et moins visibles"** : les organisations locales, les structures à lucrativité limitée ou non-llucrative, les collectifs informels de citoyens...
+Dans cette course à la production des données censées dépeindre le monde, nous souhaiterions un **meilleur équilibre entre les producteurs de données "gros et visibles" et les "petits et moins visibles"** : les organisations locales, les structures à lucrativité limitée ou non-llucrative, les collectifs informels de citoyens...
 
 Nous plaidons aussi en faveur d'une **meilleure intéropérabilité entre les données produites "par le terrain" et celles produites "d'en haut"**. Si aujourd'hui la plupart des individus sont en mesure de faire un tableur Excel, chacun devrait être en capacité de produire des données compréhensibles, réutilisables, améliorables par tou.te.s.
 
