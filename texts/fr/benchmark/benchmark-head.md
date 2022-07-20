@@ -1,17 +1,19 @@
 # Benchmark
 
-🚧  &nbsp; `Translation in progress...`
+Nous développons Gitribute avec ferveur, mais nous gardons aussi bien à l'esprit qu'il existe des solutions pouvant paraître similaires sur le marché.
 
-While developping Gitribute we keep in mind there are other solutions on similar use cases.
+**Toutes ces solutions - y compris Gitribute - ont des avantages et des incovénients.**
 
-**All those solutions - including Gitribute - come with pros and cons.**
+Certaines de ces solutions sont _open source_, d'autres propriétaires.
 
-Some are open source, other proprietary.
+> **Note** : "_open source_" ne veut pas obligatoirement dire "gratuit", et "propriétaire" ne veut pas forcément dire "payant". Certains services en ligne peuvent être basés sur des solutions _open source_ et proposer un abonnement à un service ; d'autres services peuvent être basés sur des solutions propriétaires mais sembler gratuites (Google Sheet par exemple).
 
-The vast majority of these solutions store your data in their "cloud". The open source solutions usually allow you to chose where to host your own backend server (and assuming its maintenance).
+La grande majorité des solutions que nous répertoriées hébergent les données dans leur propre "_cloud_". Les solutions _open source_ permettent en général de  choisir entre un service en ligne PaaS (Platform as a Service) ou SaaS (Software as a Service) d'une part, ou d'installer vous-même votre propre "_cloud_" (c'est-à-dire votre propre serveur de _backend_ dont vous serez aussi chargé d'assurer la maintenance).
 
-You need to pay to access most of these solutions, one way or another ("[when it's proprietary and if it's free you are the product](https://techhq.com/2018/04/facebook-if-something-is-free-you-are-the-product/)"), etc...
+D'une façon ou d'une autre il vous est toujours nécessaire de payer pour ces services, d'une manière ou d'un autre. La maxime est bein connue : "[quand c'est propriétaire et que c'est gratuit, c'est vous le produit](https://techhq.com/2018/04/facebook-if-something-is-free-you-are-the-product/)".
 
-We like open source solutions, no question about it. But - open or not - you know what we say about **the "cloud" : it's just someone else's server**.
+Chez multi on a beau préférer les solutions _open source_, dès qu'on entend le mot "_cloud_" une autre image nous revient immédiatement en tête :
 
-The data storage centralization does not cope with Gitribute main intentions, so we tried to find a way around.
+![EQ-7w6aXsAI-3Zo](https://user-images.githubusercontent.com/21986727/180086001-4f9b025c-a0c7-4e82-b74f-9ae7120e9649.jpg)
+
+Bref la centralisation de vos données, même avec une solution _open source_, ce n'est pas l'intention première de Gritribute. On a donc cherché une manière de contourner ce problème.
