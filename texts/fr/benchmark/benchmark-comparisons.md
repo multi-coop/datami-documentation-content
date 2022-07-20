@@ -1,16 +1,14 @@
-## Comparisons
+## Comparaisons
 
-🚧  &nbsp; `Redaction in progress...`
+La liste de solutions techniques que nous établissons ci-après ne prétend pas à l'exhaustivité. Néanmoins nous avons tenté de rassembler différents outils qui cherchent à répondre autant que possible à une certaine **somme des contraintes (c'est-à-dire à toutes à la fois)** qui découlent de l'intention initiale d'un _open data_ pour tous :   
 
-The solutions we listed below are the ones we could think of, as close as possible to answer to the **sum of constraints** (all at once) of an "open data for all":
-
-- **Free**, or at least very **cheap** ;
-- Good **UX** ;
-- Good **UI** ;
-- Data **agnostic** ;
-- **Integrable** in third parties wesites ;
-- **Simple to deploy** ;
-- **Simple to maintain** ;
-- **Replicable** ;
-- **No mandatory account** creation to edit data ;
-- **Open source** (but let keep proprietary solutions in our radar)
+- **Gratuit**, ou du moins très **économiques** ;
+- Bonne **UX** ;
+- Bonne **UI** ;
+- **"Data agnostique"** ;
+- **Intégrables** dans un ou plusieurs sites tiers ;
+- **Simple à déployer** ;
+- **Simple à maintenir** ;
+- **Réplicable** ;
+- **Sans obligation de créer un compte** pour éditer des données ;
+- **Open source** (mais gardons tout de même un oeil sur les solutions propriétaires par acquis de conscience)
