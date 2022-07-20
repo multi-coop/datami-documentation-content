@@ -20,7 +20,7 @@ Enfin, le besoin de consolidation sur un jeu de données est en géral lié à u
 
 Pour ce faire nous avons conçu une manière de configurer des requêtes à des APIs, requêtes que vous pouvez personnaliser en fonction des spécificités de tel ou tel jeu de données. **Gitribute laisse le.s propriétaire.s du jeu de données décider quelle API il.s souhaite.ent inclure dans un widget, vues les particularités du jeu de données**.
 
-L'intégration d'un **service tiers de consolidation via API n'est pas écrit "en dur" dans Gitribute** : un widget Gitribute **nécessite une légère configuration** pour peupler le champ de [consolidation button](/tutorial-edition).
+L'intégration d'un **service tiers de consolidation via API n'est pas écrit "en dur" dans Gitribute** : un widget Gitribute **nécessite une légère configuration** pour peupler le champ de [consolidation](/tutorial-edition).
 
 Nous avons d'ores et déjà testé l'intégration de ces APIs tierces dans des widgets Gitribute :
 
