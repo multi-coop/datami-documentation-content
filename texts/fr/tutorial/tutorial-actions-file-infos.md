@@ -18,11 +18,9 @@ En cliquant sur ce bouton <span class="icon"><i class="mdi mdi-information-outli
 
 Comme vous le voyez les informations détaillent plusieurs choses concernant le widget et le fichier :
 
-- nom du fichier ;
-- type de fichier ;
-- type de "service git" : github, gitlab, mediawiki... ;
-- lien vers le fichier source, nom de la branche principale... ;
-- liens vers des fichiers externes si c'est le cas : schéma de données, propriétés _custom_...
+- Nom du fichier ;
+- Type de fichier ;
+- Type de "service git" : github, gitlab, mediawiki... ;
+- Lien vers le fichier source, nom de la branche principale... ;
+- Liens vers des fichiers externes si c'est le cas : schéma de données, propriétés _custom_...
 - etc...
-
----
