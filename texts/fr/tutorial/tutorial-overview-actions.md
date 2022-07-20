@@ -18,4 +18,4 @@ D'autres fonctionnalités plus spécifiques sont aussi accessibles pour certains
 
 - **Alterner entre les vues "table" et "fiches"**
 
-> **Note** : Plus de détails sur les "actions dans la partie" **["Tutoriels > Actions"](/tutorial-actions)**.
+> **Note** : Plus de détails sur les "actions dans la partie" **["Tutoriels > Voir les informations du document"](/tutorial-actions)**.

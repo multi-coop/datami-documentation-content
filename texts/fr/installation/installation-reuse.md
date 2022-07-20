@@ -21,4 +21,4 @@ La manière la plus simple d'intégrer un widget dans votre site est de copier-c
 
 <br>
 
-> **Note** : Plus de détails sur le bouton "copier le widget" dans la partie **["Tutoriels > Actions"](/docs-widgets-overview)**.
+> **Note** : Plus de détails sur le bouton "copier le widget" dans la partie **["Tutoriels > Voir les informations du document"](/docs-widgets-overview)**.

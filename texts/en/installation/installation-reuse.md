@@ -21,4 +21,4 @@ The easiest way to integrate a widget to your own website is to copy-paste an ex
 
 <br>
 
-> **Note** : More details about the button "copy widget block code" in the **["Tutorials > Actions"](/docs-widgets-overview)** section.
+> **Note** : More details about the button "copy widget block code" in the **["Tutorials > View document's informations"](/docs-widgets-overview)** section.

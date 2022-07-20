@@ -1,5 +1,5 @@
 
-# Tutorial / Actions
+# View document's informations
 
 <div>
   <img

@@ -1,4 +1,4 @@
-## Send a contribution
+# Contribute to a document
 
 <div>
   <img

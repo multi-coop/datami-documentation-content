@@ -13,29 +13,30 @@ Pas de backend dans la _stack_ de Gitribute : cela aurait occasionné trop de ma
 
 Cela dit, si on souhaite afficher des données dans un widget _front_ _**les données doivent bien venir de quelque part, non ?**_
 
-### Git providers as databases
+### Des services Git en guise de bases de données
 
-🚧  &nbsp; `Translation in progress...`
+En tant que développeurs nous-mêmes nous avons un usage à la quotidien et assez extensif de plateformes comme Github ou Gitlab. En général nous - les développeurs - sommes assez d'accord sur le fait de ce sont des infrastructures **extrêmement** utiles !
 
-As developpers ourselves we have a daily and extensive use of Github or Gitlab, and let's agree to say those are AMAZING infrastructures ! 
+Tous les jours nous (enfin nous, développeurs) nous profitons de ces services pour :
 
-Every day, we (I mean we developpers) enjoy those services :
-
-- Version management ;
-- Secure authentication ;
-- APIs ;
-- Robust and scalable infrastructures ;
+- La gestion de versions et de modifications ;
+- L'authentification et l'identification de qui modifie quoi ;
+- Des APIs ;
+- Communiquer et échanger avec nos pairs ;
+- Le tout sur des services aux infrastuctures stables et robustes ;
 - etc...
 
-So if we - developers - store our data and code over there the whole time, let's keep it that way and let you enjoy this same relief.
+Du coup si nous - développeurs - hébergeons nos données et notre code sur ces services tout le temps, faisons ainsi mais tentons de vous faire bénéficier vous aussi de tout cela.
 
-**Gitribute's prefered database is "no" database in a common sense, so let it be Github or Gitlab**. There is an extensive documentation to know how to get or modify the data via their APIs.
+**La base de données préférée de Gitribute est "pas de base de donnée du tout"**, du moins au sens habituel du terme. En lieu et place de base de donnée dédiée pour Gitribute (qui aurait pu être un serveur de _backend_ + BDD en SQL, PostGreSQL, MongoDB...) **Gitribute s'appuie sur Github ou Gitlab pour stocker les données**.
 
-The other important feature those "Git providers" deliver us is the ability to create `branches` and `pull requests`. Think of it as "contribution proposals" sent to a dataset's owner : **the owner can accept, reject, or amend a proposal before merging it to its dataset**.
+Il existe un documentation extrêmement fournie sur les APIs de ces services (Gitlab est un logiciel libre par ailleurs), APIs qui permettent de modifier ces données à distance.
 
-We consider the "pull request" - and the moderation it leads to - as the more polite way to collaborate : propose something to someone, and let they chose to accept it or not.
+L'autre fonctionnalité importante dans Gitribute que permet le fait de s'adosser à ces "services Git" que sont Github ou Gitlab réside dans la possibilité de créer des `branches` et des `pull requests`. Imaginez ces concepts comme des "propositions de contribution" envoyées au propriétaire d'un fichier : **celui-ci peut accepter, rejeter, modifier, amender, votre proposition avant de l'intégrer (ou "merger") dans son fichier**.
 
-That kind of contribution process have _[manners](https://idiomorigins.org/origin/manners-maketh-man)_.
+Nous considérons que le processus de `pull request` et la modération qu'il induit, sont la manière la plus "polie et élégante" de collaborer : proposer quelque chose à quelqu'un, lui laisser la liberté d'accepter ou pas, bref engager la conversation.
+
+Cette manière de contribuer a des _[manières](https://idiomorigins.org/origin/manners-maketh-man)_.
 
 ### Basic interoperabilty
 

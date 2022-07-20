@@ -15,4 +15,4 @@ Faire des contributions ouvertes sur un document, en incluant la possibilité qu
 - **Qu'est-ce qu'une "pull request" ou une "merge request" ?**
 - **Comment savoir si ma contribution a été acceptée / "mergée" ?**
 
-> Plus de détails sur le processus de contribution dans la partie **["Tutoriels > Contribution"](/tutorial-contribution)**.
+> Plus de détails sur le processus de contribution dans la partie **["Tutoriels > Contribuer à un document"](/tutorial-contribution)**.

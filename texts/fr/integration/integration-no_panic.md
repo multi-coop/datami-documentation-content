@@ -17,4 +17,4 @@ Gitribute inclut **un bouton pour copier en un clic un widget existant**. Ainsi 
 
 Une fois avoir cliqué sur ce bouton, **vous aurez juste à coller le bloc ˋhtmlˋ du widget - et l'adapter si vous vous le sentez - dans une page web** de votre choix !
 
-> **Note** : Plus de détails sur les boutons d'action des widgets dans la partie **["Tutoriels > Actions"](/tutorial-actions)**.
+> **Note** : Plus de détails sur les boutons d'action des widgets dans la partie **["Tutoriels > Voir les informations du document"](/tutorial-actions)**.

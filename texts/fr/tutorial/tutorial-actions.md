@@ -1,5 +1,5 @@
 
-# Tutoriel / Actions
+# Voir les informations du document
 
 <div>
   <img

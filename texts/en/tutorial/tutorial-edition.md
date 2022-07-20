@@ -1,5 +1,5 @@
 
-# Tutorial / Edition
+# Edit a document
 
 <div>
   <img

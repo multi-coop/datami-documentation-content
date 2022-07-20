@@ -57,7 +57,7 @@ We were inspired a lot by [HedgeDoc](https://hedgedoc.org/) and [Hackmd](https:/
 
 ![GITRIBUTE-WIREFRAME-EDIT-MD-01](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-md-01.png)
 
-> **Note** : More about editing and diff view in the **["Tutorials > Edition"](/tutorial-edition)** section
+> **Note** : More about editing and diff view in the **["Tutoriels > Éditer un document"](/tutorial-edition)** section
 
 ## Dialog before saving changes (send a contribution)
 
@@ -86,4 +86,4 @@ The challenge was to find an "user path" - and a design - to express this intent
 
 That said it is not completly useless to have a basic understanding of Git, and [many](https://www.atlassian.com/git) [websites](https://learngitbranching.js.org/?locale=fr_FR), [videos](https://www.youtube.com/watch?v=2ReR1YJrNOM&ab_channel=ProgrammingwithMosh), or sometimes people are available to learn the basics.
 
-> **Note** : More about contributing in the **["Tutorials > Contribution"](/tutorial-contribution)** section
+> **Note** : More about contributing in the **["Tutorials > Contribute to a document"](/tutorial-contribution)** section

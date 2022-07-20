@@ -22,4 +22,4 @@ For instance the `edit` mode for a `csv` (table) file looks something like this 
 
 <br>
 
-> **Note** : More about the "edit" mode in the **["Tutorials > Edition"](/tutorial-edition)** section.
+> **Note** : More about the "edit" mode in the **["Tutorials > Edit a document"](/tutorial-edition)** section.

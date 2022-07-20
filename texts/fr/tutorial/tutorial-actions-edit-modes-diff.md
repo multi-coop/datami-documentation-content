@@ -22,4 +22,4 @@ Par exemple le mode `diff` pour un fichier `md` (markdown) ressemble à ceci :
 
 <br>
 
-> **Note** : Plus de détails sur le mode "diff" dans les parties **["Tutoriels > Édition"](/tutorial-edition)** et **["Tutoriels > Contribution"](/tutorial-contribution)**.
+> **Note** : Plus de détails sur le mode "diff" dans les parties **["Tutoriels > Édition"](/tutorial-edition)** et **["Tutoriels > Contribuer à un document"](/tutorial-contribution)**.

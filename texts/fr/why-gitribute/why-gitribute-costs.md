@@ -9,7 +9,7 @@ Gitribute cherche à répondre à ces deux points : en **simplifiant le processu
 
 Nous considérons Gitribute comme ayant une approche "low-tech" lorsqu'il s'agit d'éditer des données en ligne (d'autres diraient _no-code_), du moins quand nous nous comparons aux [autres solutions similaires sur le marché](/benchmark).
 
-> — [Mais comment ?](/how-it-works)
+> — [Mais comment ?](/blog)
 > &nbsp; _( Vous vous demandez )_
 
 En **utilisant des infrastructures existantes libres et largement adoptées** qui servent déjà à héberger des données partout dans le monde ;

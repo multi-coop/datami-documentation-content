@@ -1,4 +1,4 @@
-## The view modes
+# The view modes
 
 <div>
   <img

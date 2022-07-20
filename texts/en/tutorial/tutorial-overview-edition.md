@@ -20,4 +20,4 @@ Other features are quite useful but more specific to table files (like `csv`), f
 - **Make a text search across the table**
 - **Filter a table**
 
-> More details about the edition features in the **["Tutorials > Edition"](/tutorial-edition)** section
+> More details about the edition features in the **["Tutorials > Edit a document"](/tutorial-edition)** section

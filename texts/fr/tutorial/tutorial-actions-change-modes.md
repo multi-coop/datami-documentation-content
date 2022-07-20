@@ -1,4 +1,4 @@
-## Les modes de vue de vos données
+# Les modes de vue de vos données
 
 <div>
   <img

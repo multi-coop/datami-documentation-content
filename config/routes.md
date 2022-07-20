@@ -197,7 +197,7 @@ routes:
           buttons-size: one-third
           buttons:
             - link: /contact
-              icon-left: at
+              icon-left: email
               rounded: true
               label: 
                 fr: Contactez-nous
@@ -624,8 +624,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            fr: Actions principales
-            en: Main actions
+            fr: Voir les informations du document
+            en: View document's informations
         files:
           fr: ./texts/fr/tutorial/tutorial-overview-actions.md
           en: ./texts/en/tutorial/tutorial-overview-actions.md
@@ -634,8 +634,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            fr: Édition
-            en: Edition
+            fr: Édition & vues d'un document
+            en: Edition & document's views
         files:
           fr: ./texts/fr/tutorial/tutorial-overview-edition.md
           en: ./texts/en/tutorial/tutorial-overview-edition.md
@@ -644,8 +644,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            fr: Contribution
-            en: Contribution
+            fr: Contribuer à un document
+            en: Contribute to a document
         files:
           fr: ./texts/fr/tutorial/tutorial-overview-contribution.md
           en: ./texts/en/tutorial/tutorial-overview-contribution.md
@@ -1052,8 +1052,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            fr: Envoyer une contribution
-            en: Send your contribution
+            fr: Introduction
+            en: Introduction
         files:
           fr: ./texts/fr/tutorial/tutorial-contribution-send.md
           en: ./texts/en/tutorial/tutorial-contribution-send.md

@@ -1,4 +1,4 @@
-## Send a contribution
+# Contributer à un document
 
 🚧  &nbsp; `Translation in progress...`
 

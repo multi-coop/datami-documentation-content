@@ -62,26 +62,26 @@ buttons-left:
         link: /tutorial-actions
         component: simpleLink
         label: 
-          fr: Actions
-          en: Actions
+          fr: Voir les informations du document
+          en: View document's informations
       - name: tutorial-views
         link: /tutorial-views
         component: simpleLink
         label: 
-          fr: Vues
-          en: Views
+          fr: Vues d'un document
+          en: Switch document's views
       - name: tutorial-edition
         link: /tutorial-edition
         component: simpleLink
         label: 
-          fr: Edition
-          en: Edition
+          fr: Éditer un document
+          en: Edit a document
       - name: tutorial-contribution
         link: /tutorial-contribution
         component: simpleLink
         label: 
-          fr: Contribution
-          en: Contribution
+          fr: Contribuer à un document
+          en: Contribute to a document
       - name: sep
         separator: true
       - name: integration

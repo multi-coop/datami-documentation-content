@@ -7,7 +7,7 @@ The most expensive part of maintaining any data infrastructure lies often in the
 
 Somehow we consider Gitribute as a "low-tech" approach when it comes to edit data online in a no-code way, at least relatively to [other solutions on the market](/benchmark).
 
-> — [How ?](/how-it-works)
+> — [How ?](/blog)
 > &nbsp; _( You would ask at this point )_
 
 By **using the most popular and free data infrastuctures already existing around the globe to store users' data** : 

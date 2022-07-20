@@ -36,4 +36,4 @@ La principale fonctionnité un peu originale que nous avons imaginée en compara
 
 ![GITRIBUTE-WIREFRAME-EDIT-CSV-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-csv-02.png)
 
-> **Note** : Plus de détails sur l'édition et la consolidation dans la partie **["Tutorials > Edition"](/tutorial-edition)**.
+> **Note** : Plus de détails sur l'édition et la consolidation dans la partie **["Tutorials > Éditer un document"](/tutorial-edition)**.

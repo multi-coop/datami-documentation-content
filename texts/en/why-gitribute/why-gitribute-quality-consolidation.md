@@ -28,4 +28,4 @@ We already tested the integration of the following external APis into Gitribute'
 - [Base Adresse Nationale](https://adresse.data.gouv.fr/api-doc/adresse) : helps geolocate an entity given a french postal adress in full text ;
 - ... and much more to come.
 
-> **Note** : More on the consolidation in the **["Tutorial > Edition"](/tutorial-edition)** section
+> **Note** : More on the consolidation in the **["Tutorials > Edit a document"](/tutorial-edition)** section

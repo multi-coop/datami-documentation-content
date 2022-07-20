@@ -18,4 +18,4 @@ Other features are quite useful but more specific to table files (like `csv`), f
 
 - **Switch between "table" and "cards" view**
 
-> **Note** : More details about the actions features in the **["Tutorials > Actions"](/tutorial-actions)** section
+> **Note** : More details about the actions features in the **["Tutorials > View document's informations"](/tutorial-actions)** section
