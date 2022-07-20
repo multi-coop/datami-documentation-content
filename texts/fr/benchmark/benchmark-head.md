@@ -16,4 +16,4 @@ Chez multi on a beau préférer les solutions _open source_, dès qu'on entend l
 
 ![EQ-7w6aXsAI-3Zo](https://user-images.githubusercontent.com/21986727/180086001-4f9b025c-a0c7-4e82-b74f-9ae7120e9649.jpg)
 
-Bref la centralisation de vos données, même avec une solution _open source_, ce n'est pas l'intention première de Gritribute. On a donc cherché une manière de contourner ce problème.
+Bref la centralisation de vos données, même avec une solution _open source_, ce n'est pas l'intention première de Gitribute. On a donc cherché une manière de contourner ce problème.
