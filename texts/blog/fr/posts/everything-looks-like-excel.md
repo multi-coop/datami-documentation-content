@@ -5,37 +5,35 @@ created: 17/07/2022
 author: Julien Paris
 ---
 
-_"They"_ say (at least some developpers) :
+_"Il se dit"_ (du moins chez les développeurs) :
 
-🚧  &nbsp; `Translation in progress...`
+> — Tout finit par ressembler à Excel !
 
-> — Everything tends to look like Excel !
+Peut-être que c'est le cas... Et peut-être y a-t-il des bonnes raisons à cela ? Peut-être est-ce la forme que le cerveau appréhende le mieux quand il s'agit de comprendre des listes : des formes géométriques élémentaires telles que des carrés, des lignes, des colonnes, des formes simples et claires en somme... Qu'y aurait-il de surprenant à cela ?
 
-Perhaps it does so because... Is it what human brain understands the most when it comes to lists ? You know, basic geometry : matrices, squares, cells, columns, lines or rows, straight lines and shapes... What is there here to be surprised with ?
+Est-ce vraiment que "tout ressemble à Excel" ? Ou bien est-ce qu'Excel ne ressemble-t-il pas juste à quelque chose simple à comprendre quand il s'agit de données ?
 
-Is really everything "looking like Excel" ? Or is Excel just looking like something easy to understand, to appropriate, when it comes to data ?
+Bref... si on met l'esthétique et la philosophie de comptoir de côté, accordons-nous au moins sur le fait que **["_table is good, table gets things done_"](https://youtu.be/qUTtKYMk7u8?t=141)**.
 
-Anyway... if we keep esthetics and philosphical mumbo jumbo aside, let's say **[table is good, table gets things done](https://youtu.be/qUTtKYMk7u8?t=141)**.
+### Des widgets pour la prévisualisation et l'édition de fichiers `csv`
 
-### Widget for `csv` preview and edition
+Gitribute s'adresse à des utilisateurs les plus usuels qui soient (pas à des techniciens de la donnée). Donc nous n'avons pas cherché des innovations trop originales en termes d'UX. Nous voulions des interfaces que même Donald Trump serait en mesure de comprendre (même si ce n'est pas exactement le profil de _commoner_ que nous visons vraiment). Nous cherchons des interfaces accessibles et habituelles pour le plus grand nombre : 
 
-Gitribute's adress is to users as common possible, so no overkill innovations concerning the UX ideas. We wanted an interface even Donald Trump could understand (even if this is not really the kind of commoner we're looking for). An interface anybody could rely to :
-
-- A table. 
-- A fulltext search.
-- Some filters.
-- Edit.
-- Save.
-- Download the data.
-- Change view type to cards view if you feel aventurous.
+- Une table.
+- Une recherche textuelle.
+- Quelques filtres.
+- Pouvoir éditer.
+- Pouvoir sauvegarder.
+- Pouvoir télécharger les données.
+- Pouvoir changer le type de visualisation si on se sent un peu aventureux.
 
 ...Simple
-...Basic
+...[Basique](https://www.youtube.com/watch?v=2bjk26RwjyU&ab_channel=orelsan)
 
-Once - and only once - those design principles put in place, we wanted to add our extra - but useful and tasty - salsa and features : help anybody consolidate the dataset.
+Une fois et seulement une fois que nous avons mis en place ces principes nous avons ajouté des ingrédients dans notre sauce de _design_ et fonctionnalités supplémentaires, notamment la possibilité de consolider des données simplement.
 
-The main and more original one being the **consolidation button** for every row, helping to get complementary data from external APIs ("api-entreprises", "BAN api", ...).
+La principale fonctionnité un peu originale que nous avons imaginée en comparaison avec des outils de tableur classiques est celle du **bouton de consolidation** sur chaque ligne. Ce bouton permet de récupérer des données complémentaires par le biais d'APIs ("api-entreprises", "BAN api", ...) et de les injecter directement dans les données.
 
 ![GITRIBUTE-WIREFRAME-EDIT-CSV-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-csv-02.png)
 
-> **Note** : More about csv edition in the **["Tutorials > Edition"](/tutorial-edition)** section
+> **Note** : Plus de détails sur l'édition et la consolidation dans la partie **["Tutorials > Edition"](/tutorial-edition)**.

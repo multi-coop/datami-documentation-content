@@ -5,31 +5,29 @@ created: 17/07/2022
 author: Julien Paris
 ---
 
-Would you guess which difference between Wikipedia and Twitter we like to emphasize the most ?
+Savez-vous quelle différence on voit entre Wikipédia et Twitter ? 
 
-🚧  &nbsp; `Translation in progress...`
+**Quelqu'un peut modérer ce que vous écrivez avant que cela ne devienne officiel**
 
-**Someone can moderate what you wrote before making it official**
+Si la liberté d'expression reste un principe central dans toute démocratie, il faut au moins être deux pour discuter non ? Et il faut au moins être deux pour construire des connaissances. "Contribuer" est un sport en équipe, on ne peut pas "contribuer" seul, on frôle l'oxymore.
 
-If freedom of speech stays a core principle in a democracy, it takes at least two to have a chat isn't it ? And it takes at least two to build a shared knowledge. Contributing is a team-playing game, you can't contribute alone... Duh, that would make no sense.
+Nous pensons que permettre la **"revue par des pairs"** - même dans des documents paraissant anecdotiques au premier abord - permet de produire des documents de meilleure qualité.
 
-We believe that letting a **"peer review"** - even in the slighest and apparently meaningless documents anyone produces - leads to better documents. 
+Contruire un environnement - numérique ou non - suppose d'ouvrir ses propres idées à autrui, et de laisser le droit à des tiers de juger et de modifier ces idées. C'est ainsi que l'objet produit durant la discussion - et donc grâce à cette modération par les pairs - se trouve affiné, précisé, amélioré.
 
-Building a cooperative environment - digital or not - means opening your ideas to others, and let them have a right to modify those thoughts. Thus the object produced from those thoughts gets improved.
+Ce processus se retrouve dans la vie de tous les jours : 
 
-Let's imagine some daily-life illustrations :
+- _Avant d'envoyer un courrier je peux avoir envie de le faire relire par quelqu'un de confiance_
+- _Quand j'apporte des modifications à un article dans Wikipédia, des tiers vont vérifier mes dires en vérifiant mes sources_...
 
-- _Before sending an important mail one can tend to have someone reading it again, before sending it._
-- _When correcting an article in Wikipedia, third persons are checking it back to verify the authenticity of your sources..._
+Ave gitribute nous souhaitons **transposer ce processus et cette éthique à tout type de donnée numérique** auquel nous pourrions penser, quel que soit l'endroit où cette donnée est hébergée (disons Github ou Gitlab pour commencer).
 
-With Gitribute we wanted to **apply this process and this ethic to any data or dataset** we could think of, wherever it would hosted publicly (let`s say Github or Gitlab to begin with).
+Par-dessus tout, nous souhaitons que **des utilisateurs non techniciens puissent se saisir de ce type de pratique**.
 
-Above all, we wanted to **allow non-technicians internet users to get a grasp on this practice** 
+_(À propos, on aurait pas déjà parlé de votre papi ou de votre mamie quelque part, non ?)_
 
-_(Speaking of which, did we mention your grandpa' or grandma' before ?)_.
+**Au fond nous doutons fortement que le simple fait de "réagir" aux dires des autres suffisent pour construire quelque connaissance que ce soit**. Pourtant c'est bien là le paradigme à la base de services comme Twitter ou Facebook, un paradigme de la _réaction_ (pour ne pas dire réactionnaire). La _réaction_ est en effet un levier (certains diront un _nudge_) pour pousser des personnes à publier en ligne leurs propres idées, à créer de l'"engaement". Pourtant cela reste bien insuffisant pour imaginer qu'un enchaînement de réactions forge un véritable savoir commun.
 
-**We strongly doubt that reacting to other people's thoughts helps build any form of knowledge.** Reaction can be a trigger for people to publish their own ideas, but it is far from enough to begin building anything as a group looking like a commom knowledge.
+Le type de processus de contribution auquel nous aimerions N'A RIEN A VOIR avec ces listes interminables de commentaires qu'on trouve sous une vidéo sur YouTube, ou dans un fil de discussion sur Twitter. Ces espaces de "discussion" laissent le sentiment d'espace régis le plus souvent par l'impulsion que par la raison.
 
-The contributive internet we dream of is NOT represented by to those endless lists of comments below a video on YouTube, nor by those endless threads on Twitter where you get the feeling people are commenting by impulse alone.
-
-Good contribution - on internet even more - is a matter of **good habits**, **adequate tooling**, **_manners_**, and **shared values**.
+De notre point de vue un "bonne" contribution à un débat ou des données - et cela plus encore sur internet - est une question de **bonnes habitudes**, **d'outillage intellectuel et technique adéquat**, **de politesse et de manières**, et enfin de **valeurs partagées**.

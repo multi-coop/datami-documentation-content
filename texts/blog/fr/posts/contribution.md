@@ -5,28 +5,26 @@ created: 17/07/2022
 author: Julien Paris
 ---
 
-**Contributing to open data, and simplifying the process to do so online**, are the core purposes of the Gitribute project. Our whole brainstorming and effort of UX/UI simplification results from this seminal intention.
+**Contribuer à l'_open data_ et simplifier le processus pour pouvoir le faire en ligne** sont les objecifs fondamentaux du projet Gitribute. Toute notre réflexion sur l'architecture technique, nos efforts sur l'_UI/UI_, sur la simplification des interfaces... sont le fruit de ces intentions initiales. 
 
-🚧  &nbsp; `Translation in progress...`
+Cela posé **nous pensons que les plateformes principales (disons les GAFAM pour faire court) confondent "contribution" et "laisser les gens dirent ce qu'ils pensent"**.
 
-That said, **we think many modern web platforms confuses "contributing" with "letting people express themselves"**.
+_(D'ailleurs est-ce qu'on a déjà mentionné Cambridge Analytica ou les bulles de "fake news" ?)_
 
-_(By the way, did we mention Cambridge Analytica or fake news bubbles already ?)_
+Cette petite subtilité nous semble sonner à elle seule le glas pour toute volonté de créer de la connaissance ou de faire démocratie.
 
-And that alone is ringing the agony of knowledge and democracy.
+Oui, rien que cela... 
 
-Yes, big words... 
+Tout de suite les grands mots, mais oui... nous ne sommes pas très friands de cette mode du "_collaborative-washing_", où le flou est entretenu entre "liberté d'expression" et "travail collaboratif", qui dure depuis les débuts du "Web 2.0".
 
-It's a bit much said that way but still... we're definitly not big fans of this trend of "collaborative-washing" at work since the begining of Web 2.0.
+En un mot nous pensons que le concept de "contribution" est ce qui fait la **différence majeure** entre **"s'adresser à quelqu'un"** et **"Construire une pensée ensemble"**.
 
-In short, we believe "contribution" is what makes the **major difference** between **"speaking to each other"** and "**building something together"**.
+Bienheuresement certaines initiatives étaient déjà très au fait de cette distinction, et ont ouvert la voie pour des nouveaux entrants comme nous. Certaines existent encore et brillent par leur exemplarité au milieu de ce "brouillard du web collaboratif". **[Wikipedia](https://www.wikipedia.org/)** est le parangon de ce que nous imaginons comme le modèle d'un Web faisant la part belle à la modération et à la revue par les pairs (propre à la _méthode scientifique_), permettant alors de construire un véritable socle de connaissances universelles.
 
-Luckily some initiatives were quite aware of this difference early on, and cleared the path for newcomers like us. Some still exist and are leading by the example, the brighter light in this contemporary "collaborative web fog" being **[Wikipedia](https://www.wikipedia.org/)**. Wikipedia is the embodiement of how review and moderation processes can lead to build an infinite and universal source of knowledge.
+Soulignons toutefois que **nous ne cherchons absolument PAS à réinventer Wikipédia** sous quelque forme que ce soit avec Gitrbute. Certes, en tant que société coopérative de droit privée (SCOP) nous sommes assez dérangés pour vouloir nous lancer dans des projets open source, chose parfois complexe dans un milieu industriel et économique qui partent à la chasse aux [licornes](https://www.reddit.com/r/memes/comments/67oofp/lost_unicorn_if_found_please_stop_doing_drugs/) (!), mais nous n'en sommes pas encore au point de devoir être internés... Pas encore.
 
-Let us be clear : we are **absolutly NOT aiming to reinvent Wikipedia** with Gitribute. We are indeed in the open source area, a complex challenge for a private company in a economic world looking for lucrative [unicorns](https://www.reddit.com/r/memes/comments/67oofp/lost_unicorn_if_found_please_stop_doing_drugs/) (!), but we are not completely insane... Yet.
+Wikipédia reste essentiellement une source d'inspiration pour le projet Gitribute : d'une part par son modèle économique ouvert, et d'autre part par sa façon d'avoir généralisé ce processus de modération de contenus en les laissant ouverts à la critique. La seule - centrale à nos yeux mais finalement modeste - chose que nous pensons apporter à l'_open data_ avec Gitribute consiste à permettre ce processus de façon **absolument décentralisée** : pas de serveur unique pour les données de tout le monde, mais que chacun.e puisse garder le contrôle sur ses propres données.
 
-Wikipedia remains a deep inspiration for this project, by its original goal to build reviewable informations and by its economic model. The only thing where we try to add an original brick to the open data effort, is the fact we want an **absolutly decentralized** control over the data source.
+A l'opposé de services en ligne où la collaboration sur un jeu de données suppose que les données soient stockées sur les serveurs de ce même service (Airtable, GSheet, Notion, etc...), nous préférons imaginer un monde numérique de contribution "en circuit court" entre le propriétaire des données mises en commun et sa communauté de contributeurs : des données **stockées un peu partout**, **modérées par des personnes se présentant comme responsables** de la qualité de ces données, le tout en **permettant l'intéropérabilité** des données mises en commun.
 
-As opposed to servers storing collaborative work worldwide in a small number of private servers, we would prefer a "locally-sourced" data commons **stored a bit everywhere**, **curated by moderators**, but the **most interoperable as possible**.
-
-A **"Peer-to-Moderator-to-Commmons"** - "P-M-C" for acronyms lovers - would be an short way to express this ideal for Gitribute.
+**"Pair-à-Modérateur-à-Commmuns"** - "P-M-C" pour les amoureux des acronymes - serait une manière de résumer cet idéal qui nous sert de boussole dans les développements de Gitribute.
