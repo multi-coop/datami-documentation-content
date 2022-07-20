@@ -13,46 +13,40 @@ Gitribute est une application web fournissant une série de "[widgets](https://e
 
 Le terme "widget" est équivalent à celui de "composant web", c'est une façon d'afficher au sein d'un site un composant indépendant fourni par un serveur tiers. L'approche "widget" est similaire à celle de la bonne vieille _iframe_, à ceci près que les widgets sont plus flexibles et plus adaptés au web d'aujourd'hui que les _iframes_.
 
-## Gitribute relies on Git providers
+## Gitribute s'appuie sur des "services Git"
 
-🚧  &nbsp; `Translation in progress...`
+La différence fondamentale de Gitribute avec des solutions propriétaires (type GoogleSheet ou Airtable) et leurs équivalents libres (comme [nocoDB](https://www.nocodb.com/) ou [Baserow](https://baserow.io/)) est que la donnée que vous éditez avec Gitribute n'est pas stockée sur _nos_ serveurs.
 
-The very difference with proprietary solutions (like GoogleSheet or Airtable) or with equivalent open sourced solutions (like [nocoDB](https://www.nocodb.com/) or [Baserow](https://baserow.io/)) is that the data you edit with Gitribute is not stored on our servers. 
+Vos données est stockée là où vous le souhaitez, par exemple sur votre propre instance Gitlab ou dans votre propre compte / organisation Github.
 
-Your data is where you want it to be, for instance on your own Gitlab server or on your Github organization.
+**Gitribute n'a pas de serveur, pas de _backend_**, mais s'adosse à des services largement populaires comme [Gitlab](https://gitlab.com/), [Github](https://github.com/), ou [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki) pour l'hébergement de vos données. Les APIs de ces "services Git" permettent de les visualiser et d'opérer des modifications dessus à distance.
 
-So **Gitribute does not have its own backend server**, but relies only on [Gitlab](https://gitlab.com/), [Github](https://github.com/), or [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki) servers and APIs to store your data where you put it originally. 
+Cela signifie que si vous avez déjà un compte sur Gitlab (ou encore mieux que vous avez votre propre instance Gitlab) vous n'avez pas à louer un serveur supplémentaire pour héberger vos données. Vous pouvez laisser vos données là où elles se trouvent (Gitlab / Github / Mediawiki), et c'est très bien ainsi car ces services Git peuvent déjà faire énormément de choses utiles : garder un historique des versions, l'authentification, la gestion des droits, gérer les `pull requests`...
 
-It means if you already have your own Gitlab account (or better, your own Gitlab instance), you won't have to rent a server for your database. Let your data be on Gitlab / Github / Mediawiki, those already do a lot : versionning, authentication, pull requests...
+De cette façon les données restent hébergées et protégées, et vous pouvez gérer les propositions de contributions entrantes comme vous géreriez n'importe quelle `pull request` : en vérifiant la qualité de la proposition, en l'acceptant ou la refusant, et c'est tout.
 
-This way your data stays where it was, protected, and you can manage the incoming contributions as you would manage any "pull request".
+> **Note** : Plus de détails sur notre _benchmark_ de solutions d'édition de données "no-code" dans la partie **["Pourquoi Gitribute ? > Benchmark"](/benchmark)**.
 
-> **Note** : More about our "no-code" solutions benchmark in the **["Why Gitribute ? > Benchmark"](/benchmark)** section
+## Contribuer anonymement (pour les timides)
 
-## Contribute anonymously (if you feel a bit shy)
+Gitribute utilise le système de [jetons personnels (ou _tokens_)](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) fourni par Github et Gitlab pour faire des sauvegardes (ou "commit") et contribuer à des données hébergées sur leurs services.
 
-🚧  &nbsp; `Translation in progress...`
+Pour éviter d'avoir à demander à votre papi ou votre mamie de se créer un compte sur ces outils (ou pire d'avoir à leur demander de se créer un _token_), **Gitribute utilise par défaut un _token_ "fantôme"**.
 
-Gitribute uses the [tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) system provided by Github or Gitlab to "commit" and contribute to some data stored on one of those git providers.
+Si vous voulez permettre à des utilisateurs de faire des contributions anonymement sur vos données il est nécessaire de configurer avec attention votre _repository_ Github ou Gitlab pour qu'il accepte des actions (PUT, POST, GET) venant de cet utilisateur "fantôme".
 
-To avoid asking to your grandpa' or your grandma' to create an account on those providers, and even worse to avoid asking them to create their own personal tokens, **Gitribute uses a default "ghost user token" (or your own)**.
+> **Note** : Par exemple vous ne souhaitez certainement pas que cet utilisateur "fantôme" puisse faire des "pushes" directement sur votre branche `main`...
 
-If you want anonymous contribution onto your data with Gitribute, it is necessary to set your repo and related branches on Github or Gitlab for this "ghost user"'s actions (GET, PUT, POST). 
+Pour résumer, lorsque vous configurez votre widget Gitribute en partant de zéro vous devez :
 
-> **Note** : Basically you don't want this user's token to make "pushes" on your `main` branch for instance...
+- 1/ Créer un utilisateur "fantôme" et son _token_ ;
+- 2/ Configurer votre _repo_ cible sur votre service Git pour que votre _repo_ accepte les contributions de l'utilisateur "fantôme" : celui-ci doit pouvoir y créer de nouvelles branches et y faire des _commits_, sauf pour la branche `main`) ;
+- 3/ Indiquer ce jeton "fantôme" dans le widget Gitribute (soit dans le fichier `.env`, soit dans le `html` du widget)
 
-To sum up, when you set up your Gitribute widget from scratch you have to :
+De cette manière **un utilisateur peut alors faire des _commits_ anonymement, sans avoir à se créer un compte sur Github ou Gitlab**. Cet utilisateur anonyme peut toutefois choisir de laisser un petit message au propriétaire des données et/ou indiquer son mail.
 
-- 1/ Create your own "ghost user" / default token
-- 2/ Set up the target repo to allow this token to make contributions (create branches, but not pushes directly to your `main` branch)
-- 3/ You can inject this default token in the widget (either from an `.env` variable or directly from the frontend).
+Les utilisateurs plus familiers de Git peuvent aussi utiliser leur propre _token_.
 
-That way, an **user can push commits anonymously, without having to create its own Github or Gitlab account**. That said you can add a little message to the data owner to your anonymous contribution.
+Vos données sur la branche principale (en général `main` ou `master`) restent ainsi protégées, et vous - le.la propriétaire des données source - gardez le contrôle complet sur qui peut écrire et sur quelle branche.
 
-Users can also use their own token.
-
-Your data on the `main` branch stays protected on your Git provider, and you - the dataset's owner - keep the control of who can write on it and on which branch.
-
-It could seem like a bit of a hack, but the "ghost user" trick is not that much complicated.
-
-It's like letting your grandpa' or grandma' use your Netflix account...
+C'est un petit _hack_, mais le "truc" de l'utilisateur fantôme n'est au final pas aussi compliqué que cela : c'est un peu comme laiser une connaissance utiliser votre compte Netflix.
