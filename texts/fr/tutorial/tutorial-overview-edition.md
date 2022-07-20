@@ -20,4 +20,4 @@ D'autres fonctionnalités peuvent être utiles dans le cas où vous travaillez s
 - **Faire une recherche textuelle dans la table**
 - **Filtrer la table**
 
-> Plus de détails sur les fonctionnalités d'édition dans la partie **["Tutoriels > Édition"](/tutorial-edition)**.
+> Plus de détails sur les fonctionnalités d'édition dans la partie **["Tutoriels > Éditer un document"](/tutorial-edition)**.
