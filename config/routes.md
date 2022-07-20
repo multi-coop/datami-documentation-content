@@ -197,7 +197,7 @@ routes:
           buttons-size: one-third
           buttons:
             - link: /contact
-              icon-left: help-circle
+              icon-left: at
               rounded: true
               label: 
                 fr: Contactez-nous
