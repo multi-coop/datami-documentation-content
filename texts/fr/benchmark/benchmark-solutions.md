@@ -1,5 +1,5 @@
 ## Solutions
 
-We made a little identity card for every solution we listed before.
+Nous avons fait une petite carte d'identité pour chacun des solutions que nous avons listées auparavant...
 
 🚧  &nbsp; `Redaction in progress...`
