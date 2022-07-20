@@ -10,7 +10,7 @@ Certaines de ces solutions sont _open source_, d'autres propriétaires.
 
 La grande majorité des solutions que nous répertoriées hébergent les données dans leur propre "_cloud_". Les solutions _open source_ permettent en général de  choisir entre un service en ligne PaaS (Platform as a Service) ou SaaS (Software as a Service) d'une part, ou d'installer vous-même votre propre "_cloud_" (c'est-à-dire votre propre serveur de _backend_ dont vous serez aussi chargé d'assurer la maintenance).
 
-D'une façon ou d'une autre il vous est toujours nécessaire de payer pour ces services, d'une manière ou d'un autre. La maxime est bein connue : "[quand c'est propriétaire et que c'est gratuit, c'est vous le produit](https://techhq.com/2018/04/facebook-if-something-is-free-you-are-the-product/)".
+D'une façon ou d'une autre il vous est toujours nécessaire de payer pour ces services, d'une manière ou d'un autre. La maxime est bein connue : "[quand  c'est gratuit (et que c'est propriétaire, ndlr), c'est vous le produit](https://techhq.com/2018/04/facebook-if-something-is-free-you-are-the-product/)".
 
 Chez multi on a beau préférer les solutions _open source_, dès qu'on entend le mot "_cloud_" une autre image nous revient immédiatement en tête :
 
