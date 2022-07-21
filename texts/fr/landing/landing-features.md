@@ -1,9 +1,9 @@
-<p class="title has-text-centered mt-6 pt-6">
+<!-- <p class="title has-text-centered mt-6 pt-6">
   Comment ça marche ?
-</p>
+</p> -->
 
 <div
-  class="tile is-ancestor is--fullheight"
+  class="tile is-ancestor is--fullheight mt-6 pt-6"
   style="min-height: 550px">
   <div class="tile is-vertical is-6">
     <div class="tile is-parent">
@@ -28,6 +28,13 @@
   <div class="tile is-vertical is-6">
     <div class="tile is-parent">
       <article class="tile is-child notification is-light">
+        <p class="title">
+          <b>Comment ça marche ?</b> 
+        </p>
+      </article>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-white py-2">
         <p class="subtitle">
           <span class="icon is-small mr-3">
             <i class="mdi mdi-share-variant"></i>
@@ -37,7 +44,7 @@
       </article>
     </div>
     <div class="tile is-parent">
-      <article class="tile is-child notification is-light">
+      <article class="tile is-child notification is-white py-2">
         <p class="subtitle">
           <span class="icon is-small mr-3">
             <i class="mdi mdi-pencil"></i>
@@ -47,7 +54,7 @@
       </article>
     </div>
     <div class="tile is-parent">
-      <article class="tile is-child notification is-light">
+      <article class="tile is-child notification is-white py-2">
         <p class="subtitle">
           <span class="icon is-small mr-3">
             <i class="mdi mdi-account-group"></i>
@@ -57,7 +64,7 @@
       </article>
     </div>
     <div class="tile is-parent">
-      <article class="tile is-child notification is-light">
+      <article class="tile is-child notification is-white py-2">
         <p class="subtitle">
           <span class="icon is-small mr-3">
             <i class="mdi mdi-table"></i>
@@ -67,22 +74,23 @@
       </article>
     </div>
     <div class="tile is-parent">
-      <article class="tile is-child notification is-light">
+      <article class="tile is-child notification is-white py-2">
         <p class="subtitle">
           <span class="icon is-small mr-3">
             <i class="mdi mdi-content-copy"></i>
           </span>
-          <b>Copiez-collez</b> les widgets dans des sites partenaires en quelques clics
+          <b>Copiez-collez</b> les widgets <b>dans n'importe quel site</b>  en quelques clics
         </p>
       </article>
     </div>
     <div class="tile is-parent">
-      <article class="tile is-child notification is-light">
+      <article class="tile is-child notification is-white py-2">
         <p class="subtitle">
           <span class="icon is-small mr-3">
             <i class="mdi mdi-currency-usd-off"></i>
           </span>
           Et le tout <b>100% gratuitement</b>, sans abonnement, sans location de serveur...
+          C'est un <b>logiciel libre</b> !
         </p>
       </article>
     </div>

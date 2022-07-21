@@ -1,13 +1,16 @@
-<p class="title has-text-centered mt-6 pt-6">
+<!-- <p class="title has-text-centered mt-6 pt-6">
   Simplifiez-vous les données !
-</p>
+</p> -->
 
 <div 
-  class="tile is-ancestor is--fullheight mt-6"
+  class="tile is-ancestor is--fullheight mt-6 pt-6"
   style="min-height: 400px">
   <div class="tile is-vertical is-6">
     <div class="tile is-parent">
       <article class="tile is-child notification is-light">
+        <p class="title">
+          <b> Simplifiez-vous</b> les données !
+        </p>
         <p class="subtitle">
           Vos données ressemblent
           <b>à ceci</b>

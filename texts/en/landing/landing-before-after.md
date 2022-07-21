@@ -1,6 +1,6 @@
-<p class="title has-text-centered mt-6 pt-6">
+<!-- <p class="title has-text-centered mt-6 pt-6">
   Make your data easier !
-</p>
+</p> -->
 
 <div 
   class="tile is-ancestor is--fullheight mt-6"
@@ -8,6 +8,9 @@
   <div class="tile is-vertical is-6">
     <div class="tile is-parent">
       <article class="tile is-child notification is-light">
+        <p class="title">
+          Make your data <b> easier !</b>
+        </p>
         <p class="subtitle">
           Your data looks
           <b>like this</b>

@@ -192,7 +192,7 @@ routes:
         component: TextComponent
         options:
           columns-size: full
-          custom-class: my-6
+          custom-class: my-6 py-6
         files:
           fr: ./texts/fr/landing/landing-clients.md
           en: ./texts/en/landing/landing-clients.md
