@@ -9,7 +9,7 @@
     <div class="tile is-parent">
       <article class="tile is-child notification is-light">
         <p class="title">
-          <b> Simplifiez-vous</b> les données !
+          <b> Simplifiez-vous</b> la donnée !
         </p>
         <p class="subtitle">
           Vos données ressemblent
