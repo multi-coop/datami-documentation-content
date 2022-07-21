@@ -5,10 +5,10 @@
     <div class="tile is-parent">
       <article class="tile is-child notification is-light">
         <p class="title">
-          Une solution 
+          Une solution <br>
           <b>libre</b>
           &
-          <b>no code</b>
+          <b><i>no code</i></b>
         </p>
         <p class="subtitle has-text-weight-bold">
           pour éditer, valoriser et contribuer à des données ouvertes
