@@ -1,55 +1,53 @@
-## Proof Of Concept (POC) 
+## Preuve de concept (POC) 
 
-🚧  &nbsp; `Translation in progress...`
+**Développements : avril-juillet 2022**
 
-**Developments : april-july 2022**
+La première étape du projet était de prouver que le concept et les hypothèses de départ étaient transposables et faisables techniquement.
 
-The first step of the project was to prove our ideas and hypothesis were technically working.
+Nous avions besoin d'être certains des choses suivantes :
 
-We needed to be sure :
-
-- To know how to use Github and Gitlab APIs with common functions ;
-- To be able to setup working widgets...
-- ... in a frameworks we understood amongst the team ;
-- Do all those early developments with **real** users and clients ;
+- Savoir utiliser les APIs de Github et Gitlab via des fonctions communes ;
+- Être capables de mettre en place des widgets / composants web correctement...
+- ... avec un _framework_ que l'équipe de développement maîtrise ;
+- Pouvoir faire les premiers développements dans le cadre de missions pour des **vrais** clients et de **vrais** besoins ;
 - _[Do it agile or do not, there is no try](https://www.youtube.com/watch?v=BQ4yd2W50No)..._
 
-### Our to-do list for a nice POC
+### Notre liste de courses pour une recette de joli POC
 
-The **roadmap** for a first proof of concept (POC) was the following :
+Notre **feuille de route** pour la preuve de concept (POC) était la suivante :
 
-- [x] Skeleton for `vue-custom-element` / `vuejs` : vuex (shared store between all web components), dependencies, linting, ... ;
-- [x] First utils functions and mixins to process a file's gitlab/github url ;
-  - [x] Get all git infos from file's url ;
-  - [x] Get file's raw data from provider ;
-  - [x] Format file's raw data to expected structures (from `md`, `csv`, `json`, `mediawiki` to objects) ;
-- [x] Install a CSS framework for Vuejs ( Bulma + Buefy ) ;
-- [x] Prepare a simple multi-language / translation solution (i18n not adapted for our purposes);
-- [x] Create the first main components :
-  - [x] For each file type create a loading skeleton while waiting raw file to finish loading ;
-  - [x] Preview for a `.md` file ;
-  - [x] Preview for a `.csv` file ;
-  - [x] Preview for a `.json` or `.geojson` file ;
-  - [x] Preview for a list of `mediawiki` ressources, converted as pseudo-table ;
-  - [x] Component to update user's token (if user has a specific one for direct commits) ;
-  - [x] Component to switch between `french` and `english` for now ;
-- [x] Create a "ghost user" on gitlab and github for test purposes, acting as anonymous gitlab/github users (with their token, injected in web component) ;
-- [x] Other main components :
-  - [x] On each preview (for every file type), switch between 'preview' and 'edition' views ;
-    - [x] for `csv` files (`.csv` and `.tsv` types)
-    - [x] for `text` files (`.md` types)
-    - [x] for `json` files (`.json` and `.geojson` types)
-    - [x] for `mediwiki` ressources (only preview for now)
-  - [x]  Add an `Upload` button + dialog + actions to overwrite whole edited data ;
-  - [x]  Add a `lockHeaders` options in widget to only protect keys from edition ;
-  - [x]  Add a `Save` button + dialog + actions :
-    - [x] `POST` create a separate branch on the file's repo ;
-    - [x] `PUT` after edition on client's side, acting as a commit to the file's git repo on a separate branch ;
-    - [x] create a merge request (commit and request by default done the "ghost user") ; 
-- [x] Deploy on Netlify for tests and production purposes => [deploy here](https://gitribute.multi.coop/)
+- [x] Un squelette de widget avec `vue-custom-element` / `vuejs` : vuex, dépendances, _linting_, ... ;
+- [x] Premières fonctions de base utilitaires et _mixins_ pour manipuler les données d'un fichier hébergé sur Gitlab/Github ;
+  - [x] Récupérer des infos à partir de l'URL du fichier : repo, orga, branche, type de fichier... ;
+  - [x] Récupérer les données brutes ("raw") depuis le service Git ;
+  - [x] Formatter les données brutes dans un format attendu pour le type de fichier (`md`, `csv`, `json`, `mediawiki` > objets) ;
+- [x] Installer un framework CSS pour Vuejs ( Bulma + Buefy ) ;
+- [x] Préparet une solution _custom_ d'internationalisation (i18n ne s'est pas révélé super adapté dans notre cas);
+- [x] Créer les premiers composants principaux :
+  - [x] Créer un squelette d'affichage pour chacun des types de fichiers utiles ;
+  - [x] Prévisualisation d'un fichier `.md` ;
+  - [x] Prévisualisation d'un fichier `.csv` ;
+  - [x] Prévisualisation d'un fichier `.json` ou `.geojson` ;
+  - [x] Prévisualisation d'une liste de ressources provenant d'un `mediawiki`, convertie en pseudo-table ;
+  - [x] Composant permettant de mettre à jour le _token_ utilisateur (si l'utilisateur en a un et souhaite faire des commits directs sur la branche mère) ;
+  - [x] Composant pour alterner entre les traductions, pour le moment entre `français` et `anglais` ;
+- [x] Créer un "utilisateur fantôme" sur Gitlab et un autre sur Github pour faire des tests, et permettant d'opérer des modifications anonymement (en utilisant le _token_ fantôme dans le widget) ;
+- [x] Autre composants principaux :
+  - [x] Pour chacun des types de fichiers, alterner entre vues 'prévisualisation', 'diff', et 'édition' ;
+    - [x] pour les fichiers `csv` (`.csv` et `.tsv`)
+    - [x] pour les fichiers `text` (`.md`)
+    - [x] pour les fichiers `json` (`.json` et `.geojson`)
+    - [x] pour les ressources `mediwiki` (seulement en `preview` pour le moment)
+  - [x]  Ajouter un bouton `Upload` + dialogue + actions pour écraser les données du widget ;
+  - [x]  Ajouter in paramètres `lockHeaders` dans les options pour protéger les champs en édition ;
+  - [x]  Ajouter un bouton `Sauver` + dialogue + actions :
+    - [x] `POST` pour créer une branche séparée sur le repo du fichier source ;
+    - [x] `PUT` après l'édition côté client, pour faire des commits sur la nouvelle branche créée ;
+    - [x] Créer une `merge request` (commit + request faites par défaut par l'utilisateur fantôome) ; 
+- [x] Déployer sur Netlify pour les tests et la production => [url de déploiement de prod](https://gitribute.multi.coop/)
   - [![Netlify Status](https://api.netlify.com/api/v1/badges/1cd66edf-3b08-43db-bd21-6490377bb24a/deploy-status)](https://app.netlify.com/sites/multi-gitribute/deploys)
-- [ ] A good documentation for each web component (at least in this readme for now) **<--- We are here, we just have one checkbox left !!**
+- [ ] Une documentation la plus complète possible pour le projet et chacun des widgets **<--- On en est là, plus qu'une case à cocher !!**
 
-... and just for a POC, [that would be greaaaaat... mmm'kay ?](https://www.youtube.com/watch?v=JFRa7Ovym8s&ab_channel=IAJSTU)
+... et pour ce qui est du POC, [that would be greaaaaat... mmm'kay ?](https://www.youtube.com/watch?v=JFRa7Ovym8s&ab_channel=IAJSTU)
 
-**Work in progress... the end is near (or help us by contributing) :)**
+**Work in progress... la fin est prooooche (hésitez pas si vous voulez filer un coup de main) :)**
