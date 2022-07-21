@@ -1,6 +1,4 @@
-# Contributer à un document
-
-🚧  &nbsp; `Translation in progress...`
+# Contribuer à un document
 
 <div>
   <img
@@ -9,15 +7,15 @@
     />
 </div>
 
-Once you have finished to edit your file in a Gitribute widget you can send your modifications proposal to the file's owner(s) by clicking on the "Save" button.
+Une fois avoir terminé vos modifications au fichier affiché dans le widget Gitribute vous pouvez alors "sauver" vos modifications et envoyer vos propositions au.x propriétaire.s du fichier source. Pour cela cliquez sur le bouton "Sauver".
 
-**This action - "Save" - is what constitutes a contribution with Gitribute.**
+**Cette action - "Sauver" - est ce que nous appelons une _contribution_ dans le projet Gitribute.**
 
-A dialog appears where you can - optionnaly - add a little message to the data owner.
+Un dialogue apparaît une fois que vous avez cliqué sur ce bouton. Dans ce dialogue vous pouvez écrire - si vous le souhaitez - un petit message à l'adresse du ou des propriétaires du fichier source.
 
-_"[Manners](/architecture)", do you recall ?_
+_Les bonnes "[manières](/blog)", do you recall ?_
 
-You can also add your email if you want the owner to contact you (for instance to thank you).
+Vous pouvez aussi - toujours optionnellement - ajouter votre email si vous souhaitez que le propriétaire du fichier puiise vous contacter (par exemple pour vous remercier :) ).
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -28,11 +26,11 @@ You can also add your email if you want the owner to contact you (for instance t
 
 <br>
 
-Once you have finished typing your message you can send your contribution proposal to the owner by clicking on the "Send" button.
+Une fois que vous avez terminé d'écrire votre message vous pouvez envoyer votre proposition de contribution au.x propriétaire.s du fichier en cliquant sur le bouton "Envoyer".
 
-Gitribute will then send the request to the Git provider API (Github or Gitlab).
+Gitribute enverra votre requête au service Git (Github ou Gitlab) _via_ son API.
 
-If the request is correctly accepted by the API a notification will appear on top of the widget, looking something like this :
+Si la requête est bien acceptée par l'API une notification apparaîtra au-desssus du widget. Cette notification resemblera à quelque chose comme cela :
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -41,10 +39,10 @@ If the request is correctly accepted by the API a notification will appear on to
     />
 </div>
 
-The notification contains the name of the "branch" you just created by sending your proposal, and the links to the repository's new branch.
+La notification contient le nom de la "branche" créée automatiquement lors de l'envoi de votre requête, ainsi que le lien vers cette branche et le lien vers la "_merge request_" créée elle aussi automatiquemnt.
 
-So your proposal has been correctly sent.
+Votre proposition est donc bien envoyée et reçue.
 
-You can now close the notification, congratulate yourself for helping the file's owner, and go on with your life with a new bit of good karma.
+Vous pouvez maintenant fermer la notification, vous féliciter d'aider le responsable du fichier à consolider des données en _open data_, et [reprendre le cours normal de votre vie](https://www.youtube.com/watch?v=XPtmrv2Vus0&ab_channel=OlivierCharlier) avec un petit surplus de bon karma.
 
-> **Note** : The "branches" button is now activated so you can find your proposal back later.
+> **Note** : Le bouton "branches" s'active après bonne envoi de votre requête, ceci afin que vous puissiez retrouver facilement le lien vers votre nouvelle "branche" après avoir fermé la notification.

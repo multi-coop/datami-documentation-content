@@ -13,7 +13,7 @@ Once you have finished to edit your file in a Gitribute widget you can send your
 
 A dialog appears where you can - optionnaly - add a little message to the data owner.
 
-_"[Manners](/architecture)", do you recall ?_
+_"[Manners](/blog)", do you recall ?_
 
 You can also add your email if you want the owner to contact you (for instance to thank you).
 

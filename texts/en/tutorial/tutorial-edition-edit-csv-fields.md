@@ -52,9 +52,9 @@ Those informations constitues a "table schema".
 
 For table schema we use the [`Table Schema` standard](https://specs.frictionlessdata.io/table-schema/), described there in the [Frictionless data website](https://specs.frictionlessdata.io).
 
-In addition to the Table Schema standard Gitribute uses other informations to describe a field, in order to optimize the user experience.
+In addition to the Table Schema standard Gitribute uses other informations to describe a field, in order to optimize the user experience. Those extra informations are what we call the file's "custom properties".
 
-If the schema or the properties are described in external files you can check those files directly from the file's info dialog.
+If the schema or the properties are described in external files you can check those files directly from the file's info dialog (by clicking on the <span class="icon"><i class="mdi mdi-information-outline"></i></span> button).
 
 <div style="border: thin solid lightgrey;">
   <img

@@ -521,8 +521,8 @@ routes:
             fr: Introduction
             en: Introduction
         files:
-          fr: ./texts/fr/benchmark/benchmark-head.md
-          en: ./texts/en/benchmark/benchmark-head.md
+          fr: ./texts/benchmark/fr/benchmark-head.md
+          en: ./texts/benchmark/en/benchmark-head.md
       - name: benchmark-comparisons
         component: TextComponent
         options:
@@ -531,8 +531,8 @@ routes:
             fr: Compairisons
             en: Comparisons
         files:
-          fr: ./texts/fr/benchmark/benchmark-comparisons.md
-          en: ./texts/en/benchmark/benchmark-comparisons.md
+          fr: ./texts/benchmark/fr/benchmark-comparisons.md
+          en: ./texts/benchmark/en/benchmark-comparisons.md
       - name: benchmark-comparisons-open
         component: TextComponent
         options:
@@ -542,8 +542,8 @@ routes:
             fr: Solutions open source
             en: Open source solutions
         files:
-          fr: ./texts/fr/benchmark/benchmark-comparisons-open.md
-          en: ./texts/en/benchmark/benchmark-comparisons-open.md
+          fr: ./texts/benchmark/benchmark-comparisons-open.md
+          en: ./texts/benchmark/benchmark-comparisons-open.md
       - name: benchmark-comparisons-proprietary
         component: TextComponent
         options:
@@ -553,8 +553,8 @@ routes:
             fr: Solutions propriétaires
             en: Proprietary solutions
         files:
-          fr: ./texts/fr/benchmark/benchmark-comparisons-proprietary.md
-          en: ./texts/en/benchmark/benchmark-comparisons-proprietary.md
+          fr: ./texts/benchmark/benchmark-comparisons-proprietary.md
+          en: ./texts/benchmark/benchmark-comparisons-proprietary.md
       - name: benchmark-solutions
         component: TextComponent
         options:
@@ -563,8 +563,8 @@ routes:
             fr: Solutions
             en: Solutions
         files:
-          fr: ./texts/fr/benchmark/benchmark-solutions.md
-          en: ./texts/en/benchmark/benchmark-solutions.md
+          fr: ./texts/benchmark/fr/benchmark-solutions.md
+          en: ./texts/benchmark/en/benchmark-solutions.md
       - name: benchmark-data
         component: DataGrid
         options:
@@ -574,8 +574,8 @@ routes:
             fr: Listing
             en: Grid list
         files:
-          fr: ./texts/fr/benchmark/benchmark-data.md
-          en: ./texts/en/benchmark/benchmark-data.md
+          fr: ./texts/benchmark/benchmark-data.md
+          en: ./texts/benchmark/benchmark-data.md
       - name: Contact
         component: ButtonsComponent
         options:

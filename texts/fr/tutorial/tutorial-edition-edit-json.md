@@ -1,6 +1,4 @@
-## Edit a JSON file
-
-🚧  &nbsp; `Translation in progress...`
+## Éditer un fichier JSON
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -11,42 +9,40 @@
 
 <br> 
 
-Gitribute's `gitfile` widget can also edit `json` files (and it goes without saying also `geojson`).
+Le widget `gitfile` de Gitribute permet également d'éditer un fichier de type `json` (et donc évidemment un fichier `geojson`).
 
-You will have the exact same "edit-views" available for `json` files than for `md` or `csv` : `preview` / `edit` / `diff`.
+Vous disposerez d'exactement les mêmes "vues-édition" lors de l'édition d'un `json`que pour les fichiers : vues `prévisualisation` / `édition` / `diff`.
 
-A json object is displayed as "nodes" you can fold or open.
+Un objet `json` est constitué de `noeuds`que vous pouvez replier ou déplier.
 
-A json have a "root" level. At the `root` level you can find a `node` or an array.
+Un `json` possède un niveau "racine" ("root"). Au niveau de la raciine vous pouvez trouver soit un `noeud` soit une `liste` de `noeuds`.
 
-A `node` can contain different types of items :
+Un `noeud` peut contenir différents types d'objets :
 
-- Another node ;
-- An object : `string`, `number`, `object`, `boolean` ;
-- An array of nodes or objects. If so the name of the `node` is the `node`'s index in the array.
+- Un autre `noeud` ;
+- Un `objet` standard : `string`, `number`, `object`, `boolean` ;
+- Une `liste` (`array`) d'objets ou de `noeuds`. Si un `noeud` fait partie d'une liste son index dans la `liste` fait office de nom.
 
-The `node`'s type is symbolized by a little red icon after its name :
+Le type du `noeud` est symbolisé par une petite icône rouge après le nom du `noeud`:
 
-- `{}` : `object`
-- `[]` : `array`
-- `abc` : `string`
-- `123` : `number` or `float`
-- `☑️` : `boolean`
+- `{}` : `object` (`objet`)
+- `[]` : `array` (`liste`)
+- `abc` : `string` (chaîne de caractères)
+- `123` : `number` (nombre) or `float` (nombre décimal)
+- `☑️` : `boolean` (bouléen, `true` ou `false`)
 
-In edition mode you can : 
+En mode édition d'un fichier `json` vous pouvez :
 
-- Add a new `node`, by clicking on the `+` icon.
-- Remove a `node`, by clicking on the `trash` icon.
-- Modify a `node` :
-  - Change the `node`'s "key" if the `node` is an object, by clicking on the `pen` icon.
-  - Change the `node`'s value
+- Ajouter un nouveau `noeud`, en cliquant sur l'icône `+`.
+- Supprimer un `noeud`, en cliquant sur l'icône `trash`.
+- Modifier un `noeud` :
+  - Changer la clé d'un `noeud` si le `noeud` n'est pas un élément d'une `liste`, en cliquant sur l'icône `pen` <span class="icon"><i class="mdi mdi-pencil"></i></span>.
+  - Changer la valeur d'un `noeud`
 
-All of that recursively...
+Le tout de manière récursive...
 
-> **Note** :
+> **Note** : Les fichiers `json` sont très utiles pour décrire des données non tabulaires ("non structurées"), mais il est également possible de valider des fichiers `json` étant donné un schéma de référence. 
 >
-> Json files are quite useful to describe unstructured informations, but there is also ways to validate a json file given a schema. 
+> Dans la coopérative [multi](https://multi.coop) nous travaillons d'ailleurs sur un [validateur json](https://git.opendatafrance.net/outillages/json-validator) qui vous intéressera certainement si vous arrivé.e jusqu'ici dans la documentation.
 >
-> At the tech cooperative [multi](https://multi.coop) we are currently working on a [json validator](https://git.opendatafrance.net/outillages/json-validator) you would be interested in if you read this documentation until this section.
->
-> From a nerd to a nerd, you know...
+> Petit tuyau de _nerd_ à _nerd_...

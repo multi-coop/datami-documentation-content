@@ -1,6 +1,4 @@
-### Consolidation field
-
-🚧  &nbsp; `Translation in progress...`
+### Champ de consolidation
 
 <div>
   <img
@@ -9,15 +7,15 @@
     />
 </div>
 
-With Gitribute you can add a customized "consolidation field" to request external APIs, in order to delegate some refinement operations to external services.
+Avec Gitribute vous pouvez paramétrer un champ à part appelé "champ de consolidation". Cette colonne sert à requêter des APis tierces afin de déléguer l'enrichissement des données du fichier à des services extérieurs à Gitrbute.
 
-Each API could be configured independantly.
+Chaque API peut être configurée indépendamment.
 
-Once consolidation is configured for a particular table file, a Gitribute widget will display a "consolidation" column (or `field`) on the left side of the table.
+Une fois ce champ de consolidation correctement configuré pour un fichier source particulier, le widget affichera la colonne (ou `champ`) "consolidation" dans la colonne la plus à gauche de la table.
 
-For each row this consolidation field will display a consolidation button. 
+Chaque ligne du tableur possèdera à ce moment un bouton "consolidation" <span class="icon"><i class="mdi mdi-wrench"></i></span> dans la colonne consolidation.
 
-By clicking on this button the user will or could have several consolidation APIs to chose from.
+En cliquant sur ce bouton tout utilisateur.rice pourra choisir entre une ou plusieurs APIs pour enrichir les données de cette ligne.
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -28,7 +26,7 @@ By clicking on this button the user will or could have several consolidation API
 
 <br>
 
-When you click on one of the consolidation services listed, a request is sent to the API and if the external API returns any result you will see a drawer appearing below your row.
+Lorsque vous cliquez sur un des choix de consolidation / API tierce, une requête est envoyée à l'API externe et vous retourne des résultats qui apparaîtront automatiquement dans un tiroir en dessous de la ligne concernée.
 
 <div style="border: thin solid lightgrey;">
   <img
@@ -39,8 +37,8 @@ When you click on one of the consolidation services listed, a request is sent to
 
 <br>
 
-This drawer contains the "old" and "new" values : "old" being the value inside your row, new being the value returned by the API.
+Ce tiroir contient les "anciennes" valeurs et les "nouvelles" :  les "anciennes" valeurs sont celles du fichier sur lequel vous travaillez, les "nouvelles" sont celles provenant de l'API.
 
-To overwrite the "old" value by the "new" one, just select the field(s) you want to overwrite and click on "Validate the changes".
+Pour remplacer les "anciennes" valeurs par les "nouvelles", cochez simplement les champs que vous souhaitez puis cliquez sur "Valider les changements".
 
-> **Note** : More about how to add consolidation properties to a table dataset, with the Gitribute `gitfile` widget, in the **["Documentation > Widget 'gitfile'"](/docs-gitfile)** section.
+> **Note** : Plus de détails sur la configuration des propriétés de consolidation d'une table du widget `gitfile`, dans la partie **["Documentation > Widget 'gitfile'"](/docs-gitfile)**.
