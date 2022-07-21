@@ -163,41 +163,42 @@ routes:
               locale="fr"
               debug="false"
             />
-      - name: more-clients
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-        files:
-          fr: ./texts/international/more.md
-          en: ./texts/international/more.md
+      # - name: more-clients
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #   files:
+      #     fr: ./texts/international/more.md
+      #     en: ./texts/international/more.md
       - name: clients
         component: TextComponent
         options:
           columns-size: full
+          custom-class: my-6
         files:
           fr: ./texts/fr/landing/landing-clients.md
           en: ./texts/en/landing/landing-clients.md
-      - name: more-outro
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-        files:
-          fr: ./texts/international/more.md
-          en: ./texts/international/more.md
-      - name: outro
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/fr/landing/landing-outro.md
-          en: ./texts/en/landing/landing-outro.md
-      - name: more-why
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-        files:
-          fr: ./texts/international/more.md
-          en: ./texts/international/more.md
+      # - name: more-outro
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #   files:
+      #     fr: ./texts/international/more.md
+      #     en: ./texts/international/more.md
+      # - name: outro
+      #   component: TextComponent
+      #   options:
+      #     columns-size: two-thirds
+      #   files:
+      #     fr: ./texts/fr/landing/landing-outro.md
+      #     en: ./texts/en/landing/landing-outro.md
+      # - name: more-why
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #   files:
+      #     fr: ./texts/international/more.md
+      #     en: ./texts/international/more.md
       - name: btn-to-contact
         component: ButtonsComponent
         options:

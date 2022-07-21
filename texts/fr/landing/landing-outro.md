@@ -48,7 +48,7 @@
 
   <hr class="my-6">
 
-  <p class="is-size-1 my-5">
+  <!-- <p class="is-size-1 my-5">
     Quoi ?
     <br>
     <span class="">😱</span>
@@ -88,6 +88,6 @@
     <i>et ouais</i>
   </p>
 
-  <hr>
+  <hr> -->
 
 </div>

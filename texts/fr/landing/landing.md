@@ -1,27 +1,7 @@
 <div 
-  class="tile is-ancestor is--fullheight mt-5"
+  class="tile is-ancestor is--fullheight mt-4"
   style="min-height: 600px">
-  <div class="tile is-vertical is-7">
-    <div class="tile is-parent">
-      <article class="tile is-child notification is-dark px-1 py-1">
-        <div 
-          class="content is-hidden-mobile"
-          style="
-            width: 100%;
-            height: 100%;
-            background-image: url('https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/multifiles-preview-02.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 50% 50%;">
-        </div>
-        <img
-          class="is-hidden-tablet "
-          src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/multifiles-preview-02.png"
-          alt="MULTIFILES WIDGET"/>
-      </article>
-    </div>
-  </div>
-  <div class="tile is-vertical is-5">
+  <div class="tile is-vertical is-4">
     <div class="tile is-parent">
       <article class="tile is-child notification is-light">
         <p class="title">
@@ -38,7 +18,7 @@
     <div class="tile">
       <div class="tile is-parent is-vertical">
         <article class="tile is-child notification is-white py-6">
-          <p class="is-size-5 has-text-grey is-italic has-text-centered">
+          <!-- <p class="is-size-5 has-text-grey is-italic has-text-centered">
             Personnalisable
           </p>
           <p class="subtitle has-text-grey is-italic has-text-centered">
@@ -46,7 +26,7 @@
           </p>
           <p class="subtitle has-text-grey is-italic has-text-centered">
             Sans abonnement
-          </p>
+          </p> -->
         </article>
       </div>
     </div>
@@ -72,6 +52,26 @@
           </a>
         </article>
       </div>
+    </div>
+  </div>
+  <div class="tile is-vertical is-8">
+    <div class="tile is-parent">
+      <article class="tile is-child notification has-background-white-ter px-2 py-2">
+        <div 
+          class="content is-hidden-mobile"
+          style="
+            width: 100%;
+            height: 100%;
+            background-image: url('https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/multifiles-preview-02.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 0% 0%;">
+        </div>
+        <img
+          class="is-hidden-tablet "
+          src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/multifiles-preview-02.png"
+          alt="MULTIFILES WIDGET"/>
+      </article>
     </div>
   </div>
 </div>
