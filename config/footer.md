@@ -54,8 +54,8 @@ columns:
           en: Github
   - name: multi
     label:
-      fr: Multi
-      en: About multi
+      fr: Coopérative multi
+      en: Tech cooperative multi
     links: 
       - url: https://www.multi.coop
         label:
