@@ -1,7 +1,7 @@
 
 # Panorama des widgets Gitribute
 
-Gitribute n'est pas un widget à proprement parler, c'est une **collection de widgets**.
+Gitribute n'est **pas un** widget à proprement parler, c'est une **collection de widgets**.
 
 Nous développons différents widgets que vous pouvez ensuite inclure _ad libidum_ dans vos propres sites web.
 
