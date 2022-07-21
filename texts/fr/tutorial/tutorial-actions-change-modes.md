@@ -3,7 +3,7 @@
 <div>
   <img
     alt="TUTORIAL-ACTIONS-EDIT_AND_VIEW_MODES"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-edit_and_view_modes.png"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-edit_and_view_modes-fr.png"
     />
 </div>
 

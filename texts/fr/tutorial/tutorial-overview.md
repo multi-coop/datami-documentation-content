@@ -12,6 +12,6 @@ Dans l'illustration et les tutoriels suivants vous découvrirez les différents 
 <div>
   <img
     alt="TUTORIAL-INTRO-ALL_ACTIONS"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-01.png"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-01-fr.png"
     />
 </div>
