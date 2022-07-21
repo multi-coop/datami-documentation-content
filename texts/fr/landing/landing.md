@@ -34,7 +34,7 @@
       <div class="tile is-parent is-vertical">
         <article class="tile is-child notification is-white py-0 px-0">
           <a
-            href="/why-gitribute"
+            href="/why-gitribute?locale=fr"
             class="button is-dark is-large is-fullwidth"
             type="button">
             <span class="has-text-white">

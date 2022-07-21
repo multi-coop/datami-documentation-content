@@ -99,13 +99,13 @@ routes:
         files:
           fr: ./texts/fr/landing/landing-intro.md
           en: ./texts/en/landing/landing-intro.md
-      - name: more-simulator
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-        files:
-          fr: ./texts/international/more.md
-          en: ./texts/international/more.md
+      # - name: more-simulator
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #   files:
+      #     fr: ./texts/international/more.md
+      #     en: ./texts/international/more.md
       # - name: landing-gitribute-cooptech
       #   component: HtmlComponent
       #   options:
@@ -247,7 +247,15 @@ routes:
       name:
         fr: Pourquoi Gitribute ?
         en: Why Gitribute ?
-    sections: 
+    sections:
+      - name: logo
+        component: TextComponent
+        options:
+          columns-size: '2 is-hidden-touch'
+          not-in-menu: true
+        files:
+          fr: ./texts/international/logo-gitribute-bis.md
+          en: ./texts/international/logo-gitribute-bis.md
       - name: why-intro
         component: TextComponent
         options:
@@ -330,6 +338,14 @@ routes:
         files:
           fr: ./texts/fr/why-gitribute/why-gitribute-quality-consolidation.md
           en: ./texts/en/why-gitribute/why-gitribute-quality-consolidation.md
+      # - name: logo
+      #   component: TextComponent
+      #   options:
+      #     columns-size: '5'
+      #     not-in-menu: true
+      #   files:
+      #     fr: ./texts/international/logo-gitribute.md
+      #     en: ./texts/international/logo-gitribute.md
       - name: Contact
         component: ButtonsComponent
         options:

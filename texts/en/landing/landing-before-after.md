@@ -18,9 +18,9 @@
       </article>
     </div>
     <div class="tile is-parent">
-      <article class="tile is-child notification has-background-white-ter px-2 py-2 is-flex is-direction-row is-align-items-center">
-        <div 
-          class="content is-hidden-mobile"
+      <article class="tile is-child notification has-background-white-ter pl-3 pr-1 py-3 is-flex is-direction-row is-align-items-center">
+        <div
+          class="content is-hidden-mobile mb-0"
           style="
             width: 100%;
             height: 100%;
@@ -34,7 +34,7 @@
           class="is-hidden-tablet "
           src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/messy-excel.png"
           alt="MESSY EXCEL"/>
-        <span class="icon is-large mr-2 is-size-2">
+        <span class="icon is-large ml-1 is-size-2">
           <i class="mdi mdi-arrow-right-thick"></i>
         </span>
       </article>
