@@ -1,4 +1,4 @@
-### Changer votre token utilisateur
+### Changer votre jeton (_token_) utilisateur
 
 <div>
   <img
