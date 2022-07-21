@@ -3,7 +3,7 @@
 <div style="border: thin solid lightgrey;">
   <img
     alt="WORDPRESS-PREVIEW-SWITCH"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-preview-help.png"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-preview-help-fr.png"
     />
 </div>
 <br>

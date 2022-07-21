@@ -323,7 +323,6 @@ routes:
         files:
           fr: ./texts/fr/landing/landing-multi.md
           en: ./texts/en/landing/landing-multi.md
-
   - name: main-features
     url: /main-features
     options:
@@ -395,7 +394,6 @@ routes:
         files:
           fr: ./texts/fr/landing/landing-multi.md
           en: ./texts/en/landing/landing-multi.md
-
   - name: business-model
     url: /business-model
     options:
@@ -677,8 +675,8 @@ routes:
       summary: true
       contrib: true
       name:
-        fr: Actions
-        en: Actions features
+        fr: Informations sur le document
+        en: Document's infos
     sections: 
       - name: tutorial-actions
         component: TextComponent
@@ -804,8 +802,8 @@ routes:
       summary: true
       contrib: true
       name:
-        fr: Views
-        en: Views features
+        fr: Vues d'un document
+        en: Document's views
     sections:
       - name: tutorial-actions-change-modes
         component: TextComponent
@@ -1034,8 +1032,8 @@ routes:
       summary: true
       contrib: true
       name:
-        fr: Contribution
-        en: Contribution features
+        fr: Contribuer à un document
+        en: Contribute to a document
     sections: 
       # - name: contribution
       #   component: TextComponent
@@ -1079,8 +1077,188 @@ routes:
         files:
           fr: ./texts/fr/landing/landing-multi.md
           en: ./texts/en/landing/landing-multi.md
+  - name: integration
+    url: /integration
+    options:
+      # hero: true
+      contrib: true
+      summary: true
+      name:
+        fr: Intégration de Gitribute dans un site web
+        en: Gitribute's integration in a website
+    sections: 
+      - name: integration
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            fr: Introduction
+            en: Introduction
+        files:
+          fr: ./texts/fr/integration/integration.md
+          en: ./texts/en/integration/integration.md
+      - name: integration-example
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            fr: Exemple
+            en: Example
+        files:
+          fr: ./texts/fr/integration/integration-example.md
+          en: ./texts/en/integration/integration-example.md
+      - name: integration-no_panic
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            fr: Pas de panique !
+            en: Do not panic !
+        files:
+          fr: ./texts/fr/integration/integration-no_panic.md
+          en: ./texts/en/integration/integration-no_panic.md
+      - name: integration-dependencies
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            fr: Dépendances
+            en: Dependencies
+        files:
+          fr: ./texts/fr/integration/integration-dependencies.md
+          en: ./texts/en/integration/integration-dependencies.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          custom-class: mt-6
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
+  - name: integration-wordpress
+    url: /integration-wordpress
+    options:
+      # hero: true
+      contrib: true
+      summary: true
+      name:
+        fr: Intégration dans Wordpress
+        en: Wordpress integration
+    sections: 
+      - name: integration
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          name:
+            fr: Introduction
+            en: Introduction
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress.md
+          en: ./texts/en/integration-wordpress/wordpress.md
+      - name: login
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            fr: S'authentifier dans le backoffice
+            en: Log to the backoffice
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-login.md
+          en: ./texts/en/integration-wordpress/wordpress-login.md
+      - name: back-office
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            fr: Créer une nouvelle page
+            en: Create a new page
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-admin.md
+          en: ./texts/en/integration-wordpress/wordpress-admin.md
+      - name: edit-01
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            fr: Passer en mode "Editeur de code"
+            en: Switch to "Code editor"
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-edit-code.md
+          en: ./texts/en/integration-wordpress/wordpress-edit-code.md
+      - name: tutorial-actions-user-options-copy
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            fr: Copier le widget
+            en: Copy the widget
+        files:
+          fr: ./texts/fr/tutorial/tutorial-actions-user-options-copy.md
+          en: ./texts/en/tutorial/tutorial-actions-user-options-copy.md
+      - name: edit-03
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            fr: Coller le widget
+            en: Paste the widget
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-edit-paste.md
+          en: ./texts/en/integration-wordpress/wordpress-edit-paste.md
+      - name: preview
+        component: TextComponent
+        options:
+          columns-size: three-quarters
+          depth: 1
+          name:
+            fr: Prévisualiser le résultat
+            en: Preview the result
+        files:
+          fr: ./texts/fr/integration-wordpress/wordpress-preview.md
+          en: ./texts/en/integration-wordpress/wordpress-preview.md
+      - name: Contact
+        component: ButtonsComponent
+        options:
+          columns-size: two-thirds
+          custom-class: mt-6
+          buttons-size: half
+          buttons:
+            - link: /contact
+              icon-left: email
+              rounded: true
+              label: 
+                fr: Nous contacter
+                en: Contact us
+      - name: logo-multi
+        component: TextComponent
+        options:
+          columns-size: full
+          custom-class: mt-6
+          not-in-menu: true
+        files:
+          fr: ./texts/fr/landing/landing-multi.md
+          en: ./texts/en/landing/landing-multi.md
 
-  # DOCUMENTATION
+  # DOCUMENTATION - TECH
   - name: install
     url: /install
     options:
@@ -1266,186 +1444,6 @@ routes:
         files:
           fr: ./texts/fr/landing/landing-multi.md
           en: ./texts/en/landing/landing-multi.md
-  - name: integration
-    url: /integration
-    options:
-      # hero: true
-      contrib: true
-      summary: true
-      name:
-        fr: Intégration
-        en: Integration
-    sections: 
-      - name: integration
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Introduction
-            en: Introduction
-        files:
-          fr: ./texts/fr/integration/integration.md
-          en: ./texts/en/integration/integration.md
-      - name: integration-example
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Exemple
-            en: Example
-        files:
-          fr: ./texts/fr/integration/integration-example.md
-          en: ./texts/en/integration/integration-example.md
-      - name: integration-no_panic
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Pas de panique !
-            en: Do not panic !
-        files:
-          fr: ./texts/fr/integration/integration-no_panic.md
-          en: ./texts/en/integration/integration-no_panic.md
-      - name: integration-dependencies
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Dépendances
-            en: Dependencies
-        files:
-          fr: ./texts/fr/integration/integration-dependencies.md
-          en: ./texts/en/integration/integration-dependencies.md
-      - name: Contact
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          custom-class: mt-6
-          buttons-size: half
-          buttons:
-            - link: /contact
-              icon-left: email
-              rounded: true
-              label: 
-                fr: Nous contacter
-                en: Contact us
-      - name: logo-multi
-        component: TextComponent
-        options:
-          columns-size: full
-          custom-class: mt-6
-          not-in-menu: true
-        files:
-          fr: ./texts/fr/landing/landing-multi.md
-          en: ./texts/en/landing/landing-multi.md
-  - name: integration-wordpress
-    url: /integration-wordpress
-    options:
-      # hero: true
-      contrib: true
-      summary: true
-      name:
-        fr: Intégration dans Wordpress
-        en: Wordpress integration
-    sections: 
-      - name: integration
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          name:
-            fr: Introduction
-            en: Introduction
-        files:
-          fr: ./texts/fr/integration-wordpress/wordpress.md
-          en: ./texts/en/integration-wordpress/wordpress.md
-      - name: login
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: S'authentifier dans le backoffice
-            en: Log to the backoffice
-        files:
-          fr: ./texts/fr/integration-wordpress/wordpress-login.md
-          en: ./texts/en/integration-wordpress/wordpress-login.md
-      - name: back-office
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Créer une nouvelle page
-            en: Create a new page
-        files:
-          fr: ./texts/fr/integration-wordpress/wordpress-admin.md
-          en: ./texts/en/integration-wordpress/wordpress-admin.md
-      - name: edit-01
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Passer en mode "Editeur de code"
-            en: Switch to "Code editor"
-        files:
-          fr: ./texts/fr/integration-wordpress/wordpress-edit-01.md
-          en: ./texts/en/integration-wordpress/wordpress-edit-01.md
-      - name: tutorial-actions-user-options-copy
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Copier le widget
-            en: Copy the widget
-        files:
-          fr: ./texts/fr/tutorial/tutorial-actions-user-options-copy.md
-          en: ./texts/en/tutorial/tutorial-actions-user-options-copy.md
-      - name: edit-03
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Coller le widget
-            en: Paste the widget
-        files:
-          fr: ./texts/fr/integration-wordpress/wordpress-edit-03.md
-          en: ./texts/en/integration-wordpress/wordpress-edit-03.md
-      - name: preview
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-          depth: 1
-          name:
-            fr: Prévisualiser le résultat
-            en: Preview the result
-        files:
-          fr: ./texts/fr/integration-wordpress/wordpress-preview.md
-          en: ./texts/en/integration-wordpress/wordpress-preview.md
-      - name: Contact
-        component: ButtonsComponent
-        options:
-          columns-size: two-thirds
-          custom-class: mt-6
-          buttons-size: half
-          buttons:
-            - link: /contact
-              icon-left: email
-              rounded: true
-              label: 
-                fr: Nous contacter
-                en: Contact us
-      - name: logo-multi
-        component: TextComponent
-        options:
-          columns-size: full
-          custom-class: mt-6
-          not-in-menu: true
-        files:
-          fr: ./texts/fr/landing/landing-multi.md
-          en: ./texts/en/landing/landing-multi.md
   - name: software
     url: /software
     options:
@@ -1552,7 +1550,7 @@ routes:
           fr: ./texts/fr/landing/landing-multi.md
           en: ./texts/en/landing/landing-multi.md
 
-  # WIDGETS
+  # DOCUMENTATION - WIDGETS
   - name: docs-widgets-overview
     url: /docs-widgets-overview
     options:
@@ -2207,7 +2205,6 @@ routes:
         files:
           fr: ./texts/fr/contact/contact-head.md
           en: ./texts/en/contact/contact-head.md
-
   - name: legal
     url: /legal
     sections: 

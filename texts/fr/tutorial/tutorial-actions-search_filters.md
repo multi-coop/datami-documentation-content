@@ -3,7 +3,7 @@
 <div>
   <img
     alt="TUTORIAL-ACTIONS-SEARCH"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-search.png"
+    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-search-fr.png"
     />
 </div>
 

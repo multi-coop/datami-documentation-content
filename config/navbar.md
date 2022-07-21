@@ -88,13 +88,13 @@ buttons-left:
         link: /integration
         component: simpleLink
         label: 
-          fr: Intégration
-          en: Integration
+          fr: Intégration dans un site
+          en: Website integration
       - name: integration-wordpress
         link: /integration-wordpress
         component: simpleLink
         label: 
-          fr: Intégration Wordpress
+          fr: Intégration dans Wordpress
           en: Wordpress integration
 
   - name: documentation 
