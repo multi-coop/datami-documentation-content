@@ -1,6 +1,4 @@
-### Common rows operation
-
-🚧  &nbsp; `Translation in progress...`
+### Opérations habituelles sur les lignes
 
 <div>
   <img
@@ -11,25 +9,25 @@
 
 <br>
 
-With Gitribute you can perform many common operation while in "Edit" mode :
+Avec Gitribute vous pouvez faire un certain nombre d'opérations de base en mode "édition" :
 
-- Modify a cell's content / value ;
-- Add a new row ;
-- Remove a row ;
-- Select a row ;
-- Consolidate a row (see next section).
+- Modifier le contenu ou la valeur d'une cellule ;
+- Ajouter une nouvelle ligne ;
+- Supprimer une ligne ;
+- Sélectionner une ligne ;
+- Consolider une ligne (voir la prochaine partie).
 
-The cell input depends on the `field`'s type and properties.
+Le type d'entrée d'une cellule dépend du type de `champ` (de colonne) et des propriétés de celle-ci.
 
-A cell input could have a different interface given those type + properties :
+L'interface d'édition d'une cellule varie essentiellement selon ce "type" :
 
-- `text` :  a `string`
-- `longtext` : a long `string`
-- `number` : an `integer` number
-- `float` : a `float` number
-- `boolean` ; a `true` or false `value`
-- `geopoint` : a `float`
-- `tag` : a `string` category (only one entry possible in a selection)
-- `tags` : a list of `string` values, separated automatically by a separator (`,` by default). You don't have to write the separator between the values.
+- `text` :  soit de type `string`, chaîne de caractères
+- `longtext` : longue `string`
+- `number` : de type `integer`, nombre entier
+- `float` : de type `float`, nombre décimal
+- `boolean` ; de type `true` ou `false`
+- `geopoint` : de type `float`, nombre décimal correspondant à une localisation géographique
+- `tag` : de type `string` (mais une seule valeur possible parmi une liste de choix)
+- `tags` : une liste de valeurs de type `string`, séparées automatiquement par un séparateur (`,` par défaut). Vous n'avez pas besoin d'écrire le séparateur entre les valeurs.
 
-> **Note** : We have in mind we could include more types, as `date` or `coordinates`, those are in our [roadmap](/software) for later developments during the MVP development cycle.
+> **Note** : Nous gardons en tête qu'il serait intéressant d'inclure d'autres types, telle que `date` ou `coordinates`, nous en avons pris notre dans notre [feuille de route](/software) en particulier en prévision du cycle de développement du MVP.

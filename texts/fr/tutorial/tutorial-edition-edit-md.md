@@ -1,8 +1,6 @@
 
 ## Éditer un fichier texte en markdown
 
-🚧  &nbsp; `Translation in progress...`
-
 <div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-EDITION-MD"

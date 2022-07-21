@@ -1,5 +1,5 @@
 
-## Editer un fichier csv
+## Éditer un fichier csv
 
 <div style="border: thin solid lightgrey;">
   <img
