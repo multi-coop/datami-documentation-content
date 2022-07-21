@@ -11,7 +11,9 @@
           <b><i>no code</i></b>
         </p>
         <p class="subtitle has-text-weight-bold">
-          pour éditer, valoriser et contribuer à des données ouvertes
+          pour éditer, valoriser et contribuer à des données ouvertes...
+          <br>
+          <br>...partout sur le web
         </p>
       </article>
     </div>

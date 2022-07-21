@@ -14,7 +14,9 @@
           solution
         </p>
         <p class="subtitle has-text-weight-bold">
-          to edit, visualize, and contribute to open data
+          to edit, visualize, and contribute to open data...
+          <br>
+          <br>...anywhere on the web
         </p>
       </article>
     </div>
