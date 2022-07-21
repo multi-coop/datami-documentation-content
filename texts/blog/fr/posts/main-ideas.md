@@ -15,18 +15,18 @@ Cela dit, si on souhaite afficher des données dans un widget _front_ _**les don
 
 ### Des services Git en guise de bases de données
 
-En tant que développeurs nous-mêmes nous avons un usage à la quotidien et assez extensif de plateformes comme Github ou Gitlab. En général nous - les développeurs - sommes assez d'accord sur le fait de ce sont des infrastructures **extrêmement** utiles !
+En tant que développeurs nous-mêmes nous avons un usage à la quotidien et assez extensif de plateformes comme Github ou Gitlab. En général nous - les développeurs - sommes assez d'accord sur le fait que ce sont des infrastructures **extrêmement** utiles !
 
 Tous les jours nous (enfin nous, développeurs) profitons de ces services pour :
 
-- La gestion des versions et de modifications ;
-- L'authentification et l'identification de qui modifie quoi ;
+- La gestion des versions et des modifications ;
+- L'authentification et l'identification de "qui modifie quoi" ;
 - Utiliser les APIs de ces services ;
 - Communiquer et échanger avec nos pairs ;
 - Le tout sur des services aux infrastuctures stables et robustes ;
 - etc...
 
-Du coup si nous - développeurs - hébergeons nos données et notre code sur ces services tout le temps, pourquoi ne pas tenter de vous faire bénéficier vous aussi (pas développeur) de tout cela.
+Du coup si nous - développeurs - hébergeons nos données et notre code sur ces services tout le temps, pourquoi ne pas tenter de vous faire bénéficier vous aussi (pas développeur) de tout cela ?
 
 **La base de données préférée de Gitribute est "pas de base de donnée du tout"**, du moins au sens habituel du terme. En lieu et place de base de donnée dédiée pour Gitribute (qui aurait pu être un serveur de _backend_ + BDD en SQL, PostGreSQL, MongoDB...) **Gitribute s'appuie sur Github ou Gitlab pour stocker les données**.
 
