@@ -1,5 +1,5 @@
 
-# Editer un document
+# Éditer un document
 
 <div>
   <img
@@ -8,6 +8,6 @@
     />
 </div>
 
-Cette partie se concentre sur les différentes options disponibles lorsque vous êtes en train d´éditer un fichier avec Gitribute.
+Cette partie se concentre sur les différentes options disponibles lorsque vous êtes en train d'éditer un fichier avec Gitribute.
 
-Selon le type du fichier source (`csv`, `json`, `md`, ...) l´interface et les options disponibles ne seront pas les mêmes.
+Selon le type du fichier source (`csv`, `json`, `md`, ...) l'interface et les options disponibles ne seront pas les mêmes et s'adapteront automatiquement.
