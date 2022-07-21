@@ -4,8 +4,6 @@ Gitribute allow you to put in a place **a widget that other people can copy and 
 
 Even if the widget is copied, the data source stays the same. That way **you can multiply the number of persons contributing to your data**.
 
-🚧  &nbsp; `Redaction in progress...`
-
 - **Create a set of components for modular uses** :
   - preview for `.csv`, `.md`, `.json` files or `mediawiki` ressources, with several choices for preview (table, cards list, ...) ;
   - files edition interfaces ;
@@ -13,3 +11,5 @@ Even if the widget is copied, the data source stays the same. That way **you can
   - user preferences: language, user token, ...
   - etc...
 - **Web integration as modular web component**
+
+> **Note** : More about available widgets, their parameters and options in the **["Documentation"](/docs-widgets-overview)** section.
