@@ -9,7 +9,7 @@ Gitribute est conçu comme un "micro-service" léger, qui vous laisse choisir pa
 
 Pour rendre cela possible techniquement nous avons conçu Gitribute comme un projet _pure frontend_..
 
-Pas de backend dans la _stack_ de Gitribute : cela aurait occasionné trop de maintenance, trop cher, trop de soucis quoi...
+Pas de backend dans la _stack_ de Gitribute : cela aurait occasionné trop de maintenance, trop cher, trop chronophage, trop de soucis quoi...
 
 Cela dit, si on souhaite afficher des données dans un widget _front_ _**les données doivent bien venir de quelque part, non ?**_
 
@@ -28,7 +28,7 @@ Tous les jours nous (enfin nous, développeurs) profitons de ces services pour :
 
 Du coup si nous - développeurs - hébergeons nos données et notre code sur ces services tout le temps, pourquoi ne pas tenter de vous faire bénéficier vous aussi (pas développeur) de tout cela ?
 
-**La base de données préférée de Gitribute est "pas de base de donnée du tout"**, du moins au sens habituel du terme. En lieu et place de base de donnée dédiée pour Gitribute (qui aurait pu être un serveur de _backend_ + BDD en SQL, PostGreSQL, MongoDB...) **Gitribute s'appuie sur Github ou Gitlab pour stocker les données**.
+**La base de données préférée de Gitribute est "pas de base de donnée du tout"**, du moins au sens habituel du terme. En lieu et place de base de donnée dédiée pour Gitribute (qui aurait pu être un serveur de _backend_ + BDD en SQL, PostGreSQL, MongoDB...) **Gitribute s'appuie sur Github ou Gitlab (qu'on appellera ici des "services git") pour le stockage des données**, et donc sur la possibilité que les données soient sur un _repo_ qui vous appartient.
 
 Il existe un documentation extrêmement fournie sur les APIs de ces services (Gitlab est un logiciel libre par ailleurs), APIs qui permettent de modifier ces données à distance.
 
@@ -40,7 +40,7 @@ Cette manière de contribuer a de bonnes _[manières](https://idiomorigins.org/o
 
 ### Intéropérabilité "basique"
 
-Dans le petit monde de la "tech" - et particuièrement dans le milieu de '_open source_ - l'"intéropérabilité" est un Graal après lequel tous courent : **faire en sorte qu'une donnée produite ici soit lisible ailleurs** (sur un autre ordinateur, dans un autre logiciel). Le protocole HTTP, le RSS, le XML, le "web sémantique", le standard _activityPub_, ... sont autant d'inventions géniales allant dans ce sens.
+Dans le petit monde de la "tech" - et particuièrement dans le milieu de l'_open source_ - l'"intéropérabilité" est un Graal après lequel tout le monde court : **faire en sorte qu'une donnée produite ici soit lisible ailleurs** (sur un autre ordinateur, dans un autre logiciel). Le protocole HTTP, le RSS, le XML, le "web sémantique", le standard _activityPub_, ... sont autant d'inventions géniales allant dans ce sens.
 
 L'univers des technologies numériques regorge de ces normes, outils, _frameworks_, langages, etc... Certains sont réellement devenus des standards et ont été à la fois largement adoptés et acceptés comme tels. D'autres par contre luttent pour le devenir ou périssent en le tentant.
 
@@ -79,7 +79,7 @@ Nous ne souhaitions pas centraliser et stocker vos données sur un même service
 
 Après tout, _vous_ avez transpiré pour les produire, _vous_ en êtes le.la propriétaire, et donc au final _vous_ en êtes responsable.
 
-Par contre si vous souhaitez à la fois **valoriser** vos données et les faire **gagner en qualité**, la meilleure des stratégies est que **vos données puissent être réutilisées et améliorées par d'autres personnes.**
+Par contre si vous souhaitez à la fois **valoriser** vos données et les faire **gagner en qualité**, la meilleure des stratégies est que **vos données puissent être réutilisées et améliorées par d'autres personnes que vous.**
 
 Partager... [This is the way](https://www.youtube.com/watch?v=uelA7KRLINA&ab_channel=Gabriel)...
 
@@ -88,10 +88,11 @@ Dans cette optique "partager ses données" ne peut pas se faire à moitié, cela
 Les widgets et le fait de s'adosser à des "services Git" pour le stockage est une solution technique qui nous semblait résoudre ce double problème : permettre un large partage, tout en vous laissant garder le contrôle sur vos propres données :
 
 - Les données source sont hébergées dans _votre_ service Git ;
+- Un widget affichant ces données peut _être intégré_ dans n'importe quel site web ;
 - Tout le monde peut _proposer_ des contributions si vous le souhaitez ;
 - Mais uniquement _vous_ pouvez accepter ou non une contribution, et la merger aux données source.
 
-Paraphrasons nos élégants amis les Anglais et disons que **"[Manners maketh commoner](https://www.youtube.com/watch?v=hUtNQAdhIR4&ab_channel=RodStickler)...** _you know what that means ?_"
+Paraphrasons nos élégants amis les Anglais et disons que **"[_Manners maketh commoner_](https://www.youtube.com/watch?v=hUtNQAdhIR4&ab_channel=RodStickler)...** _you know what that means ?_"
 
 ### ... Pour les débutants
 
