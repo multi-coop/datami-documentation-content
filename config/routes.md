@@ -16,7 +16,16 @@ routes:
         files:
           fr: ./texts/fr/landing/landing.md
           en: ./texts/en/landing/landing.md
-      - name: landing
+      - name: landing-before-after
+        component: TextComponent
+        options:
+          columns-size: full
+          # hero: true
+          # custom-class: my-6
+        files:
+          fr: ./texts/fr/landing/landing-before-after.md
+          en: ./texts/en/landing/landing-before-after.md
+      - name: landing-features
         component: TextComponent
         options:
           columns-size: full

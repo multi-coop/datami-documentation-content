@@ -1,6 +1,6 @@
 <div 
   class="tile is-ancestor is--fullheight mt-5"
-  style="min-height: 600px">
+  style="min-height: 550px">
   <div class="tile is-vertical is-4">
     <div class="tile is-parent">
       <article class="tile is-child notification is-light">

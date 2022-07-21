@@ -1,5 +1,5 @@
 <div 
-  class="tile is-ancestor is--fullheight mt-5"
+  class="tile is-ancestor is--fullheight mt-6"
   style="min-height: 550px">
   <!-- style="height: calc(100% - 55px)"> -->
   <div class="tile is-vertical is-4">
@@ -21,25 +21,9 @@
     <div class="tile">
       <div class="tile is-parent is-vertical">
         <article class="tile is-child notification is-white py-6">
-          <!-- <p class="is-size-5 has-text-grey is-italic has-text-centered mb-1 mt-4">
-            customizable,
-            shareable,
-            no subscription
-          </p> -->
         </article>
       </div>
     </div>
-    <!-- <div class="tile is-parent">
-      <article class="tile is-child notification is-white">
-        <p class="is-size-5 has-text-weight-bold has-text-centered">
-          works for
-          <code>csv</code>,
-          <code>md</code>,
-          <code>json</code>,
-          <code>tsv</code>...
-        </p>
-      </article>
-    </div> -->
     <div class="tile">
       <div class="tile is-parent is-vertical">
         <article class="tile is-child notification is-white py-0 px-0">
