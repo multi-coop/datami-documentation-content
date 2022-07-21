@@ -7,64 +7,73 @@ routes:
     # options:
     #   hero: true
     sections:
-      - name: logo
+      - name: landing
         component: TextComponent
         options:
-          columns-size: '5'
+          columns-size: full
+          # hero: true
+          # custom-class: my-6
         files:
-          fr: ./texts/international/logo-gitribute.md
-          en: ./texts/international/logo-gitribute.md
-      - name: catchphrase
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-        files:
-          fr: ./texts/fr/landing/catchphrase.md
-          en: ./texts/en/landing/catchphrase.md
-      - name: btns
-        component: ButtonsComponent
-        options:
-          columns-size: three-quarters
-          buttons-size: one-third
-          buttons:
-            - link: /why-gitribute
-              icon-left: help-circle
-              rounded: true
-              label:
-                fr: Pourquoi Gitribute ?
-                en: Why Gitribute ?
-            - link: /tutorial-overview
-              icon-left: school
-              rounded: true
-              label: 
-                fr: Tutoriels
-                en: Tutorials
-            - link: /docs-widgets-overview
-              icon-left: book-open-variant
-              rounded: true
-              label: 
-                fr: Documentation
-                en: Widgets' docs
+          fr: ./texts/fr/landing/landing.md
+          en: ./texts/en/landing/landing.md
+      # - name: logo
+      #   component: TextComponent
+      #   options:
+      #     columns-size: '5'
+      #   files:
+      #     fr: ./texts/international/logo-gitribute.md
+      #     en: ./texts/international/logo-gitribute.md
+      # - name: catchphrase
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #   files:
+      #     fr: ./texts/fr/landing/catchphrase.md
+      #     en: ./texts/en/landing/catchphrase.md
+      # - name: btns
+      #   component: ButtonsComponent
+      #   options:
+      #     columns-size: three-quarters
+      #     buttons-size: half
+      #     buttons:
+      #       - link: /why-gitribute
+      #         icon-left: help-circle
+      #         rounded: true
+      #         label:
+      #           fr: Pourquoi utiliser Gitribute
+      #           en: Why you need Gitribute
+            # - link: /tutorial-overview
+            #   icon-left: school
+            #   rounded: true
+            #   label: 
+            #     fr: Tutoriels
+            #     en: Tutorials
+            # - link: /docs-widgets-overview
+            #   icon-left: book-open-variant
+            #   rounded: true
+            #   label: 
+            #     fr: Documentation
+            #     en: Widgets' docs
             # - link: https://gitlab.com/multi-coop/gitribute
             #  icon-left: gitlab
             #  rounded: true
             #  label: 
             #    fr: Code source
             #    en: Source code
-      - name: logo-multi
-        component: TextComponent
-        options:
-          columns-size: full
-        files:
-          fr: ./texts/fr/landing/landing-multi.md
-          en: ./texts/en/landing/landing-multi.md
-      - name: more-intro
-        component: TextComponent
-        options:
-          columns-size: three-quarters
-        files:
-          fr: ./texts/international/more.md
-          en: ./texts/international/more.md
+      # - name: logo-multi
+      #   component: TextComponent
+      #   options:
+      #     columns-size: full
+      #   files:
+      #     fr: ./texts/fr/landing/landing-multi.md
+      #     en: ./texts/en/landing/landing-multi.md
+      # - name: more-intro
+      #   component: TextComponent
+      #   options:
+      #     columns-size: three-quarters
+      #   files:
+      #     fr: ./texts/international/more.md
+      #     en: ./texts/international/more.md
       - name: intro
         component: TextComponent
         options:
