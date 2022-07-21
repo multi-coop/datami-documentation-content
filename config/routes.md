@@ -930,8 +930,8 @@ routes:
       summary: true
       contrib: true
       name:
-        fr: Édition
-        en: Edition features
+        fr: Éditer un document
+        en: Edit a document
     sections: 
       - name: edition
         component: TextComponent
