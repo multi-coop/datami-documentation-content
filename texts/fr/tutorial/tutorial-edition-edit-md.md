@@ -1,5 +1,5 @@
 
-## Edit a markdown file
+## Éditer un fichier texte en markdown
 
 🚧  &nbsp; `Translation in progress...`
 
@@ -12,9 +12,9 @@
 
 <br> 
 
-An `md` (or markdown) file is the most simple type of document you can edit with Gitribute.
+Un fichier `md` (ou markdown) est le type de document le plus simple à éditer avec Gitribute.
 
-**You edit in the left side of the widget, and you see the result on the right side.**
+**Vous éditez dans la partie de gauche du widget, et vous voyez le résultat dans la partie droite.**
 
 Markdown is a very elegant [markup language created by Aaron Swartz](https://en.wikipedia.org/wiki/Markdown) and is quite a standard nowadays when it comes to work collaboratively on text. Markdown language includes only the necessary syntax to make it readable either by human and machines : bold/italic text, separators, text size, ... It's a very simple syntax to learn and very useful.
 
