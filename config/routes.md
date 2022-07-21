@@ -16,6 +16,15 @@ routes:
         files:
           fr: ./texts/fr/landing/landing.md
           en: ./texts/en/landing/landing.md
+      - name: landing
+        component: TextComponent
+        options:
+          columns-size: full
+          # hero: true
+          # custom-class: my-6
+        files:
+          fr: ./texts/fr/landing/landing-features.md
+          en: ./texts/en/landing/landing-features.md
       # - name: logo
       #   component: TextComponent
       #   options:

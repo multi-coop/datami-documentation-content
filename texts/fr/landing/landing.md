@@ -1,5 +1,5 @@
 <div 
-  class="tile is-ancestor is--fullheight mt-4"
+  class="tile is-ancestor is--fullheight mt-5"
   style="min-height: 600px">
   <div class="tile is-vertical is-4">
     <div class="tile is-parent">
@@ -11,7 +11,7 @@
           <b>no code</b>
         </p>
         <p class="subtitle has-text-weight-bold">
-          pour éditer et valoriser vos données
+          pour éditer, valoriser et contribuer à des données ouvertes
         </p>
       </article>
     </div>

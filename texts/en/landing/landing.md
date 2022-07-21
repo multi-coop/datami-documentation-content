@@ -1,6 +1,6 @@
 <div 
   class="tile is-ancestor is--fullheight mt-5"
-  style="min-height: 600px">
+  style="min-height: 550px">
   <!-- style="height: calc(100% - 55px)"> -->
   <div class="tile is-vertical is-4">
     <div class="tile is-parent">
@@ -14,7 +14,7 @@
           solution
         </p>
         <p class="subtitle has-text-weight-bold">
-          to edit and visualize your data
+          to edit, visualize, and contribute to open data
         </p>
       </article>
     </div>
