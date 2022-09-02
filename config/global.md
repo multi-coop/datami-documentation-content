@@ -30,6 +30,16 @@ colors:
   # error: '#D1335B'
   # success: '#03BD5B'
 
+matomo:
+  matomo_active: true
+  matomo_server: multi.matomo.cloud
+  matomo_site_id: 2
+  matomo_track_outlinks: true
+
+seo_keywords: [
+  dataviz, widget, multi, multiviz, git, nodcode
+]
+
 ---
 
 
