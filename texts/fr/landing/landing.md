@@ -44,11 +44,7 @@
                 <i class="mdi mdi-arrow-right-thick"></i>
               </span>
               <span>
-                Pourquoi
-                <span class="is-hidden-touch">
-                  utiliser
-                </span>
-                Gitribute
+                Découvrir
               </span>
             </span>
           </a>

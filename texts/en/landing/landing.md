@@ -38,11 +38,7 @@
                 <i class="mdi mdi-arrow-right-thick"></i>
               </span>
               <span>
-                Why 
-                <span class="is-hidden-touch">
-                  you need
-                </span>
-                Gitribute
+                Discover
               </span>
             </span>
           </a>
