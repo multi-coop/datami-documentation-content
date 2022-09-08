@@ -42,6 +42,14 @@ buttons-left:
         label: 
           fr: Benchmark
           en: Benchmark
+      - name: sep
+        separator: true
+      - name: website
+        link: https://datami.multi.coop
+        component: extLink
+        label: 
+          fr: Site officiel de Datami
+          en: Official Datami website
 
   - name: tutorials
     icon: school
