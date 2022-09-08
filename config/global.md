@@ -1,5 +1,5 @@
 ---
-app_name : Datami | docs
+app_name : Datami docs
 show_app_name: true
 app_default_locale: en
 app_locales: [
