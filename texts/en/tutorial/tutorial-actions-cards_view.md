@@ -3,7 +3,7 @@
 <div>
   <img
     alt="TUTORIAL-ACTIONS-VIEW_MODES"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-view_modes.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/commented/tutorial-view_modes.png"
     />
 </div>
 
@@ -18,7 +18,7 @@ For instance the `cards` view mode for a `csv` (table) file looks something like
 <div style="border: thin solid lightgrey;">
   <img 
     alt="TUTORIAL-ACTIONS-CARDS_VIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edition-preview-csv-cards.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edition-preview-csv-cards.png"
     />
 </div>
 

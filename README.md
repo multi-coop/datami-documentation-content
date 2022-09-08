@@ -1,8 +1,8 @@
-# GITRIBUTE DOCUMENTATION CONTENT
+# DATAMI DOCUMENTATION CONTENT
 
-Website : https://gitribute-docs.multi.coop
+Website : https://datami-docs.multi.coop
 
-This repo contains all contents for the gitribute's documentation website, including the site's architecture : website name, locales, navbar, routes, footers, images, and text contents...
+This repo contains all contents for the Datami's documentation website, including the site's architecture : website name, locales, navbar, routes, footers, images, and text contents...
 
 Thoses contents are organized so they could be deployed as a website, thanks to a softawre developped by the digital cooperative **[multi](https://multi.coop)**.
 
@@ -88,7 +88,7 @@ Files will be locally served on :
 
 If you want to propose somme enhancements to our content please make pull requests against the `main` branch. We will review that with great pleasure :)
 
-You can also add issues directly in the reop, or add notes or issues from our [gitlab "board" page](https://gitlab.com/multi-coop/gitribute-documentation-content/-/boards).
+You can also add issues directly in the reop, or add notes or issues from our [gitlab "board" page](https://gitlab.com/multi-coop/datami-documentation-content/-/boards).
 
 ---
 
@@ -96,5 +96,5 @@ You can also add issues directly in the reop, or add notes or issues from our [g
 
 Here are the links to the source documents (slides) we used to create the tutorials's images : 
 
-- [Gitribute tutorial - 01](https://docs.google.com/presentation/d/1hS5GqXxUJzquXDgO4Ch8O3klNekf-Ih-MNbJ8Ikp45M/edit#slide=id.g13be72e9310_0_24)
-- [Gitribute tutorial - 02](https://docs.google.com/presentation/d/1DjJGQn80bHzxpNdMHIufwLLaUB3lJVPqvMVGpSRScb0/edit#slide=id.p)
+- [Datami tutorial - 01](https://docs.google.com/presentation/d/1hS5GqXxUJzquXDgO4Ch8O3klNekf-Ih-MNbJ8Ikp45M/edit#slide=id.g13be72e9310_0_24)
+- [Datami tutorial - 02](https://docs.google.com/presentation/d/1DjJGQn80bHzxpNdMHIufwLLaUB3lJVPqvMVGpSRScb0/edit#slide=id.p)

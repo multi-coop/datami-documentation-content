@@ -15,7 +15,7 @@ The easiest way to integrate a widget to your own website is to copy-paste an ex
 <div>
   <img
     alt="TUTORIAL-ACTIONS-COPY_WIDGET"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-08.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/commented/tutorial-08.png"
     />
 </div>
 

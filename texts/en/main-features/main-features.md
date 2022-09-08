@@ -2,7 +2,7 @@
 
 <!-- 🚧  &nbsp; `Redaction in progress...` -->
 
-Gitribute is constituted by a serie of widgets, each allowing to interact with ressources stored on [Gitlab](https://gitlab.com/), [Github](https://github.com/), or [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki).
+Datami is constituted by a serie of widgets, each allowing to interact with ressources stored on [Gitlab](https://gitlab.com/), [Github](https://github.com/), or [Mediawiki](https://www.mediawiki.org/wiki/MediaWiki).
 
 Each widget allows to play with your data in different ways :
 
@@ -12,7 +12,7 @@ Each widget allows to play with your data in different ways :
 
 The cornerstone widget is the [Gitfile](/docs-gitfile) widget : this one make possible for anyone - with technical skills or not - to contribute on a dataset stored on Github or Gitlab, but without having to create an account or even without having to deal with Github or Gitlab at all.
 
-Last but not least Gitribute's widgets are designed to be "copy-paste", so you could share the same source dataset in as many websites you want... **for free !**
+Last but not least Datami's widgets are designed to be "copy-paste", so you could share the same source dataset in as many websites you want... **for free !**
 
 <div class="columns is-multiline is-8 is-centered mt-0 mb-4">
   <div class="column is-4 has-text-centered">
@@ -21,7 +21,7 @@ Last but not least Gitribute's widgets are designed to be "copy-paste", so you c
         Gitfile widget
         <div style="border: thin solid lightgrey;">
           <img
-            src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-md-edit-01.png"
+            src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/gitfile-md-edit-01.png"
             alt="SCREENSHOT-02"
           />
         </div>
@@ -34,7 +34,7 @@ Last but not least Gitribute's widgets are designed to be "copy-paste", so you c
         Multi-files widget
         <div style="border: thin solid lightgrey;">
           <img
-            src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/multifiles-preview-01.png"
+            src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/multifiles-preview-01.png"
             alt="SCREENSHOT-01"
           />
         </div>
@@ -47,7 +47,7 @@ Last but not least Gitribute's widgets are designed to be "copy-paste", so you c
         Explowiki widget
         <div style="border: thin solid lightgrey;">
           <img
-            src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/explowiki-preview-01.png"
+            src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/explowiki-preview-01.png"
             alt="SCREENSHOT-03"
           />
         </div>

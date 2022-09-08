@@ -3,7 +3,7 @@
 <div>
   <img
     alt="WORDPRESS-PREVIEW-SWITCH"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-preview-help.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/wordpress/wordpress-preview-help.png"
     />
 </div>
 <br>
@@ -13,7 +13,7 @@ On your Wordpress page preview you now can see the widget integrated to your can
 <div style="border: thin solid lightgrey;">
   <img
     alt="WORDPRESS-PREVIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-preview.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/wordpress/wordpress-preview.png"
     />
 </div>
 <br>

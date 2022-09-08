@@ -3,7 +3,7 @@
 <div>
   <img
     alt="TUTORIAL-ACTIONS-USER_OPTIONS"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-user_options.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/commented/tutorial-user_options.png"
     />
 </div>
 

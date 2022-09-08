@@ -14,14 +14,14 @@
           style="
             width: 100%;
             height: 100%;
-            background-image: url('https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-csv-preview-01.png');
+            background-image: url('https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/gitfile-csv-preview-01.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 0% 0%;">
         </div>
         <img
           class="is-hidden-tablet "
-          src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-csv-preview-01.png"
+          src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/gitfile-csv-preview-01.png"
           alt="GITFILE WIDGET"/>
       </article>
     </div>

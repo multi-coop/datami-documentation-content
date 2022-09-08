@@ -9,9 +9,9 @@ The `usertoken` parameter is one of the most important features of this project.
 
 Our strategy to simplify those operations for 'normal' people (who does not give a s*** about git) was to create one or several "ghost users", so we could set the repositories' permissions and tokens in advance.
 
-In order to deploy a Gitribute demo on a domain we chose to store those tokens on an `.env` file, based on the `example.env` file at the project's root. So you can have several strategies to inject a default token :
+In order to deploy a Datami demo on a domain we chose to store those tokens on an `.env` file, based on the `example.env` file at the project's root. So you can have several strategies to inject a default token :
 
-- create an `.env` file, but you will have to deploy your own instance of Gitribute ;
+- create an `.env` file, but you will have to deploy your own instance of Datami ;
 - copy-paste the html block, filling the widget's `usertoken` parameter ;
 - leave all blank and ask your users to create their own tokens on Gitub or Gitlab...
 

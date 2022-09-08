@@ -1,6 +1,6 @@
 # Quickstart pour les développeurs•euses
 
-Gitribute est un projet frontend développé avec Vue.js (Javascript).
+Datami est un projet frontend développé avec Vue.js (Javascript).
 
 Si vous avez des questions sur notre stack vous pouvez consulter **[cette page](/software)**.
 

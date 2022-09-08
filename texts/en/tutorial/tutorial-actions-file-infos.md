@@ -3,7 +3,7 @@
 <div>
   <img
     alt="TUTORIAL-ACTIONS-FILE_INFOS"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-03.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/commented/tutorial-03.png"
     />
 </div>
 
@@ -12,7 +12,7 @@ By clicking this button <span class="icon"><i class="mdi mdi-information-outline
 <div style="border: thin solid lightgrey;">
   <img
     alt="ACTIONS-FILE_INFOS-DIALOG"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/actions-file_infos.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/actions-file_infos.png"
     />
 </div>
 

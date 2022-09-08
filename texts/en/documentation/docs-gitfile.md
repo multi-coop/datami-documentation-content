@@ -12,7 +12,7 @@ The file needs to be hosted on Github or Gitlab.
 <div style="border: thin solid lightgrey;">
   <img 
     alt="TUTORIAL-ACTIONS-EDIT_PREVIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-md-preview-01.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/gitfile-md-preview-01.png"
     />
 </div>
 
@@ -31,7 +31,7 @@ See the [`options` parameter](/docs-gitfile#keys-for-the-options-parameter-for-c
 <div style="border: thin solid lightgrey;">
   <img 
     alt="TUTORIAL-ACTIONS-EDIT_PREVIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-csv-preview-01.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/gitfile-csv-preview-01.png"
     />
 </div>
 
@@ -46,7 +46,7 @@ The file needs to be hosted on Github or Gitlab.
 <div style="border: thin solid lightgrey;">
   <img 
     alt="TUTORIAL-ACTIONS-EDIT_PREVIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-json-preview-01.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/gitfile-json-preview-01.png"
     />
 </div>
 

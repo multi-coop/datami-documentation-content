@@ -11,9 +11,9 @@ How do you transition from :
 
  to :
 
-> — _[Sir, do you have a minute to speak about Gitribute ?](https://www.youtube.com/watch?v=sghOYbR_fXA&ab_channel=TikTokTaciousShorts)_
+> — _[Sir, do you have a minute to speak about Datami ?](https://www.youtube.com/watch?v=sghOYbR_fXA&ab_channel=TikTokTaciousShorts)_
 
-This section focuses on the early works and brainstorming processes that lead to make Gitribute someting more than a good idea : [a plan, a roadmap, an architecture allowing being "agile"](https://www.linkedin.com/pulse/agile-approach-methodology-carlo-occhiena/).
+This section focuses on the early works and brainstorming processes that lead to make Datami someting more than a good idea : [a plan, a roadmap, an architecture allowing being "agile"](https://www.linkedin.com/pulse/agile-approach-methodology-carlo-occhiena/).
 
 _There's no wizard jizz in [making stuff](https://www.youtube.com/watch?v=N4IfPtl3W_M&ab_channel=exurb1a), [only a lot of engineering](https://www.youtube.com/watch?v=qE0UimODxNg&ab_channel=exurb1a)_
 
@@ -21,25 +21,25 @@ Brace yourself for a little trip...
 
 ## Sketches & wireframes
 
-Gitribute have some _core_ components and functions, reusable among other components.
+Datami have some _core_ components and functions, reusable among other components.
 
 The _core functions_ are mainly contained in the `utils` folder : requesting APIs, converting a raw csv to a javascript object, etc...
 
 The front data are stored in a nodal _vuex store_ : locale, user infos, current branch, file infos, etc... are stored there.
 
-Finally some _complex components can be re-used_ by others such as the `EditCell` or `GitributeTable` ones, reusable by `explowiki` or `gitfile` high-level components or within a table.
+Finally some _complex components can be re-used_ by others such as the `EditCell` or `DatamiTable` ones, reusable by `explowiki` or `gitfile` high-level components or within a table.
 
 We are proud (and a bit ashamed too) to apply `#passionSchema` to our brainstorming process...
 
-![SCHEMA-GITRIBUTE-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-schema-02.png)
+![SCHEMA-GITRIBUTE-02](https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/schemas/Multi-gitribute-schema-02.png)
 
 > **Note** : More about the widgets in the **["Documentation > Overview"](/docs-widgets-overview)** section
 
 ## Components wireframes
 
-Gitribute started with an idea, while sitting at a cafe near Paris, outside, with a bright sun on a sunny sunday. No laptop around.
+Datami started with an idea, while sitting at a cafe near Paris, outside, with a bright sun on a sunny sunday. No laptop around.
 
-We started designing Gitribute a bit in an "old-fashion" way : with a pen and a paper. No fancy tools like Figma at this precise moment at the cafe.
+We started designing Datami a bit in an "old-fashion" way : with a pen and a paper. No fancy tools like Figma at this precise moment at the cafe.
 
 Keeping on with this approach the "wireframes" you will se below are more ideas or sketches than real design canvases. But drawing can still be relevant and more straight-to-the-point, even in the digital world.
 
@@ -51,7 +51,7 @@ We were inspired a lot by [HedgeDoc](https://hedgedoc.org/) and [Hackmd](https:/
 
 **The only thing we added was `diff` view**, as an intermediary between preview and edition.
 
-![GITRIBUTE-WIREFRAME-EDIT-MD-01](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-md-01.png)
+![GITRIBUTE-WIREFRAME-EDIT-MD-01](https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-md-01.png)
 
 > **Note** : More about editing and diff view in the **["Tutorials > Edit a document"](/tutorial-edition)** section
 
@@ -76,7 +76,7 @@ The challenge was to find an "user path" - and a design - to express this intent
 - "Simply" by avoiding any dispensable information, straight to the point ;
 - "Honestly" by letting the user learn step by step what those weird terms (tooltips), keeping technical information in the background (in another tab, but accessible), etc...
 
-![GITRIBUTE-WIREFRAME-DIALOG_SAVE-01](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-commit_dialog-01.png)
+![GITRIBUTE-WIREFRAME-DIALOG_SAVE-01](https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/schemas/Multi-gitribute-wireframe-commit_dialog-01.png)
 
 That said it is not completly useless to have a basic understanding of Git, and [many](https://www.atlassian.com/git) [websites](https://learngitbranching.js.org/?locale=fr_FR), [videos](https://www.youtube.com/watch?v=2ReR1YJrNOM&ab_channel=ProgrammingwithMosh), or sometimes people are available to learn the basics.
 

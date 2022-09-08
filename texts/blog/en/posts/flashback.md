@@ -5,7 +5,7 @@ created: 17/07/2022
 author: Julien Paris
 ---
 
-But let's rewind to the starting point of the Gitribute project.
+But let's rewind to the starting point of the Datami project.
 
 There is no precise moment to think of, but those bits of (not so much) imaginary conversations will give you an idea of what was going on in our mind.
 
@@ -49,7 +49,7 @@ At this point the alternative became quite clear :
   * * *
 </p>
 
-The Gitribute projects inherits from a lot a brainstorming about **what is open data**, and **what is open data for**.
+The Datami projects inherits from a lot a brainstorming about **what is open data**, and **what is open data for**.
 
 Nowadays _open data_ is everywhere, and sometimes you don't even notice it. Wikipedia pages are crawled by startups, Open Street Maps data are reused by state or private entities, public data are re-published for public use... Data helps governments in piloting their policies, startups to target customers and refine their commercial offer... 
 

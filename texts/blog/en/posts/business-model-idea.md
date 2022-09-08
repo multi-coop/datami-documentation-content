@@ -9,7 +9,7 @@ Developping a free software is something particular in the tech industry.
 
 ### An idea, and a quick proof it could technically work
 
-As any idea, Gitribute's idea didn't come from a blank void.
+As any idea, Datami's idea didn't come from a blank void.
 
 The idea takes its roots in various things we experimented and discussed before between associates, along the years. 
 
@@ -19,17 +19,17 @@ The idea takes its roots in various things we experimented and discussed before 
 
 And as any idea it needed to take a first form to be refined.
 
-The real first pieces of Gitribute's concretization weren't lines of code, they were the [architecture & schemas](/architecture) drawings. And paper is cheap...
+The real first pieces of Datami's concretization weren't lines of code, they were the [architecture & schemas](/architecture) drawings. And paper is cheap...
 
 We already had some experiences in some technologies, some of we wanted to experiment more with for instance to do widgets.
 
-That laid - **an idea and a plan** - coding the "backbone" structure for the Gitribute project was just a matter of a couple of days.
+That laid - **an idea and a plan** - coding the "backbone" structure for the Datami project was just a matter of a couple of days.
 
 ### Real use cases
 
-We worked with **real user cases** since we started to develop Gitribute, even in its early releases.
+We worked with **real user cases** since we started to develop Datami, even in its early releases.
 
-We begun to develop the first bricks of Gitribute as responses to one, then two, then three clients sharing what we considered as similar needs.
+We begun to develop the first bricks of Datami as responses to one, then two, then three clients sharing what we considered as similar needs.
 
 Doing so we can **have real feedbacks** along all the development cycles.
 
@@ -41,7 +41,7 @@ The fundings corresponding to those first issions payed for the POC alone.
 
 ### Mutualize needs  & converge with the roadmap
 
-The main principle we try to follow when it comes to fund the developments of a product like Gitribute.
+The main principle we try to follow when it comes to fund the developments of a product like Datami.
 
 - Open source is not a hobby, it's a job. You need missions to fund it ;
 - A product should respond to expressed needs ;
@@ -63,11 +63,11 @@ But once more, only if though as such and if one is willing to make the effort.
 
 ### Valorize our expertise, not the code
 
-No subscription nor private data will be generated from Gitribute to our benefit.
+No subscription nor private data will be generated from Datami to our benefit.
 
-We won't make a dime from the code itself, but it doesn't mean Gitribute won't help our cooperative to grow.
+We won't make a dime from the code itself, but it doesn't mean Datami won't help our cooperative to grow.
 
-**Gitribute is a growth vector from several perspectives** :
+**Datami is a growth vector from several perspectives** :
 
 - It could be used as a pedagogic tool for us to **help organizations opening their data**, and as such in need for our expertise ;
 - It could be a way to **work on more complex cases**, where organizations need to produce open data over open data, schema, and APIs ;

@@ -12,7 +12,7 @@ Ce fichier doit être hébergé sur Github ou Gitlab.
 <div style="border: thin solid lightgrey;">
   <img 
     alt="TUTORIAL-ACTIONS-EDIT_PREVIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-md-preview-01.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/gitfile-md-preview-01.png"
     />
 </div>
 
@@ -31,7 +31,7 @@ Vous pouvez vous référer aux [paramètres d'`options`](/docs-gitfile#keys-for-
 <div style="border: thin solid lightgrey;">
   <img 
     alt="TUTORIAL-ACTIONS-EDIT_PREVIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-csv-preview-01.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/gitfile-csv-preview-01.png"
     />
 </div>
 
@@ -46,7 +46,7 @@ Ce fichier doit être hébergé sur Github ou Gitlab.
 <div style="border: thin solid lightgrey;">
   <img 
     alt="TUTORIAL-ACTIONS-EDIT_PREVIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/screenshots/gitfile-json-preview-01.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/screenshots/gitfile-json-preview-01.png"
     />
 </div>
 

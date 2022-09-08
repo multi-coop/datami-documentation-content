@@ -1,8 +1,8 @@
 # Benchmark
 
-Nous développons Gitribute avec ferveur, mais nous gardons aussi bien à l'esprit qu'il existe des solutions pouvant paraître similaires sur le marché.
+Nous développons Datami avec ferveur, mais nous gardons aussi bien à l'esprit qu'il existe des solutions pouvant paraître similaires sur le marché.
 
-**Toutes ces solutions - y compris Gitribute - ont des avantages et des incovénients.**
+**Toutes ces solutions - y compris Datami - ont des avantages et des incovénients.**
 
 Certaines de ces solutions sont _open source_, d'autres propriétaires.
 
@@ -16,4 +16,4 @@ Chez multi on a beau préférer les solutions _open source_, dès qu'on entend l
 
 ![EQ-7w6aXsAI-3Zo](https://user-images.githubusercontent.com/21986727/180086001-4f9b025c-a0c7-4e82-b74f-9ae7120e9649.jpg)
 
-Bref la centralisation de vos données, même avec une solution _open source_, ce n'est pas l'intention première de Gitribute. On a donc cherché une manière de contourner ce problème.
+Bref la centralisation de vos données, même avec une solution _open source_, ce n'est pas l'intention première de Datami. On a donc cherché une manière de contourner ce problème.

@@ -3,11 +3,11 @@
 <div>
   <img
     alt="TUTORIAL-EDITION-CSV-CONSOLIDATE"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edit-csv/edit-csv-consolidate.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edit-csv/edit-csv-consolidate.png"
     />
 </div>
 
-Avec Gitribute vous pouvez paramétrer un champ à part appelé "champ de consolidation". Cette colonne sert à requêter des APis tierces afin de déléguer l'enrichissement des données du fichier à des services extérieurs à Gitrbute.
+Avec Datami vous pouvez paramétrer un champ à part appelé "champ de consolidation". Cette colonne sert à requêter des APis tierces afin de déléguer l'enrichissement des données du fichier à des services extérieurs à Gitrbute.
 
 Chaque API peut être configurée indépendamment.
 
@@ -20,7 +20,7 @@ En cliquant sur ce bouton tout utilisateur.rice pourra choisir entre une ou plus
 <div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-EDITION-CSV-CONSOLIDATE-ROW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edit-csv/edit-csv-consolidate-row.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edit-csv/edit-csv-consolidate-row.png"
     />
 </div>
 
@@ -31,7 +31,7 @@ Lorsque vous cliquez sur un des choix de consolidation / API tierce, une requêt
 <div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-EDITION-CSV-CONSOLIDATE-ROW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edit-csv/edit-csv-consolidate-row-result.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edit-csv/edit-csv-consolidate-row-result.png"
     />
 </div>
 

@@ -20,7 +20,7 @@ Let's imagine some daily-life illustrations :
 - _Before sending an important mail one can tend to have someone reading it again, before sending it._
 - _When correcting an article in Wikipedia, third persons are checking it back to verify the authenticity of your sources..._
 
-With Gitribute we wanted to **apply this process and this ethic to any data or dataset** we could think of, wherever it would hosted publicly (let`s say Github or Gitlab to begin with).
+With Datami we wanted to **apply this process and this ethic to any data or dataset** we could think of, wherever it would hosted publicly (let`s say Github or Gitlab to begin with).
 
 Above all, we wanted to **allow non-technicians internet users to get a grasp on this practice** 
 

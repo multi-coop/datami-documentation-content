@@ -1,9 +1,9 @@
-## Get on with Gitribute's main actions
+## Get on with Datami's main actions
 
 <div>
   <img
     alt="TUTORIAL-INTRO-ACTIONS"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-actions.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/commented/tutorial-actions.png"
     />
 </div>
 

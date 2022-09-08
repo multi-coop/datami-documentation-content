@@ -14,15 +14,15 @@ La consolidation peut concerner soit certaines entrées d'un tableur, soit le je
 
 Enfin, le besoin de consolidation sur un jeu de données est en géral lié à un besoin "métier" spécifique, à une profession, à une thématique, à une organisation... Les cas et les combinatoires sont infinis.
 
-Étant donnée cette infinité des cas où un.e utilisateur.rice aurait à consolider des données, l'intention de Gitribute est d'intégrer un système permettant de **déléguer la consolidation à des services tiers**, essentiellement des _APIs_ (*).
+Étant donnée cette infinité des cas où un.e utilisateur.rice aurait à consolider des données, l'intention de Datami est d'intégrer un système permettant de **déléguer la consolidation à des services tiers**, essentiellement des _APIs_ (*).
 
 (*) _"API" pour "[Application Programming Interface](https://en.wikipedia.org/wiki/API)"_
 
-Pour ce faire nous avons conçu une manière de configurer des requêtes à des APIs, requêtes que vous pouvez personnaliser en fonction des spécificités de tel ou tel jeu de données. **Gitribute laisse le.s propriétaire.s du jeu de données décider quelle API il.s souhaite.ent inclure dans un widget, vues les particularités du jeu de données**.
+Pour ce faire nous avons conçu une manière de configurer des requêtes à des APIs, requêtes que vous pouvez personnaliser en fonction des spécificités de tel ou tel jeu de données. **Datami laisse le.s propriétaire.s du jeu de données décider quelle API il.s souhaite.ent inclure dans un widget, vues les particularités du jeu de données**.
 
-L'intégration d'un **service tiers de consolidation via API n'est pas écrit "en dur" dans Gitribute** : un widget Gitribute **nécessite une légère configuration** pour peupler le champ de [consolidation](/tutorial-edition).
+L'intégration d'un **service tiers de consolidation via API n'est pas écrit "en dur" dans Datami** : un widget Datami **nécessite une légère configuration** pour peupler le champ de [consolidation](/tutorial-edition).
 
-Nous avons d'ores et déjà testé l'intégration de ces APIs tierces dans des widgets Gitribute :
+Nous avons d'ores et déjà testé l'intégration de ces APIs tierces dans des widgets Datami :
 
 - [API-entreprises](https://api.gouv.fr/les-api/api-entreprise) : permet de récupérer des informations publiques sur une organisation étant donné son numéro de SIREN ;
 - [Base Adresse Nationale](https://adresse.data.gouv.fr/api-doc/adresse) : permet de récupérer la géolocalisation étant donné un code postale, adresse au format textuel... ;

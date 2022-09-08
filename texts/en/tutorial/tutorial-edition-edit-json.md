@@ -3,13 +3,13 @@
 <div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-EDITION-JSON"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edition-edit-json.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edition-edit-json.png"
     />
 </div>
 
 <br> 
 
-Gitribute's `gitfile` widget can also edit `json` files (and it goes without saying also `geojson`).
+Datami's `gitfile` widget can also edit `json` files (and it goes without saying also `geojson`).
 
 You will have the exact same "edit-views" available for `json` files than for `md` or `csv` : `preview` / `edit` / `diff`.
 

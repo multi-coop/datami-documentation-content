@@ -1,5 +1,5 @@
 <p class="has-text-centered mt-5 mb-0 is-size-7 has-text-grey is-italic">
-  Gitribute est un projet de la coopérative numérique
+  Datami est un projet de la coopérative numérique
   <a href="https://multi.coop" target="_blank">
     multi
   </a>
@@ -12,7 +12,7 @@
       target="_blank">
       <img
         style="max-height: 45px; width: auto;"
-        src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/logos/logo-multi-003.png"
+        src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/logos/logo-multi-003.png"
         alt="MULTI"
       />
     </a>

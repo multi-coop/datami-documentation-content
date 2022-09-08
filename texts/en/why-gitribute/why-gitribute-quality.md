@@ -7,9 +7,9 @@ Such data could come as either incomplete, not structured enough, some columns c
 
 Delivered as such that kind of dataset is not "clean" nor ready for further uses.
 
-With Gitribute we try to **adress this need for data consolidation**, mainly because this need for data consolidation is happening to us daily at work with evrey client we worked for : people's table data can always be "cleaner" or "better".
+With Datami we try to **adress this need for data consolidation**, mainly because this need for data consolidation is happening to us daily at work with evrey client we worked for : people's table data can always be "cleaner" or "better".
 
-To consolidate data from Gitribute's widgets we mobilized two different families of tools : 
+To consolidate data from Datami's widgets we mobilized two different families of tools : 
 
 - **Schemas** : see below and [this section](/tutorial-edition#tutorial-edition-3-edition-csv-fields)
 - **Third party APIs** : see below and [this other section](/tutorial-edition#tutorial-edition-5-edition-csv-consolidation_field)

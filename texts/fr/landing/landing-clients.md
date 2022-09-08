@@ -1,5 +1,5 @@
 <h3 class="has-text-centered mt-6 mb-6">
-  Ils utilisent ou soutiennent Gitribute
+  Ils utilisent ou soutiennent Datami
 </h3>
 
 <div class="columns is-multiline is-8 is-vcentered is-centered mt-0 mb-6">
@@ -8,7 +8,7 @@
       href="https://www.opendatafrance.net/"
       target="_blank">
       <img
-        src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/clients/odf-logo.svg"
+        src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/clients/odf-logo.svg"
         alt="OPEN DATA FRANCE"
       />
     </a>
@@ -18,7 +18,7 @@
       href="https://agence-cohesion-territoires.gouv.fr/"
       target="_blank">
       <img
-        src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/clients/anct-logo.png"
+        src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/clients/anct-logo.png"
         alt="ANCT"
       />
     </a>
@@ -28,7 +28,7 @@
       href="https://lafabriquedesmobilites.fr/"
       target="_blank">
       <img
-        src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/clients/fabmob-logo.png"
+        src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/clients/fabmob-logo.png"
         alt="FABMOB"
       />
     </a>

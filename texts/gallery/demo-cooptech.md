@@ -2,10 +2,10 @@
 
   <hr>
 
-  <!-- GITRIBUTE - contribute with GIT ...but without minding it-->
+  <!-- DATAMI - contribute with GIT ...but without minding it-->
   <!-- An open source widget coded with 🤍  by the tech cooperative multi : https://multi.coop -->
 
-  <!-- GITRIBUTE WIDGET'S HTML BLOCK-->
+  <!-- DATAMI WIDGET'S HTML BLOCK-->
   <multi-gitribute-file
     title="Liste des coopératives de la tech en France - csv ( semicolon separator)"
     gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/cooptech/Annuaire-SCOP-SCIC-tech-France.csv"
@@ -94,7 +94,7 @@
     locale="fr"
   ></multi-gitribute-file>
 
-  <!-- GITRIBUTE WIDGET'S APP.JS SCRIPT -->
+  <!-- DATAMI WIDGET'S APP.JS SCRIPT -->
   <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript"></script>
 
   <hr>

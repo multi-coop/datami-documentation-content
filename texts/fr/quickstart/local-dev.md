@@ -6,4 +6,4 @@ Une fois les dépendances installées vous pouvez lancer l'application Vue.js et
 npm run serve
 ```
 
-Par défaut Gitribute tournera sur `https://localhost:8080`
+Par défaut Datami tournera sur `https://localhost:8080`

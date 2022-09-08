@@ -16,7 +16,7 @@
       class="icon">
       <i class="mdi mdi-arrow-down"></i>
     </span>
-    you'll see a Gitribute widget
+    you'll see a Datami widget
     <br>displaying a <code>csv</code> file.
   </p>
   <p class="is-size-4">
