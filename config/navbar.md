@@ -1,7 +1,7 @@
 ---
 background-color: white
 # logo-left: https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/logo_GITRIBUTE_title_big.png
-logo-left: https://raw.githubusercontent.com/multi-coop/vizboard-website-content/main/images/logos/logo-DATAMI-rect-colors-03.png
+logo-left: https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/logos/logo-DATAMI-rect-colors-03.png
 fixed-top: true
 
 buttons-left-centered: true

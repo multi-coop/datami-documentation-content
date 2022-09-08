@@ -1,5 +1,5 @@
 ---
-app_name : Datami docs
+app_name : Datami | docs
 show_app_name: true
 app_default_locale: en
 app_locales: [
@@ -8,7 +8,7 @@ app_locales: [
 ]
 app_md_flavor: github
 app_icon: ./images/logos/logo-DATAMI-rect-colors-03.png
-app_favicon: https://raw.githubusercontent.com/multi-coop/datami-website-content/main/images/logos/logo-DATAMI-favicon.ico
+app_favicon: https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/logos/logo-DATAMI-favicon.ico
 
 routes: ./config/routes.md
 navbar: ./config/navbar.md
@@ -38,8 +38,9 @@ matomo:
   matomo_track_outlinks: true
 
 seo_keywords: [
-  widget, vizboard, git, nocode, viz, board, map, table, dataviz, wiki,
-  csv, md, json
+  widget, datami, git, nocode, viz, board, map, table, dataviz, wiki,
+  csv, md, json,
+  open source
 ]
 
 ---
