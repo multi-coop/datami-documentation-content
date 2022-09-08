@@ -1,6 +1,7 @@
 ---
 background-color: white
-logo-left: https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/logo_GITRIBUTE_title_big.png
+# logo-left: https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/logo_GITRIBUTE_title_big.png
+logo-left: https://raw.githubusercontent.com/multi-coop/vizboard-website-content/main/images/logos/logo-DATAMI-rect-colors-03.png
 fixed-top: true
 
 buttons-left-centered: true
@@ -12,15 +13,15 @@ buttons-left:
     component: dropdownLink
     options: [ arrowless, hoverable ]
     label: 
-      fr: Pourquoi Gitribute ?
-      en: Why Gitribute
+      fr: Pourquoi Datami ?
+      en: Why Datami
     submenu: 
-      - name: why-gitribute
-        link: /why-gitribute
+      - name: why-datami
+        link: /why-datami
         component: simpleLink
         label: 
-          fr: Pourquoi Gitribute ?
-          en: Why Gitribute ?
+          fr: Pourquoi Datami ?
+          en: Why Datami ?
       - name: business-model
         link: /business-model
         component: simpleLink
@@ -246,7 +247,7 @@ buttons-right:
 
   - name: multi 
     link: https://multi.coop
-    image: https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/logos/logo-multi-003.png
+    image: https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/logos/logo-multi-003.png
     icon: open-in-new
     component: extLink
     options: [ arrowless ]
@@ -254,14 +255,14 @@ buttons-right:
       fr: Un projet par la coopérative multi
       en: A project by the tech cooperative multi
 
-  - name: blog 
-    # icon: at
-    link: /blog
-    component: simpleLink
-    options: [ arrowless, hoverable ]
-    label: 
-      fr: Blog
-      en: Blog
+  # - name: blog 
+  #   # icon: at
+  #   link: /blog
+  #   component: simpleLink
+  #   options: [ arrowless, hoverable ]
+  #   label: 
+  #     fr: Blog
+  #     en: Blog
 
   - name: repo 
     link: https://gitlab.com/multi-coop/gitribute
@@ -269,8 +270,8 @@ buttons-right:
     component: extLink
     options: [ arrowless ]
     label: 
-      fr: Code source de Gitribute
-      en: Gitribute source code
+      fr: Code source de Datami
+      en: Datami source code
 
   - name: switch-locale
     component: switchLocaleDropdown

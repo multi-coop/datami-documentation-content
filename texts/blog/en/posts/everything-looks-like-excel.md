@@ -17,7 +17,7 @@ Anyway... if we keep esthetics and philosphical mumbo jumbo aside, let's say **[
 
 ### Widget for `csv` preview and edition
 
-Gitribute's adress is to users as common possible, so no overkill innovations concerning the UX ideas. We wanted an interface even Donald Trump could understand (even if this is not really the kind of commoner we're looking for). An interface anybody could rely to :
+Datami's adress is to users as common possible, so no overkill innovations concerning the UX ideas. We wanted an interface even Donald Trump could understand (even if this is not really the kind of commoner we're looking for). An interface anybody could rely to :
 
 - A table. 
 - A fulltext search.
@@ -34,6 +34,6 @@ Once - and only once - those design principles put in place, we wanted to add ou
 
 The main and more original one being the **consolidation button** for every row, helping to get complementary data from external APIs ("api-entreprises", "BAN api", ...).
 
-![GITRIBUTE-WIREFRAME-EDIT-CSV-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-csv-02.png)
+![GITRIBUTE-WIREFRAME-EDIT-CSV-02](https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-csv-02.png)
 
 > **Note** : More about csv edition in the **["Tutorials > Edit a document"](/tutorial-edition)** section

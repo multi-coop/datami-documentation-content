@@ -3,7 +3,7 @@
 <div>
   <img
     alt="TUTORIAL-ACTIONS-DIFF_BUTTON"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/view-btn_diff.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/view-btn_diff.png"
     />
 </div>
 
@@ -16,7 +16,7 @@ For instance the `diff` mode for a `md` (markdown) file looks something like thi
 <div style="border: thin solid lightgrey;">
   <img 
     alt="TUTORIAL-ACTIONS-EDIT_PREVIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edition-edit-md.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edition-edit-md.png"
     />
 </div>
 

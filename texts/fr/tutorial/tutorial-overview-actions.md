@@ -1,13 +1,13 @@
-## Découvrir les actions principales dans Gitribute
+## Découvrir les actions principales dans Datami
 
 <div>
   <img
     alt="TUTORIAL-INTRO-ACTIONS"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-actions.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/commented/tutorial-actions.png"
     />
 </div>
 
-Des fonctionnalités de type "action" sont accesibles globalement dans les widgets de Gitribute : 
+Des fonctionnalités de type "action" sont accesibles globalement dans les widgets de Datami : 
 
 - **Afficher les informations relatives à un fichier**
 - **Copier le code html d'un widget**

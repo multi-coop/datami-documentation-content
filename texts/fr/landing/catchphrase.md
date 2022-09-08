@@ -50,5 +50,5 @@
 
 </div>
 
-<!-- GITRIBUTE - contribute with GIT ...but without minding it-->
+<!-- DATAMI - contribute with GIT ...but without minding it-->
 <!--  ... but without having to use Github or Gitlab  -->

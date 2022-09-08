@@ -3,7 +3,7 @@
 <div>
   <img
     alt="TUTORIAL-ACTIONS-PREVIEW_BUTTON"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/view-btn_preview.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/view-btn_preview.png"
     />
 </div>
 
@@ -14,6 +14,6 @@ Par exemple la prévisualisation d'un fichier `json` ressemble à ceci :
 <div style="border: thin solid lightgrey;">
   <img 
     alt="TUTORIAL-ACTIONS-EDIT_PREVIEW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edition-preview-json.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edition-preview-json.png"
     />
 </div>

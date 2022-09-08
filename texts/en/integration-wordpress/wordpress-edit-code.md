@@ -3,7 +3,7 @@
 <div>
   <img
     alt="WORDPRESS-EDIT-01"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-edit-01-help.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/wordpress/wordpress-edit-01-help.png"
     />
 </div>
 <br>
@@ -15,7 +15,7 @@ You then have to select "Editor > Code editor", in order to edit directly you Wo
 <div>
   <img
     alt="WORDPRESS-EDIT-02"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-edit-02-help.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/wordpress/wordpress-edit-02-help.png"
     />
 </div>
 <br>

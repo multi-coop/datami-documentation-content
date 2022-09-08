@@ -5,7 +5,7 @@ created: 17/07/2022
 author: Julien Paris
 ---
 
-**Contribuer à l'_open data_ et simplifier le processus pour pouvoir le faire en ligne** sont les objecifs fondamentaux du projet Gitribute. Toute notre réflexion sur l'architecture technique, nos efforts sur l'_UI/UI_, sur la simplification des interfaces... sont le fruit de ces intentions initiales. 
+**Contribuer à l'_open data_ et simplifier le processus pour pouvoir le faire en ligne** sont les objecifs fondamentaux du projet Datami. Toute notre réflexion sur l'architecture technique, nos efforts sur l'_UI/UI_, sur la simplification des interfaces... sont le fruit de ces intentions initiales. 
 
 Cela posé nous pensons que **les plateformes aujourd'hui les plus hégémoniques** (disons les GAFAM pour faire court) **entretiennent la confusion entre "contribution" et "laisser les gens dirent ce qu'ils pensent"**.
 
@@ -23,8 +23,8 @@ Bienheureusement certaines initiatives étaient déjà très au fait de cette di
 
 Soulignons toutefois ici que **nous ne cherchons absolument PAS à réinventer Wikipédia** sous quelque forme que ce soit avec Gitrbute. Il y a des limites à la démesure... Certes en tant que société coopérative de droit privée (SCOP) nous sommes sans doute un brin inconscients pour vouloir nous lancer dans des projets open source, chose parfois complexe dans un milieu industriel et économique qui fait la chasse aux [licornes](https://www.reddit.com/r/memes/comments/67oofp/lost_unicorn_if_found_please_stop_doing_drugs/) (!), mais nous n'en sommes pas encore au point de devoir être internés... Pas encore.
 
-Wikipédia reste en somme surtout une source d'inspiration pour le projet Gitribute : d'une part par son [modèle économique ouvert](https://wikimediafoundation.org/), et d'autre part par sa façon d'avoir généralisé un processus de modération de contenus ouvert à la critique. La seule chose - centrale à nos yeux mais finalement modeste - qu'avec Gitribute nous pensons apporter à l'_open data_ consiste à rendre ce processus **absolument décentralisé** : pas de serveur unique pour les données de tout le monde, mais que chacun.e puisse garder le contrôle sur ses propres données.
+Wikipédia reste en somme surtout une source d'inspiration pour le projet Datami : d'une part par son [modèle économique ouvert](https://wikimediafoundation.org/), et d'autre part par sa façon d'avoir généralisé un processus de modération de contenus ouvert à la critique. La seule chose - centrale à nos yeux mais finalement modeste - qu'avec Datami nous pensons apporter à l'_open data_ consiste à rendre ce processus **absolument décentralisé** : pas de serveur unique pour les données de tout le monde, mais que chacun.e puisse garder le contrôle sur ses propres données.
 
 A l'opposé de services en ligne où la collaboration sur un jeu de données suppose que les données soient stockées sur les serveurs de ce même service (Airtable, GSheet, Notion, etc...), nous préférons imaginer un numérique de **contribution "en circuit court"** entre le propriétaire des données mises en commun et sa communauté de contributeurs : des données **stockées un peu partout**, **modérées par des personnes se présentant comme responsables** de la qualité de ces données, le tout en **permettant l'intéropérabilité** des données mises en commun.
 
-**"Pair-à-Modérateur-à-Commmuns"** - "P-M-C" pour les amoureux des acronymes - serait une manière de résumer cet idéal qui nous sert de boussole dans les développements de Gitribute.
+**"Pair-à-Modérateur-à-Commmuns"** - "P-M-C" pour les amoureux des acronymes - serait une manière de résumer cet idéal qui nous sert de boussole dans les développements de Datami.

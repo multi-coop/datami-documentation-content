@@ -11,7 +11,7 @@ En fonction de votre envie et/ou de vos compétences en code vous pouvez aussi n
 
 Tous les contenus de ce site de documentation sont visibles sur ce repo :
 
-📁 &nbsp; [**Contenus de la documentation Gitribute**][site_content]
+📁 &nbsp; [**Contenus de la documentation Datami**][site_content]
 
 <p>
   Vous pouvez également

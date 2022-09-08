@@ -1,7 +1,7 @@
 
-# Panorama des widgets Gitribute
+# Panorama des widgets Datami
 
-Gitribute n'est pas **un** widget à proprement parler, c'est une **collection de widgets**.
+Datami n'est pas **un** widget à proprement parler, c'est une **collection de widgets**.
 
 Nous développons différents widgets que vous pouvez ensuite inclure _ad libidum_ dans vos propres sites web.
 
@@ -16,4 +16,4 @@ Notre [feuille de route](/software) dessine nos intentions pour les prochains cy
 - afficher une cartographie à partir de données tabulaires ; 
 - ...l'imagination (et le temps, et l'argent) est la limite.
 
-Maintenant que nous vous avons présenté des idées de widgets que nous pourrions développer voyons ceux qui existent déjà dans la collection des wdgets Gitribute.
+Maintenant que nous vous avons présenté des idées de widgets que nous pourrions développer voyons ceux qui existent déjà dans la collection des wdgets Datami.

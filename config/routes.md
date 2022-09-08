@@ -4,8 +4,14 @@ routes:
   # LANDING
   - name: home
     url: /
-    # options:
-    #   hero: true
+    options:
+      description:
+        fr: Page d'accueil de la documentation de Datami
+        en: Homepage for Datami documentation
+      keywords:
+        fr: [ accueil, landing ]
+        en: [ homepage, landing ]
+      # hero: true
     sections:
       - name: landing
         component: TextComponent
@@ -58,8 +64,8 @@ routes:
       #         icon-left: help-circle
       #         rounded: true
       #         label:
-      #           fr: Pourquoi utiliser Gitribute
-      #           en: Why you need Gitribute
+      #           fr: Pourquoi utiliser Datami
+      #           en: Why you need Datami
             # - link: /tutorial-overview
             #   icon-left: school
             #   rounded: true
@@ -238,24 +244,30 @@ routes:
           fr: ./texts/fr/landing/landing-multi.md
           en: ./texts/en/landing/landing-multi.md
 
-  # WHAT IS GITRIBUTE
-  - name: why-gitribute
-    url: /why-gitribute
+  # WHAT IS DATAMI
+  - name: why-datami
+    url: /why-datami
     options:
       summary: true
       contrib: true
       name:
-        fr: Pourquoi Gitribute ?
-        en: Why Gitribute ?
+        fr: Pourquoi Datami ?
+        en: Why Datami ?
+      description:
+        fr: Pourquoi nous développons le logiciel libre Datami ?
+        en: Why are we developping the free software Datami ?
+      keywords:
+        fr: [ pourquoi, simplifier, aider, ouvrir, réduire les coûts, open data ]
+        en: [ why, simplify, help, open, cheap, open data ]
     sections:
-      - name: logo
-        component: TextComponent
-        options:
-          columns-size: '2 is-hidden-touch'
-          not-in-menu: true
-        files:
-          fr: ./texts/international/logo-gitribute-bis.md
-          en: ./texts/international/logo-gitribute-bis.md
+      # - name: logo
+      #   component: TextComponent
+      #   options:
+      #     columns-size: '2 is-hidden-touch'
+      #     not-in-menu: true
+      #   files:
+      #     fr: ./texts/international/logo-gitribute-bis.md
+      #     en: ./texts/international/logo-gitribute-bis.md
       - name: why-intro
         component: TextComponent
         options:
@@ -375,6 +387,12 @@ routes:
       name:
         fr: Principales fonctionnalités
         en: Main features
+      description:
+        fr: Les fonctionnalités principales et innovantes de nos widgets
+        en: The widgets' main original features
+      keywords:
+        fr: [ éditer, contribuer, partager, adapter, visualiser, dataviz ]
+        en: [ edit, contribute, share, adapt, visualise, dataviz ]
     sections: 
       - name: main-features
         component: TextComponent
@@ -447,6 +465,12 @@ routes:
       name:
         fr: "100% libre & gratuit"
         en: "100% free"
+      description:
+        fr: Datami est entièrement open source
+        en: Datami is entirely free & open source
+      keywords:
+        fr: [ open source, free ]
+        en: [ open  source, free ]
     sections: 
       - name: business-model
         component: TextComponent
@@ -517,8 +541,8 @@ routes:
         options:
           columns-size: full
           name:
-            fr: Ils soutiennent Gitribute
-            en: They support Gitribute
+            fr: Ils soutiennent Datami
+            en: They support Datami
         files:
           fr: ./texts/fr/landing/landing-clients.md
           en: ./texts/en/landing/landing-clients.md
@@ -554,6 +578,12 @@ routes:
       name:
         fr: Benchmark
         en: Benchmark
+      description:
+        fr: Comparaisons des solutions équivalentes
+        en: Comparison between similar solutions
+      keywords:
+        fr: [ benchmark, no code ]
+        en: [ benchmark, no code ]
     sections: 
       - name: benchmark-head
         component: TextComponent
@@ -650,6 +680,12 @@ routes:
       name:
         fr: Panorama des tutoriels
         en: Tutorials overview
+      description:
+        fr: Liste des tutoriels de prise en main des widgets
+        en: Tutorials list to learn how to use widgets
+      keywords:
+        fr: [ tutoriel, panorama ]
+        en: [ tutorial, overview ]
     sections: 
       - name: tutorial-overview
         component: TextComponent
@@ -721,6 +757,12 @@ routes:
       name:
         fr: Informations sur le document
         en: Document's infos
+      description:
+        fr: voir les informations sur un document de données
+        en: check the informations about a data file
+      keywords:
+        fr: [ tutoriel, infos, fichier, dataset ]
+        en: [ tutorial, infos, file, dataset ]
     sections: 
       - name: tutorial-actions
         component: TextComponent
@@ -848,6 +890,12 @@ routes:
       name:
         fr: Vues d'un document
         en: Document's views
+      description:
+        fr: Les modes de visualisation d'un document de données
+        en: The visualisation mode for a dataset
+      keywords:
+        fr: [ tutoriel, vues, datavisualisation ]
+        en: [ tutorial, views, datavisualisation ]
     sections:
       - name: tutorial-actions-change-modes
         component: TextComponent
@@ -974,6 +1022,12 @@ routes:
       name:
         fr: Éditer un document
         en: Edit a document
+      description:
+        fr: Les options d'édition d'un document
+        en: How to edit a document
+      keywords:
+        fr: [ tutoriel, éditer ]
+        en: [ tutorial, edit ]
     sections: 
       - name: edition
         component: TextComponent
@@ -1078,6 +1132,12 @@ routes:
       name:
         fr: Contribuer à un document
         en: Contribute to a document
+      description:
+        fr: Comment contribuer sur un même fichier et dataset
+        en: How to contribute on the same document or file
+      keywords:
+        fr: [ tutoriel, contribuer, éditer ]
+        en: [ tutorial, contribute, edit ]
     sections: 
       # - name: contribution
       #   component: TextComponent
@@ -1128,8 +1188,14 @@ routes:
       contrib: true
       summary: true
       name:
-        fr: Intégration de Gitribute dans un site web
-        en: Gitribute's integration in a website
+        fr: Intégration de Datami dans un site web
+        en: Datami's integration in a website
+      description:
+        fr: Comment intégrer Datami facilement dans votre site web
+        en: How to easily integrate Datami within your website
+      keywords:
+        fr: [ tutoriel, intégration, widget ]
+        en: [ tutorial, integration, widget ]
     sections: 
       - name: integration
         component: TextComponent
@@ -1202,7 +1268,13 @@ routes:
       name:
         fr: Intégration dans Wordpress
         en: Wordpress integration
-    sections: 
+      description:
+        fr: Intégrer un widget Datami dans Wordpress 
+        en: Integrate a Datami widget in a wordpress website
+      keywords:
+        fr: [ tutoriel, intégration, Wordpress ]
+        en: [ tutorial, integration, Wordpress ]
+    sections:
       - name: integration
         component: TextComponent
         options:
@@ -1311,6 +1383,12 @@ routes:
       name:
         fr: Stratégies d'installation
         en: Installation strategies
+      description:
+        fr: Comment installer Datami ?
+        en: How to install Datami ?
+      keywords:
+        fr: [ documentation, installation, réutiliser, adapter ]
+        en: [ documentation, install, reuse, adapt ]
     sections: 
       - name: installation
         component: TextComponent
@@ -1337,8 +1415,8 @@ routes:
         options:
           columns-size: three-quarters
           name:
-            fr: Adapter Gitribute à votre site
-            en: Adapt Gitribute for your website
+            fr: Adapter Datami à votre site
+            en: Adapt Datami for your website
         files:
           fr: ./texts/fr/installation/installation-adapt.md
           en: ./texts/en/installation/installation-adapt.md
@@ -1388,6 +1466,12 @@ routes:
       name:
         fr: Quickstart pour les développeurs
         en: Quickstart for developpers
+      description:
+        fr: Guide rapide d'installation pour les développeurs
+        en: Quick installation guide for developpers 
+      keywords:
+        fr: [ documentation, installation, développeurs ]
+        en: [ documentation, install, developpers ]
     sections: 
       - name: intro
         component: TextComponent
@@ -1496,6 +1580,12 @@ routes:
       name:
         fr: Infos sur le logiciel
         en: Software informations
+      description:
+        fr: Informations sur les librairies utilisées
+        en: Infos about the software
+      keywords:
+        fr: [ documentation, stack, roadmap, contribution, open source ]
+        en: [ documentation, stack, roadmap, contribution, open source ]
     sections: 
       - name: docs-licence
         component: TextComponent
@@ -1603,7 +1693,13 @@ routes:
       name:
         fr: Panorama des widgets
         en: Widgets overview
-    sections: 
+      description:
+        fr: Liste des widgets propulsés par Datami
+        en: List of widgets powered by Datami
+      keywords:
+        fr: [ documentation, gitfile, multi-files, explowiki ]
+        en: [ documentation, gitfile, multi-files, explowiki ]
+    sections:
       - name: docs-widgets-overview
         component: TextComponent
         options:
@@ -1716,6 +1812,12 @@ routes:
       name:
         fr: Le widget "gitfile"
         en: The "gitfile" widget
+      description:
+        fr: Détails de configuration du widget gitfile
+        en: Configuration details of the gitfile widget
+      keywords:
+        fr: [ documentation, config, gitfile ]
+        en: [ documentation, config, gitfile ]
     sections: 
       - name: docs-gitfile
         component: TextComponent
@@ -1923,6 +2025,12 @@ routes:
       name:
         fr: Le widget "explowiki"
         en: The "explowiki" widget
+      description:
+        fr: Détails de configuration du widget explowiki
+        en: Configuration details of the explowiki widget
+      keywords:
+        fr: [ documentation, config, explowiki ]
+        en: [ documentation, config, explowiki ]
     sections: 
       - name: docs-explowiki
         component: TextComponent
@@ -2098,6 +2206,12 @@ routes:
       name:
         fr: Le widget "multi-files"
         en: The "multi-files" widget
+      description:
+        fr: Détails de configuration du widget multi-files
+        en: Configuration details of the multi-files widget
+      keywords:
+        fr: [ documentation, config, multi-files ]
+        en: [ documentation, config, multi-files ]
     sections: 
       - name: docs-multi-files
         component: TextComponent
@@ -2239,6 +2353,15 @@ routes:
     url: /contact
     options:
       hero: true
+      name:
+        fr: Contactez-nous
+        en: Contact us
+      description:
+        fr: Contactez-nous pour plus d'infos
+        en: Contact us for more infos
+      keywords:
+        fr: [ contact, mail ]
+        en: [ contact, mail ]
     sections: 
       - name: Contact
         component: TextComponent
@@ -2251,6 +2374,16 @@ routes:
           en: ./texts/en/contact/contact-head.md
   - name: legal
     url: /legal
+    options:
+      name:
+        fr: Mentions légales
+        en: Legal
+      description:
+        fr: Mentions légales
+        en: Legal mentions
+      keywords:
+        fr: [ contact, légal ]
+        en: [ contact, legal ]
     sections: 
       # - name: data
       #   component: TextDataComponent
@@ -2279,6 +2412,15 @@ routes:
     url: /demo-cooptech
     options:
       contrib: true
+      name:
+        fr: Démo Cooptech
+        en: Demo Cooptech
+      description:
+        fr: Démonstrateur avec les données de Cooptech
+        en: Demonstrator with Cooptech dataset
+      keywords:
+        fr: [ démo, cooptech ]
+        en: [ demo, cooptech ]
     sections:
       - name: demo-gitribute-cooptech
         component: HtmlComponent
@@ -2304,6 +2446,15 @@ routes:
     url: /demo-odf-observatoire
     options:
       contrib: true
+      name:
+        fr: Démo Open Data France | Observatoire
+        en: Demo Open Data France | Observatory
+      description:
+        fr: Démonstrateur avec les données de l'Observatoire d'Open Data France
+        en: Demonstrator with Open Data France Observatory dataset
+      keywords:
+        fr: [ démo, ODF ]
+        en: [ demo, ODF ]
     sections:
       - name: demo-gitribute-odf-observatoire
         component: HtmlComponent
@@ -2329,6 +2480,15 @@ routes:
     url: /demo-odf-ressources
     options:
       contrib: true
+      name:
+        fr: Démo Open Data France | Ressources
+        en: Demo Open Data France | Ressources
+      description:
+        fr: Démonstrateur avec les données des Ressources d'Open Data France
+        en: Demonstrator with Open Data France Ressources dataset
+      keywords:
+        fr: [ démo, ODF ]
+        en: [ demo, ODF ]
     sections:
       - name: demo-gitribute-odf-ressources
         component: HtmlComponent
@@ -2354,6 +2514,15 @@ routes:
     url: /demo-fabmob
     options:
       contrib: true
+      name:
+        fr: Démo Fabmob
+        en: Demo Fabmob
+      description:
+        fr: Démonstrateur avec les données wiki de la Fabrique des mobilités
+        en: Demonstrator with Fabmob wiki dataset
+      keywords:
+        fr: [ démo, fabmob ]
+        en: [ demo, fabmob ]
     sections:
       - name: demo-gitribute-fabmob
         component: HtmlComponent
@@ -2379,6 +2548,15 @@ routes:
     url: /demo-aac
     options:
       contrib: true
+      name:
+        fr: Démo appel à communs de l'ADEME
+        en: Demo AAC ADEME
+      description:
+        fr: Démonstrateur avec les données wiki de l'appel à communs de l'ADEME
+        en: Demonstrator with ADEME-AAC wiki dataset
+      keywords:
+        fr: [ démo, ADEME ]
+        en: [ demo, ADEME ]
     sections:
       - name: demo-gitribute-aac
         component: HtmlComponent
@@ -2842,19 +3020,29 @@ routes:
 
 
   # BLOG
-  - name: blog
-    url: /blog
-    sections: 
-      - name: head
-        component: TextComponent
-        options:
-          columns-size: two-thirds
-        files:
-          fr: ./texts/blog/fr/blog-head.md
-          en: ./texts/blog/en/blog-head.md
-      - name: data
-        component: DataGrid
-        files:
-          fr: ./texts/blog/fr/blog-data.md
-          en: ./texts/blog/en/blog-data.md
+  # - name: blog
+  #   url: /blog
+  #   options:
+  #     name:
+  #       fr: Espace de blog
+  #       en: Blog section
+  #     description:
+  #       fr: Espace de blog du projet Datami
+  #       en: Blog section of Datami
+  #     keywords:
+  #       fr: [ blog ]
+  #       en: [ blog ]
+  #   sections: 
+  #     - name: head
+  #       component: TextComponent
+  #       options:
+  #         columns-size: two-thirds
+  #       files:
+  #         fr: ./texts/blog/fr/blog-head.md
+  #         en: ./texts/blog/en/blog-head.md
+  #     - name: data
+  #       component: DataGrid
+  #       files:
+  #         fr: ./texts/blog/fr/blog-data.md
+  #         en: ./texts/blog/en/blog-data.md
 --- 

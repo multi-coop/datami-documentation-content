@@ -20,7 +20,7 @@ Ce processus se retrouve dans la vie de tous les jours :
 - _Avant d'envoyer un courrier je peux avoir envie de le faire relire par quelqu'un de confiance_
 - _Quand j'apporte des modifications à un article dans Wikipédia, des tiers vont vérifier mes dires en vérifiant mes sources_...
 
-Ave Gitribute nous souhaitons **transposer ce processus et cette éthique à tout type de donnée numérique**, quel que soit l'endroit où la donnée est hébergée (disons Github ou Gitlab pour commencer).
+Ave Datami nous souhaitons **transposer ce processus et cette éthique à tout type de donnée numérique**, quel que soit l'endroit où la donnée est hébergée (disons Github ou Gitlab pour commencer).
 
 Par-dessus tout, nous souhaitons que **des utilisateurs non techniciens puissent se saisir de ce type de pratique**.
 

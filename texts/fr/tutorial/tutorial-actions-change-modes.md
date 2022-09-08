@@ -3,11 +3,11 @@
 <div>
   <img
     alt="TUTORIAL-ACTIONS-EDIT_AND_VIEW_MODES"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-edit_and_view_modes-fr.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/commented/tutorial-edit_and_view_modes-fr.png"
     />
 </div>
 
-Gitribute est conçu pour vous permettre d'éditer des données et de voir instanément le résultat de vos modifications. 
+Datami est conçu pour vous permettre d'éditer des données et de voir instanément le résultat de vos modifications. 
 
 Vous pouvez donc alterner entre différentes vues en fonction de vos besoins en édition :
 

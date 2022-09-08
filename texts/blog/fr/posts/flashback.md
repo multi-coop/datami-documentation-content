@@ -5,7 +5,7 @@ created: 17/07/2022
 author: Julien Paris
 ---
 
-Faisons un petit retour sur le moment où a démarré le projet Gitribute. Il n'y a pas réellement **un** moment précis, mais ces petits dialogues imaginaires (pas tant que ça en fait) vous donneront une idée de ce qui nous préoccupait à l'époque.
+Faisons un petit retour sur le moment où a démarré le projet Datami. Il n'y a pas réellement **un** moment précis, mais ces petits dialogues imaginaires (pas tant que ça en fait) vous donneront une idée de ce qui nous préoccupait à l'époque.
 
 <p class="has-text-centered mt-3 mb-4">
   * * *
@@ -49,7 +49,7 @@ A ce niveau l'alternative était devenue claire :
 
 <!-- 🚧  &nbsp; `Redaction in progress...` -->
 
-Le projet Gitribute hérite de longues et passionnantes discussions à propos de **ce qu'est l'_open data_**, et de **ce à quoi sert l'_opn_data_**.
+Le projet Datami hérite de longues et passionnantes discussions à propos de **ce qu'est l'_open data_**, et de **ce à quoi sert l'_opn_data_**.
 
 De nos jours l'_open data_ est partout, parfois là où on ne le remarque pas. Les pages de Wikipédia sont "_crawlées_" par des startups, les données d'Open Street Map sont réutilisées par l'Etat ou des sociétés privées, les données publiques sont publiées à des fins de réutilisation par d'autres acteurs publics... Les données aident des gouvernements à piloter leurs actions, et aident des startups à cibler leurs clients ou à affiner leur offre commerciale...
 

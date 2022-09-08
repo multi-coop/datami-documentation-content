@@ -7,7 +7,7 @@ The fields are listed horizontally in the first row, as they are written in the 
 <div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-EDITION-CSV-FIELDS"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edit-csv/edit-csv-fields.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edit-csv/edit-csv-fields.png"
     />
 </div>
 
@@ -18,7 +18,7 @@ If configured as such in the widget's options a field could be locked to prohibi
 <div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-EDITION-CSV-FIELD-LOCKED"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edit-csv/edit-csv-field-locked.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edit-csv/edit-csv-field-locked.png"
     />
 </div>
 
@@ -26,14 +26,14 @@ If configured as such in the widget's options a field could be locked to prohibi
 
 #### Table fields, table schema, and table properties
 
-With Gitribute you can apply a [table schema](https://specs.frictionlessdata.io/table-schema/) and other properties to a raw `csv` file.
+With Datami you can apply a [table schema](https://specs.frictionlessdata.io/table-schema/) and other properties to a raw `csv` file.
 
 You can have a look of a field's properties just by hovering it.
 
 <div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-EDITION-CSV-FIELD-TOOLTIP"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edit-csv/edit-csv-field.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edit-csv/edit-csv-field.png"
     />
 </div>
 
@@ -52,17 +52,17 @@ Those informations constitues a "table schema".
 
 For table schema we use the [`Table Schema` standard](https://specs.frictionlessdata.io/table-schema/), described there in the [Frictionless data website](https://specs.frictionlessdata.io).
 
-In addition to the Table Schema standard Gitribute uses other informations to describe a field, in order to optimize the user experience. Those extra informations are what we call the file's "custom properties".
+In addition to the Table Schema standard Datami uses other informations to describe a field, in order to optimize the user experience. Those extra informations are what we call the file's "custom properties".
 
 If the schema or the properties are described in external files you can check those files directly from the file's info dialog (by clicking on the <span class="icon"><i class="mdi mdi-information-outline"></i></span> button).
 
 <div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-EDITION-CSV-FIELDS"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edit-csv/edit-csv-schema_props.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edit-csv/edit-csv-schema_props.png"
     />
 </div>
 
 <br>
 
-> More about how to apply a schema and properties to a table dataset with Gitribute `gitfile` widget in the **["Documentation > Widget 'gitfile'"](/docs-gitfile)** section.
+> More about how to apply a schema and properties to a table dataset with Datami `gitfile` widget in the **["Documentation > Widget 'gitfile'"](/docs-gitfile)** section.

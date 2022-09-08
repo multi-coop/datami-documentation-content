@@ -3,7 +3,7 @@
 <div>
   <img
     alt="WORDPRESS-EDIT-03"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-edit-03-help.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/wordpress/wordpress-edit-03-help.png"
     />
 </div>
 <br>

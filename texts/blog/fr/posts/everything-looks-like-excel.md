@@ -17,7 +17,7 @@ Bref... si on met l'esthétique et la philosophie de comptoir de côté, accordo
 
 ### Des widgets pour la prévisualisation et l'édition de fichiers `csv`
 
-Gitribute s'adresse à des utilisateurs les plus usuels qui soient (pas à des techniciens de la donnée). Donc nous n'avons pas cherché des innovations trop originales en termes d'UX. Nous voulions des interfaces que même Donald Trump serait en mesure de comprendre (même si ce n'est pas exactement le profil de _commoner_ que nous visons vraiment). Nous cherchons des interfaces accessibles et habituelles pour le plus grand nombre : 
+Datami s'adresse à des utilisateurs les plus usuels qui soient (pas à des techniciens de la donnée). Donc nous n'avons pas cherché des innovations trop originales en termes d'UX. Nous voulions des interfaces que même Donald Trump serait en mesure de comprendre (même si ce n'est pas exactement le profil de _commoner_ que nous visons vraiment). Nous cherchons des interfaces accessibles et habituelles pour le plus grand nombre : 
 
 - Une table.
 - Une recherche textuelle.
@@ -34,6 +34,6 @@ Une fois et seulement une fois que nous avons mis en place ces principes nous av
 
 La principale fonctionnité un peu originale que nous avons imaginée en comparaison avec des outils de tableur classiques est celle du **bouton de consolidation** sur chaque ligne. Ce bouton permet de récupérer des données complémentaires par le biais d'APIs ("api-entreprises", "BAN api", ...) et de les injecter directement dans les données.
 
-![GITRIBUTE-WIREFRAME-EDIT-CSV-02](https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-csv-02.png)
+![GITRIBUTE-WIREFRAME-EDIT-CSV-02](https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/schemas/Multi-gitribute-wireframe-edit-csv-02.png)
 
 > **Note** : Plus de détails sur l'édition et la consolidation dans la partie **["Tutorials > Éditer un document"](/tutorial-edition)**.

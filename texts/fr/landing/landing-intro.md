@@ -16,7 +16,7 @@
       class="icon">
       <i class="mdi mdi-arrow-down"></i>
     </span>
-    un widget de Gitribute
+    un widget de Datami
     <br>affichant un ficher <code>csv</code>
     <br>(un équivalent de fichier excel)
   </p>

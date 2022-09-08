@@ -4,13 +4,13 @@
 <div style="border: thin solid lightgrey;">
   <img
     alt="TUTORIAL-EDITION-MD"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/edition-edit-md.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/edition-edit-md.png"
     />
 </div>
 
 <br> 
 
-Un fichier `md` (ou markdown) est le type de document le plus simple à éditer avec Gitribute.
+Un fichier `md` (ou markdown) est le type de document le plus simple à éditer avec Datami.
 
 **Vous éditez dans la partie de gauche du widget, et vous voyez le résultat dans la partie droite.**
 
@@ -20,7 +20,7 @@ De nombreuses organisations utilisent aujourd'hui des "pads" (faisant usage du m
 
 Pour en apprendre plus sur la syntaxe en Markdown vous pouvez consulter cette [ressource](https://www.markdownguide.org/basic-syntax/).
 
-Lorsque vous éditez un document en `md` avec Gitribute vous pouvez utiliser la syntaxe markdown comme vous le feriez habituellement, et ce que vous écrirez d'un côté apparaîtra mis en forme de l'autre... [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG).
+Lorsque vous éditez un document en `md` avec Datami vous pouvez utiliser la syntaxe markdown comme vous le feriez habituellement, et ce que vous écrirez d'un côté apparaîtra mis en forme de l'autre... [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG).
 
 > **Note** : La documentation que vous êtes en train de lire est entièrement écrite en markdown. 
 > _[Étonnant, non ?](https://www.youtube.com/watch?v=NzxejXTumLQ&ab_channel=jeanaimarster)_

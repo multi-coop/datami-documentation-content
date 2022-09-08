@@ -3,7 +3,7 @@
 <div style="border: thin solid lightgrey;">
   <img
     alt="WORDPRESS-EDIT-01"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-edit-01-help-fr.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/wordpress/wordpress-edit-01-help-fr.png"
     />
 </div>
 <br>
@@ -15,7 +15,7 @@ Ensuite vous devez sélectionner "Editeur > Editeur de code" afin d'éditer dire
 <div style="border: thin solid lightgrey;">
   <img
     alt="WORDPRESS-EDIT-02"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/wordpress/wordpress-edit-02-help-fr.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/wordpress/wordpress-edit-02-help-fr.png"
     />
 </div>
 <br>

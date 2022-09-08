@@ -1,5 +1,5 @@
 ---
-name: Gitribute
+name: Datami
 
 open: 
   - "yes"
@@ -20,7 +20,7 @@ description:
   en: |
     Outil générique de type widget, permettant de visualiser et d'éditer des données hébeergées sur Github ou Gitlab, voire sur un mediawiki.
 
-    Gitribute possède différentes fonctionnalités visant à simplifier l'édition de données et leur enrichissement :
+    Datami possède différentes fonctionnalités visant à simplifier l'édition de données et leur enrichissement :
 
     - visualisation sous forme de tableau ou de tuiles
     - visualisation des différences entre la version originale et la version éditée par l'utilisateur

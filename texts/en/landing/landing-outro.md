@@ -13,7 +13,7 @@
   <hr>
 
   <p class="is-size-4 mb-2 mt-4">
-    Gitribute's widgets are...
+    Datami's widgets are...
   </p>
 
   <hr>

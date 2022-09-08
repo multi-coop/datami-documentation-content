@@ -4,7 +4,7 @@
 
 | Solution                                                    | Main features | Database | Pros | Cons |
 | ---                                                         | ---           | ---      | ---  | ---  |
-| **[Gitribute   ](gittribute-docs.multi.coop)**              | widget, SPA | Git providers | ... | large datasets |
+| **[Datami   ](gittribute-docs.multi.coop)**              | widget, SPA | Git providers | ... | large datasets |
 | **[Data Patch  ](https://gitlab.com/multi-coop/datapatch)** | collaborative, SAS | Cloud, PostGreSQL | ... | mandatory account, in eaaaarly developments |
 | **[Gîs         ](https://gxis.codeursenliberte.fr/)**       | map, collaborative, SAS | Cloud | ... | mandatory account |
 | **[NoCodb      ](https://www.nocodb.com/)**                 | forms, collaborative, SAS | Cloud, PostGreSQL | ... | mandatory account, UX/UI |

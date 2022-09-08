@@ -4,7 +4,7 @@
 <div>
   <img
     alt="TUTORIAL-EDITION"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-edition.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/commented/tutorial-edition.png"
     />
 </div>
 

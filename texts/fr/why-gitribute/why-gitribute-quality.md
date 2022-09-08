@@ -7,9 +7,9 @@ De telles données peuvent arriver incomplètes, pas assez bien structurées, de
 
 Reçues ainsi ces données ne sont ni "propres" ni réutilisables.
 
-Avec Gitribute nous essayons de **répondre à ce besoin de consolidation des données**, pour commencer car ce besoin nous le rencontrons tous les jours nous-mêmes dans le cadre de missions pour nos clients : leurs données peuvent toujours être mieux "nettoyées" ou consolidées, bref être de meilleure qualité.
+Avec Datami nous essayons de **répondre à ce besoin de consolidation des données**, pour commencer car ce besoin nous le rencontrons tous les jours nous-mêmes dans le cadre de missions pour nos clients : leurs données peuvent toujours être mieux "nettoyées" ou consolidées, bref être de meilleure qualité.
 
-Pour consolider des données avec Gitribute nous mobilisons deux familles d'outils :
+Pour consolider des données avec Datami nous mobilisons deux familles d'outils :
 
 - **Les schémas de données** : voir plus bas et dans [cette partie](/tutorial-edition#tutorial-edition-3-edition-csv-fields)
 - **Des APIs tierces** : voir plus bas et dans  [cette autre partie](/tutorial-edition#tutorial-edition-5-edition-csv-consolidation_field)

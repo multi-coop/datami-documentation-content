@@ -6,4 +6,4 @@ Once the dependencies are installed you can run the Vue.js' hot-reload server fo
 npm run serve
 ```
 
-By default Gitribute will run on `https://localhost:8080`
+By default Datami will run on `https://localhost:8080`

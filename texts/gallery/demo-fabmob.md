@@ -2,10 +2,10 @@
 
   <hr>
 
-  <!-- GITRIBUTE - contribute with GIT ...but without minding it-->
+  <!-- DATAMI - contribute with GIT ...but without minding it-->
   <!-- An open source widget coded with 🤍  by the tech cooperative multi : https://multi.coop -->
 
-  <!-- GITRIBUTE WIDGET'S HTML BLOCK-->
+  <!-- DATAMI WIDGET'S HTML BLOCK-->
   <multi-gitribute-explowiki
     title="gitribute for explowiki - fabmob :)"
     wikilist="https://wiki.lafabriquedesmobilites.fr/wiki/Sp%C3%A9cial:WfExplore?title=Sp%C3%A9cial%3AWfExplore&page=1&wf-expl-Category-Projet=on&wf-expl-Page_creator-fulltext=&wf-expl-Tags="
@@ -168,7 +168,7 @@
     locale="fr"
   ></multi-gitribute-explowiki>
 
-  <!-- GITRIBUTE WIDGET'S APP.JS SCRIPT -->
+  <!-- DATAMI WIDGET'S APP.JS SCRIPT -->
   <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript" defer></script>
 
 

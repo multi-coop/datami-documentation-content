@@ -3,13 +3,13 @@
 <div>
   <img
     alt="TUTORIAL-EDITION-CSV-CONSOLIDATE-ROW"
-    src="https://raw.githubusercontent.com/multi-coop/gitribute-documentation-content/main/images/tutorial/commented/tutorial-csv-edition-fr.png"
+    src="https://raw.githubusercontent.com/multi-coop/datami-documentation-content/main/images/tutorial/commented/tutorial-csv-edition-fr.png"
     />
 </div>
 
 <br>
 
-Avec Gitribute vous pouvez faire un certain nombre d'opérations de base en mode "édition" :
+Avec Datami vous pouvez faire un certain nombre d'opérations de base en mode "édition" :
 
 - Modifier le contenu ou la valeur d'une cellule ;
 - Ajouter une nouvelle ligne ;

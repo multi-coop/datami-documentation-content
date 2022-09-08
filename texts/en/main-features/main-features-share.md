@@ -1,6 +1,6 @@
 ### Share your datasets
 
-Gitribute allow you to put in a place **a widget that other people can copy and include in their own website**.
+Datami allow you to put in a place **a widget that other people can copy and include in their own website**.
 
 Even if the widget is copied, the data source stays the same. That way **you can multiply the number of persons contributing to your data**.
 

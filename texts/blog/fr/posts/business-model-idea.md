@@ -9,7 +9,7 @@ Développer un outil libre est un exercice à part dans le monde du numérique.
 
 ### Une idée, et une preuve rapide que techniquement ça fonctionne
 
-Comme n'importe quelle idée, l'idée de Gitribute ne sort pas de la cuisse de Jupiter.
+Comme n'importe quelle idée, l'idée de Datami ne sort pas de la cuisse de Jupiter.
 
 Cette idée puise dans différentes choses, projets, discussions, que nous avons avec les associés de la coopérative depuis un long moment.
 
@@ -19,17 +19,17 @@ Cette idée puise dans différentes choses, projets, discussions, que nous avons
 
 Et comme n'importe quelle idée celle-ci devait prendre une première forme avant d´être affinée.
 
-La première concrétisation de Gitribute n'a pas été des lignes de code, cela a consisté à faire quelques [dessins d'architecture générale du logiciel](/architecture). Et le papier ça coûte pas encore trop cher...
+La première concrétisation de Datami n'a pas été des lignes de code, cela a consisté à faire quelques [dessins d'architecture générale du logiciel](/architecture). Et le papier ça coûte pas encore trop cher...
 
 Nous avions déjà fait quelques expériences dans des technos qui nous plaisaient, et certains voulaient expérimenter plus avant avec les widgets.
 
-Avec ces choses en poche - **une idée et un plan d'action** - coder le "squelette" du projet Gitribute n'était plus l'affaire que de quelques jours seulement.
+Avec ces choses en poche - **une idée et un plan d'action** - coder le "squelette" du projet Datami n'était plus l'affaire que de quelques jours seulement.
 
 ### Des vrais cas d'usage
 
-Nous avons travaillé dés le début des développements sur Gitribute sur la base de **vrais cas utilisateurs**, y compris dans ses toutes premières versions.
+Nous avons travaillé dés le début des développements sur Datami sur la base de **vrais cas utilisateurs**, y compris dans ses toutes premières versions.
 
-Les premières briques de Gitribute répondaient déjà aux demandes d'un premier, puis d'un second, puis d'un troisième client... Ces briques étaient autant de solutions à ce que nous concevions comme des besoins partagés par tous ces clients.
+Les premières briques de Datami répondaient déjà aux demandes d'un premier, puis d'un second, puis d'un troisième client... Ces briques étaient autant de solutions à ce que nous concevions comme des besoins partagés par tous ces clients.
 
 De fait nous pouvions **avoir de réels retours** au cours de nos cycles de développements.
 
@@ -41,7 +41,7 @@ Ces premières missions et la confiance de ces structures nous ont alors permis 
 
 ### Mutualiser les besoins & converger sur une feuille de route
 
-Le principe central que nous tentons de respecter lorsqu'il s'agit de financer des dêveloppements d'un produit tel que Gitribute est le suivant :
+Le principe central que nous tentons de respecter lorsqu'il s'agit de financer des dêveloppements d'un produit tel que Datami est le suivant :
 
 - L'_Open source_ n'est pas un _hobby_, c´est un métier. Nous avons besoin de missions pour le financer ;
 - Un produit doit répondre à des besoins exprimés clairement par des utilisateurs ;
@@ -63,11 +63,11 @@ Mais encore une fois, cela ne fonctionne uniquement que si on prend la posture e
 
 ### Valoriser notre expertise, pas le code
 
-Gitribute fonctionne sans revenu basé sur les abonnements ou les données personnelles.
+Datami fonctionne sans revenu basé sur les abonnements ou les données personnelles.
 
-Le code à lui seul n'est pas supposé nous apporter de revenus, mais cela n'empêche pas que Gitribute soit pour nous un véritable levier de croissance parmi d'autres.
+Le code à lui seul n'est pas supposé nous apporter de revenus, mais cela n'empêche pas que Datami soit pour nous un véritable levier de croissance parmi d'autres.
 
-**Gitribute est un levier de croissance à plusieurs titres** :
+**Datami est un levier de croissance à plusieurs titres** :
 
 - Il peut nous servir de support pédagogique pour **aider les organisations à ouvrir leurs données**, et qui ont besoin de notre expertise en la matière ;
 - Il peut être une porte d'entrée nous permettant de **travailler sur des besoins plus complexes** en termes de data, lorsque des organisations doivent ouvrir des données impliquant des schémas, de la validation, des APIs...

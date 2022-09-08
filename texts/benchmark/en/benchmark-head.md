@@ -1,8 +1,8 @@
 # Benchmark
 
-While developping Gitribute we keep in mind there are other solutions on similar use cases.
+While developping Datami we keep in mind there are other solutions on similar use cases.
 
-**All those solutions - including Gitribute - come with pros and cons.**
+**All those solutions - including Datami - come with pros and cons.**
 
 Some are open source, other proprietary.
 
@@ -14,4 +14,4 @@ You need to pay to access most of these solutions, one way or another ("[when it
 
 We like open source solutions, no question about it. But - open or not - you know what we say about **the "cloud" : it's just someone else's server**.
 
-The data storage centralization does not cope with Gitribute main intentions, so we tried to find a way around.
+The data storage centralization does not cope with Datami main intentions, so we tried to find a way around.

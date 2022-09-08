@@ -1,13 +1,14 @@
 ---
-app_name : Gitribute docs
+app_name : Datami docs
+show_app_name: true
 app_default_locale: en
 app_locales: [
   en,
   fr
 ]
 app_md_flavor: github
-app_icon: ./images/logo_GITRIBUTE.png
-app_favicon: ./images/logos/favicon_multi.ico
+app_icon: ./images/logos/logo-DATAMI-rect-colors-03.png
+app_favicon: https://raw.githubusercontent.com/multi-coop/datami-website-content/main/images/logos/logo-DATAMI-favicon.ico
 
 routes: ./config/routes.md
 navbar: ./config/navbar.md
@@ -37,7 +38,8 @@ matomo:
   matomo_track_outlinks: true
 
 seo_keywords: [
-  dataviz, widget, multi, multiviz, git, nodcode
+  widget, vizboard, git, nocode, viz, board, map, table, dataviz, wiki,
+  csv, md, json
 ]
 
 ---
