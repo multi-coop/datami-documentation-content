@@ -78,7 +78,7 @@ routes:
             #   label: 
             #     fr: Documentation
             #     en: Widgets' docs
-            # - link: https://gitlab.com/multi-coop/gitribute
+            # - link: https://gitlab.com/multi-coop/datami
             #  icon-left: gitlab
             #  rounded: true
             #  label: 
@@ -1437,7 +1437,7 @@ routes:
           custom-class: mt-6
           buttons-size: half
           buttons:
-            - link: https://gitlab.com/multi-coop/gitribute
+            - link: https://gitlab.com/multi-coop/datami
               icon-left: gitlab
               rounded: true
               label: 
@@ -1551,7 +1551,7 @@ routes:
           custom-class: mt-6
           buttons-size: half
           buttons:
-            - link: https://gitlab.com/multi-coop/gitribute
+            - link: https://gitlab.com/multi-coop/datami
               icon-left: gitlab
               rounded: true
               label: 

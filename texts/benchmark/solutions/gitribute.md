@@ -50,10 +50,10 @@ technos: [
 
 code:
   - name: app
-    link: https://gitlab.com/multi-coop/gitribute
+    link: https://gitlab.com/multi-coop/datami
     en: Source code
   - name: docs
-    link: https://gitribute-docs.multi.coop/
+    link: https://datami-docs.multi.coop/
     en: Documentation
 
 images:
