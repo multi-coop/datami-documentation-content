@@ -1,7 +1,7 @@
 
 ### Le paramètre `options` 
 
-Ce paramètre peut accepter différents champs, dont certains dépendent du type de fichier (`csv`, `json`, `md`, ...) et du widget que vous utilisez (`multi-gitribute-gitfile`, `multi-gitribute-explowiki`, `multi-gitribute-multi-files`)
+Ce paramètre peut accepter différents champs, dont certains dépendent du type de fichier (`csv`, `json`, `md`, ...) et du widget que vous utilisez (`datami-gitfile`, `datami-explowiki`, `datami-multi-files`)
 
 ---
 

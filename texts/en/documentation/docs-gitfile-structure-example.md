@@ -2,8 +2,8 @@
 
 ```html
   <!-- Example for loading and contribute to a distant .csv file from Github -->
-  <multi-gitribute-file
-    title="gitribute for gitlab file - csv (comma separator)" 
+  <datami-file
+    title="Datami for gitlab file - csv (comma separator)" 
     gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/test-table-comma.csv" 
     options='{
       "separator":","
@@ -31,5 +31,5 @@
     usertoken="MY-USER-TOKEN or GHOST-USER-TOKEN"
     locale="en"
     debug="false"
-  ></multi-gitribute-file>
+  ></datami-file>
 ```

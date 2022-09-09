@@ -9,7 +9,7 @@ L'exemple suivant vous montre le code ˋhtmlˋ d'un widget affichant un fichier 
 <!-- An open source widget coded with 🤍  by the tech cooperative multi : https://multi.coop -->
 
 <!-- DATAMI WIDGET -->
-<multi-gitribute-file
+<datami-file
   title="gitribute for gitlab file - csv (comma separator)" 
   gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/test-table-comma.csv" 
   options='{
@@ -38,7 +38,7 @@ L'exemple suivant vous montre le code ˋhtmlˋ d'un widget affichant un fichier 
   usertoken="MY-USER-TOKEN or GHOST-USER-TOKEN"
   locale="en"
   debug="false"
-></multi-gitribute-file>
+></datami-file>
 
 <!-- DATAMI WIDGET'S APP.JS SCRIPT -->
 <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript" defer></script>

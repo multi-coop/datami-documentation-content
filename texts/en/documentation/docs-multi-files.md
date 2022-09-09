@@ -1,4 +1,4 @@
-## The widget `<multi-gitribute-multi-files>`
+## The widget `<datami-multi-files>`
 
 This widget allows to preview and edit a list of files stored on Gitlab or Github.
 

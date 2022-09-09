@@ -6,7 +6,7 @@
   <!-- An open source widget coded with 🤍  by the tech cooperative multi : https://multi.coop -->
 
   <!-- DATAMI WIDGET'S HTML BLOCK-->
-  <multi-gitribute-multi-files
+  <datami-multi-files
     title="test multi-files observatoire"
     options='{
       "display": "horizontal"
@@ -126,7 +126,7 @@
       }
     ]'
     locale="fr"
-  ></multi-gitribute-multi-files>
+  ></datami-multi-files>
 
   <!-- DATAMI WIDGET'S APP.JS SCRIPT -->
   <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript" defer></script>

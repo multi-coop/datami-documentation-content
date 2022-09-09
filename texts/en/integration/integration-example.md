@@ -9,7 +9,7 @@ For instance to integrate a widget displaying a `csv` file you will have to copy
 <!-- An open source widget coded with 🤍  by the tech cooperative multi : https://multi.coop -->
 
 <!-- DATAMI WIDGET -->
-<multi-gitribute-file
+<datami-file
   title="gitribute for gitlab file - csv (comma separator)" 
   gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/test-table-comma.csv" 
   options='{
@@ -38,7 +38,7 @@ For instance to integrate a widget displaying a `csv` file you will have to copy
   usertoken="MY-USER-TOKEN or GHOST-USER-TOKEN"
   locale="en"
   debug="false"
-></multi-gitribute-file>
+></datami-file>
 
 <!-- DATAMI WIDGET'S APP.JS SCRIPT -->
 <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript" defer></script>

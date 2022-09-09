@@ -6,7 +6,7 @@
   <!-- An open source widget coded with 🤍  by the tech cooperative multi : https://multi.coop -->
 
   <!-- DATAMI WIDGET'S HTML BLOCK-->
-  <multi-gitribute-file
+  <datami-file
     title="Liste des coopératives de la tech en France - csv ( semicolon separator)"
     gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/cooptech/Annuaire-SCOP-SCIC-tech-France.csv"
     options='{
@@ -92,7 +92,7 @@
     }'
     onlypreview="false"
     locale="fr"
-  ></multi-gitribute-file>
+  ></datami-file>
 
   <!-- DATAMI WIDGET'S APP.JS SCRIPT -->
   <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript"></script>

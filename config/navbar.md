@@ -8,7 +8,7 @@ buttons-left-centered: true
 
 buttons-left: 
 
-  - name: the-gitribute-prject
+  - name: the-datami-prject
     icon: help-circle
     component: dropdownLink
     options: [ arrowless, hoverable ]
@@ -122,7 +122,7 @@ buttons-left:
           en: Widgets overview
       - name: sep
         separator: true
-      - name: gitribute-file
+      - name: datami-file
         link: /docs-gitfile
         component: simpleLink
         label: 

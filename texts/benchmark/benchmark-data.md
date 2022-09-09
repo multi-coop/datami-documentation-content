@@ -53,7 +53,7 @@ options:
 
 items: 
   # open source
-  - file: ./texts/benchmark/solutions/gitribute.md
+  - file: ./texts/benchmark/solutions/datami.md
   - file: ./texts/benchmark/solutions/data-patch.md
   - file: ./texts/benchmark/solutions/gis.md
   - file: ./texts/benchmark/solutions/nocodb.md

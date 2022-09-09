@@ -2,7 +2,7 @@
 
 ```html
   <!-- Example for loading and contribute to a distant mediawiki ressource -->
-  <multi-gitribute-explowiki
+  <datami-explowiki
       wikilist="https://wiki.lafabriquedesmobilites.fr/wiki/Sp%C3%A9cial:WfExplore?title=Sp%C3%A9cial%3AWfExplore&page=1&wf-expl-Category-Projet=on&wf-expl-Page_creator-fulltext=&wf-expl-Tags="
       wikipages='[
         "https://wiki.lafabriquedesmobilites.fr/wiki/Accra_Mobile",
@@ -58,9 +58,9 @@
           }
         }
     }'
-    title="gitribute for gitlab file - csv (comma separator)" 
+    title="Datami for gitlab file - csv (comma separator)" 
     usertoken="MY-USER-TOKEN or GHOST-USER-TOKEN"
     locale="en"
     debug="false"
-  ></multi-gitribute-explowiki>
+  ></datami-explowiki>
 ```

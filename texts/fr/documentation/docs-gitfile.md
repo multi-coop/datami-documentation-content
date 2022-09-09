@@ -1,5 +1,5 @@
 
-## Le widget `<multi-gitribute-file>`
+## Le widget `<datami-file>`
 
 Ce widget permet de visualiser et d'éditer un fichier hébergé sur Github ou Gitlab.
 

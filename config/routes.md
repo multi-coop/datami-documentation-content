@@ -60,7 +60,7 @@ routes:
       #     columns-size: three-quarters
       #     buttons-size: half
       #     buttons:
-      #       - link: /why-gitribute
+      #       - link: /why-datami
       #         icon-left: help-circle
       #         rounded: true
       #         label:
@@ -119,16 +119,16 @@ routes:
       #   files:
       #     fr: ./texts/fr/gallery/demo-cooptech.md
       #     en: ./texts/en/gallery/demo-cooptech.md
-      - name: gitribute-cooptech
+      - name: datami-cooptech
         component: WidgetComponent
         options:
           columns-size: two-thirds
           js: 
-            - href: https://gitribute.multi.coop/js/app.js
+            - href: https://datami-widget.multi.coop/js/app.js
           css: 
-            - href: https://gitribute.multi.coop/css/app.css
+            - href: https://datami-widget.multi.coop/css/app.css
           html: |
-            <multi-gitribute-file
+            <datami-file
               title="Liste des coopératives de la tech en France"
               gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/cooptech/Annuaire-SCOP-SCIC-tech-France.csv"
               options='{
@@ -276,8 +276,8 @@ routes:
             fr: Introduction
             en: Introduction
         files:
-          fr: ./texts/fr/why-gitribute/why-gitribute.md
-          en: ./texts/en/why-gitribute/why-gitribute.md
+          fr: ./texts/fr/why-datami/why-datami.md
+          en: ./texts/en/why-datami/why-datami.md
       # - name: why-flashback
       #   component: TextComponent
       #   options:
@@ -286,8 +286,8 @@ routes:
       #       fr: Flashback
       #       en: Flashback
       #   files:
-      #     fr: ./texts/fr/why-gitribute/why-gitribute-flashback.md
-      #     en: ./texts/en/why-gitribute/why-gitribute-flashback.md
+      #     fr: ./texts/fr/why-datami/why-datami-flashback.md
+      #     en: ./texts/en/why-datami/why-datami-flashback.md
       - name: why-intro-easy
         component: TextComponent
         options:
@@ -296,8 +296,8 @@ routes:
             fr: 😅 · Simplififier la contribution ouverte
             en: 😅 · Make open contribution easier 
         files:
-          fr: ./texts/fr/why-gitribute/why-gitribute-easy.md
-          en: ./texts/en/why-gitribute/why-gitribute-easy.md
+          fr: ./texts/fr/why-datami/why-datami-easy.md
+          en: ./texts/en/why-datami/why-datami-easy.md
       - name: why-open
         component: TextComponent
         options:
@@ -306,8 +306,8 @@ routes:
             fr: 🔧 · Aider les organisation à ouvrir leurs données
             en: 🔧 · Help organizations opening data
         files:
-          fr: ./texts/fr/why-gitribute/why-gitribute-open.md
-          en: ./texts/en/why-gitribute/why-gitribute-open.md
+          fr: ./texts/fr/why-datami/why-datami-open.md
+          en: ./texts/en/why-datami/why-datami-open.md
       - name: why-costs
         component: TextComponent
         options:
@@ -316,8 +316,8 @@ routes:
             fr: 💸 · Réduire le coût de l'open data
             en: 💸 · Reduce the cost of open data
         files:
-          fr: ./texts/fr/why-gitribute/why-gitribute-costs.md
-          en: ./texts/en/why-gitribute/why-gitribute-costs.md
+          fr: ./texts/fr/why-datami/why-datami-costs.md
+          en: ./texts/en/why-datami/why-datami-costs.md
       - name: why-quality
         component: TextComponent
         options:
@@ -326,8 +326,8 @@ routes:
             fr: ✨ · Faire de l'open data de qualité
             en: ✨ · Make quality open data
         files:
-          fr: ./texts/fr/why-gitribute/why-gitribute-quality.md
-          en: ./texts/en/why-gitribute/why-gitribute-quality.md
+          fr: ./texts/fr/why-datami/why-datami-quality.md
+          en: ./texts/en/why-datami/why-datami-quality.md
       - name: why-quality-schemas
         component: TextComponent
         options:
@@ -337,8 +337,8 @@ routes:
             fr: Data & schémas de données
             en: Data & schemas
         files:
-          fr: ./texts/fr/why-gitribute/why-gitribute-quality-schemas.md
-          en: ./texts/en/why-gitribute/why-gitribute-quality-schemas.md
+          fr: ./texts/fr/why-datami/why-datami-quality-schemas.md
+          en: ./texts/en/why-datami/why-datami-quality-schemas.md
       - name: why-quality-consolidation
         component: TextComponent
         options:
@@ -348,8 +348,8 @@ routes:
             fr: Consolidation de données
             en: Data consolidation
         files:
-          fr: ./texts/fr/why-gitribute/why-gitribute-quality-consolidation.md
-          en: ./texts/en/why-gitribute/why-gitribute-quality-consolidation.md
+          fr: ./texts/fr/why-datami/why-datami-quality-consolidation.md
+          en: ./texts/en/why-datami/why-datami-quality-consolidation.md
       # - name: logo
       #   component: TextComponent
       #   options:
@@ -2592,7 +2592,7 @@ routes:
           css: 
             - href: https://gitribute.multi.coop/css/app.css
           html: |
-            <multi-gitribute-multi-files 
+            <datami-multi-files 
               title="test multi-files observatoire" 
               debug="false"
               locale="fr" 
@@ -2693,7 +2693,7 @@ routes:
                 "gitfile": "https://github.com/multi-coop/gitribute-content-test/blob/main/texts/markdown/odf/ODF-observatoire-intro.md",
                 "options": ""
               }
-            ]'></multi-gitribute-multi-files>
+            ]'></datami-multi-files>
       - name: Contact
         component: ButtonsComponent
         options:
@@ -2718,7 +2718,7 @@ routes:
           css: 
             - href: https://gitribute.multi.coop/css/app.css
           html: |
-            <multi-gitribute-file
+            <datami-file
               gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-liste des ressources.csv"
               options='{
                 "height": "500px",
@@ -2775,7 +2775,7 @@ routes:
               usertoken=""
               locale="fr"
               debug="false">
-            </multi-gitribute-file>
+            </datami-file>
       - name: Contact
         component: ButtonsComponent
         options:
@@ -2800,7 +2800,7 @@ routes:
           css: 
             - href: https://gitribute.multi.coop/css/app.css
           html: |
-            <multi-gitribute-file
+            <datami-file
               title="Liste des coopératives de la tech en France - csv ( semicolon separator)"
               gitfile="https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/cooptech/Annuaire-SCOP-SCIC-tech-France.csv"
               options='{
@@ -2883,7 +2883,7 @@ routes:
           css: 
             - href: https://gitribute.multi.coop/css/app.css
           html: |
-            <multi-gitribute-explowiki
+            <datami-explowiki
               wikilist="https://wiki.lafabriquedesmobilites.fr/wiki/Sp%C3%A9cial:WfExplore?title=Sp%C3%A9cial%3AWfExplore&page=1&wf-expl-Category-Projet=on&wf-expl-Page_creator-fulltext=&wf-expl-Tags="
               wikipages='[
                   "https://wiki.lafabriquedesmobilites.fr/wiki/Accra_Mobile",
@@ -3004,7 +3004,7 @@ routes:
                     "url": {"position": "links"}
                   }
                 }
-              }' title="gitribute for explowiki - fabmob :)" locale="fr"></multi-gitribute-explowiki>
+              }' title="gitribute for explowiki - fabmob :)" locale="fr"></datami-explowiki>
       - name: Contact
         component: ButtonsComponent
         options:

@@ -3,7 +3,7 @@
 
 ```html
   <!-- Example for loading and contribute several files into the widget -->
-  <multi-gitribute-multi-files
+  <datami-multi-files
     title="test multi-files observatoire"
     debug="false"
     locale="fr"
@@ -106,7 +106,7 @@
         "options": ""
       }
     ]'>
-  </multi-gitribute-multi-files>
+  </datami-multi-files>
 ```
 
 ---

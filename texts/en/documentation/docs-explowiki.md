@@ -1,5 +1,5 @@
 
-## The widget  `<multi-gitribute-explowiki>`
+## The widget  `<datami-explowiki>`
 
 This widget allows to preview a set of ressources from a mediawiki.
 

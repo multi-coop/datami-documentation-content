@@ -43,9 +43,8 @@ The **roadmap** for a first proof of concept (POC) was the following :
   - [x]  Add a `Save` button + dialog + actions :
     - [x] `POST` create a separate branch on the file's repo ;
     - [x] `PUT` after edition on client's side, acting as a commit to the file's git repo on a separate branch ;
-    - [x] create a merge request (commit and request by default done the "ghost user") ; 
+    - [x] create a merge request (commit and request by default done the "ghost user") ;
 - [x] Deploy on Netlify for tests and production purposes => [deploy here](https://gitribute.multi.coop/)
-  - [![Netlify Status](https://api.netlify.com/api/v1/badges/1cd66edf-3b08-43db-bd21-6490377bb24a/deploy-status)](https://app.netlify.com/sites/multi-gitribute/deploys)
 - [ ] A good documentation for each web component (at least in this readme for now) **<--- We are here, we just have one checkbox left !!**
 
 ... and just for a POC, [that would be greaaaaat... mmm'kay ?](https://www.youtube.com/watch?v=JFRa7Ovym8s&ab_channel=IAJSTU)

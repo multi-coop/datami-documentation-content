@@ -1,5 +1,5 @@
 
-## The widget `<multi-gitribute-file>`
+## The widget `<datami-file>`
 
 This widget allows to preview and edit a file stored on Gitlab or Github.
 

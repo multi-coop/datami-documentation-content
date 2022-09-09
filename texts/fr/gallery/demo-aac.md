@@ -6,7 +6,7 @@
   <!-- An open source widget coded with 🤍  by the tech cooperative multi : https://multi.coop -->
 
   <!-- DATAMI WIDGET'S HTML BLOCK-->
-  <multi-gitribute-explowiki
+  <datami-explowiki
     wikilist="https://wiki.resilience-territoire.ademe.fr/wiki/Sp%C3%A9cial:WfExplore?title=Sp%C3%A9cial%3AWfExplore&page=1&wf-expl-Category-Commun=on&wf-expl-Tags="
     options='{
       "height": "900px",
@@ -81,7 +81,7 @@
     }'
     title="gitribute for explowiki - communs :)"
     locale="fr"
-  ></multi-gitribute-explowiki>
+  ></datami-explowiki>
 
   <!-- DATAMI WIDGET'S APP.JS SCRIPT -->
   <script src="https://gitribute.multi.coop/js/app.js" type="text/javascript"></script>

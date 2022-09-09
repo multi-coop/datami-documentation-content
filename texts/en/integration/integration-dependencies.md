@@ -5,7 +5,7 @@ Datami's widgets need several files and the widget's block in order to work corr
 - `app.js` : the Datami application itself
 - `app.css` : Datami's styles
 - `materialdesignicons-webfont.woff2`: : Datami's icons
-- and finally the widget's `html` block (`<multi-gitribute-file>`, `<multi-gitribute-multi-files>`, ...)
+- and finally the widget's `html` block (`<datami-file>`, `<datami-multi-files>`, ...)
 
 The `css` and `font` files are imported automatically, you just have to add the `script` and the widget's `html` block to integrate a widget to your page.
 

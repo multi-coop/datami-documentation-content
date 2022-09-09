@@ -1,5 +1,5 @@
 
-## Le widget `<multi-gitribute-explowiki>`
+## Le widget `<datami-explowiki>`
 
 Ce widget permet d'afficher des ressources distantes provenant d'un wiki.
 
