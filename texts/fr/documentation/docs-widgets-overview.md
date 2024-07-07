@@ -3,7 +3,7 @@
 
 Datami n'est pas **un** widget à proprement parler, c'est une **collection de widgets**.
 
-Nous développons différents widgets que vous pouvez ensuite inclure _ad libidum_ dans vos propres sites web.
+Nous développons différents widgets que vous pouvez ensuite inclure _ad libitum_ dans vos propres sites web.
 
 Chaque widget a ses propres particularités, et peut être utilisé indépendamment ou conjointement avec d'autres.
 

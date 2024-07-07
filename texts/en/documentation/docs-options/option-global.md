@@ -1,7 +1,7 @@
 
 ### The `options` parameter
 
-This widget can take several parameters, some of them depends on your input file's type (`csv`, `json`, `md`, ...) and on the widget you use (`datami-gitfile`, `datami-explowiki`, `datami-multi-files`)
+A widget can take several optional parameters, some of them depending on your input file's type (`csv`, `json`, `md`, ...) and on the widget you use (`datami-gitfile`, `datami-explowiki`, `datami-multi-files`)
 
 ---
 

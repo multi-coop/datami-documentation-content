@@ -23,7 +23,7 @@
       allowed values: [ ",", ";", "|", "\t" ]
 
     - "lockcolumns": 
-      description: allows to edit columns' label
+      description: disallows editing columns' label
       default: false
       type: boolean
 

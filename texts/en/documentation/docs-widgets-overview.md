@@ -3,7 +3,7 @@
 
 Datami is not a widget per say, it's a **collection of widgets**.
 
-We are developping several widgets you can therefore include _ad libidum_ onto your own websites.
+We are developping several widgets you can therefore include _ad libitum_ onto your own websites.
 
 Each widget has its own specificities, and can work independently or altogether.
 
@@ -17,3 +17,4 @@ Our [roadmaps](/software) draws some intentions for the planned future developme
 - ...imagination (and time, money) are the limits.
 
 Those are our ideas of widget to develop, now let's see which are the ones already existing in the Datami collection.
+
